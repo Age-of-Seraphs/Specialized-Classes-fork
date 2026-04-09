@@ -1,0 +1,14 @@
+[
+	{
+		"code": "quarriestonequarry",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "quarrierstonequarryplugs",
+		"type": "positive", // positive
+		"attributes": {
+			"canHammerAllPlugsAtOnce": 1
+		}
+	}
+]

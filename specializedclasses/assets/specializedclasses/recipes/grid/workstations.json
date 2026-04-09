@@ -1,0 +1,489 @@
+[
+	{
+		"ingredientPattern": "BG_,PL_,lPl",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:metalbit-brass",
+				"quantity": 20
+			},
+			"G": {
+				"type": "block",
+				"code": "game:glassslab-quartz-down-free",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:linen-normal-down",
+				"quantity": 1
+			},
+			"l": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:tinkerersworkstation-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BI,TL",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"T": {
+				"type": "block",
+				"code": "game:table-normal",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:woodcarvingtable-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "IS,LP,BB",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 4
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-{stone}",
+				"quantity": 1
+			},
+			"B": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"stone": [
+				"andesite",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"granite",
+				"greenmarble",
+				"kimberlite",
+				"limestone",
+				"peridotite",
+				"phyllite",
+				"redmarble",
+				"sandstone",
+				"shale",
+				"slate",
+				"suevite",
+				"whitemarble"
+			],
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:stonecuttingbench-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SI,HN,SL",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hide-pelt-*",
+				"allowedVariants": [
+					"small",
+					"medium",
+					"large",
+					"huge"
+				],
+				"quantity": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuthbronze",
+				"blackbronze",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"tinbronze"
+			],
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:leatherworkingstation-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SI,HN,SL",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuthbronze",
+				"blackbronze",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"tinbronze"
+			],
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:leatherworkingstation-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "IP,TT",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment",
+				"quantity": 1
+			},
+			"T": {
+				"type": "block",
+				"code": "game:table-normal",
+				"quantity": 1
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:cartographersdesk-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "PQ,BB",
+		"ingredients": {
+			"P": {
+				"type": "block",
+				"code": "game:clayplanter-*-fired",
+				"quantity": 1
+			},
+			"Q": {
+				"type": "block",
+				"code": "game:quern-*",
+				"quantity": 1
+			},
+			"B": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:compoundingvat-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SF,LT",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:soil-compost-none",
+				"quantity": 1
+			},
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-*-fired",
+				"quantity": 1
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			},
+			"T": {
+				"type": "block",
+				"code": "game:table-normal",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:sproutingtable-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,IPI,lBl",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:ingot-brass",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-brass",
+				"quantity": 1
+			},
+			"l": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud",
+				"quantity": 1
+			},
+			"B": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:swageblock-north",
+			"quantity": 1
+		}
+	}
+]

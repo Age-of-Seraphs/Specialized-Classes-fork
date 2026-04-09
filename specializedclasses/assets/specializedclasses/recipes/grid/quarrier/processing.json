@@ -1,0 +1,204 @@
+[
+	{
+		"ingredientPattern": "P,R",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:pickaxe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-{rocktype}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stone" },
+		"output": {
+			"type": "item",
+			"code": "game:stone-{rocktype}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,S",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:pickaxe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stonetype}",
+				"quantity": 4
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "gravel" },
+		"output": {
+			"type": "block",
+			"code": "game:gravel-{stonetype}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "P,G",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:pickaxe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-{graveltype}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"graveltype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "sand" },
+		"output": {
+			"type": "block",
+			"code": "game:sand-{graveltype}",
+			"quantity": 1
+		}
+	}
+]

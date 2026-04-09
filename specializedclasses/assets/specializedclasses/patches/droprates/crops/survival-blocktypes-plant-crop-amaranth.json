@@ -1,0 +1,67 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-8/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-8/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-9/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-9/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-amaranth-8", "crop-amaranth-9"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-amaranth", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/amaranth.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

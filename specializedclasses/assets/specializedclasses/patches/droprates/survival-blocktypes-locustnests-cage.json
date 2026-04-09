@@ -1,0 +1,37 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/drops/0/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/cage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/1/dropModbyStat",
+		"value": "metalScrapDropRate",
+		"file": "game:blocktypes/locustnest/cage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/2/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/cage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/3/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/cage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/4/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/cage.json",
+		"side": "server"
+	}
+]

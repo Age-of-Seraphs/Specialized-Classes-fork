@@ -1,0 +1,32 @@
+[
+	{
+		"ingredientPattern": "C,M",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 8 },
+			"M": { "type": "block", "code": "game:toolmold-{ceramic}-fired-shovel", "returnedStack": {"type": "block","code": "game:toolmold-{ceramic}-fired-shovel"} }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "lavender", "malachite", "paleblue", "palegreen", "palered", "peach", "red", "sunflower", "white"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "bricklayers:clayrawtile-raw-{clay}", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,M",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-malachite", "quantity": 8 },
+			"M": { "type": "block", "code": "game:toolmold-{ceramic}-fired-lamellae", "returnedStack": {"type": "block","code": "game:toolmold-{ceramic}-fired-lamellae"} }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "bricklayers:clayshingle-raw-malachite", "quantity": 32 }
+	}
+]

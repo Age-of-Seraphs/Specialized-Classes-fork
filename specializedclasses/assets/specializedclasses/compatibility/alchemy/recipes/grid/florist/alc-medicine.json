@@ -1,0 +1,34 @@
+[
+	{
+		"ingredientPattern": "H,R,T",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"H": { "type": "block", "code": "game:flower-horsetail-free" },
+			"R": { "type": "item", "code": "game:cattailtops" },
+			"T": { "type": "item", "code": "alchemy:mortarpestle-*", "isTool": true }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "alchemy:potionbase-basic" }
+	},
+
+	{
+		"ingredientPattern": "P,B,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "alchemy:potionbase-{potiontype}-weak" },
+			"B": { "type": "item", "code": "alchemy:potionbase-basic" },
+			"G": { "type": "item", "code": "game:drygrass", "quantity": 4 }
+		},
+		"allowedVariants": {
+			"potiontype": ["archer", "healingeffect", "hungerenhance", "hungersupress", "hunter", "looter", "melee", "mining", "poison", "predator", "regen", "scentmask", "speed", "vitality"]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "alchemy:herbball-{potiontype}", "quantity": 4 }
+	}
+]

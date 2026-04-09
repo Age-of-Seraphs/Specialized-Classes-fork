@@ -1,0 +1,95 @@
+[
+	{
+		"ingredientPattern": "H,S,F",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "morearrows:part-arrowhead-barbed-*",
+				"name": "metal",
+				"allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:{reeds}tops"
+			}
+		},
+		"allowedVariants": {
+			"reeds": ["cattail", "papyrus"]
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": { "handbookOverviewGroup": "arrow-barbed" },
+		"output": {
+			"type": "item",
+			"code": "morearrows:arrow-barbed-{metal}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,S,F",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "morearrows:part-arrowhead-blunt-*",
+				"name": "metal",
+				"allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:{reeds}tops"
+			}
+		},
+		"allowedVariants": {
+			"reeds": ["cattail", "papyrus"]
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": { "handbookOverviewGroup": "arrow-blunt" },
+		"output": {
+			"type": "item",
+			"code": "morearrows:arrow-blunt-{metal}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,S,F",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "morearrows:part-arrowhead-bodkin-*",
+				"name": "metal",
+				"allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:{reeds}tops"
+			}
+		},
+		"allowedVariants": {
+			"reeds": ["cattail", "papyrus"]
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": { "handbookOverviewGroup": "arrow-bodkin" },
+		"output": {
+			"type": "item",
+			"code": "morearrows:arrow-bodkin-{metal}",
+			"quantity": 1
+		}
+	}
+]

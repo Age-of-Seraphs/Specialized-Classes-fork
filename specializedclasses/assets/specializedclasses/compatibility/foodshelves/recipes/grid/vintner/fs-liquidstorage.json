@@ -1,0 +1,59 @@
+[
+	{
+		"ingredientPattern": "PSP,SNS,PSP",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood", "quantity": 8 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 8 },
+			"N": { "type": "item", "code": "game:resin" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "foodshelves:tunrack-normal-north" }
+	},
+
+	{
+		"ingredientPattern": "SPS,NP_,SPS",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 },
+			"P": { "type": "item", "code": "game:firewood", "quantity": 4 },
+			"N": { "type": "item", "code": "game:resin" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "foodshelves:tun-normal" }
+	},
+
+	{
+		"ingredientPattern": "PSP,S_S,PSP",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"S": { "type": "item", "code": "game:stick" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "foodshelves:barrelrack-normal-east" }
+	},
+
+	{
+		"ingredientPattern": "PS,P_",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "foodshelves:buckethook-normal-east" }
+	}
+]

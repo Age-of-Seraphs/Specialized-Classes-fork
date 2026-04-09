@@ -1,0 +1,123 @@
+[
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-standard", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-standard", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-standard", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:hide-pelt-small", "quantity": 2 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-standard", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:leather-normal-plain", "quantity": 4 },
+			"F": { "type": "item", "code": "game:rod-copper", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:metalnailsandstrips-copper", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-leather", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTR,KTS",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:{reed}tops", "quantity": 12 },
+			"R": { "type": "item", "code": "game:rope", "quantity": 2 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 3 }
+		},
+		"allowedVariants": {
+			"reed": ["cattail", "papyrus"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-primitive", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "CTF,KTP",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"T": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 4 },
+			"F": { "type": "item", "code": "game:rod-iron", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:metalnailsandstrips-iron", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "butchering:butcherybag-sturdyleather", "quantity": 1 }
+	}
+]

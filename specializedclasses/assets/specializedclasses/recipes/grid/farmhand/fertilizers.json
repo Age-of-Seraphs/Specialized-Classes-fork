@@ -1,0 +1,111 @@
+[
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:ore-sylvite",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:potash",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:bone",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:bonemeal",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:charcoal",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:powder-charcoal",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "I,S,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 4
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-*-none",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:compost",
+			"quantity": 2
+		}
+	}
+]

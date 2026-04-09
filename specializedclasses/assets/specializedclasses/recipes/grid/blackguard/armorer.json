@@ -1,0 +1,82 @@
+[
+	{
+		"ingredientPattern": "S,L",
+		"requiresTrait": "blackguard",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": 2
+			},
+			"L": {
+				"type": "item",
+				"code": "game:armor-head-lamellar-wood",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-antique-blackguard-broken",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SLS,sSs",
+		"requiresTrait": "blackguard",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": 2
+			},
+			"L": {
+				"type": "item",
+				"code": "game:armor-body-lamellar-wood",
+				"quantity": 1
+			},
+			"s": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:armor-body-antique-blackguard-broken",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "_S_,SLS",
+		"requiresTrait": "blackguard",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": 2
+			},
+			"L": {
+				"type": "item",
+				"code": "game:armor-legs-lamellar-wood",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:armor-legs-antique-blackguard-broken",
+			"quantity": 1
+		}
+	}
+]

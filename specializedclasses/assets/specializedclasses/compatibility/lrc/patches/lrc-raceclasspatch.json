@@ -1,0 +1,98 @@
+﻿[
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/avari-char.json",
+		"path": "/avari/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/bnumenorean-char.json",
+		"path": "/bnumenorean/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/easterling-char.json",
+		"path": "/easterling/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/sindar-char.json",
+		"path": "/sindar/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/firebeardsandbroadbeams.json",
+		"path": "/firebeardsandbroadbeams/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/freepeople-char.json",
+		"path": "/freepeople/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/haradrim.json",
+		"path": "/haradrim/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/harfoot-char.json",
+		"path": "/harfoot/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/fallohide-char.json",
+		"path": "/fallohide/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/longbeard-char.json",
+		"path": "/longbeard/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/noldor-char.json",
+		"path": "/noldor/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/orc-char.json",
+		"path": "/orc/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/stoor-char.json",
+		"path": "/stoor/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/uruk-char.json",
+		"path": "/uruk/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/wickeddwarf.json",
+		"path": "/wickeddwarf/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "lrc:config/customplayermodels/wildmen.json",
+		"path": "/wildmen/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	}
+]

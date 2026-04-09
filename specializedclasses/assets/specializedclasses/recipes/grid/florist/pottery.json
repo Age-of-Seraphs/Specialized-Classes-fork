@@ -1,0 +1,590 @@
+[
+	{
+		"ingredientPattern": "F,Y,O",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-amber",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,g,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-boneash",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,W,g",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-celadon",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,N,O",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-copper",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,W,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-earthern",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,P,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"P": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-moss",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,Y,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-ochre",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,N,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-rutile",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,b,Y",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-seasalt",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,U,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flowerpot-blue-fired"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flowerpots" },
+		"output": {
+			"type": "block",
+			"code": "game:flowerpot-tenmoku",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,Y,O",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-amber",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,b,g",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-ashforest",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,O,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-copper",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,R,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"R": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-cthonic",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,N,g",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-earthern",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,N,K",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-loam",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,Y,O",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-ochre",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,b,Y",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-rime",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,W,A",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"A": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-seasalt",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,U,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-tenmoku",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,G,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clayplanter-blue-fired"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planters" },
+		"output": {
+			"type": "block",
+			"code": "game:clayplanter-undergrowth",
+			"quantity": 1
+		}
+	}
+]

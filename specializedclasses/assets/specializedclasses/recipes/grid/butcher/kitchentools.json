@@ -1,0 +1,61 @@
+[
+	{
+		"ingredientPattern": "sSs,SSS",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"s": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{rocktype}",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"andesite",
+				"basalt",
+				"diorite",
+				"gabbro",
+				"granite",
+				"komatiite",
+				"monzonite",
+				"peridotite",
+				"pyroxenite",
+				"rhyolite",
+				"syenite"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "quern" },
+		"output": {
+			"type": "block",
+			"code": "game:quern-{rocktype}"
+		}
+	},
+	{
+		"ingredientPattern": "PP,__,PP",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 1
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:shelf-normal-east"
+		}
+	}
+]

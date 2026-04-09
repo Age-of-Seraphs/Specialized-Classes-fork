@@ -1,0 +1,191 @@
+[
+	{
+		"ingredientPattern": "S,G,C",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:sand-*",
+				"quantity": 16
+			},
+			"G": {
+				"type": "block",
+				"code": "game:gravel-*",
+				"quantity": 16
+			},
+			"C": {
+				"type": "item",
+				"code": "game:ore-bituminouscoal"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "specializedclasses:asphaltroad-free",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "F,S",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:shovel-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:woodenpath-aged-ns",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "L,S,H",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 4
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-*"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:shovel-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"skipVariants": {
+			"stone": [
+				"meteorite-iron"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:stonepath-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "LM,S_,_H",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 3
+			},
+			"M": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 1
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-*"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:shovel-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"skipVariants": {
+			"stone": [
+				"meteorite-iron"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:stonepathstairs-up-north-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "LSL,_H_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 1
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-*"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:shovel-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"skipVariants": {
+			"stone": [
+				"meteorite-iron"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:stonepathslab-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "H,R",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:shovel-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rammed-*"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:stonepath-free",
+			"quantity": 1
+		}
+	}
+]

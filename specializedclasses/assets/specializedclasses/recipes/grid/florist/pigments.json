@@ -1,0 +1,542 @@
+[
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:{blacksource}"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"blacksource": [
+				"charcoal",
+				"fruit-blackberry"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-black" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-black",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-gray" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-gray",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"edelweiss",
+				"lilyofthevalley",
+				"lupine-white",
+				"wilddaisy"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-white" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-white",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:fruit-whitecurrant"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-white" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-white",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"oak"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-brown" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-brown",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-heather-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-pink" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-pink",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:fruit-{pinksource}"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"pinksource": [
+				"beautyberry",
+				"cranberry"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-pink" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-pink",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"catmint",
+				"lupine-purple"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-purple" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-purple",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:fruit-{purplesource}"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"purplesource": [
+				"blackcurrant",
+				"blueberry"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-purple" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-purple",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"cornflower",
+				"forgetmenot",
+				"lupine-blue",
+				"woad"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-blue" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-blue",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"cowparsley",
+				"horsetail"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-green" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-green",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:fern-{ferntype}"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"ferntype": [
+				"cinnamonfern",
+				"deerfern",
+				"eaglefern"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-green" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-green",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"lupine-red",
+				"redtopgrass"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-red" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-red",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:fruit-redcurrant"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-red" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-red",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"goldenpoppy",
+				"lupine-orange",
+				"orangemallow"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-orange" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-orange",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:fruit-cloudberry"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-orange" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-orange",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-westerngorse-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-yellow" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-yellow",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:drygrass"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-yellow" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-yellow",
+			"quantity": 1
+		}
+	}
+]

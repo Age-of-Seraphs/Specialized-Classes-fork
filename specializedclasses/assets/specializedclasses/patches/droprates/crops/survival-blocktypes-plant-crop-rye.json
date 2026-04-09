@@ -1,0 +1,53 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-9/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/rye.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-9/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/rye.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/rye.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/rye.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-rye-9"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-rye", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/rye.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

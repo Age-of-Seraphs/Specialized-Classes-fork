@@ -1,0 +1,67 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-4/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-4/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-5/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-5/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-turnip-4", "crop-turnip-5"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-turnip", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/turnip.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

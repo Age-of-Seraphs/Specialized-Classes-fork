@@ -1,0 +1,381 @@
+[
+	{
+		"ingredientPattern": "L,K",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"aged",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "plank" },
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "A,S,L",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud"
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"aged",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "plank" },
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "L,K",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-{wood}-ne-ud"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"aged",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "plank" },
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "A,S,L",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-{wood}-ne-ud"
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"aged",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "plank" },
+		"output": {
+			"type": "item",
+			"code": "game:plank-{wood}",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "B,A",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:plank-{wood}"
+			},
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"aged",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,A",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "AAA,LLL",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud"
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 69,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "AAA,LLL",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-{wood}-ne-ud"
+			}
+		},
+		"allowedVariants": {
+			"wood": [
+				"acacia",
+				"baldcypress",
+				"birch",
+				"ebony",
+				"kapok",
+				"larch",
+				"maple",
+				"oak",
+				"pine",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 69,
+		"output": {
+			"type": "item",
+			"code": "game:firewood",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "AAA,LLL",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-aged-ud"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 69,
+		"output": {
+			"type": "item",
+			"code": "game:agedfirewood",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "T,F",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up",
+				"quantity": 1,
+				"returnedStack": {
+					"type": "block",
+					"code": "game:torch-basic-extinct-up"
+				}
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 32
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:charcoal",
+			"quantity": 8
+		}
+	}
+]

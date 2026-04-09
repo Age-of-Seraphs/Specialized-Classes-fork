@@ -1,0 +1,1598 @@
+{
+  "textures": {
+	"bowl": "game:block/wood/debarked/oak",
+	"pigment": "specializedclasses:item/pigment_yellow"
+  },
+  "elements": [
+    {
+      "name": "dish",
+      "from": [
+        -0.2696,
+        0.0,
+        4.142
+      ],
+      "to": [
+        5.7304,
+        1.0,
+        10.142
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            6.0
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            6.0,
+            6.0
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin": [
+        -0.2696,
+        0.0,
+        4.142
+      ],
+      "rotationY": 14.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "dishedge",
+          "from": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            7.0,
+            1.6,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (2)",
+          "from": [
+            0.0,
+            1.0,
+            -7.0
+          ],
+          "to": [
+            7.0,
+            1.6,
+            -6.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (3)",
+          "from": [
+            -6.0,
+            1.0,
+            -7.0
+          ],
+          "to": [
+            1.0,
+            1.6,
+            -6.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -180.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (4)",
+          "from": [
+            -6.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            1.0,
+            1.6,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                0.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                7.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": 90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "pigment",
+          "from": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "to": [
+            6.0,
+            1.4,
+            6.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "down": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                6.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        }
+      ],
+      "renderInEditor": true
+    },
+    {
+      "name": "dish (2)",
+      "from": [
+        10.3284,
+        0.0,
+        3.7058
+      ],
+      "to": [
+        15.3284,
+        1.0,
+        8.7058
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            5.0
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            5.0,
+            5.0
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin": [
+        10.3284,
+        0.0,
+        3.7058
+      ],
+      "rotationY": -11.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "dishedge (5)",
+          "from": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            6.0,
+            3.0,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (2) (2)",
+          "from": [
+            0.0,
+            1.0,
+            -6.0
+          ],
+          "to": [
+            6.0,
+            3.0,
+            -5.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (3) (2)",
+          "from": [
+            -5.0,
+            1.0,
+            -6.0
+          ],
+          "to": [
+            1.0,
+            3.0,
+            -5.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -180.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (4) (2)",
+          "from": [
+            -5.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            1.0,
+            3.0,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                2.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                6.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": 90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "pigment2",
+          "from": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "to": [
+            5.0,
+            2.6,
+            5.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                5.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                5.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        }
+      ],
+      "renderInEditor": true
+    },
+    {
+      "name": "dishsmall",
+      "from": [
+        6.5487,
+        0.0,
+        11.1991
+      ],
+      "to": [
+        10.5487,
+        1.0,
+        15.1991
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            5.0
+          ],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#bowl",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin": [
+        7.1484,
+        0.0,
+        12.5991
+      ],
+      "rotationY": -42.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "dishedge (5) (2)",
+          "from": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            5.0,
+            2.0,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (2) (2) (2)",
+          "from": [
+            0.0,
+            1.0,
+            -5.0
+          ],
+          "to": [
+            5.0,
+            2.0,
+            -4.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (3) (2) (2)",
+          "from": [
+            -4.0,
+            1.0,
+            -5.0
+          ],
+          "to": [
+            1.0,
+            2.0,
+            -4.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": -180.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "dishedge (4) (2) (2)",
+          "from": [
+            -4.0,
+            1.0,
+            -1.0
+          ],
+          "to": [
+            1.0,
+            2.0,
+            0.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                5.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotationY": 90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        },
+        {
+          "name": "pigment3",
+          "from": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "to": [
+            4.0,
+            1.8,
+            4.0
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "east": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "south": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "west": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "up": {
+              "texture": "#pigment",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            },
+            "down": {
+              "texture": "#bowl",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                4.0
+              ],
+              "rotation": 90.0,
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "renderInEditor": true
+        }
+      ],
+      "renderInEditor": true
+    }
+  ],
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "bowl": [
+      16,
+      16
+    ],
+    "pigment": [
+      16,
+      16
+    ]
+  }
+}

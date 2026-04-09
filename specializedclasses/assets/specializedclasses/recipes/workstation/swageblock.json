@@ -1,0 +1,72 @@
+{
+	"workstation": "swage",
+	"menuMode": "helditem",
+	"recipes": [
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-ingot",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 }
+			],
+			"output": { "type": "item", "code": "game:ingot-{metal}", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "ingot" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-rod",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 }
+			],
+			"output": { "type": "item", "code": "game:rod-{metal}", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "rod" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-nailsandstrips",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 }
+			],
+			"output": { "type": "item", "code": "game:metalnailsandstrips-{metal}", "quantity": 4 },
+			"attributes": { "handbookOverviewGroup": "metalnailsandstrips" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-scale",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 }
+			],
+			"output": { "type": "item", "code": "game:metalscale-{metal}", "quantity": 1 },
+			"skipVariants": { "metal": ["bismuth", "brass", "chromium", "gold", "lead", "molybdochalkos", "platinum", "silver", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] },
+			"attributes": { "handbookOverviewGroup": "metalscale" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-plate",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 40 }
+			],
+			"output": { "type": "item", "code": "game:metalplate-{metal}", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "metalplate" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-chain",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 40 }
+			],
+			"output": { "type": "item", "code": "game:metalchain-{metal}", "quantity": 1 },
+			"skipVariants": { "metal": ["bismuth", "brass", "chromium", "lead", "molybdochalkos", "platinum", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] },
+			"attributes": { "handbookOverviewGroup": "metalchain" },
+			"requiredTrait": "blackguard"
+		},
+		{
+			"recipeDesc": "specializedclasses:description-swageblock-lamellae",
+			"ingredients": [
+				{ "type": "item", "code": "game:metalbit-{metal}", "quantity": 20 }
+			],
+			"output": { "type": "item", "code": "game:metallamellae-{metal}", "quantity": 1 },
+			"skipVariants": { "metal": ["bismuth", "brass", "chromium", "gold", "lead", "molybdochalkos", "platinum", "silver", "stainlesssteel", "tin", "titanium", "uranium", "zinc"] },
+			"attributes": { "handbookOverviewGroup": "metallamellae" },
+			"requiredTrait": "blackguard"
+		}
+	]
+}

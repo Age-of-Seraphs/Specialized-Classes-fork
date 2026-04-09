@@ -1,0 +1,12 @@
+[
+	{
+		"code": "butcherfoodshelves",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "vintnerfoodshelves",
+		"type": "positive", // recipe
+		"attributes": {}
+	}
+]

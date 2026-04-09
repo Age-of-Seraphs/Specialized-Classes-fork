@@ -1,0 +1,14 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/6/traits/2",
+		"value": "floristalchemy"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/14/traits/2",
+		"value": "vintneralchemy"
+	}
+]

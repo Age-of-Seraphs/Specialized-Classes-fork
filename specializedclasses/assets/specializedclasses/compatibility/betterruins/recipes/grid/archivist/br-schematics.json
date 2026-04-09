@@ -1,0 +1,16 @@
+[
+	{
+		"ingredientPattern": "P,S,B",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:paper-parchment", "quantity": 4 },
+			"S": { "type": "block", "code": "game:sieve-*", "isTool": true, "toolDurabilityCost": 0 },
+			"B": { "type": "item", "code": "betterruins:br-schematic-{type}" }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "betterruins:br-schematic-{type}", "quantity": 1 }
+	}
+]

@@ -1,0 +1,119 @@
+[
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stonetype}",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"stonetype": ["chalk", "greenmarble", "limestone", "redmarble", "whitemarble"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:lime",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stone-halite",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:salt",
+			"quantity": 4
+		}
+	},
+
+	{
+		"ingredientPattern": "O,M",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"O": {
+				"type": "item",
+				"code": "game:ore-{oretype}",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"oretype": ["borax", "sulfur"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:powder-{oretype}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "CL,M_",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 4
+			},
+			"L": {
+				"type": "item",
+				"code": "game:lime",
+				"quantity": 16
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:saltpeter",
+			"quantity": 8
+		}
+	}
+]

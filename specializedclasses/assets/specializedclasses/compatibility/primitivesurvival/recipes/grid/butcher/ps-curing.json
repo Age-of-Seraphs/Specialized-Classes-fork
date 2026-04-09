@@ -1,0 +1,239 @@
+[
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-bass-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-bluegill-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-mutant-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-arcticchar-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-carp-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-perch-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-salmon-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-pike-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-trout-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:psfish-catfish-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "name": "type", "code": "primitivesurvival:pssaltwaterfish-*-raw", "allowedVariants": ["perch-pacific", "mackerel-atlantic", "herring-atlantic"], "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "name": "type", "code": "primitivesurvival:pssaltwaterfish-*-raw", "allowedVariants": ["sturgeon-atlantic", "mahi-mahi-common", "coelacanth-common", "grouper-black"], "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "C,H",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cleaver-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "name": "type", "code": "primitivesurvival:pssaltwaterfish-*-raw", "allowedVariants": ["bream-sea", "gurnard-cape", "haddock-common", "hake-silver", "pollock-alaska", "barracuda-great", "salmon-pink", "snapper-red", "tuna-skipjack", "wolf-bering", "amberjack-yellowtail", "wreckfish-atlantic"], "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:salt", "quantity": 1 },
+			"M": { "type": "item", "code": "primitivesurvival:smokedmeat-fish-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:curedsmokedmeat-fish-raw", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:salt", "quantity": 1 },
+			"M": { "type": "item", "code": "primitivesurvival:smokedmeat-bushmeat-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:curedsmokedmeat-bushmeat-raw", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:salt", "quantity": 1 },
+			"M": { "type": "item", "code": "primitivesurvival:smokedmeat-poultry-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:curedsmokedmeat-poultry-raw", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:salt", "quantity": 1 },
+			"M": { "type": "item", "code": "primitivesurvival:smokedmeat-redmeat-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:curedsmokedmeat-redmeat-raw", "quantity": 1 }
+	}
+]

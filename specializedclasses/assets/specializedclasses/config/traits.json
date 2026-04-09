@@ -1,0 +1,749 @@
+[
+	{
+		// compatibility-specific traits are added in other traits.json files in their respective compatibility folders
+		"code": "berserker", // forester
+		"type": "positive", // combat
+		"attributes": {
+			"meleeWeaponsDamage": 0.25,
+			"maxhealthExtraPoints": -5
+		}
+	},
+	{
+		"code": "bruiser", // brickmaker
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": 15,
+			"meleeWeaponsDamage": 0.1,
+			"walkspeed": -0.05
+		}
+	},
+	{
+		"code": "custodian", // archivist
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"armorDurabilityLoss": -0.5,
+			"durabilitySaveChanceAllWeapons": 0.5,
+			"hungerrate": -0.25
+		}
+	},
+	{
+		"code": "fencer", // tailor
+		"type": "positive", // combat
+		"attributes": {
+			"hungerrate": -0.4,
+			"walkspeed": 0.05
+		}
+	},
+	{
+		"code": "harrier", // messenger
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": 1,
+			"walkspeed": 0.2
+		}
+	},
+	{
+		"code": "laborer", // quarrier
+		"type": "positive", // combat
+		"attributes": {
+			"armorWalkSpeedAffectedness": -0.75,
+			"maxhealthExtraPoints": 5,
+			"walkspeed": -0.05
+		}
+	},
+	{
+		"code": "lancer", // clockmaker
+		"type": "positive", // combat
+		"attributes": {
+			"rangedWeaponsDamage": 0.2,
+			"walkspeed": 0.1
+		}
+	},
+	{
+		"code": "militia", // farmhand
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": 5,
+			"walkspeed": 0.05
+		}
+	},
+	{
+		"code": "ranger", // hunter
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"rangedWeaponsAcc": 0.5,
+			"rangedWeaponsDamage": 0.4,
+			"walkspeed": 0.1
+		}
+	},
+	{
+		"code": "reaver", // butcher
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": 5,
+			"meleeWeaponsDamage": 0.2,
+			"rangedWeaponsDamage": -0.2
+		}
+	},
+	{
+		"code": "rogue", // malefactor
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.75,
+			"meleeWeaponsDamage": -0.1,
+			"rangedWeaponsDamage": 0.15,
+			"walkspeed": 0.1
+		}
+	},
+	{
+		"code": "sapper", // spelunker
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"meleeWeaponsDamage": 0.1
+		}
+	},
+	{
+		"code": "wanderer", // florist
+		"type": "positive", // combat
+		"attributes": {
+			"meleeWeaponsDamage": -0.1,
+			"rangedWeaponsDamage": -0.1,
+			"walkspeed": 0.2
+		}
+	},
+	{
+		"code": "warlord", // blackguard
+		"type": "positive", // combat
+		"attributes": {
+			"armorWalkSpeedAffectedness": -0.25,
+			"maxhealthExtraPoints": 5,
+			"meleeWeaponsDamage": 0.2,
+			"rangedWeaponsDamage": 0.2,
+			"walkspeed": -0.05
+		}
+	},
+	{
+		"code": "yeoman", // vintner
+		"type": "positive", // combat
+		"attributes": {
+			"meleeWeaponsDamage": 0.15,
+			"rangedWeaponsDamage": 0.15
+		}
+	},
+	{
+		"code": "fisherman", // farmhand
+		"type": "positive", // movement
+		"attributes": {
+			"swimSpeedMul": 1.0
+		}
+	},
+
+
+
+	{
+		"code": "archivist", // archivist
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "blackguard", // blackguard
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "brickmaker", // brickmaker
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "butcher", // butcher
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "clockmaker", // clockmaker
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "farmhand", // farmhand
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "florist", // florist
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "forester", // forester
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "hunter", // hunter
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "malefactor", // malefactor
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "messenger", // messenger
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "quarrier", // quarrier
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "spelunker", // spelunker
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "tailor", // tailor
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+	{
+		"code": "vintner", // vintner
+		"type": "positive", // crafting
+		"attributes": {}
+	},
+
+
+
+	{
+		"code": "ascetic", // quarrier
+		"type": "positive", // positive
+		"attributes": {
+			"stabilityIndoorOffset": 0.3
+		}
+	},
+	{
+		"code": "attuned", // clockmaker
+		"type": "positive", // positive
+		"attributes": {
+			"stabilityGainMul": 0.5
+		}
+	},
+	{
+		"code": "bespoke", // tailor
+		"type": "positive", // positive
+		"attributes": {
+			"armorDurabilityLoss": -0.8
+		}
+	},
+	{
+		"code": "blacksmith", // blackguard
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceHammer": 0.75,
+			"durabilitySaveChanceAllWeapons": 0.25,
+			"metalMiningSpeedMul": 1,
+			"oreDropRate": 0.1
+		}
+	},
+	{
+		"code": "carver", // hunter
+		"type": "positive", // positive
+		"attributes": {
+			"animalHarvestingTime": -0.5,
+			"animalLootDropRate": 0.25,
+			"durabilitySaveChanceKnife": 0.75
+		}
+	},
+	{
+		"code": "ceramist", // brickmaker
+		"type": "positive", // positive
+		"attributes": {
+			"clayDropRate": 0.5,
+			"ceramicMiningSpeedMul": 1
+		}
+	},
+	{
+		"code": "clutterer", // archivist
+		"type": "positive", // positive
+		"attributes": {
+			"canPickupClutter": 1
+		}
+	},
+	{
+		"code": "collier", // forester
+		"type": "positive", // positive
+		"attributes": {
+			"charcoalPileDropRate": 1,
+			"peatDropRate": 1
+		}
+	},
+	{
+		"code": "crafter", // clockmaker
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceChisel": 0.75,
+			"durabilitySaveChanceSaw": 0.75,
+			"durabilitySaveChanceHammer": 0.75
+		}
+	},
+	{
+		"code": "curator", // archivist
+		"type": "positive", // positive
+		"attributes": {
+			"rustyGearDropRate": 0.5,
+			"wholeVesselLootChance": 0.75
+		}
+	},
+	{
+		"code": "delver", // brickmaker
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceShovel": 0.75,
+			"soilMiningSpeedMul": 1,
+			"gravelMiningSpeedMul": 1,
+			"sandMiningSpeedMul": 1
+		}
+	},
+	{
+		"code": "dismantler", // clockmaker
+		"type": "positive", // positive
+		"attributes": {
+			"mechanicalsDamage": 0.5,
+			"clothMiningSpeedMul": 1,
+			"locustNestDropRate": 1,
+			"metalMiningSpeedMul": 1,
+			"metalSpikesDropRate": 1
+		}
+	},
+	{
+		"code": "engineer", // clockmaker
+		"type": "positive", // positive
+		"attributes": {
+			"rustyGearDropRate": 0.5,
+			"temporalGearTLRepairCost": -1
+		}
+	},
+	{
+		"code": "gatherer", // vintner
+		"type": "positive", // positive
+		"attributes": {
+			"forageDropRate": 1
+		}
+	},
+	{
+		"code": "grafter", // vintner
+		"type": "positive", // positive
+		"attributes": {
+			"fruitTreeDropRate": 1,
+			"treeSeedDropRate": 1
+		}
+	},
+	{
+		"code": "fertilizer", // farmhand
+		"type": "positive", // positive
+		"attributes": {
+			"fertilizerPermanencePercentage": 0.25
+		}
+	},
+	{
+		"code": "frugal", // commoner (patch)
+		"type": "positive", // positive
+		"attributes": {
+			"hungerrate": -0.75
+		}
+	},
+	{
+		"code": "harvester", // farmhand
+		"type": "positive", // positive
+		"attributes": {
+			"cropProduceDropRate": 0.5,
+			"cropSeedDropRate": 1,
+			"wildCropDropRate": 1,
+			"youngseeddropchance": 1
+		}
+	},
+	{
+		"code": "heatproof", // blackguard
+		"type": "positive", // positive
+		"attributes": {
+			"canHandleHotItems": 1
+		}
+	},
+	{
+		"code": "herbalist", // florist
+		"type": "positive", // positive
+		"attributes": {
+			"horsetailRareDropChance": 0.2,
+			"cattailRareDropChance": 0.2
+		}
+	},
+	{
+		"code": "kilnhand", // brickmaker
+		"type": "positive", // positive
+		"attributes": {
+			"grassDropRate": 0.2,
+			"peatDropRate": 0.2,
+			"stickDropRate": 0.2
+		}
+	},
+	{
+		"code": "lumberjack", // forester
+		"type": "positive", // positive
+		"attributes": {
+			"woodMiningSpeedMul": 1,
+			"leavesMiningSpeedMul": 1,
+			"durabilitySaveChanceAxe": 0.75,
+			"durabilitySaveChanceShears": 0.75,
+			"durabilitySaveChanceSaw": 0.75
+		}
+	},
+	{
+		"code": "nurseryworker", // forester
+		"type": "positive", // positive
+		"attributes": {
+			"treeSeedDropRate": 3
+		}
+	},
+	{
+		"code": "panner", // spelunker
+		"type": "positive", // positive
+		"attributes": {
+			"panningDropRate": 3,
+			"gravelMiningSpeedMul": 0.25,
+			"sandMiningSpeedMul": 0.25,
+			"durabilitySaveChanceShovel": 0.5
+		}
+	},
+	{
+		"code": "picker", // vintner
+		"type": "positive", // positive
+		"attributes": {
+			"leavesMiningSpeedMul": 1,
+			"plantMiningSpeedMul": 1,
+			"durabilitySaveChanceShears": 0.75,
+			"durabilitySaveChanceKnife": 0.5
+		}
+	},
+	{
+		"code": "plucker", // florist
+		"type": "positive", // positive
+		"attributes": {
+			"plantMiningSpeedMul": 0.5,
+			"soilMiningSpeedMul": 0.5,
+			"otherMiningSpeedMul": 0.5,
+			"durabilitySaveChanceScythe": 0.5,
+			"durabilitySaveChanceKnife": 0.75
+		}
+	},
+	{
+		"code": "preserver", // butcher
+		"type": "positive", // positive
+		"attributes": {
+			"iceMiningSpeedMul": 1,
+			"lakeIceRareDropChance": 1,
+			"saltRareDropChance": 0.1
+		}
+	},
+	{
+		"code": "prospector", // spelunker
+		"type": "positive", // positive
+		"attributes": {
+			"oreDropRate": 1,
+			"oreMiningSpeedMul": 0.5,
+			"durabilitySaveChancePickaxe": 0.5
+		}
+	},
+	{
+		"code": "rancher", // butcher
+		"type": "positive", // positive
+		"attributes": {
+			"animalSeekingRange": -0.25
+		}
+	},
+	{
+		"code": "roadlayer", // messenger
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceShovel": 0.5,
+			"gravelMiningSpeedMul": 0.5,
+			"sandMiningSpeedMul": 0.5,
+			"snowMiningSpeedMul": 0.5,
+			"soilMiningSpeedMul": 0.5
+		}
+	},
+	{
+		"code": "restrained", // malefactor
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceAllWeapons": 0.75
+		}
+	},
+	{
+		"code": "smuggler", // malefactor
+		"type": "positive", // positive
+		"attributes": {
+			"canOpenExtraTradeWindow": 1
+		}
+	},
+	{
+		"code": "sneak", // malefactor
+		"type": "positive", // positive
+		"attributes": {
+			"sneakSpeedPenaltyReduction": 0.5
+		}
+	},
+	{
+		"code": "stonecutter", // quarrier
+		"type": "positive", // positive
+		"attributes": {
+			"rockRareDropChance": 0.5,
+			"stoneDropRate": 0.25
+		}
+	},
+	{
+		"code": "steward", // archivist
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceAllTools": 0.5
+		}
+	},
+	{
+		"code": "swift", // messenger
+		"type": "positive", // positive
+		"attributes": {
+			"pathWalkSpeedMul": 0.5
+		}
+	},
+	{
+		"code": "thief", // malefactor
+		"type": "positive", // positive
+		"attributes": {
+			"rustyGearDropRate": 1,
+			"vesselContentsDropRate": 1
+		}
+	},
+	{
+		"code": "thorough", // butcher
+		"type": "positive", // positive
+		"attributes": {
+			"animalLootDropRate": 1,
+			"durabilitySaveChanceKnife": 0.75
+		}
+	},
+	{
+		"code": "thresher", // tailor
+		"type": "positive", // positive
+		"attributes": {
+			"plantMiningSpeedMul": 0.5,
+			"clothMiningSpeedMul": 0.5,
+			"durabilitySaveChanceScythe": 0.75,
+			"durabilitySaveChanceKnife": 0.5
+		}
+	},
+	{
+		"code": "tiller", // farmhand
+		"type": "positive", // positive
+		"attributes": {
+			"soilMiningSpeedMul": 1,
+			"durabilitySaveChanceHoe": 0.75,
+			"plantMiningSpeedMul": 0.25,
+			"durabilitySaveChanceScythe": 0.75
+		}
+	},
+	{
+		"code": "tunneler", // quarrier
+		"type": "positive", // positive
+		"attributes": {
+			"stoneMiningSpeedMul": 1,
+			"oreMiningSpeedMul": 1,
+			"durabilitySaveChancePickaxe": 0.75,
+			"durabilitySaveChanceHammer": 0.75,
+			"durabilitySaveChanceChisel": 0.75
+		}
+	},
+	{
+		"code": "unphased", // archivist
+		"type": "positive", // positive
+		"attributes": {
+			"stabilityOffset": 0.4
+		}
+	},
+	{
+		"code": "weaver", // tailor
+		"type": "positive", // positive
+		"attributes": {
+			"flaxFiberRareDropChance": 0.1,
+			"reedsRareDropChance": 0.1,
+			"flaxFiberDropRate": 1,
+			"clothMiningSpeedMul": 0.5
+		}
+	},
+
+
+
+	{
+		"code": "calloused", // farmhand
+		"type": "negative", // negative
+		"attributes": {
+			"forageDropRate": -0.2,
+			"woodMiningSpeedMul": -0.1
+		}
+	},
+	{
+		"code": "careful", // archivist
+		"type": "negative", // negative
+		"attributes": {
+			"stoneMiningSpeedMul": -0.05,
+			"oreMiningSpeedMul": -0.05,
+			"gravelMiningSpeedMul": -0.05,
+			"sandMiningSpeedMul": -0.05,
+			"soilMiningSpeedMul": -0.05
+		}
+	},
+	{
+		"code": "careless", // quarrier
+		"type": "negative", // negative
+		"attributes": {
+			"oreDropRate": -0.25,
+			"vesselContentsDropRate": -0.25
+		}
+	},
+	{
+		"code": "coddled", // florist
+		"type": "negative", // negative
+		"attributes": {
+			"oreDropRate": -0.1,
+			"oreMiningSpeedMul": -0.1
+		}
+	},
+	{
+		"code": "compulsive", // spelunker
+		"type": "negative", // negative
+		"attributes": {
+			"panningStoneDropRate": -1
+		}
+	},
+	{
+		"code": "delicate", // shared negative
+		"type": "negative", // negative
+		"attributes": {
+			"oreDropRate": -0.1,
+			"oreMiningSpeedMul": -0.1,
+			"stoneMiningSpeedMul": -0.1,
+			"stabilityLossMul": 0.25
+		}
+	},
+	{
+		"code": "ecologist", // vintner
+		"type": "negative", // negative
+		"attributes": {
+			"woodMiningSpeedMul": -0.25,
+			"wildCropDropRate": -0.25
+		}
+	},
+	{
+		"code": "fickle", // hunter
+		"type": "negative", // negative
+		"attributes": {
+			"oreMiningSpeedMul": -0.33
+		}
+	},
+	{
+		"code": "guilty", // malefactor
+		"type": "negative", // negative
+		"attributes": {
+			"stabilityOffset": -0.1
+		}
+	},
+	{
+		"code": "hungry", // messenger
+		"type": "negative", // negative
+		"attributes": {
+			"hungerrate": 0.25
+		}
+	},
+	{
+		"code": "methodical", // butcher
+		"type": "negative", // negative
+		"attributes": {
+			"animalHarvestingTime": 0.5,
+			"rustyGearDropRate": -0.25,
+			"mechanicalsDamage": -0.5
+		}
+	},
+	{
+		"code": "sheltered", // shared negative
+		"type": "negative", // negative
+		"attributes": {
+			"forageDropRate": -0.25,
+			"wildCropDropRate": -0.25,
+			"animalLootDropRate": -0.1
+		}
+	},
+	{
+		"code": "uneducated", // butcher
+		"type": "negative", // negative
+		"attributes": {
+			"rustyGearDropRate": -0.5
+		}
+	},
+	{
+		"code": "outdoorsy", // forester
+		"type": "negative", // negative
+		"attributes": {
+			"stabilityIndoorOffset": -0.3
+		}
+	},
+	{
+		"code": "overkill", // blackguard
+		"type": "negative", // negative
+		"attributes": {
+			"animalLootDropRate": -0.25,
+			"cropProduceDropRate": -0.25,
+			"wildCropDropRate": -0.25,
+			"forageDropRate": -0.25
+		}
+	},
+	{
+		"code": "scourer", // brickmaker
+		"type": "negative", // negative
+		"attributes": {
+			"cropSeedDropRate": -0.25,
+			"youngCropSeedDropRate": -0.25,
+			"wildCropDropRate": -0.25
+		}
+	},
+	{
+		"code": "homebound", // tailor
+		"type": "negative", // negative
+		"attributes": {
+			"stabilityLossMul": 0.5
+		}
+	},
+	{
+		"code": "uncultured", // shared negative
+		"type": "negative", // negative
+		"attributes": {
+			"cropSeedDropRate": -0.25,
+			"flaxFiberDropRate": -0.25,
+			"cropProduceDropRate": -0.25,
+			"fruitTreeDropRate": -0.25
+		}
+	},
+	{
+		"code": "urbanite", // legacy negative
+		"type": "negative", // negative
+		"attributes": {
+			"cropSeedDropRate": -0.25,
+			"fruitTreeDropRate": -0.25,
+			"treeSeedDropRate": -0.25
+		}
+	},
+]

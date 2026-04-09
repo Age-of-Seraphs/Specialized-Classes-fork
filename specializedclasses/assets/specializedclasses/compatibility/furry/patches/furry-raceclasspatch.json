@@ -1,0 +1,56 @@
+[
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/bear.json",
+		"path": "/bear/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/bird.json",
+		"path": "/bird/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/deer.json",
+		"path": "/deer/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/deer_antler.json",
+		"path": "/deer_antler/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/fox.json",
+		"path": "/fox/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/hyena.json",
+		"path": "/hyena/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/rabbit.json",
+		"path": "/rabbit/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/raccoon.json",
+		"path": "/raccoon/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	},
+	{
+		"op": "replace",
+		"file": "furry:config/customplayermodels/wolf.json",
+		"path": "/wolf/AvailableClasses",
+		"value": [ "commoner", "archivist", "blackguard", "brickmaker", "butcher", "clockmaker", "farmhand", "florist", "forester", "hunter", "malefactor", "messenger", "quarrier", "spelunker", "tailor", "vintner" ]
+	}
+]

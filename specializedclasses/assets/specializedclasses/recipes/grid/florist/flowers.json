@@ -1,0 +1,210 @@
+[
+	{
+		"ingredientPattern": "F,S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-low-none",
+				"quantity": 16,
+				"returnedStack": {
+					"type": "block",
+					"code": "game:soil-verylow-none",
+					"quantity": 16
+				}
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"catmint",
+				"cornflower",
+				"cowparsley",
+				"edelweiss",
+				"forgetmenot",
+				"goldenpoppy",
+				"heather",
+				"horsetail",
+				"lilyofthevalley",
+				"lupine-blue",
+				"lupine-orange",
+				"lupine-purple",
+				"lupine-red",
+				"lupine-white",
+				"orangemallow",
+				"redtopgrass",
+				"westerngorse",
+				"wilddaisy",
+				"woad"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flower" },
+		"output": {
+			"type": "block",
+			"code": "game:flower-{flowertype}-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "F,S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-medium-none",
+				"quantity": 4,
+				"returnedStack": {
+					"type": "block",
+					"code": "game:soil-low-none",
+					"quantity": 4
+				}
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"catmint",
+				"cornflower",
+				"cowparsley",
+				"edelweiss",
+				"forgetmenot",
+				"goldenpoppy",
+				"heather",
+				"horsetail",
+				"lilyofthevalley",
+				"lupine-blue",
+				"lupine-orange",
+				"lupine-purple",
+				"lupine-red",
+				"lupine-white",
+				"orangemallow",
+				"redtopgrass",
+				"westerngorse",
+				"wilddaisy",
+				"woad"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flower" },
+		"output": {
+			"type": "block",
+			"code": "game:flower-{flowertype}-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "F,S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-compost-none",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:soil-medium-none"
+				}
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"catmint",
+				"cornflower",
+				"cowparsley",
+				"edelweiss",
+				"forgetmenot",
+				"goldenpoppy",
+				"heather",
+				"horsetail",
+				"lilyofthevalley",
+				"lupine-blue",
+				"lupine-orange",
+				"lupine-purple",
+				"lupine-red",
+				"lupine-white",
+				"orangemallow",
+				"redtopgrass",
+				"westerngorse",
+				"wilddaisy",
+				"woad"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flower" },
+		"output": {
+			"type": "block",
+			"code": "game:flower-{flowertype}-free",
+			"quantity": 5
+		}
+	},
+	{
+		"ingredientPattern": "F,S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:flower-{flowertype}-free"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-high-none",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:soil-compost-none"
+				}
+			}
+		},
+		"allowedVariants": {
+			"flowertype": [
+				"catmint",
+				"cornflower",
+				"cowparsley",
+				"edelweiss",
+				"forgetmenot",
+				"goldenpoppy",
+				"heather",
+				"horsetail",
+				"lilyofthevalley",
+				"lupine-blue",
+				"lupine-orange",
+				"lupine-purple",
+				"lupine-red",
+				"lupine-white",
+				"orangemallow",
+				"redtopgrass",
+				"westerngorse",
+				"wilddaisy",
+				"woad"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "flower" },
+		"output": {
+			"type": "block",
+			"code": "game:flower-{flowertype}-free",
+			"quantity": 17
+		}
+	}
+]

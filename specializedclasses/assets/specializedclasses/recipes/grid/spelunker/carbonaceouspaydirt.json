@@ -1,0 +1,16 @@
+[
+	{
+		"ingredientPattern": "GS,DC",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"G": { "type": "block", "code": "game:gravel-*", "quantity": 1 },
+			"S": { "type": "block", "code": "game:sand-*", "quantity": 1 },
+			"D": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"C": { "type": "block", "code": "game:peatbrick", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:carbonaceouspaydirt", "quantity": 1 }
+	}
+]

@@ -1,0 +1,76 @@
+[
+	{
+		"ingredientPattern": "L,S",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:lore-*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:paper-parchment",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_S_,SRS,_S_",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:sieve-linen"
+		}
+	},
+	{
+		"ingredientPattern": "SPS,SCS,SPS",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:candle"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:paperlantern-on",
+			"quantity": 1
+		}
+	}
+]

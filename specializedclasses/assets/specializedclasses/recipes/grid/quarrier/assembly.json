@@ -1,0 +1,398 @@
+[
+	{
+		"ingredientPattern": "SSS,SHS,SSS",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stonetype}",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"suevite",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rock" },
+		"output": {
+			"type": "block",
+			"code": "game:rock-{stonetype}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "C,S",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stonetype}",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"suevite",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stonebrick" },
+		"output": {
+			"type": "item",
+			"code": "game:stonebrick-{stonetype}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SSS,SCS,SSS",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stonebrick-{stonetype}",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"suevite",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stonebricks" },
+		"output": {
+			"type": "block",
+			"code": "game:stonebricks-{stonetype}",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "TTT,TCT,TTT",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:tile-stone-travertine",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:tile-2x2-plain-travertine",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "ACA,AAA",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stonebrick-{stonetype}",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"suevite",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stonebrickslab" },
+		"output": {
+			"type": "block",
+			"code": "game:stonebrickslab-{stonetype}-down-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "TCT,TTT",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:tile-stone-travertine",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:tileslab-2x2-plain-travertine-down-free",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_AA,ACA,AAA",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stonebrick-{stonetype}",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"suevite",
+				"syenite",
+				"travertine",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stonebrickstairs" },
+		"output": {
+			"type": "block",
+			"code": "game:stonebrickstairs-{stonetype}-up-north-free",
+			"quantity": 1
+		}
+	}
+]

@@ -1,0 +1,67 @@
+{
+	"code": "insulatedcrate",
+	"class": "ItemRestrictedBagHandbook",
+	"maxstacksize": 1,
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "SingleCenter",
+				"collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }
+			}
+		},
+		{
+			"name": "HeldBag"
+		}
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCode": "backpack",
+			"attachedShape": { "base": "specializedclasses:shapes/item/insulatedcrate-attached" }
+		},
+		"wearableAttachment": true,
+		"backpack": {
+			"quantitySlots": 16,
+			"storageFlags": 1048576,
+			"slotBgColor": "#6d8a93"
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"]
+	},
+	"shape": {
+		"base": "specializedclasses:shapes/item/insulatedcrate"
+	},
+	"textures": {
+		"crate-smaller.png": { "base": "specializedclasses:block/wood/crate/crate-smaller" },
+		"brass.png": { "base": "game:block/metal/ingot/brass" },
+		"fill-pottery.png": { "base": "game:block/wood/crate/fill-pottery" },
+		"plain.png": { "base": "game:block/leather/plain" },
+		"stainlesssteel.png": { "base": "game:block/metal/ingot/stainlesssteel" }
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -24, "y": 23, "z": 180 },
+		"origin": { "x": 0.5, "y": 0.25, "z": 0.5 },
+		"scale": 2.35,
+		"rotate": true
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.1
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.2 },
+		"rotation": { "x": 34, "y": -66, "z": 14 },
+		"scale": 1.9
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.55, "y": -0.35, "z": -0.55 },
+		"rotation": { "x": -8, "y": 8, "z": 0 },
+		"scale": 0.95
+	},
+	"storageFlags": 2
+}

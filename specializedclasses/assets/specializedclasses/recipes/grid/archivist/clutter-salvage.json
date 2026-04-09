@@ -1,0 +1,77 @@
+[
+	{
+		"ingredientPattern": "C,S",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "game:clutter"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "B,S",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"B": {
+				"type": "block",
+				"code": "game:clutteredbookshelf*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "B,S",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"B": {
+				"type": "block",
+				"code": "game:banner-banner*"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 4
+		}
+	}
+]

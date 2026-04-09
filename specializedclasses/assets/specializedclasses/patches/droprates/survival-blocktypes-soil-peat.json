@@ -1,0 +1,9 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/drops/0/dropModbyStat",
+		"value": "peatDropRate",
+		"file": "game:blocktypes/soil/peat.json",
+		"side": "server"
+	}
+]

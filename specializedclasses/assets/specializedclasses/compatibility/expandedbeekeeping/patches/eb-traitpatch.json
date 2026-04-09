@@ -1,0 +1,8 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/6/traits/2",
+		"value": "floristexpandedbeekeeping"
+	}
+]

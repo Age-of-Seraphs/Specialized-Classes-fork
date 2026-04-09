@@ -1,0 +1,20 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/3/traits/2",
+		"value": "butcherbutchering"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/8/traits/2",
+		"value": "hunterbutchering"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/8/traits/-",
+		"value": "hauler"
+	}
+]

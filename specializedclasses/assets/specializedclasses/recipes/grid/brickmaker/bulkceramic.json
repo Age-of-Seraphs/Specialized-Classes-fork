@@ -1,0 +1,298 @@
+[
+	{
+		"ingredientPattern": "C,M",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-{clay}",
+				"quantity": 8
+			},
+			"M": {
+				"type": "block",
+				"code": "game:ingotmold-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:ingotmold-{ceramic}-fired"
+				}
+			}
+		},
+		"allowedVariants": {
+			"clay": [
+				"blue",
+				"fire",
+				"red"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawbrick" },
+		"output": {
+			"type": "item",
+			"code": "game:rawbrick-{clay}",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "BCQ,_M_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:crushed-bauxite"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 2
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:crushed-quartz"
+			},
+			"M": {
+				"type": "block",
+				"code": "game:ingotmold-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:ingotmold-{ceramic}-fired"
+				}
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+		"output": {
+			"type": "item",
+			"code": "game:refractorybrick-raw-tier1",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "BCQ,OM_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:crushed-bauxite"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 2
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:crushed-quartz"
+			},
+			"O": {
+				"type": "item",
+				"code": "game:crushed-olivine"
+			},
+			"M": {
+				"type": "block",
+				"code": "game:ingotmold-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:ingotmold-{ceramic}-fired"
+				}
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+		"output": {
+			"type": "item",
+			"code": "game:refractorybrick-raw-tier2",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "BCQ,OMI",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:crushed-bauxite"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 2
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:crushed-quartz"
+			},
+			"O": {
+				"type": "item",
+				"code": "game:crushed-olivine"
+			},
+			"M": {
+				"type": "block",
+				"code": "game:ingotmold-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:ingotmold-{ceramic}-fired"
+				}
+			},
+			"I": {
+				"type": "item",
+				"code": "game:crushed-ilmenite"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+		"output": {
+			"type": "item",
+			"code": "game:refractorybrick-raw-tier3",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "BCQ,OMc",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:crushed-bauxite" },
+			"C": { "type": "item", "code": "game:clay-fire", "quantity": 2 },
+			"Q": { "type": "item", "code": "game:crushed-quartz" },
+			"O": { "type": "item", "code": "game:crushed-olivine" },
+			"M": {
+				"type": "block",
+				"code": "game:ingotmold-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:ingotmold-{ceramic}-fired"
+				}
+			},
+			"c": { "type": "item", "code": "game:crushed-chromite" }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+		"output": {
+			"type": "item",
+			"code": "game:refractorybrick-raw-tier3",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "C,M",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-{clay}",
+				"quantity": 8
+			},
+			"M": {
+				"type": "block",
+				"code": "game:toolmold-{ceramic}-fired-lamellae",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:toolmold-{ceramic}-fired-lamellae"
+				}
+			}
+		},
+		"allowedVariants": {
+			"clay": [
+				"blue",
+				"fire",
+				"red"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawshingle" },
+		"output": {
+			"type": "item",
+			"code": "game:shingle-raw-{clay}",
+			"quantity": 32
+		}
+	},
+	{
+		"ingredientPattern": "C,M",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-{clay}",
+				"quantity": 8
+			},
+			"M": {
+				"type": "block",
+				"code": "game:toolmold-{ceramic}-fired-hammer",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:toolmold-{ceramic}-fired-hammer"
+				}
+			}
+		},
+		"allowedVariants": {
+			"clay": [
+				"blue",
+				"fire",
+				"red"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawtile" },
+		"output": {
+			"type": "item",
+			"code": "game:claytile-raw-plain-{clay}",
+			"quantity": 12
+		}
+	},
+	{
+		"ingredientPattern": "C,B",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:clay-{clay}",
+				"quantity": 8
+			},
+			"B": {
+				"type": "block",
+				"code": "game:bowl-{ceramic}-fired",
+				"returnedStack": {
+					"type": "block",
+					"code": "game:bowl-{ceramic}-fired"
+				}
+			}
+		},
+		"allowedVariants": {
+			"clay": [
+				"blue",
+				"fire",
+				"red"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawoillamp" },
+		"output": {
+			"type": "block",
+			"code": "game:oillamp-genie-{clay}-raw",
+			"quantity": 4
+		}
+	}
+]

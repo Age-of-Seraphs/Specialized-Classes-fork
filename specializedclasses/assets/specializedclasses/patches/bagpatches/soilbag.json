@@ -1,0 +1,157 @@
+[
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/soil.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/clay.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/peatbrick.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/sand.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/sand-layered.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/sand-wavy.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/gravel.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/gravel-dirty.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/muddygravel.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/sludgygravel.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/packeddirt.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/drypackeddirt.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/rammed.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/generic/stonepathslab.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/generic/stonepathstairs.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/crushed/saltpeter.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/ore-ungraded.json",
+		"path": "/storageFlagsByType",
+		"value": {
+			"ore-anthracite": 262149,
+			"ore-bituminouscoal": 262149,
+			"ore-lignite": 262149,
+			"ore-sulfur": 262149
+		}
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/charcoal.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/coke.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/rot.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/compost.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/tool/hoe.json",
+		"path": "/storageFlags",
+		"value": 262145
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/tool/shovel.json",
+		"path": "/storageFlags",
+		"value": 262145
+	}
+]

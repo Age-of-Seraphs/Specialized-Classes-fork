@@ -1,0 +1,49 @@
+﻿[
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/clutter.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "ClutterPickupBlockBehavior"
+			}
+		],
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter.json",
+		"path": "/behaviors",
+		"value": [
+			{ "name": "ClutterPickupBlockBehavior" }
+		],
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter-lore.json",
+		"path": "/behaviors",
+		"value": [
+			{ "name": "ClutterPickupBlockBehavior" }
+		],
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter-agedacacia.json",
+		"path": "/behaviors",
+		"value": [
+			{ "name": "ClutterPickupBlockBehavior" }
+		],
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/banner.json",
+		"path": "/behaviorsByType/*",
+		"value": [
+			{ "name": "ClutterPickupBlockBehavior" }
+		],
+		"side": "server"
+	}
+]

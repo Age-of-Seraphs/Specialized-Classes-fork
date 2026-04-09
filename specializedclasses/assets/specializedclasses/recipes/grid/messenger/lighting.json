@@ -1,0 +1,454 @@
+[
+	{
+		"ingredientPattern": "QTQ,NIN",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 2
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-large" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-large-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "plain",
+				"glass": "quartz"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,NIN,_i_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 2
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			},
+			"i": {
+				"type": "item",
+				"code": "game:ingot-{lining}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			],
+			"lining": [
+				"electrum",
+				"gold",
+				"silver"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-large" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-large-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "{lining}",
+				"glass": "quartz"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,NIN",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "block",
+				"code": "game:glassslab-plain-down-free",
+				"quantity": 2
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-large" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-large-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "plain",
+				"glass": "plain"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,NIN,_i_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "block",
+				"code": "game:glassslab-plain-down-free",
+				"quantity": 2
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			},
+			"i": {
+				"type": "item",
+				"code": "game:ingot-{lining}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			],
+			"lining": [
+				"electrum",
+				"gold",
+				"silver"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-large" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-large-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "{lining}",
+				"glass": "plain"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,_I_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-small" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-small-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "plain",
+				"glass": "quartz"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,_I_,_i_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			},
+			"i": {
+				"type": "item",
+				"code": "game:ingot-{lining}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			],
+			"lining": [
+				"electrum",
+				"gold",
+				"silver"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-small" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-small-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "{lining}",
+				"glass": "quartz"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,_I_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "block",
+				"code": "game:glassslab-plain-down-free"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-small" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-small-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "plain",
+				"glass": "plain"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "QTQ,_I_,_i_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"Q": {
+				"type": "block",
+				"code": "game:glassslab-plain-down-free"
+			},
+			"T": {
+				"type": "block",
+				"code": "game:torch-basic-lit-up"
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-{metal}"
+			},
+			"i": {
+				"type": "item",
+				"code": "game:ingot-{lining}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuth",
+				"bismuthbronze",
+				"blackbronze",
+				"brass",
+				"copper",
+				"electrum",
+				"gold",
+				"iron",
+				"meteoriciron",
+				"molybdochalkos",
+				"silver",
+				"steel",
+				"tinbronze"
+			],
+			"lining": [
+				"electrum",
+				"gold",
+				"silver"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "lantern-small" },
+		"output": {
+			"type": "block",
+			"code": "game:lantern-small-up",
+			"attributes": {
+				"material": "{metal}",
+				"lining": "{lining}",
+				"glass": "plain"
+			}
+		}
+	}
+]

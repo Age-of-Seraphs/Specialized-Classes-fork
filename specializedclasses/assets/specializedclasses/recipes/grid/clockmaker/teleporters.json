@@ -1,0 +1,50 @@
+[
+	{
+		"ingredientPattern": "FJ",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"F": {
+				"type": "block",
+				"code": "game:basereturnteleporter-fried",
+				"quantity": 1
+			},
+			"J": {
+				"type": "item",
+				"code": "game:jonas*",
+				"quantity": 1,
+				"recipeAttributes": { "label": "any Jonas part" }
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:basereturnteleporter",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BR",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"B": {
+				"type": "block",
+				"code": "game:basereturnteleporter",
+				"quantity": 1,
+				"returnedStack": {
+					"type": "block",
+					"code": "game:basereturnteleporter-fried",
+					"quantity": 1
+				}
+			},
+			"R": { "type": "item", "code": "game:gear-rusty", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "game:gear-temporal", "quantity": 1 }
+	}
+]

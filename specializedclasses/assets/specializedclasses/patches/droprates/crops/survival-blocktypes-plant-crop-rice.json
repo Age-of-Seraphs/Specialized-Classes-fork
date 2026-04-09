@@ -1,0 +1,53 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-10/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/rice.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-10/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/rice.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/rice.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/rice.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-rice-10"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-rice", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/rice.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

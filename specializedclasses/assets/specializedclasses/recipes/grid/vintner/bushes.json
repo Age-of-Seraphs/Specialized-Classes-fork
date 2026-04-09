@@ -1,0 +1,41 @@
+[
+	{
+		"ingredientPattern": "B,S",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:fruit-{berrytype}",
+				"quantity": 8
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-compost-none"
+			}
+		},
+		"allowedVariants": {
+			"berrytype": [
+				"beautyberry",
+				"blackberry",
+				"blackcurrant",
+				"blueberry",
+				"cloudberry",
+				"cranberry",
+				"raspberry",
+				"redcurrant",
+				"strawberry",
+				"whitecurrant"
+			]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "bushcutting" },
+		"output": {
+			"type": "block",
+			"code": "game:fruitingbushcutting-{berrytype}-free",
+			"quantity": 1
+		}
+	}
+]

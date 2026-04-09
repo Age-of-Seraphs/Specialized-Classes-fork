@@ -1,0 +1,282 @@
+{
+	"workstation": "compoundingvat",
+	"menuMode": "browser",
+	"recipes": [
+		{
+			"ingredients": [
+				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
+				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },
+				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any soil" } },
+				{ "type": "block", "code": "game:peatbrick", "quantity": 1 }
+			],
+			"output": { "type": "block", "code": "game:carbonaceouspaydirt", "quantity": 1 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
+				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },
+				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any soil" } },
+				{ "type": "item", "code": "game:clay-*", "quantity": 1, "recipeAttributes": { "label": "any clay" } }
+			],
+			"output": { "type": "block", "code": "game:crystallinepaydirt", "quantity": 1 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
+				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },
+				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any soil" } },
+				{ "type": "item", "code": "game:stone-*", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } }
+			],
+			"skipVariants": {
+				"stone": ["meteorite-iron"]
+			},
+			"output": { "type": "block", "code": "game:metallicpaydirt", "quantity": 1 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:ore-sylvite", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "game:potash", "quantity": 4 },
+			"requiredTrait": "farmhand"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:bone", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "game:bonemeal", "quantity": 2 },
+			"requiredTrait": "farmhand"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:charcoal", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "game:powder-charcoal", "quantity": 2 },
+			"requiredTrait": "farmhand"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:rot", "quantity": 4 },
+				{ "type": "block", "code": "game:soil-{fertility}-none", "quantity": 1, "recipeAttributes": { "label": "any soil" } }
+			],
+			"allowedVariants": {
+				"fertility": ["verylow", "low", "medium", "compost", "high"]
+			},
+			"output": { "type": "item", "code": "game:compost", "quantity": 2 },
+			"requiredTrait": "farmhand"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:lime", "quantity": 1 },
+				{ "type": "item", "code": "game:clay-{clay}", "quantity": 8, "recipeAttributes": { "label": "any clay" } }
+			],
+			"allowedVariants": {
+				"clay": ["blue", "fire", "red"]
+			},
+			"output": { "type": "item", "code": "game:mortar", "quantity": 8 },
+			"requiredTrait": "brickmaker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:lime", "quantity": 1 },
+				{ "type": "block", "code": "game:sand-{stone}", "quantity": 8, "recipeAttributes": { "label": "any sand" } }
+			],
+			"allowedVariants": {
+				"stone": ["amphibolite", "andesite", "arenite", "arkose", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "diorite", "dolostone", "gabbro", "gneiss", "granite", "jade", "jasper", "komatiite", "limestone", "marl", "migmatite", "monzonite", "mudstone", "peridotite", "phyllite", "pumice", "pyroxenite", "quartzite", "rhyolite", "sandstone", "schist", "serpentinite", "shale", "siltstone", "syenite", "travertine", "wacke"]
+			},
+			"output": { "type": "block", "code": "game:plaster-plain", "quantity": 8 },
+			"requiredTrait": "brickmaker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:stone-{stonetype}", "quantity": 1, "recipeAttributes": { "label": "any lime-bearing stone" } }
+			],
+			"allowedVariants": {
+				"stonetype": ["chalk", "greenmarble", "limestone", "redmarble", "whitemarble"]
+			},
+			"output": { "type": "item", "code": "game:lime", "quantity": 2 },
+			"requiredTrait": "brickmaker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:stone-{stonetype}", "quantity": 1, "recipeAttributes": { "label": "any lime-bearing stone" } }
+			],
+			"allowedVariants": {
+				"stonetype": ["chalk", "greenmarble", "limestone", "redmarble", "whitemarble"]
+			},
+			"output": { "type": "item", "code": "game:lime", "quantity": 2 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:compost", "quantity": 4 },
+				{ "type": "item", "code": "game:lime", "quantity": 16 }
+			],
+			"output": { "type": "item", "code": "game:saltpeter", "quantity": 8 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:stone-halite", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "game:salt", "quantity": 4 },
+			"requiredTrait": "butcher"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:stone-halite", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "game:salt", "quantity": 4 },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:ore-{oretype}", "quantity": 1 }
+			],
+			"allowedVariants": {
+				"oretype": ["borax", "sulfur"]
+			},
+			"output": { "type": "item", "code": "game:powder-{oretype}", "quantity": 4 },
+			"attributes": { "handbookOverviewGroup": "ore-powder" },
+			"requiredTrait": "spelunker"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "codes": ["game:charcoal", "game:fruit-blackberry"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-black", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:rot", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-gray", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-edelweiss-free", "game:flower-lilyofthevalley-free", "game:flower-wilddaisy-free", "game:flower-lupine-white-free"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-white", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:fruit-whitecurrant", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-white", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:log-placed-acacia-ud", "game:log-placed-oak-ud"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-brown", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "code": "game:flower-heather-free", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-pink", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "codes": ["game:fruit-beautyberry", "game:fruit-cranberry"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-pink", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-catmint-free", "game:flower-lupine-purple-free"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-purple", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "codes": ["game:fruit-blackcurrant", "game:fruit-blueberry"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-purple", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-cornflower-free", "game:flower-forgetmenot-free", "game:flower-lupine-blue-free", "game:flower-woad-free"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-blue", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-cowparsley-free", "game:flower-horsetail-free", "game:fern-cinnamonfern", "game:fern-deerfern", "game:fern-eaglefern"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-green", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-redtopgrass-free", "game:flower-lupine-red-free"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-red", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:fruit-redcurrant", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-red", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "codes": ["game:flower-goldenpoppy-free", "game:flower-orangemallow-free", "game:flower-lupine-orange-free"], "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-orange", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:fruit-cloudberry", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-orange", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "block", "code": "game:flower-westerngorse-free", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-yellow", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		},
+		{
+			"ingredients": [
+				{ "type": "item", "code": "game:drygrass", "quantity": 1 }
+			],
+			"output": { "type": "item", "code": "specializedclasses:pigment-yellow", "quantity": 1 },
+			"attributes": { "handbookOverviewGroup": "pigment" },
+			"requiredTrait": "florist"
+		}
+	]
+}

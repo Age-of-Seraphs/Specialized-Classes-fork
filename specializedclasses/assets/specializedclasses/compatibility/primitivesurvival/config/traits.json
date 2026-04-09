@@ -1,0 +1,22 @@
+[
+	{
+		"code": "hunterprimitivesurvival",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "butcherprimitivesurvival",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "messengerprimitivesurvival",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "farmhandprimitivesurvival",
+		"type": "positive", // recipe
+		"attributes": {}
+	}
+]

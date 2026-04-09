@@ -1,0 +1,13 @@
+﻿{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "specializedclasses",
+    "name": "Specialized Classes",
+    "authors": [
+        "quilladile"
+    ],
+    "description": "15 new classes that are the best in their fields by a large margin, with major but specific buffs",
+    "version": "2.2.0",
+    "dependencies": {
+    }
+}

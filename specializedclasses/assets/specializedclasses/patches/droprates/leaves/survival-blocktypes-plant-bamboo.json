@@ -1,0 +1,9 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/1/dropModbyStat",
+		"value": "treeSeedDropRate",
+		"file": "game:blocktypes/plant/bamboo.json",
+		"side": "server"
+	}
+]

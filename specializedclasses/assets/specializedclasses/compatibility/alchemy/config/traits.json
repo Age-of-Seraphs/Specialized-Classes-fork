@@ -1,0 +1,12 @@
+[
+	{
+		"code": "vintneralchemy",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "floristalchemy",
+		"type": "positive", // recipe
+		"attributes": {}
+	}
+]

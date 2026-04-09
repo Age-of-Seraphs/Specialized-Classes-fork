@@ -1,0 +1,157 @@
+[
+	{
+		"ingredientPattern": "SFS,_F_,SFS",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:barrel",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "_S_,F_F,FFF",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:woodbucket",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "ACf,KFR,FFF",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:axe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:club-generic-wood"
+			},
+			"f": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 3
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:fruitpress-ns",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "CI,RP,_P",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:club-generic-wood",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-copper"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 5
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-copper"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:verticalboiler-west",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "CI,RI",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:club-generic-wood",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"I": {
+				"type": "item",
+				"code": "game:ingot-copper"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:condenser-west",
+			"quantity": 1
+		}
+	}
+]

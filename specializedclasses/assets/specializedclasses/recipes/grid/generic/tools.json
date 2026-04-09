@@ -1,0 +1,121 @@
+[
+	{
+		"ingredientPattern": "SCS,SSS",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 1
+			},
+			"C": {
+				"type": "item",
+				"code": "game:club-generic-wood",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"stone": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:mortarandpestle",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "s,F,S",
+		"ingredients": {
+			"s": { "type": "item", "code": "game:stone-{stone}", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"stone": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:spindle", "quantity": 1 }
+	}
+]

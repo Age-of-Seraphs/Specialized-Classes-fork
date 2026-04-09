@@ -1,0 +1,134 @@
+[
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/resource/crushed/salt.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/bambooshoot.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/bread.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/bushmeat.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/butter.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/cheese.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/dough.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/egg.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/fishfillet.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/flour.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/fruit.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/grain.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/insect.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/legume.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/pemmican.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/pickledlegume.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/pickledvegetable.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/poultry.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/rawcassava.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/rawcheese.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/redmeat.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/food/vegetable.json",
+		"path": "/storageFlags",
+		"value": 1048577
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/0/traits/2",
+		"value": "archivistbetterruins"
+	}
+]
+

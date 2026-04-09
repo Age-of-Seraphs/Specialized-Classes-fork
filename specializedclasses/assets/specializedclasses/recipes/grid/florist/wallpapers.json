@@ -1,0 +1,222 @@
+[
+	{
+		"ingredientPattern": "P,B",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-blue4",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-green1",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,A",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"A": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-grey1",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-brown",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,K",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-walnut",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,U",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-darkpurple",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,Y",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-yellow",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,I",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"I": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-pink",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "P,G,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "wallpapers" },
+		"output": {
+			"type": "block",
+			"code": "game:wallpaper-lightgreen",
+			"quantity": 4
+		}
+	}
+]

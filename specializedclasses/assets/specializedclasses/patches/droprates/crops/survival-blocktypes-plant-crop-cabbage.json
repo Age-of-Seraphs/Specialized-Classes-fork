@@ -1,0 +1,67 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-11/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-11/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-12/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-12/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-cabbage-11", "crop-cabbage-12"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-cabbage", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/cabbage.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

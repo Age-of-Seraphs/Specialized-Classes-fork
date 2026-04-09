@@ -1,0 +1,98 @@
+[
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/lore/paper.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/lore/lore.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/lore/book.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/tool/inkandquill.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:itemtypes/tool/chisel.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "specializedclasses:itemtypes/pigment.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/clutter.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/painting.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/cloth/tapestry.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/sign.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/signpost.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/sieve.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter-lore.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/bookshelf-clutter-agedacacia.json",
+		"path": "/storageFlags",
+		"value": 524289
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/banner.json",
+		"path": "/storageFlags",
+		"value": 524289
+	}
+]

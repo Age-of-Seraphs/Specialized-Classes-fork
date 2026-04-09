@@ -1,0 +1,255 @@
+[
+	{
+		"ingredientPattern": "RFR,FFF,RFR",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:trapcrate-wood",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "CCC,C_C,CCC",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "basket" },
+		"output": {
+			"type": "block",
+			"code": "game:stationarybasket-east",
+			"attributes": {
+				"type": "reed"
+			},
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "PPP,P_P,PPP",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "basket" },
+		"output": {
+			"type": "block",
+			"code": "game:stationarybasket-east",
+			"attributes": {
+				"type": "papyrus"
+			},
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "F_F,_F_",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:trough-genericwood-small-ns",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "F_F,FFF",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:trough-genericwood-large-head-north",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "FHF,FFF",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:henbox",
+			"quantity": 1
+		}
+	},
+
+	{
+		"ingredientPattern": "FD",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:fruit-*",
+				"quantity": 1
+			},
+			"D": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalherbivorefeed",
+			"quantity": 8
+		}
+	},
+
+	{
+		"ingredientPattern": "FG",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:fruit-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "item",
+				"code": "game:grain-*",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalherbivorefeed",
+			"quantity": 8
+		}
+	},
+
+	{
+		"ingredientPattern": "MD",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"M": {
+				"type": "item",
+				"code": "game:{meat}-raw",
+				"quantity": 1
+			},
+			"D": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"meat": ["bushmeat", "fish", "poultry", "redmeat"]
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalcarnivorefeed",
+			"quantity": 8
+		}
+	},
+
+	{
+		"ingredientPattern": "MG",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"M": {
+				"type": "item",
+				"code": "game:{meat}-raw",
+				"quantity": 1
+			},
+			"G": {
+				"type": "item",
+				"code": "game:grain-*",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"meat": ["bushmeat", "fish", "poultry", "redmeat"]
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalcarnivorefeed",
+			"quantity": 8
+		}
+	}
+]

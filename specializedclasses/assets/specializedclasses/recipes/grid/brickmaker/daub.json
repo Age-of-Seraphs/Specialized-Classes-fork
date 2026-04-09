@@ -1,0 +1,305 @@
+[
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["andesite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-ash", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["andesite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-ash", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"clay": ["red"],
+			"rock": ["andesite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["basalt", "shale", "slate"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-brown", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["claystone", "conglomerate"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["chalk", "limestone"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["chalk", "limestone"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"clay": ["red"],
+			"rock": ["chalk", "limestone"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["chert", "phyllite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-brownweathered", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["peridotite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-green", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["bauxite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-orange", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["granite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-tan", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["granite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-tan", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"clay": ["red"],
+			"rock": ["granite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 16 }
+	},
+	{
+		"ingredientPattern": "SDM,sC_",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 },
+			"s": { "type": "block", "code": "game:sand-{rock}", "quantity": 1 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"rock": ["sandstone"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rawdaub" },
+		"output": { "type": "item", "code": "game:daubraw-yellow", "quantity": 16 }
+	}
+]

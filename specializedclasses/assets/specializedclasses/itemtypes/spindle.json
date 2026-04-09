@@ -1,0 +1,43 @@
+{
+	"code": "spindle",
+	"maxstacksize": 1,
+	"durabilitybytype": {
+		"spindle": 500
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"],
+		"tools": ["*"]
+	},
+	"shape": {
+		"base": "specializedclasses:shapes/item/spindle"
+	},
+	"textures": {
+		"charred.png": { "base": "game:block/wood/charred" },
+		"granite1.png": { "base": "game:block/stone/rock/granite1" }
+	},
+	"guiTransform": {
+		"translation": { "x": -8, "y": -6, "z": 0 },
+		"rotation": { "x": 7, "y": -79, "z": 128 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 1.8
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.1 },
+		"rotation": { "x": 0, "y": 90, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 1.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.1, "y": -1.5, "z": -1 },
+		"rotation": { "x": -1, "y": -39, "z": -169 },
+		"scale": 0.5
+	},
+	"heldTpIdleAnimation": "holdbothhands"
+}

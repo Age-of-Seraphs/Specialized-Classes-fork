@@ -1,0 +1,16 @@
+[
+	{
+		"ingredientPattern": "GS,DM",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"G": { "type": "block", "code": "game:gravel-*", "quantity": 1 },
+			"S": { "type": "block", "code": "game:sand-*", "quantity": 1 },
+			"D": { "type": "block", "code": "game:soil-*-none", "quantity": 1 },
+			"M": { "type": "item", "code": "game:stone-*", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:metallicpaydirt", "quantity": 1 }
+	}
+]

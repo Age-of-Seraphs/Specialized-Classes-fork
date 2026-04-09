@@ -1,0 +1,80 @@
+[
+	{
+		"ingredientPattern": "CBF",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:bomb-ore", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "_P_,CBF",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+			"C": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:bomb-stone", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "SPS,CBF",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+			"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+			"C": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "SPS,CBF",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+			"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+			"C": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "SPT,CBF",
+		"requiresTrait": "spelunker",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+			"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+			"T": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+			"C": { "type": "item", "code": "game:flaxfibers", "quantity": 1 },
+			"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+			"F": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	}
+]

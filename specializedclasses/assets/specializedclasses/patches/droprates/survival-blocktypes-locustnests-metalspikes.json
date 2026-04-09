@@ -1,0 +1,58 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-tiny/0/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-tiny/1/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-small/0/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-small/1/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-medium/0/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-medium/1/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-large/0/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-large/1/dropModbyStat",
+		"value": "metalSpikesDropRate",
+		"file": "game:blocktypes/locustnest/metalspikes.json",
+		"side": "server"
+	}
+]

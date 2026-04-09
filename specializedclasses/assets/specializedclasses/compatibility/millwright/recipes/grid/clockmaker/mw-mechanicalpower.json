@@ -1,0 +1,237 @@
+[
+	{
+		"ingredientPattern": "W_,SM",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"S": { "type": "block", "code": "game:woodenaxle-ud", "quantity": 1 },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:improvedaxlepassthroughfull", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "W_,RM",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"R": { "type": "block", "code": "game:windmillrotor-*" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-single-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "W__,RLE,M__",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"R": { "type": "block", "code": "game:windmillrotor-*" },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-double-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "W__,RLE,M__",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"R": { "type": "block", "code": "game:windmillrotor-*" },
+			"L": { "type": "block", "code": "game:logsection-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-double-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,__M,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-three-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,__M,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"L": { "type": "block", "code": "game:logsection-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-three-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,L_M,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-six-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,L_M,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"L": { "type": "block", "code": "game:logsection-placed-*-ud", "quantity": 1 },
+			"E": { "type": "item", "code": "game:resin" },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotor-six-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,M__,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"E": { "type": "item", "code": "game:resin" },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 2 },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "millwright:windmillrotor-single-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,M__,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"E": { "type": "item", "code": "game:resin" },
+			"L": { "type": "block", "code": "game:logsection-placed-*-ud", "quantity": 2 },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "block", "code": "millwright:windmillrotor-single-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_W_,M_M,ELF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"E": { "type": "item", "code": "game:resin" },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 1 },
+			"F": { "type": "item", "code": "game:fat-rendered" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:windmillrotorud-three-up", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "W__,_M_,SFR",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
+			"M": { "type": "item", "code": "game:metalplate-{metal}" },
+			"S": { "type": "block", "code": "game:log-placed-*-ud" },
+			"F": { "type": "block", "code": "game:woodenaxle-ud" },
+			"R": { "type": "item", "code": "game:resin", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "brass", "copper", "iron", "meteoriciron", "steel", "tinbronze"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "millwright:brake-north", "quantity": 1 }
+	}
+]

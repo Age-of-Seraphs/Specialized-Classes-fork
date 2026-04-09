@@ -1,0 +1,54 @@
+[
+	{
+		"ingredientPattern": "DTD,CSC,DsD",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"T": { "type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 0 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 4 },
+			"S": { "type": "block", "code": "game:sand-*", "quantity": 1 },
+			"s": { "type": "block", "code": "game:soil-{grade}-none", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"grade": ["low", "medium"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:mudbrick-light", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "DTD,CSC,D_D",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"T": { "type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 0 },
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 2 },
+			"S": { "type": "block", "code": "game:soil-{grade}-none", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"grade": ["low", "medium"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:mudbrick-dark", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "CSC,DTD",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*", "quantity": 1 },
+			"S": { "type": "block", "code": "game:soil-low-none", "quantity": 1 },
+			"D": { "type": "item", "code": "game:drygrass", "quantity": 2 },
+			"T": { "type": "item", "code": "game:shovel-*", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 8 }
+	}
+]

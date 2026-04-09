@@ -1,0 +1,98 @@
+[
+	{
+		"file": "betterruins:config/dialogue/luxuries",
+		"op": "add",
+		"path": "/components/20/text/-",
+		"value": {
+			"value": "[Malefactor] Looking to sell anything off the books?",
+			"jumpTo": "openextratradeoffer",
+			"condition": { "variable": "player.canopenextratrade", "isValue": "1" }
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/luxuries",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradeoffer",
+			"owner": "trader",
+			"type": "talk",
+			"text": [
+				{ "value": "Discretion is a luxury in itself. See that you grant me some, and I shall extend you the same." }
+			],
+			"jumpTo": "openextratradechoice"
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/luxuries",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradechoice",
+			"owner": "player",
+			"type": "talk",
+			"text": [
+				{ "value": "Then let us conclude our business quickly.", "jumpTo": "openextratrade" },
+				{ "value": "Nevermind.", "jumpTo": "main" }
+			]
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/luxuries",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratrade",
+			"owner": "trader",
+			"trigger": "openextratrade"
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/agriculture",
+		"op": "add",
+		"path": "/components/20/text/-",
+		"value": {
+			"value": "[Malefactor] Looking to sell anything off the books?",
+			"jumpTo": "openextratradeoffer",
+			"condition": { "variable": "player.canopenextratrade", "isValue": "1" }
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/agriculture",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradeoffer",
+			"owner": "trader",
+			"type": "talk",
+			"text": [
+				{ "value": "I was gonna eat this myself, if you care to know. I suppose there's enough to go around." }
+			],
+			"jumpTo": "openextratradechoice"
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/agriculture",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradechoice",
+			"owner": "player",
+			"type": "talk",
+			"text": [
+				{ "value": "It will not go to waste.", "jumpTo": "openextratrade" },
+				{ "value": "Nevermind.", "jumpTo": "main" }
+			]
+		}
+	},
+	{
+		"file": "betterruins:config/dialogue/agriculture",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratrade",
+			"owner": "trader",
+			"trigger": "openextratrade"
+		}
+	}
+]

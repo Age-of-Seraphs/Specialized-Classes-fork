@@ -1,0 +1,215 @@
+[
+	{
+		"ingredientPattern": "GSs",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"G": {
+				"type": "item",
+				"code": "game:drygrass"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"s": {
+				"type": "item",
+				"code": "game:stone-*"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:scrapweaponkit"
+		}
+	},
+	{
+		"ingredientPattern": "S,P",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps",
+				"quantity": "2"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:metal-parts"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:torchholder-aged-empty-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,N",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-*"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:torchholder-aged-empty-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "G,M",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"G": {
+				"type": "item",
+				"code": "game:gear-rusty"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:metal-scraps",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,_K_,_S_",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:scrapweaponkit"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:axe-scrap-scrap",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,SK_,___",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:scrapweaponkit"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:club-scrap-scrap",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,_KS,___",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:scrapweaponkit"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:club-scrapmace-scrap",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,_K_,S__",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:scrapweaponkit"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:blade-scrap-scrap",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "___,_K_,__S",
+		"requiresTrait": "malefactor",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:scrapweaponkit"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:spear-scrap-scrap",
+			"quantity": 1
+		}
+	}
+]

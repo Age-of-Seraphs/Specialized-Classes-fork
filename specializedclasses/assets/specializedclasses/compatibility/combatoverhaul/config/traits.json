@@ -1,0 +1,195 @@
+[
+	{
+		"code": "co-berserker",
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": -5,
+			"meleeWeaponsDamage": 0.25,
+			"axesProficiency": 0.25,
+			"halberdsProficiency": 0.25,
+			"javelinsProficiency": 0.25
+		}
+	},
+	{
+		"code": "co-bruiser",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": -0.05,
+			"maxhealthExtraPoints": 15,
+			"meleeWeaponsDamage": 0.1,
+			"slingsProficiency": 0.45,
+			"clubsProficiency": 0.25,
+			"macesProficiency": 0.25
+		}
+	},
+	{
+		"code": "co-custodian",
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"hungerrate": -0.25,
+			"armorDurabilityLoss": -0.5,
+			"durabilitySaveChanceAllWeapons": 0.5,
+			"clubsProficiency": 0.25,
+			"quarterstaffProficiency": 0.25,
+			"firearmsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-fencer",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.05,
+			"hungerrate": -0.4,
+			"bowsProficiency": 0.45,
+			"oneHandedSwordsProficiency": 0.25,
+			"spearsProficiency": 0.25
+		}
+	},
+	{
+		"code": "co-harrier",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.2,
+			"animalSeekingRange": 1,
+			"oneHandedSwordsProficiency": 0.25,
+			"quarterstaffProficiency": 0.25,
+			"crossbowsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-laborer",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": -0.05,
+			"maxhealthExtraPoints": 5,
+			"armorHungerRateAffectedness": -0.75,
+			"armorManipulationSpeedAffectedness": -0.75,
+			"armorWalkSpeedAffectedness": -0.75,
+			"axesProficiency": 0.25,
+			"clubsProficiency": 0.25,
+			"macesProficiency": 0.25
+		}
+	},
+	{
+		"code": "co-lancer",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.1,
+			"steadyAim": 0.4,
+			"meleeDamageTierBonusPiercingAttack": 1,
+			"rangedDamageTierBonusPiercingAttack": 1,
+			"javelinsProficiency": 0.25,
+			"spearsProficiency": 0.25,
+			"crossbowsProficiency": 0.45,
+			"firearmsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-militia",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.05,
+			"maxhealthExtraPoints": 5,
+			"clubsProficiency": 0.25,
+			"javelinsProficiency": 0.25,
+			"spearsProficiency": 0.25,
+			"crossbowsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-ranger",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.1,
+			"animalSeekingRange": -0.25,
+			"steadyAim": 1,
+			"rangedDamageTierBonusBluntAttack": 1,
+			"rangedDamageTierBonusPiercingAttack": 1,
+			"rangedDamageTierBonusSlashingAttack": 1,
+			"javelinsProficiency": 0.25,
+			"bowsProficiency": 0.45,
+			"crossbowsProficiency": 0.45,
+			"firearmsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-reaver",
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": 5,
+			"meleeWeaponsDamage": 0.1,
+			"meleeDamageTierBonusSlashingAttack": 1,
+			"steadyAim": -0.4,
+			"axesProficiency": 0.25,
+			"oneHandedSwordsProficiency": 0.25,
+			"twoHandedSwordsProficiency": 0.25
+		}
+	},
+	{
+		"code": "co-rogue",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.1,
+			"animalSeekingRange": -0.75,
+			"steadyAim": 0.25,
+			"meleeWeaponsDamage": -0.1,
+			"rangedDamageTierBonusBluntAttack": 1,
+			"macesProficiency": 0.25,
+			"oneHandedSwordsProficiency": 0.25,
+			"firearmsProficiency": 0.45,
+			"slingsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-sapper",
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"meleeWeaponsDamage": 0.1,
+			"javelinsProficiency": 0.25,
+			"spearsProficiency": 0.25,
+			"firearmsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-wanderer",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": 0.2,
+			"meleeWeaponsDamage": -0.1,
+			"steadyAim": -0.1,
+			"oneHandedSwordsProficiency": 0.25,
+			"quarterstaffProficiency": 0.25,
+			"bowsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-warlord",
+		"type": "positive", // combat
+		"attributes": {
+			"walkspeed": -0.05,
+			"steadyAim": 0.25,
+			"maxhealthExtraPoints": 5,
+			"meleeWeaponsDamage": 0.2,
+			"armorHungerRateAffectedness": -0.25,
+			"armorManipulationSpeedAffectedness": -0.25,
+			"armorWalkSpeedAffectedness": -0.25,
+			"halberdsProficiency": 0.25,
+			"oneHandedSwordsProficiency": 0.25,
+			"twoHandedSwordsProficiency": 0.25,
+			"bowsProficiency": 0.45
+		}
+	},
+	{
+		"code": "co-yeoman",
+		"type": "positive", // combat
+		"attributes": {
+			"meleeWeaponsDamage": 0.15,
+			"steadyAim": 0.3,
+			"halberdsProficiency": 0.25,
+			"twoHandedSwordsProficiency": 0.25,
+			"crossbowsProficiency": 0.45
+		}
+	}
+]

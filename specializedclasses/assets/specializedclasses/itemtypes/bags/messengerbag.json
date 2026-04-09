@@ -1,0 +1,69 @@
+{
+	"code": "messengerbag",
+	"maxstacksize": 1,
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "SingleCenter",
+				"collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }
+			}
+		},
+		{
+			"name": "HeldBag"
+		}
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCode": "backpack",
+			"attachedShape": { "base": "specializedclasses:shapes/item/messengerbag-attached" }
+		},
+		"handbook": {
+			"extraSections": [
+				{
+					"title": "specializedclasses:handbooktitle-messengerbag",
+					"text": "specializedclasses:handbooktext-messengerbag"
+				}
+			]
+		},
+		"wearableAttachment": true,
+		"backpack": {
+			"quantitySlots": 10
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"]
+	},
+	"shape": {
+		"base": "specializedclasses:shapes/item/messengerbag"
+	},
+	"textures": {
+		"brass": { "base": "game:block/metal/sheet/brass1" },
+		"leather": { "base": "game:block/leather/plain" }
+	},
+	"guiTransform": {
+		"translation": { "x": 1.5, "y": -0.5, "z": 0 },
+		"rotation": { "x": -22, "y": 24, "z": 180 },
+		"origin": { "x": 0.5, "y": 0.25, "z": 0.5 },
+		"scale": 3,
+		"rotate": true
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.2
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0.2 },
+		"rotation": { "x": 20, "y": -73, "z": 10 },
+		"scale": 2.3
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.55, "y": -0.3, "z": -0.55 },
+		"rotation": { "x": -8, "y": 0, "z": 2 },
+		"scale": 1
+	},
+	"storageFlags": 2
+}

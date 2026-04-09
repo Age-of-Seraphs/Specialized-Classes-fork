@@ -1,0 +1,404 @@
+[
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:planks-ebony-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planks-agedebony" },
+		"output": {
+			"type": "block",
+			"code": "game:planks-agedebony-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:planks-agedebony-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "planks-rottenebony" },
+		"output": {
+			"type": "block",
+			"code": "game:planks-rottenebony-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:log-placed-oak-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "log-aged" },
+		"output": {
+			"type": "block",
+			"code": "game:log-placed-aged-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-aged-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-veryaged" },
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-veryaged-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-veryaged-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-rotten" },
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-rotten-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,P",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-rotten-ud",
+				"quantity": 16
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-veryrotten" },
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-veryrotten-ud",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,r",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"r": {
+				"type": "block",
+				"code": "game:stonebricks-{stonetype}",
+				"quantity": 16
+			}
+		},
+		"allowedVariants": {
+			"stonetype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "agedstonebricks" },
+		"output": {
+			"type": "block",
+			"code": "game:agedstonebricks-{stonetype}",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,r",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"r": {
+				"type": "block",
+				"code": "game:rockpolished-{rocktype}",
+				"quantity": 16
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "polishedrockold-full" },
+		"output": {
+			"type": "block",
+			"code": "game:polishedrockold-full-{rocktype}",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "R,S,r",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:sieve-linen",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"r": {
+				"type": "block",
+				"code": "game:polishedrockold-full-{rocktype}",
+				"quantity": 16
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"slate",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "polishedrockold-cobbled" },
+		"output": {
+			"type": "block",
+			"code": "game:polishedrockold-cobbled-{rocktype}",
+			"quantity": 16
+		}
+	}
+]

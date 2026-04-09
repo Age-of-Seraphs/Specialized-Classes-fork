@@ -1,0 +1,19 @@
+[
+	{
+		"ingredientPattern": "H,P,h",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:plank-{wood}" },
+			"h": { "type": "item", "code": "aculinaryartillery:bighook-{metal}", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"wood": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "aculinaryartillery:meathooks-{wood}-{metal}-east" }
+	}
+]

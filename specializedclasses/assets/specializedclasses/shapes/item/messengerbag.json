@@ -1,0 +1,130 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false,
+		"singleTexture": false,
+		"vsFormatConverted": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"brass.png": [16, 16],
+		"chromium.png": [16, 16],
+		"plain.png": [16, 16]
+	},
+	"textures": {
+		"brass.png": "game:block/metal/ingot/brass",
+		"chromium.png": "game:block/leather/chromium"
+	},
+	"elements": [
+		{
+			"name": "Bag",
+			"from": [4.5, 0, 7],
+			"to": [4.5, 0, 7],
+			"rotationOrigin": [4.5, 0, 7],
+			"children": [
+				{
+					"name": "BagCover",
+					"from": [0.1, 1.6, 0.1],
+					"to": [6.9, 5.1, 2.1],
+					"rotationOrigin": [0.27999, 0, 0],
+					"faces": {
+						"north": {"texture": "#chromium.png", "uv": [0, 0, 6.8, 3.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 1, 1, 0]},
+						"east": {"texture": "#chromium.png", "uv": [0, 0, 2, 3.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 1, 1, 0]},
+						"south": {"texture": "#chromium.png", "uv": [0, 0, 6.8, 3.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 0, 1, 1]},
+						"west": {"texture": "#chromium.png", "uv": [0, 0, 2, 3.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 0, 1, 1]},
+						"up": {"texture": "#chromium.png", "uv": [0, 0, 6.8, 2], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"down": {"texture": "#chromium.png", "uv": [0, 0, 6.8, 2], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					}
+				},
+				{
+					"name": "Fastener2",
+					"from": [5, 1.2, 1.8],
+					"to": [5.8, 2.7, 2.3],
+					"rotationOrigin": [0, 0, 0],
+					"faces": {
+						"north": {"texture": "#brass.png", "uv": [1, 6, 2.5, 6.8], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"east": {"texture": "#brass.png", "uv": [4, 2.75, 5.5, 3.25], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#brass.png", "uv": [3.375, 3.875, 4.875, 4.675], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"west": {"texture": "#brass.png", "uv": [0, 0, 0.5, 1.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"up": {"texture": "#brass.png", "uv": [3.25, 2.625, 3.75, 3.425], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#brass.png", "uv": [0, 0, 0.8, 0.5], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					}
+				},
+				{
+					"name": "Fastener1",
+					"from": [1, 1.2, 1.8],
+					"to": [1.8, 2.7, 2.3],
+					"rotationOrigin": [0, 0, 0],
+					"faces": {
+						"north": {"texture": "#brass.png", "uv": [0.875, 6.75, 2.375, 7.55], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"east": {"texture": "#brass.png", "uv": [3, 4, 4.5, 4.5], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#brass.png", "uv": [0, 0, 0.8, 1.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"west": {"texture": "#brass.png", "uv": [3, 5, 4.5, 5.5], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"up": {"texture": "#brass.png", "uv": [0, 0, 0.8, 0.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#brass.png", "uv": [0, 0, 0.8, 0.5], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					}
+				},
+				{
+					"name": "BagMain",
+					"from": [0, 0, 0],
+					"to": [7, 5, 2],
+					"rotationOrigin": [0, 0, 0],
+					"faces": {
+						"north": {"texture": "#chromium.png", "uv": [0, 0, 7, 5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#chromium.png", "uv": [0, 0, 2, 5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 1, 1, 0]},
+						"south": {"texture": "#chromium.png", "uv": [0, 0, 7, 5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 0, 1, 1]},
+						"west": {"texture": "#chromium.png", "uv": [0, 0, 2, 5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 0, 1, 1]},
+						"up": {"texture": "#chromium.png", "uv": [0, 0, 7, 2], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"down": {"texture": "#chromium.png", "uv": [0, 0, 7, 2], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					}
+				},
+				{
+					"name": "strap",
+					"from": [1, 5.5, 0.75],
+					"to": [6, 6, 1.25],
+					"rotationOrigin": [2, 4.5, 1],
+					"faces": {
+						"north": {"texture": "#chromium.png", "uv": [1, 0.5, 6, 1], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#chromium.png", "uv": [0, 0.5, 0.5, 1], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#chromium.png", "uv": [0, 0.5, 5, 1], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#chromium.png", "uv": [0, 0.5, 0.5, 1], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#chromium.png", "uv": [0, 0, 5, 0.5], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#chromium.png", "uv": [0, 0, 5, 0.5], "rotation": 180, "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "strap",
+					"from": [5.5, 5, 0.75],
+					"to": [6, 5.5, 1.25],
+					"rotationOrigin": [2, 4, 2],
+					"faces": {
+						"north": {"texture": "#brass.png", "uv": [1, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#brass.png", "uv": [0, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#brass.png", "uv": [0, 0.5, 0.5, 1], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#brass.png", "uv": [0, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#brass.png", "uv": [0, 0, 0.5, 1.5], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#brass.png", "uv": [0, 0, 0.5, 1.5], "rotation": 180, "autoUv": false, "snapUv": false}
+					}
+				},
+				{
+					"name": "strap",
+					"from": [1, 5, 0.75],
+					"to": [1.5, 5.5, 1.25],
+					"rotationOrigin": [-2.5, 4, 2],
+					"faces": {
+						"north": {"texture": "#brass.png", "uv": [1, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#brass.png", "uv": [0, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#brass.png", "uv": [0, 0.5, 0.5, 1], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#brass.png", "uv": [0, 0.5, 1.5, 1], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#brass.png", "uv": [0, 0, 0.5, 1.5], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#brass.png", "uv": [0, 0, 0.5, 1.5], "rotation": 180, "autoUv": false, "snapUv": false}
+					}
+				}
+			]
+		}
+	],
+	"animations": []
+}

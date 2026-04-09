@@ -1,0 +1,73 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path":  "/dropsByType/*/0/dropModbyStat",
+		"value": "grassDropRate",
+		"file": "game:blocktypes/plant/tallgrass.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/1/dropModbyStat",
+		"value": "grassDropRate",
+		"file": "game:blocktypes/plant/tallgrass.json",
+		"side": "server"
+	},
+	{
+		"op":  "addmerge",
+		"file": "game:blocktypes/plant/tallgrass.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "reedsRareDropChance",
+					"requiredTools": ["knife", "scythe"],
+					"excludeBlocks": ["tallgrass-eaten-*"],
+					"drops": [ 
+						{ "type": "item", "code": "game:papyrustops", "quantity": 1 }
+					]
+				},
+				{
+					"mode": "add",
+					"stat": "flaxFiberRareDropChance",
+					"requiredTools": ["knife", "scythe"],
+					"excludeBlocks": ["tallgrass-eaten-*"],
+					"drops": [
+						{ "type": "item", "code": "game:flaxfibers", "quantity": 1 }
+					]
+				},
+				{
+					"mode": "add",
+					"stat": "horsetailRareDropChance",
+					"requiredTools": ["knife", "scythe"],
+					"excludeBlocks": ["tallgrass-eaten-*"],
+					"drops": [ 
+						{ "type": "block", "code": "game:flower-horsetail-free", "quantity": 1 }
+					]
+				},
+				{
+					"mode": "add",
+					"stat": "cattailRareDropChance",
+					"requiredTools": ["knife", "scythe"],
+					"excludeBlocks": ["tallgrass-eaten-*"],
+					"drops": [
+						{ "type": "item", "code": "game:cattailtops", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+	"op": "addmerge",
+	"file": "game:blocktypes/plant/tallgrass.json",
+	"path": "/behaviorsByType",
+	"value": {
+		"*": [
+			{ "name": "DropModificationBlockBehavior" }
+		]
+	},
+	"side": "server"
+}
+]

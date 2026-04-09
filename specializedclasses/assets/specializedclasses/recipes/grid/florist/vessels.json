@@ -1,0 +1,742 @@
+[
+	{
+		"ingredientPattern": "S,b,g,g",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-ashforest",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,g,N,g",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-chthonic",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,O,O,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-copper",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,N,N,Y",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-earthen",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,W,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-rain",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,g,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-cowrie",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,g,K",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-rime",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,R,N,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"R": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-oxblood",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,K,K,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-loam",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,G,Y,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-undergrowth",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,Y,Y,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-beehive",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,G,O,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-harvest",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,G,G,Y",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-honeydew",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,b,b,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-rutile",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,b,Y,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-seasalt",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,P,P,G",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"P": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-springflowers",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,g,g,R",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"R": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-volcanic",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,Y,Y,O",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-cloisonne",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,b,b,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-cornflower",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,N,N,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-talik",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,b,W,N",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-caveaurora",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,R,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"R": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-collonade",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,g,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-rattlesnake",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,O,W,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-waves",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "S,W,W,b",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 1,
+		"height": 4,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-wintersea",
+			"quantity": 1
+		}
+	}
+]

@@ -1,0 +1,92 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/0/traits/0",
+		"value": "co-custodian"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/1/traits/0",
+		"value": "co-warlord"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/2/traits/0",
+		"value": "co-bruiser"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/3/traits/0",
+		"value": "co-reaver"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/4/traits/0",
+		"value": "co-lancer"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/5/traits/0",
+		"value": "co-militia"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/6/traits/0",
+		"value": "co-wanderer"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/7/traits/0",
+		"value": "co-berserker"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/8/traits/0",
+		"value": "co-ranger"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/9/traits/0",
+		"value": "co-rogue"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/10/traits/0",
+		"value": "co-harrier"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/11/traits/0",
+		"value": "co-laborer"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/12/traits/0",
+		"value": "co-sapper"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/13/traits/0",
+		"value": "co-fencer"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "replace",
+		"path": "/14/traits/0",
+		"value": "co-yeoman"
+	}
+]

@@ -1,0 +1,79 @@
+﻿{
+	"code": "compoundingvat",
+	"class": "BlockWorkstation",
+	"behaviors": [
+		{
+			"name": "Multiblock",
+			"propertiesByType": {
+				"*-north": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 0, "y": 0, "z": 0 } },
+				"*-east": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 0 } },
+				"*-south": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 1, "y": 0, "z": 0 } },
+				"*-west": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 1 } }
+			}
+		},
+		{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }
+	],
+	"variantgroups": [
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": {
+		"general": ["*-north"],
+		"decorative": ["*-north"]
+	},
+	"attributes": {
+		"workstationProfile": "compoundingvat",
+		"workstationCraftSound": "game:sounds/block/rock-break-pickaxe.ogg"
+	},
+	"entityClass": "Workstation",
+	"shapeByType": {
+		"*-north": { "base": "specializedclasses:shapes/block/compoundingvat", "rotateY": 0 },
+		"*-east": { "base": "specializedclasses:shapes/block/compoundingvat", "rotateY": 270 },
+		"*-south": { "base": "specializedclasses:shapes/block/compoundingvat", "rotateY": 180 },
+		"*-west": { "base": "specializedclasses:shapes/block/compoundingvat", "rotateY": 90 }
+	},
+	"textures": {
+		"ceramic": { "base": "game:block/clay/ceramic-dark" },
+		"wood": { "base": "game:block/wood/treetrunk/oak" }
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldRightReadyAnimation": "heldblockready",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	},
+	"selectionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 1,
+		"z2": 1
+	},
+	"collisionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 1,
+		"z2": 1
+	},
+	"sounds": {
+		"place": "game:sounds/thud.ogg",
+		"break": "game:sounds/thud.ogg",
+		"hit": "game:sounds/block/stone",
+		"walk": "game:sounds/walk/stone*"
+	},
+	"blockmaterial": "Stone",
+	"drawtype": "json",
+	"lightAbsorption": 0,
+	"resistance": 4,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	}
+}
+

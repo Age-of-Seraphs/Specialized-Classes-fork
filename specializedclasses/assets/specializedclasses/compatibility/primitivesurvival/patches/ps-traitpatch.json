@@ -1,0 +1,26 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/3/traits/2",
+		"value": "butcherprimitivesurvival"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/5/traits/2",
+		"value": "farmhandprimitivesurvival"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/8/traits/2",
+		"value": "hunterprimitivesurvival"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/10/traits/2",
+		"value": "messengerprimitivesurvival"
+	}
+]

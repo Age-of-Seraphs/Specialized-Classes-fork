@@ -1,0 +1,69 @@
+{
+	"code": "scrollcase",
+	"class": "ItemRestrictedBagHandbook",
+	"maxstacksize": 1,
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "SingleCenter",
+				"collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 0.375, "z2": 0.75 }
+			}
+		},
+		{
+			"name": "HeldBag"
+		}
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCode": "backpack",
+			"attachedShape": { "base": "specializedclasses:shapes/item/scrollcase-attached" }
+		},
+		"wearableAttachment": true,
+		"groundStorageTransform": {
+			"rotation": { "x": 0, "y": -180, "z": 0 }
+		},
+		"backpack": {
+			"quantitySlots": 16,
+			"storageFlags": 524288,
+			"slotBgColor": "#c8b07a"
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"]
+	},
+	"shape": {
+		"base": "specializedclasses:shapes/item/scrollcase"
+	},
+	"textures": {
+		"leather": { "base": "game:block/leather/plain" },
+		"linen": { "base": "game:item/bag/linensack/linen" }
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 10, "z": 0 },
+		"rotation": { "x": 180, "y": 51, "z": -22 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 2.17,
+		"rotate": true
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.1, "z": 0.2 },
+		"rotation": { "x": 38, "y": 12, "z": 95 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.7
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.1, "y": -0.1, "z": -0.5 },
+		"rotation": { "x": -90, "y": 0, "z": -90 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1
+	},
+	"storageFlags": 2
+}

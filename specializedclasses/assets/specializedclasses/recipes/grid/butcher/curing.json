@@ -1,0 +1,163 @@
+[
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stone-halite",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:salt",
+			"quantity": 4
+		}
+	},
+
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:salt"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:bushmeat-raw"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "cured-meat" },
+		"output": {
+			"type": "item",
+			"code": "game:bushmeat-cured"
+		}
+	},
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:salt"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:redmeat-raw"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "cured-meat" },
+		"output": {
+			"type": "item",
+			"code": "game:redmeat-cured"
+		}
+	},
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:salt"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:poultry-raw"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "cured-meat" },
+		"output": {
+			"type": "item",
+			"code": "game:poultry-cured"
+		}
+	},
+	{
+		"ingredientPattern": "S,M",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:salt"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:fish-raw"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "cured-meat" },
+		"output": {
+			"type": "item",
+			"code": "game:fish-cured"
+		}
+	},
+	{
+		"ingredientPattern": "HM,Sh",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"H": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			},
+			"M": {
+				"type": "item",
+				"code": "game:*-cured"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:salt",
+				"quantity": 4
+			},
+			"h": {
+				"type": "block",
+				"code": "game:flower-horsetail-free"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": {
+			"handbookOverviewGroup": "redmeat-vintage",
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
+				"requiresLitres": 0.25
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:redmeat-vintage",
+			"quantity": 1
+		}
+	}
+]

@@ -1,0 +1,1071 @@
+{
+  "textures": {
+	"whitemarble": "game:block/stone/rock/whitemarble1",
+	"redmarble": "game:block/stone/rock/redmarble1"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        6.0,
+        0.0,
+        6.0
+      ],
+      "to": [
+        10.0,
+        1.0,
+        10.0
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin": [
+        6.0,
+        0.0,
+        6.0
+      ],
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "Cube2",
+          "from": [
+            -0.5,
+            0.5,
+            -0.5
+          ],
+          "to": [
+            3.5,
+            1.5,
+            0.5
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "children": [
+            {
+              "name": "Cube3",
+              "from": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "to": [
+                4.5,
+                3.0,
+                0.5
+              ],
+              "shade": true,
+              "faces": {
+                "north": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "west": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                },
+                "down": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "renderPass": -1,
+              "renderInEditor": true
+            }
+          ],
+          "renderInEditor": true
+        },
+        {
+          "name": "Cube4",
+          "from": [
+            3.5,
+            0.5,
+            -0.5
+          ],
+          "to": [
+            7.5,
+            1.5,
+            0.5
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            4.0,
+            1.0,
+            0.0
+          ],
+          "rotationY": -90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "children": [
+            {
+              "name": "Cube5",
+              "from": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "to": [
+                4.5,
+                3.0,
+                0.5
+              ],
+              "shade": true,
+              "faces": {
+                "north": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "west": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                },
+                "down": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "renderPass": -1,
+              "renderInEditor": true
+            }
+          ],
+          "renderInEditor": true
+        },
+        {
+          "name": "Cube6",
+          "from": [
+            3.5,
+            0.5,
+            3.5
+          ],
+          "to": [
+            7.5,
+            1.5,
+            4.5
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            4.0,
+            1.0,
+            4.0
+          ],
+          "rotationY": -180.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "children": [
+            {
+              "name": "Cube7",
+              "from": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "to": [
+                4.5,
+                3.0,
+                0.5
+              ],
+              "shade": true,
+              "faces": {
+                "north": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "west": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                },
+                "down": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "renderPass": -1,
+              "renderInEditor": true
+            }
+          ],
+          "renderInEditor": true
+        },
+        {
+          "name": "Cube8",
+          "from": [
+            -0.5,
+            0.5,
+            3.5
+          ],
+          "to": [
+            3.5,
+            1.5,
+            4.5
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#redmarble",
+              "uv": [
+                -4.0,
+                0.0,
+                -3.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#redmarble",
+              "uv": [
+                0.0,
+                0.0,
+                4.0,
+                1.0
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            1.0,
+            4.0
+          ],
+          "rotationY": 90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "children": [
+            {
+              "name": "Cube9",
+              "from": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "to": [
+                4.5,
+                3.0,
+                0.5
+              ],
+              "shade": true,
+              "faces": {
+                "north": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "west": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    0.5,
+                    2.0
+                  ],
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                },
+                "down": {
+                  "texture": "#whitemarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    4.5,
+                    0.5
+                  ],
+                  "enabled": true
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "renderPass": -1,
+              "renderInEditor": true
+            }
+          ],
+          "renderInEditor": true
+        }
+      ],
+      "renderInEditor": true
+    },
+    {
+      "name": "pestle",
+      "from": [
+        8.15,
+        2.0,
+        6.6556
+      ],
+      "to": [
+        9.15,
+        5.0,
+        7.6556
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          "enabled": true
+        },
+        "east": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          "enabled": true
+        },
+        "south": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          "enabled": true
+        },
+        "west": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          "enabled": true
+        },
+        "up": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": true
+        },
+        "down": {
+          "texture": "#whitemarble",
+          "uv": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "enabled": true
+        }
+      },
+      "rotationOrigin": [
+        8.0,
+        2.0,
+        7.0
+      ],
+      "rotationX": -22.5,
+      "rotationZ": -22.5,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "renderPass": -1,
+      "children": [
+        {
+          "name": "Cube10",
+          "from": [
+            -0.25,
+            -0.60000002384185791,
+            -0.25
+          ],
+          "to": [
+            1.25,
+            0.39999997615814209,
+            1.25
+          ],
+          "shade": true,
+          "faces": {
+            "north": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            },
+            "east": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            },
+            "south": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            },
+            "west": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            },
+            "up": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            },
+            "down": {
+              "texture": "#whitemarble",
+              "uv": [
+                0.0,
+                0.0,
+                1.5,
+                1.5
+              ],
+              "enabled": true
+            }
+          },
+          "rotationOrigin": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "renderPass": -1,
+          "children": [
+            {
+              "name": "Cube",
+              "from": [
+                0.0,
+                -0.5,
+                0.0
+              ],
+              "to": [
+                1.5,
+                0.0,
+                1.5
+              ],
+              "shade": true,
+              "faces": {
+                "north": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                },
+                "east": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                },
+                "south": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                },
+                "west": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                },
+                "up": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                },
+                "down": {
+                  "texture": "#redmarble",
+                  "uv": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0
+                  ],
+                  "enabled": true
+                }
+              },
+              "rotationOrigin": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scaleX": 1.0,
+              "scaleY": 1.0,
+              "scaleZ": 1.0,
+              "renderPass": -1,
+              "renderInEditor": true
+            }
+          ],
+          "renderInEditor": true
+        }
+      ],
+      "renderInEditor": true
+    }
+  ],
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "whitemarble": [
+      16,
+      16
+    ],
+    "redmarble": [
+      16,
+      16
+    ]
+  }
+}

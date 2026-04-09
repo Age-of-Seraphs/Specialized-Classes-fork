@@ -1,0 +1,14 @@
+[
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/3/traits/2",
+		"value": "butcherfoodshelves"
+	},
+	{
+		"file": "specializedclasses:config/characterclasses.json",
+		"op": "addmerge",
+		"path": "/14/traits/2",
+		"value": "vintnerfoodshelves"
+	}
+]

@@ -1,0 +1,95 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"charred.png": [32, 32],
+		"granite1.png": [32, 32]
+	},
+	"textures": {
+		"charred.png": "game:block/wood/charred",
+		"granite1.png": "game:block/stone/rock/granite1"
+	},
+	"elements": [
+		{
+			"name": "spindle",
+			"from": [8, 0, 8],
+			"to": [8, 0, 8],
+			"rotationOrigin": [8, 0, 8],
+			"children": [
+				{
+					"name": "tool",
+					"from": [1, 1, 0],
+					"to": [1, 1, 0],
+					"rotationOrigin": [1, 1, 0],
+					"rotationY": -45,
+					"rotationZ": -5.5,
+					"children": [
+						{
+							"name": "weight",
+							"from": [-7.75, -1.5, -1],
+							"to": [-6.75, 1.5, 2],
+							"rotationOrigin": [-6.25, 0, 0.5],
+							"faces": {
+								"north": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "rotation": 180, "autoUv": false, "snapUv": false}
+							}
+						},
+						{
+							"name": "weight",
+							"from": [-6.75, -1.25, -0.75],
+							"to": [-6.25, 1.25, 1.75],
+							"rotationOrigin": [-5.75, 0, 0.5],
+							"faces": {
+								"north": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "rotation": 180, "autoUv": false, "snapUv": false}
+							},
+							"shade": false
+						},
+						{
+							"name": "weight",
+							"from": [-6.25, -1, -0.5],
+							"to": [-6, 1, 1.5],
+							"rotationOrigin": [-5.75, 0, 0.5],
+							"faces": {
+								"north": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#granite1.png", "uv": [0, 0, 3, 3], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#granite1.png", "uv": [0, 0, 1, 3], "rotation": 180, "autoUv": false, "snapUv": false}
+							},
+							"shade": false
+						},
+						{
+							"name": "stick",
+							"from": [-8, -0.5, 0],
+							"to": [5, 0.25, 0.75],
+							"rotationOrigin": [-8, -0.5, 0],
+							"faces": {
+								"north": {"texture": "#charred.png", "uv": [0, 3.5, 13, 4], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#charred.png", "uv": [1.5, 3, 2, 3.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#charred.png", "uv": [0, 13, 13, 13.5], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#charred.png", "uv": [1, 3.5, 1.5, 4], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#charred.png", "uv": [0, 12.5, 13, 13], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#charred.png", "uv": [0, 2.5, 13, 3], "rotation": 180, "autoUv": false, "snapUv": false}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": []
+}

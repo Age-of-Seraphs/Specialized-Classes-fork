@@ -1,0 +1,58 @@
+[
+	{
+		"ingredientPattern": "FFF,FRF,FFF",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:chest-east",
+			"attributes": {
+				"type": "normal-generic"
+			}
+		}
+	},
+	{
+		"ingredientPattern": "SWW,WNW,WWW",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"W": {
+				"type": "item",
+				"code": "game:plank-*"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:chest-east",
+			"attributes": {
+				"type": "normal-generic"
+			},
+			"quantity": 2
+		}
+	}
+]

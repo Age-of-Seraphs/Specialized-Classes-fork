@@ -1,0 +1,19 @@
+[
+	{
+		"code": "hunterbutchering",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "butcherbutchering",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "hauler",
+		"type": "positive", // positive
+		"attributes": {
+			"animalCarryingEfficiencyMul": 0.5
+		}
+	}
+]

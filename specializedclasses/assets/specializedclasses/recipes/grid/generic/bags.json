@@ -1,0 +1,119 @@
+[
+	{
+		"ingredientPattern": "SBS,SPS,SSS",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 1 },
+			"B": { "type": "item", "code": "game:ingot-brass", "quantity": 1 },
+			"P": { "type": "item", "code": "game:metalplate-steel", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:messengerbag", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "LL,RB,LL",
+		"requiresTrait": "archivist",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"R": { "type": "item", "code": "game:rod-{metal}", "quantity": 1 },
+			"B": { "type": "item", "code": "game:ingot-brass", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "copper", "cupronickel", "electrum", "gold", "iron", "meteoriciron", "silver", "steel", "tinbronze"]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:scrollcase", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LL,RB,LL",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"R": { "type": "item", "code": "game:rod-{metal}", "quantity": 1 },
+			"B": { "type": "item", "code": "game:ingot-brass", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "copper", "cupronickel", "electrum", "gold", "iron", "meteoriciron", "silver", "steel", "tinbronze"]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:scrollcase", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "RBF,LCL",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"B": { "type": "item", "code": "game:metalplate-brass", "quantity": 1 },
+			"F": { "type": "item", "code": "game:fat-rendered", "quantity": 1 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"C": { "type": "block", "code": "game:crate", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:insulatedcrate", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "RBF,LCL",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"B": { "type": "item", "code": "game:metalplate-brass", "quantity": 1 },
+			"F": { "type": "item", "code": "game:fat-rendered", "quantity": 1 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"C": { "type": "block", "code": "game:crate", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:insulatedcrate", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "S_,Ll",
+		"requiresTrait": "brickmaker",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-{fertility}-none", "quantity": 1 },
+			"L": { "type": "item", "code": "game:linensack", "quantity": 1 },
+			"l": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"fertility": ["compost", "high", "low", "medium", "verylow"]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:soilbag", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "S_,Ll",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:soil-{fertility}-none", "quantity": 1 },
+			"L": { "type": "item", "code": "game:linensack", "quantity": 1 },
+			"l": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"fertility": ["compost", "high", "low", "medium", "verylow"]
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "specializedclasses:soilbag", "quantity": 1 }
+	}
+]

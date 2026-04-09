@@ -1,0 +1,65 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-main1/0/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-main1/1/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-main1/2/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-main1/3/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-main1/4/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/1/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/2/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/3/dropModbyStat",
+		"value": "locustNestDropRate",
+		"file": "game:blocktypes/locustnest/stalagmite.json",
+		"side": "server"
+	}
+]

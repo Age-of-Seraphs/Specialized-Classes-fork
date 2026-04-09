@@ -1,0 +1,161 @@
+[
+	{
+		"ingredientPattern": "R,I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:vegetable-*",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "R,I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:fruit-*",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 68,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "R,I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:grain-*",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "R,I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:mushroom-*",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 2
+		}
+	},
+
+	{
+		"ingredientPattern": "R,I,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rot",
+				"quantity": 1
+			},
+			"I": {
+				"type": "item",
+				"code": "game:seeds-*",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 71,
+		"output": {
+			"type": "item",
+			"code": "game:rot",
+			"quantity": 2
+		}
+	}
+]

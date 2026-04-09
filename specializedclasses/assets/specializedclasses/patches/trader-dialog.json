@@ -1,0 +1,98 @@
+[
+	{
+		"file": "game:config/dialogue/trader",
+		"op": "add",
+		"path": "/components/20/text/-",
+		"value": {
+			"value": "[Malefactor] Looking to sell anything off the books?",
+			"jumpTo": "openextratradeoffer",
+			"condition": { "variable": "player.canopenextratrade", "isValue": "1" }
+		}
+	},
+	{
+		"file": "game:config/dialogue/trader",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradeoffer",
+			"owner": "trader",
+			"type": "talk",
+			"text": [
+				{ "value": "The Hanseatic League need not hear of this arrangement. In return, I can be... accommodating." }
+			],
+			"jumpTo": "openextratradechoice"
+		}
+	},
+	{
+		"file": "game:config/dialogue/trader",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradechoice",
+			"owner": "player",
+			"type": "talk",
+			"text": [
+				{ "value": "My lips are sealed.", "jumpTo": "openextratrade" },
+				{ "value": "Nevermind.", "jumpTo": "main" }
+			]
+		}
+	},
+	{
+		"file": "game:config/dialogue/trader",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratrade",
+			"owner": "trader",
+			"trigger": "openextratrade"
+		}
+	},
+	{
+		"file": "game:config/dialogue/treasurehunter",
+		"op": "add",
+		"path": "/components/20/text/-",
+		"value": {
+			"value": "[Malefactor] Looking to sell anything off the books?",
+			"jumpTo": "openextratradeoffer",
+			"condition": { "variable": "player.canopenextratrade", "isValue": "1" }
+		}
+	},
+	{
+		"file": "game:config/dialogue/treasurehunter",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradeoffer",
+			"owner": "trader",
+			"type": "talk",
+			"text": [
+				{ "value": "Ha. I like your nerve. I've got a few pieces on my last expedition to take home, but for the right price..." }
+			],
+			"jumpTo": "openextratradechoice"
+		}
+	},
+	{
+		"file": "game:config/dialogue/treasurehunter",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratradechoice",
+			"owner": "player",
+			"type": "talk",
+			"text": [
+				{ "value": "I can afford it.", "jumpTo": "openextratrade" },
+				{ "value": "Nevermind.", "jumpTo": "main" }
+			]
+		}
+	},
+	{
+		"file": "game:config/dialogue/treasurehunter",
+		"op": "add",
+		"path": "/components/-",
+		"value": {
+			"code": "openextratrade",
+			"owner": "trader",
+			"trigger": "openextratrade"
+		}
+	}
+]

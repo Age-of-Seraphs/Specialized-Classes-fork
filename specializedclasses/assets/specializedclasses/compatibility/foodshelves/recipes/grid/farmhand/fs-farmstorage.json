@@ -1,0 +1,32 @@
+[
+	{
+		"ingredientPattern": "PCP,PSP",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"C": { "type": "item", "code": "game:drygrass", "quantity": 16 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "foodshelves:floursack-normal-east" }
+	},
+
+	{
+		"ingredientPattern": "PRP,SGS,P_P",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood", "quantity": 2 },
+			"R": { "type": "item", "code": "game:rope" },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+			"G": { "type": "item", "code": "game:clearquartz" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "foodshelves:ceilingjar-normal" }
+	}
+]

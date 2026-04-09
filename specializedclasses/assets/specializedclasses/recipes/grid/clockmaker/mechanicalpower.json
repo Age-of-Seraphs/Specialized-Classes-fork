@@ -1,0 +1,709 @@
+[
+	{
+		"ingredientPattern": "___,_C_,RSF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:windmillrotor-wood-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "___,_C_,RSF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:windmillrotor-wood-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "__,C_,SF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-{wood}-ud"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:woodenaxle-ud",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "__,C_,SF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:woodenaxle-ud",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "___,PCP,RSF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:angledgears-s",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "___,PCP,RSF",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:angledgears-s",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "___,C__,SFR",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"F": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:brake-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "___,C__,SFR",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"F": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:brake-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "__P,CP_,PR_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-{wood}"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:helvehammerbase-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_CR,PAP,_F_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 4
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 4
+			},
+			"A": {
+				"type": "block",
+				"code": "game:woodenaxle-ud"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:woodentoggle-ns",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,PRS,AAA",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 2
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 12
+			},
+			"A": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:largegearsection-wood",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,PAS,RF_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 8
+			},
+			"A": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:clutch-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,PAS,RF_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 8
+			},
+			"A": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:clutch-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,GPG,RF_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"G": {
+				"type": "block",
+				"code": "game:angledgears-s"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-{wood}",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:transmission-ns",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "W_,X_,C_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"X": {
+				"type": "item",
+				"code": "game:metalplate-{metal}"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chutesection-*"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuthbronze",
+				"blackbronze",
+				"copper",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:archimedesscrew-straight",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "W_,X_,C_",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"W": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"X": {
+				"type": "item",
+				"code": "game:metalplate-{metal}"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chutesection-*"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"bismuthbronze",
+				"blackbronze",
+				"copper",
+				"iron",
+				"meteoriciron",
+				"steel",
+				"tinbronze"
+			]
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:archimedesscrew-ported-north",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,SLS,R_F",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 8
+			},
+			"L": {
+				"type": "block",
+				"code": "game:log-placed-*-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:spurgear-s",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_C_,SLS,R_F",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:wrench-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 8
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ud"
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:fat-rendered"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:spurgear-s",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "RBR,BAB,RBR",
+		"requiresTrait": "clockmaker",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:rod-{metal}",
+				"quantity": 1
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bracket-heavy-{metal}",
+				"quantity": 1
+			},
+			"A": {
+				"type": "block",
+				"code": "game:supportbeam-{wood}"
+			}
+		},
+		"allowedVariants": {
+			"metal": [
+				"iron",
+				"meteoriciron",
+				"steel"
+			],
+			"wood": [
+				"ebony",
+				"kapok",
+				"maple",
+				"oak",
+				"purpleheart",
+				"redwood",
+				"walnut"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:windmillrotor-metal-north",
+			"quantity": 2
+		}
+	}
+]

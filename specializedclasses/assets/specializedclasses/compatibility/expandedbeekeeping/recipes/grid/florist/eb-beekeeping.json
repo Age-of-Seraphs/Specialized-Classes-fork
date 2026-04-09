@@ -1,0 +1,88 @@
+[
+	{
+		"ingredientPattern": "FSF,SSS,FSF",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick" },
+			"F": { "type": "item", "code": "game:cattailtops" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:hiveframe-empty", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "FSF,SSS,FSF",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick" },
+			"F": { "type": "item", "code": "game:papyrustops" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:hiveframe-empty", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "PPP,PRP,S_S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"R": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:broodbox", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "PPP,PRP,S_S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"R": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:broodbox", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "PNP,P_P,SSS",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:firewood" },
+			"N": { "type": "item", "code": "game:rope" },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:apiary", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "SPS,_PS",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:nugget-nativecopper", "quantity": 5 },
+			"S": { "type": "item", "code": "game:stick" }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "expandedbeekeeping:hivesmoker-copper-empty", "quantity": 1 }
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"ingredientPattern": "LPL",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:log-placed-{wood}-ud", "quantity": 1 },
+			"P": { "type": "item", "code": "primitivesurvival:cordage", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"wood": ["acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"]
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "primitivesurvival:floatingdock-{wood}-ns", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "PLP",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"P": { "type": "item", "code": "primitivesurvival:cordage", "quantity": 1 },
+			"L": { "type": "block", "code": "game:log-*", "allowedVariants": ["placed-birch-ud", "placed-oak-ud", "placed-maple-ud", "placed-pine-ud", "placed-acacia-ud", "placed-kapok-ud", "placed-baldcypress-ud", "placed-larch-ud", "placed-redwood-ud", "placed-ebony-ud", "placed-walnut-ud", "placed-purpleheart-ud"], "quantity": 1 }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "primitivesurvival:raft-north", "quantity": 1 }
+	}
+]

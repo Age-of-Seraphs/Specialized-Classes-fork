@@ -1,0 +1,320 @@
+[
+	{ // gear should be sorted in this order: head, shoulder, upperbody, upperbodyover, lowerbody, foot, neck, emblem, face, arm, hand, belt. ignore nadiya- prefix for sake of this sorting
+		"enabled": true,
+		"code": "archivist",
+		"traits": [
+			"custodian", // combat
+			"archivist", // crafting
+			"curator", // positive
+			"clutterer", // positive
+			"steward", // positive
+			"unphased", // positive
+			"uncultured" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-scribe" }, // Scribe hood
+			{ "type": "item", "code": "game:clothes-upperbody-earth-toned-robe" }, // Earth toned robe
+			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" }, // Blackguard leggings
+			{ "type": "item", "code": "game:clothes-foot-scribe" }, // Scribe shoes
+			{ "type": "item", "code": "game:clothes-face-glasses" }, // Plain glasses
+			{ "type": "item", "code": "game:clothes-hand-scribe" }, // Scribe gloves
+			{ "type": "item", "code": "game:clothes-waist-scribe" } // Scribe belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "blackguard",
+		"traits": [
+			"warlord", // combat
+			"blackguard", // crafting
+			"merciless", // vanilla crafting
+			"blacksmith", // positive
+			"heatproof", // positive
+			"uncultured", // negative
+			"sheltered" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" }, // Blacksmith apron
+			{ "type": "item", "code": "game:clothes-upperbody-miner" }, // Miner shirt
+			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" }, // Blackguard leggings
+			{ "type": "item", "code": "game:clothes-foot-forlorn-shoes" }, // Forlorn Hope shoes
+			{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" }, // Blackguard pin
+			{ "type": "item", "code": "game:clothes-hand-forlorn-bracer" }, // Forlorn Hope bracer
+			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" } // Blackguard belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "brickmaker",
+		"traits": [
+			"bruiser", // combat
+			"brickmaker", // crafting
+			"improviser", // vanilla crafting
+			"delver", // positive
+			"ceramist", // positive
+			"kilnhand", // positive
+			"sheltered" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" }, // Clockmaker pants
+			{ "type": "item", "code": "game:clothes-foot-marketeer" }, // Marketeer shoes
+			{ "type": "item", "code": "game:clothes-hand-survivor" }, // Survivor gloves
+			{ "type": "item", "code": "game:clothes-waist-rottenking" } // Rotten king belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "butcher",
+		"traits": [
+			"reaver", // combat
+			"butcher", // crafting
+			"preserver", // positive
+			"thorough", // positive
+			"rancher", // positive
+			"uncultured", // negative
+			"uneducated" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-rawhidemantle" }, // Rawhide mantle
+			{ "type": "item", "code": "game:clothes-upperbodyover-surgeon" }, // Barber surgeon apron
+			{ "type": "item", "code": "game:clothes-lowerbody-surgeon" }, // Barber surgeon pants
+			{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" }, // Blackguard shoes
+			{ "type": "item", "code": "game:clothes-hand-fur-gloves" }, // Fur gloves
+			{ "type": "item", "code": "game:clothes-waist-heavy-tool-belt" } // Heavy tool belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "clockmaker",
+		"traits": [
+			"lancer", // combat
+			"clockmaker", // crafting
+			"tinkerer", // vanilla crafting
+			"dismantler", // positive
+			"engineer", // positive
+			"attuned", // positive
+			"crafter", // positive
+			"uncultured" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" }, // Clockmaker apron
+			{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" }, // Clockmaker shirt
+			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" }, // Homespun pants
+			{ "type": "item", "code": "game:clothes-foot-clockmaker-shoes" }, // Clockmaker felt shoes
+			{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" }, // Clockmaker wristguard
+			{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" } // Clockmaker toolbelt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "farmhand",
+		"traits": [
+			"militia", // combat
+			"farmhand", // crafting
+			"fisherman", // positive
+			"harvester", // positive
+			"tiller", // positive
+			"fertilizer", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-bamboo-conehat-large" }, // Bamboo cone hat (large)
+			{ "type": "item", "code": "game:clothes-shoulder-surgeon" }, // Barber surgeon mantle
+			{ "type": "item", "code": "game:clothes-upperbodyover-marketeer" }, // Marketeer tunic
+			{ "type": "item", "code": "game:clothes-lowerbody-surgeon" }, // Barber surgeon pants
+			{ "type": "item", "code": "game:clothes-foot-high-leather-boots" }, // High leather boots
+			{ "type": "item", "code": "game:clothes-nadiya-face-grain" }, // Piece of straw
+			{ "type": "item", "code": "game:clothes-waist-forlorn-belt" } // Forlorn Hope belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "florist",
+		"traits": [
+			"wanderer", // combat
+			"florist", // crafting
+			"herbalist", // positive
+			"plucker", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-fortune-tellers-scarf" }, // Fortune teller scarf
+			{ "type": "item", "code": "game:clothes-shoulder-aristocrat-mantle" }, // Aristocrat mantle
+			{ "type": "item", "code": "game:clothes-lowerbody-aristocrat-leggings" }, // Aristocrat leggings
+			{ "type": "item", "code": "game:clothes-foot-noble-shoes" }, // Noble shoes
+			{ "type": "item", "code": "game:clothes-nadiya-neck-maple-amulet" }, // Maple amulet
+			{ "type": "item", "code": "game:clothes-hand-noble-riding-gloves" }, // Noble riding gloves
+			{ "type": "item", "code": "game:clothes-waist-fortune-teller-hip-scarf" } // Fortune teller hip scarf
+		]
+	},
+	{
+		"enabled": true,
+		"code": "forester",
+		"traits": [
+			"berserker", // combat
+			"forester", // crafting
+			"collier", // positive
+			"lumberjack", // positive
+			"nurseryworker", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" }, // Hunter shirt
+			{ "type": "item", "code": "game:clothes-lowerbody-merchant-pants" }, // Merchant pants
+			{ "type": "item", "code": "game:clothes-foot-nomad-boots" }, // Nomad boots
+			{ "type": "item", "code": "game:clothes-neck-acorn-amulet" }, // Acorn amulet
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" }, // Malefactor wrapped gloves
+			{ "type": "item", "code": "game:clothes-waist-noble-sash" } // Noble sash
+		]
+	},
+	{
+		"enabled": true,
+		"code": "hunter",
+		"traits": [
+			"ranger", // combat
+			"hunter", // crafting
+			"bowyer", // vanilla crafting
+			"carver", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-shepherds-cowl" }, // Shepherd cowl
+			{ "type": "item", "code": "game:clothes-shoulder-longsleeve-pearl-moonrobe" }, // Longsleeve pearl moonrobe
+			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" }, // Hunter shirt
+			{ "type": "item", "code": "game:clothes-upperbodyover-huntsmans-tunic" }, // Huntsmans tunic
+			{ "type": "item", "code": "game:clothes-lowerbody-minstrel-pants" }, // Minstrel pants
+			{ "type": "item", "code": "game:clothes-foot-wool-lined-knee-high-boots" }, // Wool lined knee-high boots
+			{ "type": "item", "code": "game:clothes-face-hunter-mask" } // Hunter face mask
+		]
+	},
+	{
+		"enabled": true,
+		"code": "malefactor",
+		"traits": [
+			"rogue", // combat
+			"malefactor", // crafting
+			"improviser", // vanilla crafting
+			"smuggler", // positive
+			"sneak", // positive
+			"thief", // positive
+			"restrained", // positive
+			"uncultured" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" }, // Malefactor heavy cloak
+			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" }, // Blackguard shirt
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" }, // Malefactor trousers
+			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" }, // Malefactor wrapped boots
+			{ "type": "item", "code": "game:clothes-neck-malefactor-pendant" }, // Malefactor bloody pendant
+			{ "type": "item", "code": "game:clothes-face-malefactor-mask" }, // Malefactor whitewood mask
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" }, // Malefactor wrapped gloves
+			{ "type": "item", "code": "game:clothes-waist-malefactor-sash" } // Malefactor sash
+		]
+	},
+	{
+		"enabled": true,
+		"code": "messenger",
+		"traits": [
+			"harrier", // combat
+			"messenger", // crafting
+			"roadlayer", // positive
+			"swift", // positive
+			"sheltered" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-squire-hood" }, // Squire hood
+			{ "type": "item", "code": "game:clothes-shoulder-minstrel-coat" }, // Minstrel coat
+			{ "type": "item", "code": "game:clothes-upperbody-messenger-shirt" }, // Messenger shirt
+			{ "type": "item", "code": "game:clothes-foot-tigh-high-boots" }, // Thigh-high boots (misspelled in game code)
+			{ "type": "item", "code": "game:clothes-emblem-messenger-pin" }, // Messenger pin
+			{ "type": "item", "code": "game:clothes-hand-minstrel-gloves" }, // Minstrel gloves
+			{ "type": "item", "code": "game:clothes-waist-aristocrat-belt" } // Aristrocrat sash
+		]
+	},
+	{
+		"enabled": true,
+		"code": "quarrier",
+		"traits": [
+			"laborer", // combat
+			"quarrier", // crafting
+			"ascetic", // positive
+			"stonecutter", // positive
+			"tunneler", // positive
+			"sheltered" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-stained-leather-poncho" }, // Stained leather poncho
+			{ "type": "item", "code": "game:clothes-upperbody-woolen-shirt" }, // Woolen shirt
+			{ "type": "item", "code": "game:clothes-lowerbody-miner" }, // Miner pants
+			{ "type": "item", "code": "game:clothes-foot-metalcap-boots" }, // Metalcap boots
+			{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask" }, // Leather reinforced mask
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" }, // Heavy leather gloves
+			{ "type": "item", "code": "game:clothes-waist-heavy-belt" } // Heavy belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "spelunker",
+		"traits": [
+			"sapper", // combat
+			"spelunker", // crafting
+			"panner", // positive
+			"prospector", // positive
+			"uncultured", // negative
+			"sheltered" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbodyover-forgotten" }, // Forgotten noble robe
+			{ "type": "item", "code": "game:clothes-lowerbody-reindeer-herder-trousers" }, // Reindeer herder trousers
+			{ "type": "item", "code": "game:clothes-foot-survivor" }, // Survivor boots
+			{ "type": "item", "code": "game:clothes-neck-japamala" }, // Japamala
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" }, // Heavy leather gloves
+			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" } // Blackguard belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "tailor",
+		"traits": [
+			"fencer", // combat
+			"tailor", // crafting
+			"clothier", // vanilla crafting
+			"bespoke", // positive
+			"thresher", // positive
+			"weaver", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-tailor-blouse" }, // Tailor blouse
+			{ "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" }, // Tailor jacket
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" }, // Tailor trousers
+			{ "type": "item", "code": "game:clothes-foot-tailor-shoes" }, // Tailor shoes
+			{ "type": "item", "code": "game:clothes-face-tailor-mask" }, // Tailor mask
+			{ "type": "item", "code": "game:clothes-arm-tailor-needlepuff" }, // Tailor needle puff
+			{ "type": "item", "code": "game:clothes-hand-tailor-gloves" }, // Tailor gloves
+			{ "type": "item", "code": "game:clothes-waist-tailor-belt" } // Tailor belt
+		]
+	},
+	{
+		"enabled": true,
+		"code": "vintner",
+		"traits": [
+			"yeoman", // combat
+			"vintner", // crafting
+			"gatherer", // positive
+			"grafter", // positive
+			"picker", // positive
+			"delicate" // negative
+		],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-straw-hat" }, // Straw hat
+			{ "type": "item", "code": "game:clothes-upperbody-great-steppe-shirt" }, // Great Steppe shirt
+			{ "type": "item", "code": "game:clothes-upperbodyover-great-steppe-mantle" }, // Great Steppe mantle
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" }, // Commoner trousers
+			{ "type": "item", "code": "game:clothes-foot-great-steppe-boots" }, // Great Steppe boots
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" } // Linen rope
+		]
+	}
+]
+
+

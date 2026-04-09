@@ -1,0 +1,33 @@
+[
+	{
+		"ingredientPattern": "H,S,F",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "butchering:toolhead-arrow-bone",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:{reeds}tops",
+				"quantity": 1
+			}
+		},
+		"allowedVariants": {
+			"reeds": ["cattail", "papyrus"]
+		},
+		"width": 1,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "butchering:arrow-bone",
+			"quantity": 1
+		}
+	}
+]

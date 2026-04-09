@@ -1,0 +1,102 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/0/dropModbyStat",
+		"value": "panningStoneDropRate",
+		"file": "game:blocktypes/wood/pan.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributes/panningDrops",
+		"value": {
+			"carbonaceouspaydirt*": [
+				{ "type": "item", "code": "ore-lignite", "chance": { "avg": 0.12, "var": 0 } },
+				{ "type": "item", "code": "ore-bituminouscoal", "chance": { "avg": 0.08, "var": 0 } },
+				{ "type": "item", "code": "ore-anthracite", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "clay-red", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "clay-blue", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "clay-fire", "chance": { "avg": 0.01, "var": 0 } },
+				{ "type": "item", "code": "stone-chalk", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "ore-sulfur", "chance": { "avg": 0.02, "var": 0 } }
+			],
+			"crystallinepaydirt*": [
+				{ "type": "item", "code": "ore-quartz", "chance": { "avg": 0.12, "var": 0 } },
+				{ "type": "item", "code": "ore-lapislazuli", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "ore-borax", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "stone-obsidian", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "flint", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "ore-olivine", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "ore-alum", "chance": { "avg": 0.03, "var": 0 } },
+				{ "type": "item", "code": "ore-sylvite", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "ore-cinnabar", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "clearquartz", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "rosequartz", "chance": { "avg": 0.01, "var": 0 } },
+				{ "type": "item", "code": "amethyst", "chance": { "avg": 0.01, "var": 0 } },
+				{ "type": "item", "code": "smokyquartz", "chance": { "avg": 0.01, "var": 0 } },
+				{ "type": "item", "code": "gem-emerald-rough", "chance": { "avg": 0.008, "var": 0 }, "attributes": { "potential": "low" } },
+				{ "type": "item", "code": "gem-diamond-rough", "chance": { "avg": 0.004, "var": 0 }, "attributes": { "potential": "low" } },
+				{ "type": "item", "code": "gem-olivine_peridot-rough", "chance": { "avg": 0.01, "var": 0 }, "attributes": { "potential": "low" } }
+			],
+			"metallicpaydirt*": [
+				{ "type": "item", "code": "nugget-nativecopper", "chance": { "avg": 0.12, "var": 0 } },
+				{ "type": "item", "code": "nugget-nativegold", "chance": { "avg": 0.03, "var": 0 } },
+				{ "type": "item", "code": "nugget-nativesilver", "chance": { "avg": 0.03, "var": 0 } },
+				{ "type": "item", "code": "nugget-cassiterite", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "nugget-galena", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "nugget-sphalerite", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "nugget-bismuthinite", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "nugget-limonite", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "nugget-magnetite", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "nugget-hematite", "chance": { "avg": 0.04, "var": 0 } },
+				{ "type": "item", "code": "nugget-malachite", "chance": { "avg": 0.05, "var": 0 } },
+				{ "type": "item", "code": "stone-bauxite", "chance": { "avg": 0.03, "var": 0 } },
+				{ "type": "item", "code": "nugget-chromite", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "nugget-ilmenite", "chance": { "avg": 0.02, "var": 0 } },
+				{ "type": "item", "code": "nugget-pentlandite", "chance": { "avg": 0.02, "var": 0 } }
+			]
+		},
+		"file": "game:blocktypes/wood/pan.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributes/panningDrops/carbonaceouspaydirt*",
+		"value": [
+			{ "type": "item", "code": "ore-graphite", "chance": { "avg": 0.04, "var": 0 } },
+			{ "type": "item", "code": "ore-phosphorite", "chance": { "avg": 0.03, "var": 0 } }
+		],
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"file": "game:blocktypes/wood/pan.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributes/panningDrops/crystallinepaydirt*",
+		"value": [
+			{ "type": "item", "code": "ore-corundum", "chance": { "avg": 0.04, "var": 0 } },
+			{ "type": "item", "code": "ore-kernite", "chance": { "avg": 0.03, "var": 0 } },
+			{ "type": "item", "code": "ore-fluorite", "chance": { "avg": 0.04, "var": 0 } }
+		],
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"file": "game:blocktypes/wood/pan.json",
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributes/panningDrops/metallicpaydirt*",
+		"value": [
+			{ "type": "item", "code": "nugget-rhodochrosite", "chance": { "avg": 0.02, "var": 0 } },
+			{ "type": "item", "code": "nugget-uranium", "chance": { "avg": 0.01, "var": 0 } }
+		],
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"file": "game:blocktypes/wood/pan.json",
+		"side": "Server"
+	}
+]

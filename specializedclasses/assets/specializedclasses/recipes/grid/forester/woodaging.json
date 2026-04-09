@@ -1,0 +1,266 @@
+[
+	{
+		"ingredientPattern": "__,_K,L_",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:debarkedlog-acacia-ud"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "carvedlog-bottom-plain" },
+		"output": {
+			"type": "block",
+			"code": "game:carvedlog-acacia-aged-bottom-plain-ud",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "__,LK,__",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:debarkedlog-acacia-ud"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "carvedlog-middle-plain" },
+		"output": {
+			"type": "block",
+			"code": "game:carvedlog-acacia-aged-middle-plain-ud",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "L_,_K,__",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"L": {
+				"type": "block",
+				"code": "game:debarkedlog-acacia-ud"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "carvedlog-top-plain" },
+		"output": {
+			"type": "block",
+			"code": "game:carvedlog-acacia-aged-top-plain-ud",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "K,L",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:carvedlog-acacia-aged-{part}-plain-ud"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "carvedlog-fancy" },
+		"output": {
+			"type": "block",
+			"code": "game:carvedlog-acacia-aged-{part}-fancy-ud",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:planks-ebony-ud",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "planks-agedebony" },
+		"output": {
+			"type": "block",
+			"code": "game:planks-agedebony-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:planks-agedebony-ud",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "planks-rottenebony" },
+		"output": {
+			"type": "block",
+			"code": "game:planks-rottenebony-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:log-placed-oak-ud",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "log-aged" },
+		"output": {
+			"type": "block",
+			"code": "game:log-placed-aged-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-aged-ud",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-veryaged" },
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-veryaged-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-veryaged-ud",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-rotten" },
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-rotten-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "F,P",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:firewood" },
+			"P": { "type": "block", "code": "game:debarkedlog-rotten-ud", "quantity": 8 }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "debarkedlog-veryrotten" },
+		"output": { "type": "block", "code": "game:debarkedlog-veryrotten-ud", "quantity": 8 }
+	},
+	{
+		"ingredientPattern": "F,f",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"f": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 8
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "agedfirewood" },
+		"output": {
+			"type": "item",
+			"code": "game:agedfirewood",
+			"quantity": 8
+		}
+	}
+]

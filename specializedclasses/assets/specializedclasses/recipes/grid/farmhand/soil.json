@@ -1,0 +1,166 @@
+[
+	{
+		"ingredientPattern": "CBP,HS_",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hoe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-verylow-none",
+				"quantity": 64
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:soil-low-none",
+			"quantity": 64
+		}
+	},
+	{
+		"ingredientPattern": "CBP,HS_",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hoe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-low-none",
+				"quantity": 16
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:soil-medium-none",
+			"quantity": 16
+		}
+	},
+	{
+		"ingredientPattern": "CBP,HS_",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hoe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-medium-none",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:soil-compost-none",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "CBP,HS_",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hoe-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"S": {
+				"type": "block",
+				"code": "game:soil-compost-none",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "game:soil-high-none",
+			"quantity": 1
+		}
+	}
+]

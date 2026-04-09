@@ -1,0 +1,9 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/drops/0/dropModbyStat",
+		"value": "clayDropRate",
+		"file": "game:blocktypes/soil/clay.json",
+		"side": "Server"
+	}
+]

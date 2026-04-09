@@ -1,0 +1,233 @@
+[
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "tags": ["size-small"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "game:hide-scraped-small", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "tags": ["size-medium"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "game:hide-scraped-medium", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "tags": ["size-large"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "game:hide-scraped-large", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "tags": ["size-huge"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "game:hide-scraped-huge", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-soaked-*", "quantity": 1, "tags": ["size-small"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "item", "code": "game:hide-scraped-small", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-soaked-*", "quantity": 1, "tags": ["size-medium"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "item", "code": "game:hide-scraped-medium", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-soaked-*", "quantity": 1, "tags": ["size-large"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "item", "code": "game:hide-scraped-large", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,K,P",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"P": { "type": "item", "code": "game:hide-soaked-*", "quantity": 1, "tags": ["size-huge"] }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": { "type": "item", "code": "game:hide-scraped-huge", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-raw-*", "name": "hide", "quantity": 1, "tags": ["size-small"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-raw-*", "name": "hide", "quantity": 1, "tags": ["size-medium"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-raw-*", "name": "hide", "quantity": 1, "tags": ["size-large"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-raw-*", "name": "hide", "quantity": 1, "tags": ["size-huge"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 69,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-salted-*", "name": "hide", "quantity": 1, "tags": ["size-small"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-salted-*", "name": "hide", "quantity": 1, "tags": ["size-medium"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-salted-*", "name": "hide", "quantity": 1, "tags": ["size-large"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "F,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-salted-*", "name": "hide", "quantity": 1, "tags": ["size-huge"] }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 70,
+		"output": { "type": "item", "code": "game:hide-oiled-{hide}", "quantity": 1 }
+	}
+]

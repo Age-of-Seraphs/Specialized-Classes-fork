@@ -1,0 +1,65 @@
+[
+	{
+		"ingredientPattern": "SHP,HRH,PHP",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "alchemy:herbrackhook-{metal}", "quantity": 2 },
+			"P": { "type": "item", "code": "game:plank-{wood}" },
+			"R": { "type": "item", "code": "alchemy:herbracktop-{metal}" }
+		},
+		"allowedVariants": {
+			"metal": ["bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "cupronickel", "electrum", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "nickel", "platinum", "silver", "stainlesssteel", "steel", "tin", "tinbronze", "titanium", "uranium", "zinc"]
+		},
+		"skipVariants": {
+			"wood": ["aged", "veryaged"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "alchemy:herbrack-{wood}-{metal}", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "Q_Q,QSQ,QQQ",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz" },
+			"S": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "alchemy:potionflask-normal-plain", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "_Q_,QSQ,_Q_",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz" },
+			"S": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "alchemy:potionflask-round-plain", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "S,Q,Q",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:club-generic-*", "isTool": true, "toolDurabilityCost": 0 },
+			"Q": { "type": "item", "code": "game:clearquartz" }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "alchemy:potionflask-tube-plain", "quantity": 2 }
+	}
+]

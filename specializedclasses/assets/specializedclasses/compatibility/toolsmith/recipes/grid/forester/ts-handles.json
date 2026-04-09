@@ -1,0 +1,29 @@
+[
+	{
+		"ingredientPattern": "A,H",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true },
+			"H": { "type": "item", "code": "toolsmith:crudehandle" }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "toolsmith:handle", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "S,H",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"H": { "type": "item", "code": "toolsmith:handle" }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "toolsmith:carpentedhandle", "quantity": 1 }
+	}
+]

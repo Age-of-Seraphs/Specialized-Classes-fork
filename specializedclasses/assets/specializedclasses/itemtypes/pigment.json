@@ -1,0 +1,71 @@
+{
+	"code": "pigment",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "color",
+			"states": ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"]
+		}
+	],
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Quadrants",
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }
+			}
+		}
+	],
+	"attributes": {
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": -38, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.46
+		},
+		"pigmentByType": {
+			"*-black": { "name": "Floral black", "color": { "red": 41, "green": 41, "blue": 41 } },
+			"*-blue": { "name": "Floral blue", "color": { "red": 6, "green": 59, "blue": 114 } },
+			"*-brown": { "name": "Floral brown", "color": { "red": 81, "green": 35, "blue": 5 } },
+			"*-gray": { "name": "Floral gray", "color": { "red": 88, "green": 88, "blue": 88 } },
+			"*-green": { "name": "Floral green", "color": { "red": 61, "green": 85, "blue": 39 } },
+			"*-orange": { "name": "Floral orange", "color": { "red": 162, "green": 68, "blue": 11 } },
+			"*-pink": { "name": "Floral pink", "color": { "red": 124, "green": 48, "blue": 100 } },
+			"*-purple": { "name": "Floral purple", "color": { "red": 81, "green": 10, "blue": 162 } },
+			"*-red": { "name": "Floral red", "color": { "red": 162, "green": 10, "blue": 39 } },
+			"*-white": { "name": "Floral white", "color": { "red": 169, "green": 169, "blue": 169 } },
+			"*-yellow": { "name": "Floral yellow", "color": { "red": 162, "green": 131, "blue": 10 } }
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"],
+		"items": ["*"]
+	},
+	"shape": {
+		"base": "specializedclasses:shapes/item/pigment"
+	},
+	"textures": {
+		"bowl": { "base": "game:block/wood/debarked/oak" },
+		"pigment": { "base": "specializedclasses:item/pigment_{color}" }
+	},
+	"guiTransform": {
+		"translation": { "x": -3, "y": -8, "z": 0 },
+		"rotation": { "x": 42, "y": 86, "z": 104 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+		"scale": 1.51
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.98, "y": -0.95, "z": -1.13 },
+		"rotation": { "x": -95, "y": -3, "z": -100 },
+		"scale": 0.4
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.32, "z": 0 },
+		"rotation": { "x": 1, "y": -61, "z": 1 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 2.36
+	},
+	"heldRightTpIdleAnimationByType": {
+		"*": "holdinglanternrighthand"
+	}
+}

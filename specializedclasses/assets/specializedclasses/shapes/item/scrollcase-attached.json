@@ -1,0 +1,136 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Quill/AppData/Roaming/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"brass.png": [32,32],
+		"plain.png": [16,16],
+		"chromium.png": [16,16]
+	},
+	"textures": {
+		"plain.png": "game:block/leather/chromium",
+		"chromium.png": "game:block/leather/chromium",
+		"brass.png": "game:block/metal/ingot/brass"
+	},
+	"elements": [
+		{
+			"name": "scrollcase",
+			"stepParentName": "UpperTorso",
+			"from": [ 6.0, -5.0, 5.0 ],
+			"to": [ 6.0, -5.0, 5.0 ],
+			"rotationOrigin": [ 6.0, -5.0, 5.0 ],
+			"rotationY": -90.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "main",
+					"from": [ -0.75, 0.0, -0.75 ],
+					"to": [ 0.75, 10.0, 0.75 ],
+					"faces": {
+						"north": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.5, 8.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#chromium.png", "uv": [ 1.5, 8.0, 0.0, 0.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.5, 8.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.5, 8.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "lid",
+					"from": [ -0.9, 10.0, -0.9 ],
+					"to": [ 0.9, 11.0, 0.9 ],
+					"faces": {
+						"north": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.6 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 1.6, 1.6 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "strap",
+					"from": [ -0.25, 0.25, 0.75 ],
+					"to": [ 0.25, 9.75, 1.0 ],
+					"faces": {
+						"north": { "texture": "#plain.png", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#plain.png", "uv": [ 0.0, 0.0, 0.25, 8.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#plain.png", "uv": [ 0.0, 0.0, 1.0, 9.5 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#plain.png", "uv": [ 1.75, 0.0, 2.0, 8.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#plain.png", "uv": [ 0.0, 1.75, 1.0, 2.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#plain.png", "uv": [ 0.0, 0.0, 1.0, 0.25 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "handle",
+					"from": [ -0.25, 7.0, -1.5 ],
+					"to": [ 0.25, 9.0, -1.0 ],
+					"rotationOrigin": [ -0.25, 7.0, -1.5 ],
+					"rotationX": 22.5,
+					"faces": {
+						"north": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#chromium.png", "uv": [ 0.875, 1.875, 1.375, 3.875 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#chromium.png", "uv": [ 0.25, 0.0, 0.75, 2.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "handle",
+					"from": [ -0.2, 5.25, -1.45 ],
+					"to": [ 0.2, 7.0, -1.05 ],
+					"rotationOrigin": [ -0.25, 5.0, -1.5 ],
+					"faces": {
+						"north": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#brass.png", "uv": [ 0.875, 1.875, 1.375, 3.875 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#brass.png", "uv": [ 0.25, 0.0, 0.75, 2.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "handle",
+					"from": [ -0.25, 3.5, -0.75 ],
+					"to": [ 0.25, 5.5, -0.25 ],
+					"rotationOrigin": [ -0.25, 3.5, -0.75 ],
+					"rotationX": -22.5,
+					"faces": {
+						"north": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#chromium.png", "uv": [ 0.875, 1.875, 1.375, 3.875 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#chromium.png", "uv": [ 0.25, 0.0, 0.75, 2.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#chromium.png", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "clasp",
+					"from": [ -0.25, 9.6, -1.0 ],
+					"to": [ 0.25, 10.4, -0.75 ],
+					"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 0.8 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#brass.png", "uv": [ 1.75, 0.0, 2.0, 0.8 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 0.8 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.25, 0.8 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#brass.png", "uv": [ 0.0, 0.0, 0.5, 0.25 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#brass.png", "uv": [ 0.0, 1.75, 0.5, 2.0 ], "rotation": 180, "autoUv": false, "snapUv": false }
+					}
+				}
+			]
+		}
+	]}

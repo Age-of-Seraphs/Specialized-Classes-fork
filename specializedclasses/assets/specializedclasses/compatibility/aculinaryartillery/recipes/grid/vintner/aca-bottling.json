@@ -1,0 +1,44 @@
+[
+	{
+		"ingredientPattern": "FSF,FSF,FSR",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:firewood" },
+			"S": { "type": "item", "code": "game:stick" },
+			"R": { "type": "item", "code": "game:rope" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "aculinaryartillery:bottlerack-aged-aged-north", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "C,_,G",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 0 },
+			"G": { "type": "block", "code": "game:glassslab-{color}-down-free" }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "aculinaryartillery:bottle-glass-{color}-fired", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "C,F",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 0 },
+			"F": { "type": "item", "code": "game:firewood" }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "aculinaryartillery:cork-generic", "quantity": 16 }
+	}
+]

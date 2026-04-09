@@ -1,0 +1,62 @@
+[
+	{
+		"ingredientPattern": "S,B,L",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:powder-sulfur"
+			},
+			"B": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:bandage-clean"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "game:honeyportion"
+				},
+				"requiresLitres": 0.1
+			}
+		},
+		"output": {
+			"type": "item",
+			"code": "game:poultice-linen-honey-sulfur",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "H,L",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"H": {
+				"type": "block",
+				"code": "game:flower-horsetail-free",
+				"quantity": 1
+			},
+			"L": {
+				"type": "item",
+				"code": "game:bandage-clean"
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:poultice-linen-horsetail",
+			"quantity": 4
+		}
+	}
+]

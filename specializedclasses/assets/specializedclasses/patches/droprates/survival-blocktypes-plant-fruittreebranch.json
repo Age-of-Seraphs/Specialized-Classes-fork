@@ -1,0 +1,9 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*-branch/0/dropModbyStat",
+		"value": "fruitTreeDropRate",
+		"file": "game:blocktypes/plant/fruittreebranch.json",
+		"side": "server"
+	}
+]

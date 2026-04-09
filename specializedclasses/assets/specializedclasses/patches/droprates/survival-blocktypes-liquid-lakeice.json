@@ -1,0 +1,28 @@
+﻿[
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/liquid/lakeice.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "self",
+					"stat": "lakeIceRareDropChance"
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/liquid/lakeice.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+

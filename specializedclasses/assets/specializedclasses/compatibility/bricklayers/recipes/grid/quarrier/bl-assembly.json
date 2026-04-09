@@ -1,0 +1,120 @@
+[
+	{
+		"ingredientPattern": "T,C",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": { "type": "item", "code": "bricklayers:stonerawtile-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:stonetile-normal-{stone}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "T,C",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": { "type": "item", "code": "bricklayers:stonerawtileshiny-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:stonetile-shiny-{stone}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_T_,TCT,TTT",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": { "type": "item", "code": "bricklayers:stonerawtile-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:stonetiles-dull-{stone}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_T_,TCT,TTT",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"T": { "type": "item", "code": "bricklayers:stonerawtileshiny-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:stonetiles-polished-{stone}", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "LLL,LCL,LLL",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"L": { "type": "item", "code": "bricklayers:smallstonebrick-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:smallstonebricks-{stone}", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "LCL,LLL",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"L": { "type": "item", "code": "bricklayers:smallstonebrick-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:smallstonebrickslab-{stone}-down-free", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "_LL,LCL,LLL",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"L": { "type": "item", "code": "bricklayers:smallstonebrick-{stone}" },
+			"C": { "type": "item", "code": "game:clay-{clay}", "quantity": 2 }
+		},
+		"allowedVariants": {
+			"clay": ["blue", "fire", "red"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "bricklayers:smallstonebrickstairs-{stone}-up-north-free", "quantity": 2 }
+	}
+]

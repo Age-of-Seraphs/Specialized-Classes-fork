@@ -1,0 +1,15 @@
+[
+	{
+		"ingredientPattern": "SPS",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "quantity": 1 },
+			"P": { "type": "item", "code": "primitivesurvival:cordage", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "primitivesurvival:fishbasket-north", "quantity": 1 }
+	}
+]

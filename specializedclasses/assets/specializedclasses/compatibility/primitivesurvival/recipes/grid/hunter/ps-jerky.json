@@ -1,0 +1,46 @@
+[
+	{
+		"ingredientPattern": "C,K,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "game:bushmeat-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:jerky-bushmeat-raw", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "C,K,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "game:redmeat-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:jerky-redmeat-raw", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "C,K,H",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:club-generic-wood", "isTool": true, "toolDurabilityCost": 0 },
+			"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 },
+			"H": { "type": "item", "code": "primitivesurvival:fishfillet-raw", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "primitivesurvival:jerky-fish-raw", "quantity": 8 }
+	}
+]

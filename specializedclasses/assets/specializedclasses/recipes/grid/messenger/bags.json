@@ -1,0 +1,318 @@
+[
+	{
+		"ingredientPattern": "RKR,RRR",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:cattailtops"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:basket-normal-reed",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "RKR,RRR",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:papyrustops"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:basket-normal-papyrus",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-small",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-medium",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-large",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 69,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-huge",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-bear-*-body",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "_K_,CPC,CCC",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			},
+			"C": {
+				"type": "item",
+				"code": "game:*tops",
+				"quantity": 3
+			},
+			"P": {
+				"type": "item",
+				"code": "game:hide-pelt-bear-*-complete",
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 70,
+		"output": {
+			"type": "item",
+			"code": "game:hunterbackpack",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "f,F,K",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"f": {
+				"type": "item",
+				"code": "game:flaxfibers"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flaxtwine",
+				"quantity": 3
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:linensack",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "LK,LL,L_",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:backpack-normal",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SK,SS,SS",
+		"requiresTrait": "messenger",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain"
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "game:backpack-sturdy",
+			"quantity": 1
+		}
+	}
+]

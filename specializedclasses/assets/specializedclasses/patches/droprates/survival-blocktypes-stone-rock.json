@@ -1,0 +1,52 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "stoneDropRate",
+		"file": "game:blocktypes/stone/rock.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/rock-suevite/0/dropModbyStat",
+		"value": "stoneDropRate",
+		"file": "game:blocktypes/stone/rock.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/rock.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "self",
+					"stat": "rockRareDropChance"
+				},
+				{
+					"mode": "add",
+					"stat": "saltRareDropChance",
+					"drops": [
+						{ "type": "item", "code": "game:salt", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/stone/rock.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
+
+
+
+

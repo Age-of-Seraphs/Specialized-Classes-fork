@@ -1,0 +1,955 @@
+﻿{
+	// specializedclasses: class names and descriptions
+	"game:characterclass-archivist": "Archivist",
+	"game:characterdesc-archivist": "<font color=\"#99c9f9\"><i>\"History is written by the victors. Yes, you see the quill in my hand, don't you? Best watch yourself, then.\"\n</i></font><br><br>Archivists are lorekeepers and archeologists. They can handle cracked vessels and clutter with utmost care, and their attunement to the past lets them ward off temporal instability with ease.",
+
+	"game:characterclass-blackguard": "Blackguard",
+	"game:characterdesc-blackguard": "<font color=\"#99c9f9\"><i>\"You need to strike the iron while it's hot? Clearly you're just not hitting it hard enough.\"\n</i></font><br><br>Blackguards are warriors and smiths. They're intimately familiar with weapons and armor, both their creation and their use. They thrive where the fight is, forging their own armaments to carry into battle.",
+
+	"game:characterclass-brickmaker": "Brickmaker",
+	"game:characterdesc-brickmaker": "<font color=\"#99c9f9\"><i>\"What do you mean, I've only just scratched the surface? I certainly don't see a need to go any deeper.\"\n</i></font><br><br>Brickmakers are excavators and potters. They can terraform swathes of land with relative ease, claiming all of the earth's bounties. Then they shape the clay they gather into building materials and other useful ceramics.",
+
+	"game:characterclass-butcher": "Butcher",
+	"game:characterdesc-butcher": "<font color=\"#99c9f9\"><i>\"The way to the heart is through the stomach. I don't think whoever said that is very familiar with anatomy, but it certainly feels good to keep people fed.\"\n</i></font><br><br>Butchers are cooks and... well, butchers. They know better than anyone how to make the most of a carcass. While they might prefer chopping up beasts, they're equally skilled at harvesting monsters, though they prefer to use the former in their cured meats.",
+
+	"game:characterclass-clockmaker": "Clockmaker",
+	"game:characterdesc-clockmaker": "<font color=\"#99c9f9\"><i>\"Measure twice, cut once? Just measure correctly the first time, are you stupid?\"\n</i></font><br><br>Clockmakers are tinkerers and engineers. From intricate mechanisms to massive mechanical power systems, they're always happy to tinker.",
+
+	"game:characterclass-commoner": "Commoner",
+	"game:characterdesc-commoner": "<font color=\"#99c9f9\"><i>\"Good enough is good enough, surprisingly.\"\n</i></font><br><br>The Commoner is an odd one out by virtue of being a generalist. Surrounded by true experts, their lack of ambition leaves them unusually efficient in comparison, getting by without needing to worry about food nearly as much as most.",
+
+	"game:characterclass-farmhand": "Farmhand",
+	"game:characterdesc-farmhand": "<font color=\"#99c9f9\"><i>\"Yeah, I'd say I'm quite familiar with reaping what I sow. That's… kind of the whole thing I do here. Why do you ask?\"\n</i></font><br><br>Farmhands are cultivators and masters of agriculture. To them, a single patch of wild crop can be the beginning of swathes of grain and vegetables growing from well-fertilized fields, single-handedly providing entire villages with nutrition.",
+
+	"game:characterclass-florist": "Florist",
+	"game:characterdesc-florist": "<font color=\"#99c9f9\"><i>\"Why can't I stop and smell the flowers, too? All my bees are doing it…\"\n</i></font><br><br>Florists are beekeepers and herbalists. Eager to keep their allies in good health, they can gather ingredients for simple cures from grass in a pinch. Given time, they can propagate flowers to keep their bees happy, whose honey is used for quality medicine.",
+
+	"game:characterclass-forester": "Forester",
+	"game:characterdesc-forester": "<font color=\"#99c9f9\"><i>\"I've never done anything but go against the grain. It's worked out great for me, so why should I stop now?\"\n</i></font><br><br>Foresters are woodcutters and carpenters. They can gather lumber sustainably, getting enough saplings to always replace what they cut down. They always have enough fuel to brave the winters, and what they don't use they carve into useful materials.",
+
+	"game:characterclass-hunter": "Hunter",
+	"game:characterdesc-hunter": "<font color=\"#99c9f9\"><i>\"A little birdie told you? Uhm… no, they can't talk. Believe me, I've tried.\"\n</i></font><br><br>Hunters are skilled marksmen and leatherworkers. They take out even the most fearsome predators from a safe distance and expertly process their hides into pelts and leather alike.",
+
+	"game:characterclass-malefactor": "Malefactor",
+	"game:characterdesc-malefactor": "<font color=\"#99c9f9\"><i>\"I've got sticky fingers? Duh, it's not like I carry soap around.\"\n</i></font><br><br>Malefactors are merchants and rogues. Often former criminals, their skills have never quite left them. Both wild beasts and monsters seem to nearly ignore them as they delve into ruins to plunder valuable rusty gears and other abandoned resources.",
+
+	"game:characterclass-messenger": "Messenger",
+	"game:characterdesc-messenger": "<font color=\"#99c9f9\"><i>\"That arrow nearly hit me! Don't you people know anything!? You're NOT supposed to shoot the messenger!\"\n</i></font><br><br>Messengers are pathfinders and couriers. They lay and maintain roads between points of interest, which they then travel between to run errands like delivering items and spreading notices.",
+
+	"game:characterclass-quarrier": "Quarrier",
+	"game:characterdesc-quarrier": "<font color=\"#99c9f9\"><i>\"I don't understand what everybody's complaining about. Moving mountains is easy, just do it one part at a time.\"\n</i></font><br><br>Quarriers are laborers and stonemasons. They smash through rock with heavy hands, often splitting it off whole. They don't mind if they shatter ore in the process - stone is most valuable to them, as they can craft a great many building materials from it.",
+
+	"game:characterclass-spelunker": "Spelunker",
+	"game:characterdesc-spelunker": "<font color=\"#99c9f9\"><i>\"Leave no stone unturned? That's what you said. Oh, you didn't mean it literally?\"\n</i></font><br><br>Spelunkers are prospectors and cavern explorers. They're always chasing the glimmer of precious metals and can find them with ease within rock and gravel alike, pickaxe in one hand and a pan in the other.",
+
+	"game:characterclass-tailor": "Tailor",
+	"game:characterdesc-tailor": "<font color=\"#99c9f9\"><i>\"We're cut from the same cloth? Well, one of us is going to have to change.\"\n</i></font><br><br>Tailors are weavers and clothiers. Given time, they can weave usable fibers from even the crudest grass, and then refine those fibers into a wide variety of clothing both practical and pretty for themselves and others to wear.",
+
+	"game:characterclass-vintner": "Vintner",
+	"game:characterdesc-vintner": "<font color=\"#99c9f9\"><i>\"Things get better with age? Uhm, yeah. Just look at me.\"\n</i></font><br><br>Vintners are winemakers and gatherers. While they appreciate the finer things in life, they can get by just fine by taking what they need from nature, something they often find themselves doing while waiting on drinks to ferment.",
+
+	
+	// specializedclasses: combat role traits [#9966ff]
+	"game:trait-berserker": "<font color=\"#9966ff\">• Berserker </font>",
+	"game:traitname-berserker": "Berserker",
+
+	"game:trait-bruiser": "<font color=\"#9966ff\">• Bruiser </font>",
+	"game:traitname-bruiser": "Bruiser",
+
+	"game:trait-custodian": "<font color=\"#9966ff\">• Custodian </font>",
+	"game:traitname-custodian": "Custodian",
+
+	"game:trait-fencer": "<font color=\"#9966ff\">• Fencer </font>",
+	"game:traitname-fencer": "Fencer",
+
+	"game:trait-harrier": "<font color=\"#9966ff\">• Harrier </font>",
+	"game:traitname-harrier": "Harrier",
+
+	"game:trait-laborer": "<font color=\"#9966ff\">• Laborer </font>",
+	"game:traitname-laborer": "Laborer",
+
+	"game:trait-lancer": "<font color=\"#9966ff\">• Lancer </font>",
+	"game:traitname-lancer": "Lancer",
+
+	"game:trait-militia": "<font color=\"#9966ff\">• Militia </font>",
+	"game:traitname-militia": "Militia",
+
+	"game:trait-ranger": "<font color=\"#9966ff\">• Ranger </font>",
+	"game:traitname-ranger": "Ranger",
+
+	"game:trait-reaver": "<font color=\"#9966ff\">• Reaver </font>",
+	"game:traitname-reaver": "Reaver",
+
+	"game:trait-rogue": "<font color=\"#9966ff\">• Rogue </font>",
+	"game:traitname-rogue": "Rogue",
+
+	"game:trait-sapper": "<font color=\"#9966ff\">• Sapper </font>",
+	"game:traitname-sapper": "Sapper",
+
+	"game:trait-wanderer": "<font color=\"#9966ff\">• Wanderer </font>",
+	"game:traitname-wanderer": "Wanderer",
+
+	"game:trait-warlord": "<font color=\"#9966ff\">• Warlord </font>",
+	"game:traitname-warlord": "Warlord",
+
+	"game:trait-yeoman": "<font color=\"#9966ff\">• Yeoman </font>",
+	"game:traitname-yeoman": "Yeoman",
+
+	// specializedclasses: crafting traits [#99d6ff]
+	"game:trait-archivist": "<font color=\"#99d6ff\">• Archivist </font>",
+	"game:traitname-archivist": "Archivist",
+	"game:traitdesc-archivist": "<a href=\"handbook://specializedclasses:class-archivist\">Can recycle clutter into rot, can recycle lore items into parchment, can use rot to make aged wooden and stone building blocks, can make paper lanterns, and can craft the unique scroll case backpack</a>",
+
+	"game:trait-blackguard": "<font color=\"#99d6ff\">• Blackguard </font>",
+	"game:traitname-blackguard": "Blackguard",
+	"game:traitdesc-blackguard": "<a href=\"handbook://specializedclasses:class-blackguard\">Can forge broken blackguard armor from scrap, can make cheaper forges and bellows, and has access to the brass swage block, to craft metal bits into metal crafting components in bulk</a>",
+
+	"game:trait-brickmaker": "<font color=\"#99d6ff\">• Brickmaker </font>",
+	"game:traitname-brickmaker": "Brickmaker",
+	"game:traitdesc-brickmaker": "<a href=\"handbook://specializedclasses:class-brickmaker\">Can form clay into bricks, shingles and tiles in bulk using molds, can obtain lime more efficiently, and can use lime directly in mortar and plaster. Can make twice as many mudbricks and raw daub, and can craft the unique soil bag backpack</a>",
+
+	"game:trait-butcher": "<font color=\"#99d6ff\">• Butcher </font>",
+	"game:traitname-butcher": "Butcher",
+	"game:traitdesc-butcher": "<a href=\"handbook://specializedclasses:class-butcher\">Can craft cheaper and earlier kitchen and ranching tools, can obtain salt more efficiently, can cure meats by hand, can create vintage beef, can cheaply craft shelf-stable universal animal feed, and can craft the unique insulated crate backpack</a>",
+
+	"game:trait-clockmaker": "<font color=\"#99d6ff\">• Clockmaker </font>",
+	"game:traitname-clockmaker": "Clockmaker",
+	"game:traitdesc-clockmaker": "<a href=\"handbook://specializedclasses:class-clockmaker\">Can carve mechanical power components at double yield, can fry a base return teleporter to turn a rusty gear into a temporal gear, and can repair fried base return teleporters with any jonas part. Can use the tinkerer&apos;s workstation to make metal parts and jonas parts out of cupronickel</a>",
+
+	"game:trait-farmhand": "<font color=\"#99d6ff\">• Farmhand </font>",
+	"game:traitname-farmhand": "Farmhand",
+	"game:traitdesc-farmhand": "<a href=\"handbook://specializedclasses:class-farmhand\">Can grind up fertilizer components more efficiently, can hoe charcoal, bonemeal and compost through soil to permanently improve its fertility, can make stinkbait more efficiently</a>",
+
+	"game:trait-florist": "<font color=\"#99d6ff\">• Florist </font>",
+	"game:traitname-florist": "Florist",
+	"game:traitdesc-florist": "<a href=\"handbook://specializedclasses:class-florist\">Can degrade soil fertility to duplicate flowers. Can create color pigments and use them to paint paintings, vessels, flowerpots, planters, and wallpaper. Can make cheaper linen poultices, can make filled beenades. Can use the sprouting table to turn saplings and compost into leaves, and can propagate flowers with compost there as well</a>",
+
+	"game:trait-forester": "<font color=\"#99d6ff\">• Forester </font>",
+	"game:traitname-forester": "Forester",
+	"game:traitdesc-forester": "<a href=\"handbook://specializedclasses:class-forester\">Can carve boards early with a knife. Can craft boards and firewood more efficiently, and can carve boards into sticks. Can craft charcoal directly out of firewood. Can create aged wooden building blocks using firewood. Can use the woodcarving table to craft unworked logs into a multitude of wooden objects  and building blocks directly</a>",
+
+	"game:trait-hunter": "<font color=\"#99d6ff\">• Hunter </font>",
+	"game:traitname-hunter": "Hunter",
+	"game:traitdesc-hunter": "<a href=\"handbook://specializedclasses:class-hunter\">Can turn pelts into scraped hides, and can turn soaked hides into twice as many scraped hides. Can use reeds as fletching for arrows, and carve bones into bone arrows</a>",
+
+	"game:trait-malefactor": "<font color=\"#99d6ff\">• Malefactor </font>",
+	"game:traitname-malefactor": "Malefactor",
+	"game:traitdesc-malefactor": "<a href=\"handbook://specializedclasses:class-malefactor\">Can create scrap weapon kits out of stones, sticks, and grass. Can make aged torch holders out of scrap and nails, and can recycle rusty gears into metal scrap</a>",
+
+	"game:trait-messenger": "<font color=\"#99d6ff\">• Messenger </font>",
+	"game:traitname-messenger": "Messenger",
+	"game:traitdesc-messenger": "<a href=\"handbook://specializedclasses:class-messenger\">Can create specialist bags, has cheaper recipes for normal bags, and exclusive access to the 10-slot messenger bag. Has cheaper recipes for lanterns, paths, and roads. Has exclusive access to the 1.5x asphalt road</a>",
+
+	"game:trait-quarrier": "<font color=\"#99d6ff\">• Quarrier </font>",
+	"game:traitname-quarrier": "Quarrier",
+	"game:traitdesc-quarrier": "<a href=\"handbook://specializedclasses:class-quarrier\">Can create a variety of aged and otherwise rare stone building blocks. Can use clay instead of mortar to assemble stone bricks. Can break rock into stones, gravel, and sand, and can assemble 8 stones back into solid rock. Can use the stonecutting bench to make a multitude of stone building blocks directly</a>",
+
+	"game:trait-spelunker": "<font color=\"#99d6ff\">• Spelunker </font>",
+	"game:traitname-spelunker": "Spelunker",
+	"game:traitdesc-spelunker": "<a href=\"handbook://specializedclasses:class-spelunker\">Can more efficiently process minerals like sulfur, lime, salt, borax, and salt. Can make saltpeter out of compost and lime. Can make bombs with much less linen. Can make exclusive metallic, crystalline or carbonaceous paydirt to aim for certain panning outputs</a>",
+
+	"game:trait-tailor": "<font color=\"#99d6ff\">• Tailor </font>",
+	"game:traitname-tailor": "Tailor",
+	"game:traitdesc-tailor": "<a href=\"handbook://specializedclasses:class-tailor\">Can craft a spindle to more effectively spin flax fibers and papyrus from grass, flax twine from flax fibers, and rope from reeds and vines</a>",
+
+	"game:trait-vintner": "<font color=\"#99d6ff\">• Vintner </font>",
+	"game:traitname-vintner": "Vintner",
+	"game:traitdesc-vintner": "<a href=\"handbook://specializedclasses:class-vintner\">Can craft cheaper and earlier liquid storage and processing, can turn quartz into clear quartz, and can make bush cuttings out of berries and high fertility soil. Can use the sprouting table with compost to turn fruits into bush or tree cuttings</a>",
+
+	"game:trait-bowyer": "<font color=\"#99d6ff\">• Bowyer </font>",
+	"game:traitname-bowyer": "Bowyer",
+
+	"game:trait-clothier": "<font color=\"#99d6ff\">• Clothier </font>",
+	"game:traitname-clothier": "Clothier",
+
+	"game:trait-improviser": "<font color=\"#99d6ff\">• Improviser </font>",
+	"game:traitname-improviser": "Improviser",
+
+	"game:trait-merciless": "<font color=\"#99d6ff\">• Merciless </font>",
+	"game:traitname-merciless": "Merciless",
+
+	"game:trait-tinkerer": "<font color=\"#99d6ff\">• Tinkerer </font>",
+	"game:traitname-tinkerer": "Tinkerer",
+
+	// specializedclasses: positive traits [#84ff84]
+	"game:trait-ascetic": "<font color=\"#84ff84\">• Ascetic </font>",
+	"game:traitname-ascetic": "Ascetic",
+
+	"game:trait-attuned": "<font color=\"#84ff84\">• Attuned </font>",
+	"game:traitname-attuned": "Attuned",
+
+	"game:trait-bespoke": "<font color=\"#84ff84\">• Bespoke </font>",
+	"game:traitname-bespoke": "Bespoke",
+
+	"game:trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith </font>",
+	"game:traitname-blacksmith": "Blacksmith",
+
+	"game:trait-carver": "<font color=\"#84ff84\">• Carver </font>",
+	"game:traitname-carver": "Carver",
+
+	"game:trait-ceramist": "<font color=\"#84ff84\">• Ceramist </font>",
+	"game:traitname-ceramist": "Ceramist",
+
+	"game:trait-clutterer": "<font color=\"#84ff84\">• Clutterer </font>",
+	"game:traitname-clutterer": "Clutterer",
+
+	"game:trait-collier": "<font color=\"#84ff84\">• Collier </font>",
+	"game:traitname-collier": "Collier",
+
+	"game:trait-collector": "<font color=\"#84ff84\">• Collector </font>",
+	"game:traitname-collector": "Collector",
+
+	"game:trait-crafter": "<font color=\"#84ff84\">• Crafter </font>",
+	"game:traitname-crafter": "Crafter",
+
+	"game:trait-curator": "<font color=\"#84ff84\">• Curator </font>",
+	"game:traitname-curator": "Curator",
+
+	"game:trait-delver": "<font color=\"#84ff84\">• Delver </font>",
+	"game:traitname-delver": "Delver",
+
+	"game:trait-dismantler": "<font color=\"#84ff84\">• Dismantler </font>",
+	"game:traitname-dismantler": "Dismantler",
+
+	"game:trait-engineer": "<font color=\"#84ff84\">• Engineer </font>",
+	"game:traitname-engineer": "Engineer",
+
+	"game:trait-fertilizer": "<font color=\"#84ff84\">• Fertilizer </font>",
+	"game:traitname-fertilizer": "Fertilizer",
+
+	"game:trait-fisherman": "<font color=\"#84ff84\">• Fisherman </font>",
+	"game:traitname-fisherman": "Fisherman",
+	"game:traitdesc-fisherman": "+100% swim speed",
+
+	"game:trait-gatherer": "<font color=\"#84ff84\">• Gatherer </font>",
+	"game:traitname-gatherer": "Gatherer",
+
+	"game:trait-frugal": "<font color=\"#84ff84\">• Frugal </font>",
+	"game:traitname-frugal": "Frugal",
+
+	"game:trait-grafter": "<font color=\"#84ff84\">• Grafter </font>",
+	"game:traitname-grafter": "Grafter",
+
+	"game:trait-harvester": "<font color=\"#84ff84\">• Harvester </font>",
+	"game:traitname-harvester": "Harvester",
+
+	"game:trait-heatproof": "<font color=\"#84ff84\">• Heatproof </font>",
+	"game:traitname-heatproof": "Heatproof",
+
+	"game:trait-herbalist": "<font color=\"#84ff84\">• Herbalist </font>",
+	"game:traitname-herbalist": "Herbalist",
+
+	"game:trait-kilnhand": "<font color=\"#84ff84\">• Kilnhand </font>",
+	"game:traitname-kilnhand": "Kilnhand",
+
+	"game:trait-lumberjack": "<font color=\"#84ff84\">• Lumberjack </font>",
+	"game:traitname-lumberjack": "Lumberjack",
+
+	"game:trait-nurseryworker": "<font color=\"#84ff84\">• Nurseryworker </font>",
+	"game:traitname-nurseryworker": "Nurseryworker",
+
+	"game:trait-panner": "<font color=\"#84ff84\">• Panner </font>",
+	"game:traitname-panner": "Panner",
+
+	"game:trait-picker": "<font color=\"#84ff84\">• Picker </font>",
+	"game:traitname-picker": "Picker",
+
+	"game:trait-plucker": "<font color=\"#84ff84\">• Plucker </font>",
+	"game:traitname-plucker": "Plucker",
+
+	"game:trait-preserver": "<font color=\"#84ff84\">• Preserver </font>",
+	"game:traitname-preserver": "Preserver",
+
+	"game:trait-prospector": "<font color=\"#84ff84\">• Prospector </font>",
+	"game:traitname-prospector": "Prospector",
+
+	"game:trait-rancher": "<font color=\"#84ff84\">• Rancher </font>",
+	"game:traitname-rancher": "Rancher",
+
+	"game:trait-roadlayer": "<font color=\"#84ff84\">• Roadlayer </font>",
+	"game:traitname-roadlayer": "Roadlayer",
+
+	"game:trait-restrained": "<font color=\"#84ff84\">• Restrained </font>",
+	"game:traitname-restrained": "Restrained",
+
+	"game:trait-smuggler": "<font color=\"#84ff84\">• Smuggler </font>",
+	"game:traitname-smuggler": "Smuggler",
+
+	"game:trait-sneak": "<font color=\"#84ff84\">• Sneak </font>",
+	"game:traitname-sneak": "Sneak",
+
+	"game:trait-stonecutter": "<font color=\"#84ff84\">• Stonecutter </font>",
+	"game:traitname-stonecutter": "Stonecutter",
+
+	"game:trait-steward": "<font color=\"#84ff84\">• Steward </font>",
+	"game:traitname-steward": "Steward",
+
+	"game:trait-swift": "<font color=\"#84ff84\">• Swift </font>",
+	"game:traitname-swift": "Swift",
+
+	"game:trait-thief": "<font color=\"#84ff84\">• Thief </font>",
+	"game:traitname-thief": "Thief",
+
+	"game:trait-thorough": "<font color=\"#84ff84\">• Thorough </font>",
+	"game:traitname-thorough": "Thorough",
+
+	"game:trait-thresher": "<font color=\"#84ff84\">• Thresher </font>",
+	"game:traitname-thresher": "Thresher",
+
+	"game:trait-tiller": "<font color=\"#84ff84\">• Tiller </font>",
+	"game:traitname-tiller": "Tiller",
+
+	"game:trait-tunneler": "<font color=\"#84ff84\">• Tunneler </font>",
+	"game:traitname-tunneler": "Tunneler",
+
+	"game:trait-unphased": "<font color=\"#84ff84\">• Unphased </font>",
+	"game:traitname-unphased": "Unphased",
+
+	"game:trait-weaver": "<font color=\"#84ff84\">• Weaver </font>",
+	"game:traitname-weaver": "Weaver",
+
+	// specializedclasses: negative traits [#ff8484]
+	"game:trait-calloused": "<font color=\"#ff8484\">• Calloused </font>",
+	"game:traitname-calloused": "Calloused",
+
+	"game:trait-careful": "<font color=\"#ff8484\">• Careful </font>",
+	"game:traitname-careful": "Careful",
+
+	"game:trait-careless": "<font color=\"#ff8484\">• Careless </font>",
+	"game:traitname-careless": "Careless",
+
+	"game:trait-coddled": "<font color=\"#ff8484\">• Coddled </font>",
+	"game:traitname-coddled": "Coddled",
+
+	"game:trait-compulsive": "<font color=\"#ff8484\">• Compulsive </font>",
+	"game:traitname-compulsive": "Compulsive",
+
+	"game:trait-delicate": "<font color=\"#ff8484\">• Delicate </font>",
+	"game:traitname-delicate": "Delicate",
+
+	"game:trait-ecologist": "<font color=\"#ff8484\">• Ecologist </font>",
+	"game:traitname-ecologist": "Ecologist",
+
+	"game:trait-fickle": "<font color=\"#ff8484\">• Fickle </font>",
+	"game:traitname-fickle": "Fickle",
+
+	"game:trait-guilty": "<font color=\"#ff8484\">• Guilty </font>",
+	"game:traitname-guilty": "Guilty",
+
+	"game:trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
+	"game:traitname-hungry": "Hungry",
+
+	"game:trait-methodical": "<font color=\"#ff8484\">• Methodical </font>",
+	"game:traitname-methodical": "Methodical",
+
+	"game:trait-outdoorsy": "<font color=\"#ff8484\">• Outdoorsy </font>",
+	"game:traitname-outdoorsy": "Outdoorsy",
+
+	"game:trait-overkill": "<font color=\"#ff8484\">• Overkill </font>",
+	"game:traitname-overkill": "Overkill",
+
+	"game:trait-scourer": "<font color=\"#ff8484\">• Scourer </font>",
+	"game:traitname-scourer": "Scourer",
+
+	"game:trait-sheltered": "<font color=\"#ff8484\">• Sheltered </font>",
+	"game:traitname-sheltered": "Sheltered",
+
+	"game:trait-homebound": "<font color=\"#ff8484\">• Homebound </font>",
+	"game:traitname-homebound": "Homebound",
+
+	"game:trait-urbanite": "<font color=\"#ff8484\">• Urbanite </font>",
+	"game:traitname-urbanite": "Urbanite",
+
+	"game:trait-uncultured": "<font color=\"#ff8484\">• Uncultured </font>",
+	"game:traitname-uncultured": "Uncultured",
+
+	"game:trait-uneducated": "<font color=\"#ff8484\">• Uneducated </font>",
+	"game:traitname-uneducated": "Uneducated",
+
+	// specializedclasses: attributes
+	"game:charattribute-animalHarvestingTime--0.5": "+100% creature harvesting speed",
+	"game:charattribute-animalHarvestingTime--0.2": "+25% creature harvesting speed",
+	"game:charattribute-animalHarvestingTime-0.1": "-10% creature harvesting speed",
+	"game:charattribute-animalHarvestingTime-0.05": "-5% creature harvesting speed",
+	"game:charattribute-animalHarvestingTime-0.5": "-50% creature harvesting speed",
+
+	"game:charattribute-animalLootDropRate--0.25": "-25% creature harvesting yield",
+	"game:charattribute-animalLootDropRate--0.1": "-10% creature harvesting yield",
+	"game:charattribute-animalLootDropRate-0.25": "+25% increased creature harvesting yield",
+	"game:charattribute-animalLootDropRate-1": "+100% increased creature harvesting yield",
+
+	"game:charattribute-animalSeekingRange--0.75": "-75% creature aggression range",
+	"game:charattribute-animalSeekingRange--0.6": "-60% creature aggression range",
+	"game:charattribute-animalSeekingRange--0.25": "-25% creature aggression range",
+	"game:charattribute-animalSeekingRange-0.5": "+50% creature aggression range",
+	"game:charattribute-animalSeekingRange-1": "+100% creature aggression range",
+
+	"game:charattribute-armorDurabilityLoss--0.8": "-80% armor durability loss",
+	"game:charattribute-armorDurabilityLoss--0.5": "-50% armor durability loss",
+
+	"game:charattribute-armorWalkSpeedAffectedness--0.75": "-75% armor speed penalty",
+	"game:charattribute-armorWalkSpeedAffectedness--0.5": "-50% armor speed penalty",
+	"game:charattribute-armorWalkSpeedAffectedness--0.25": "-25% armor speed penalty",
+	"game:charattribute-armorWalkSpeedAffectedness-0.2": "+20% armor speed penalty",
+	"game:charattribute-armorWalkSpeedAffectedness-0.25": "+25% armor speed penalty",
+
+	"game:charattribute-bowDrawingStrength-0.3": "+30% bow drawing strength",
+
+	"game:charattribute-durabilitySaveChanceAllTools-0.5": "50% chance to save tool durability",
+	"game:charattribute-durabilitySaveChanceAllWeapons-0.25": "+25% chance to save weapon durability",
+	"game:charattribute-durabilitySaveChanceAllWeapons-0.5": "50% chance to save weapon durability",
+	"game:charattribute-durabilitySaveChanceAllWeapons-0.75": "75% chance to save weapon durability",
+	"game:charattribute-durabilitySaveChanceAxe-0.75": "75% chance to save axe durability",
+	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
+	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
+	"game:charattribute-durabilitySaveChanceHoe-0.75": "75% chance to save hoe durability",
+	"game:charattribute-durabilitySaveChanceKnife-0.5": "50% chance to save knife durability",
+	"game:charattribute-durabilitySaveChanceKnife-0.75": "75% chance to save knife durability",
+	"game:charattribute-durabilitySaveChancePickaxe-0.5": "50% chance to save pickaxe durability",
+	"game:charattribute-durabilitySaveChancePickaxe-0.75": "75% chance to save pickaxe durability",
+	"game:charattribute-durabilitySaveChanceSaw-0.75": "75% chance to save saw durability",
+	"game:charattribute-durabilitySaveChanceScythe-0.5": "50% chance to save scythe durability",
+	"game:charattribute-durabilitySaveChanceScythe-0.75": "75% chance to save scythe durability",
+	"game:charattribute-durabilitySaveChanceShears-0.75": "75% chance to save shears durability",
+	"game:charattribute-durabilitySaveChanceShovel-0.5": "50% chance to save shovel durability",
+	"game:charattribute-durabilitySaveChanceShovel-0.75": "75% chance to save shovel durability",
+
+	"game:charattribute-canHandleHotItems-1": "Can handle hot items without tongs",
+	"game:charattribute-canOpenExtraTradeWindow-1": "Can access extra trader inventory",
+	"game:charattribute-canHammerAllPlugsAtOnce-1": "Hammering a splitting plug advances all connected plugs simultaneously",
+
+	"game:charattribute-canPickupClutter-1": "can pick up and repair clutter by right-clicking it with a chisel",
+
+	"game:charattribute-ceramicMiningSpeedMul-1": "+100% ceramic breaking speed",
+
+	"game:charattribute-charcoalPileDropRate-0.5": "+50% charcoal yield",
+	"game:charattribute-charcoalPileDropRate-1": "+100% charcoal yield",
+
+	"game:charattribute-clayDropRate--0.25": "-25% clay yield",
+	"game:charattribute-clayDropRate-0.5": "+50% clay yield",
+
+	"game:charattribute-clothMiningSpeedMul-0.5": "+50% cloth breaking speed",
+	"game:charattribute-clothMiningSpeedMul-1": "+100% cloth breaking speed",
+
+	"game:charattribute-cropProduceDropRate--0.25": "-25% crop produce yield",
+	"game:charattribute-cropProduceDropRate--0.2": "-20% crop produce yield",
+	"game:charattribute-cropProduceDropRate--0.1": "-10% crop produce yield",
+	"game:charattribute-cropProduceDropRate-0.5": "+50% crop produce yield",
+
+	"game:charattribute-cropSeedDropRate--0.25": "-25% crop seed yield",
+	"game:charattribute-cropSeedDropRate-1": "+100% crop seed yield",
+
+	"game:charattribute-flaxFiberDropRate-1": "+100% crop fiber yield",
+	"game:charattribute-flaxFiberDropRate--0.25": "-25% crop fiber yield",
+
+	"game:charattribute-forageDropRate--0.25": "-25% foraging yield",
+	"game:charattribute-forageDropRate--0.2": "-20% foraging yield",
+	"game:charattribute-forageDropRate--0.1": "-10% foraging yield",
+	"game:charattribute-forageDropRate-0.33": "+33% foraging yield",
+	"game:charattribute-forageDropRate-1": "+100% foraging yield",
+	"game:charattribute-fertilizerPermanencePercentage-0.25": "25% of fertilizer is also applied to farmland's max fertility",
+
+	"game:charattribute-fruitTreeDropRate--0.25": "-25% fruit tree graft yield",
+	"game:charattribute-fruitTreeDropRate-1": "+100% fruit tree graft yield",
+
+	"game:charattribute-glassMiningSpeedMul-1": "+100% glass breaking speed",
+
+	"game:charattribute-grassDropRate-0.2": "+20% grass yield",
+	"game:charattribute-grassDropRate-1": "+100% grass yield",
+
+	"game:charattribute-gravelMiningSpeedMul--0.2": "-20% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul--0.1": "-10% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul--0.05": "-5% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul-0.2": "+20% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul-0.25": "+25% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul-0.5": "+50% gravel breaking speed",
+	"game:charattribute-gravelMiningSpeedMul-1": "+100% gravel breaking speed",
+
+	"game:charattribute-horsetailRareDropChance-0.2": "+20% chance to get horsetail when harvesting grass",
+
+	"game:charattribute-hungerrate--0.75": "-75% hunger rate",
+	"game:charattribute-hungerrate--0.4": "-40% hunger rate",
+	"game:charattribute-hungerrate--0.25": "-25% hunger rate",
+	"game:charattribute-hungerrate-0.1": "+10% hunger rate",
+	"game:charattribute-hungerrate-0.25": "+25% hunger rate",
+
+	"game:charattribute-iceMiningSpeedMul-1": "+100% ice breaking speed",
+
+	"game:charattribute-lakeIceRareDropChance-1": "+100% chance for lake ice to drop whole",
+
+	"game:charattribute-leavesMiningSpeedMul--0.25": "-25% leaves breaking speed",
+	"game:charattribute-leavesMiningSpeedMul--0.2": "-20% leaves breaking speed",
+	"game:charattribute-leavesMiningSpeedMul--0.1": "-10% leaves breaking speed",
+	"game:charattribute-leavesMiningSpeedMul-0.2": "+20% leaves breaking speed",
+	"game:charattribute-leavesMiningSpeedMul-1": "+100% leaves breaking speed",
+
+	"game:charattribute-locustNestDropRate--0.5": "-50% yield from locust nests",
+	"game:charattribute-locustNestDropRate-1": "+100% yield from locust nests",
+
+	"game:charattribute-maxhealthExtraPoints--5": "-5 max health",
+	"game:charattribute-maxhealthExtraPoints--3": "-3 max health",
+	"game:charattribute-maxhealthExtraPoints--2": "-2 max health",
+	"game:charattribute-maxhealthExtraPoints-10": "+10 max health",
+	"game:charattribute-maxhealthExtraPoints-15": "+15 max health",
+	"game:charattribute-maxhealthExtraPoints-3": "+3 max health",
+	"game:charattribute-maxhealthExtraPoints-5": "+5 max health",
+
+	"game:charattribute-mechanicalsDamage--0.5": "-50% damage to mechanicals",
+	"game:charattribute-mechanicalsDamage--0.25": "-25% damage to mechanicals",
+	"game:charattribute-mechanicalsDamage-0.5": "+50% damage to mechanicals",
+
+	"game:charattribute-meleeWeaponsDamage--0.2": "-20% melee damage",
+	"game:charattribute-meleeWeaponsDamage--0.1": "-10% melee damage",
+	"game:charattribute-meleeWeaponsDamage-0.1": "+10% melee damage",
+	"game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
+	"game:charattribute-meleeWeaponsDamage-0.2": "+20% melee damage",
+	"game:charattribute-meleeWeaponsDamage-0.25": "+25% melee damage",
+
+	"game:charattribute-metalMiningSpeedMul-1": "+100% metal breaking speed",
+
+	"game:charattribute-metalSpikesDropRate--0.5": "-50% yield from metal spikes",
+	"game:charattribute-metalSpikesDropRate-1": "+100% yield from metal spikes",
+
+	"game:charattribute-oreDropRate--0.25": "-25% ore yield",
+	"game:charattribute-oreDropRate--0.1": "-10% ore yield",
+	"game:charattribute-oreDropRate-0.1": "+10% ore yield",
+	"game:charattribute-oreDropRate-0.2": "+20% ore yield",
+	"game:charattribute-oreDropRate-0.25": "+25% ore yield",
+	"game:charattribute-oreDropRate-1": "+100% ore yield",
+
+	"game:charattribute-oreMiningSpeedMul--0.33": "-33% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul--0.2": "-20% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul--0.1": "-10% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul--0.05": "-5% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul-0.2": "+20% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul-0.5": "+50% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul-1": "+100% ore breaking speed",
+
+	"game:charattribute-otherMiningSpeedMul-0.25": "+25% wax breaking speed",
+	"game:charattribute-otherMiningSpeedMul-0.5": "+50% wax breaking speed",
+
+	"game:charattribute-panningDropRate-3": "+300% panning yield",
+
+	"game:charattribute-panningStoneDropRate--1": "-100% stone yield from panning",
+
+	"game:charattribute-pathWalkSpeedMul-0.5": "+50% path block speed bonus",
+	"game:charattribute-pathWalkSpeedMul-1": "+100% path block speed bonus",
+
+	"game:charattribute-peatDropRate--0.25": "-25% peat yield",
+	"game:charattribute-peatDropRate-0.2": "+20% peat yield",
+	"game:charattribute-peatDropRate-0.5": "+50% peat yield",
+	"game:charattribute-peatDropRate-1": "+100% peat yield",
+
+	"game:charattribute-plantMiningSpeedMul--0.25": "-25% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul--0.2": "-20% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul--0.1": "-10% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul-0.2": "+20% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul-0.25": "+25% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul-0.5": "+50% plant breaking speed",
+	"game:charattribute-plantMiningSpeedMul-1": "+100% plant breaking speed",
+
+	"game:charattribute-rangedWeaponsAcc-0.2": "+20% ranged accuracy",
+	"game:charattribute-rangedWeaponsAcc-0.3": "+30% ranged accuracy",
+	"game:charattribute-rangedWeaponsAcc-0.5": "+50% ranged accuracy",
+
+	"game:charattribute-rangedWeaponsDamage--0.1": "-10% ranged damage",
+	"game:charattribute-rangedWeaponsDamage--0.2": "-20% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.2": "+20% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.3": "+30% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.4": "+40% ranged damage",
+
+	"game:charattribute-cattailRareDropChance-0.2": "+20% chance to get cattails when harvesting grass",
+
+	"game:charattribute-flaxFiberRareDropChance-0.1": "+10% chance to get flax fiber when harvesting grass",
+
+	"game:charattribute-reedsRareDropChance-0.1": "+10% chance to get papyrus instead when harvesting grass",
+
+	"game:charattribute-rockRareDropChance-0.5": "+50% chance for rock to drop whole",
+
+	"game:charattribute-rustyGearDropRate--0.25": "-25% rusty gear yield",
+	"game:charattribute-rustyGearDropRate--0.5": "-50% rusty gear yield",
+	"game:charattribute-rustyGearDropRate-0.2": "+20% rusty gear yield",
+	"game:charattribute-rustyGearDropRate-0.5": "+50% rusty gear yield",
+	"game:charattribute-rustyGearDropRate-1": "+100% rusty gear yield",
+
+	"game:charattribute-saltRareDropChance-0.1": "+10% chance to get salt when breaking any rock",
+
+	"game:charattribute-sandMiningSpeedMul--0.2": "-20% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul--0.1": "-10% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul--0.05": "-5% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul-0.2": "+20% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul-0.25": "+25% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul-0.5": "+50% sand breaking speed",
+	"game:charattribute-sandMiningSpeedMul-1": "+100% sand breaking speed",
+
+	"game:charattribute-sneakSpeedPenaltyReduction-0.5": "-50% sneak speed penalty",
+
+	"game:charattribute-snowMiningSpeedMul-0.5": "+50% snow breaking speed",
+	"game:charattribute-snowMiningSpeedMul-1": "+100% snow breaking speed",
+
+	"game:charattribute-soilMiningSpeedMul--0.2": "-20% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul--0.1": "-10% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul--0.05": "-5% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul-0.25": "+25% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul-0.5": "+50% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul-1": "+100% soil breaking speed",
+
+	"game:charattribute-stabilityGainMul--0.4": "-40% temporal stability gain speed",
+	"game:charattribute-stabilityGainMul-0.5": "+50% temporal stability gain speed",
+
+	"game:charattribute-stabilityIndoorOffset--0.3": "-30% temporal stability offset while underground",
+	"game:charattribute-stabilityIndoorOffset--0.2": "-20% temporal stability offset while underground",
+	"game:charattribute-stabilityIndoorOffset-0.3": "+30% temporal stability offset while underground",
+
+	"game:charattribute-stabilityLossMul--0.5": "-50% temporal stability loss speed",
+	"game:charattribute-stabilityLossMul-0.25": "+25% temporal stability loss speed",
+	"game:charattribute-stabilityLossMul-0.5": "+50% temporal stability loss speed",
+
+	"game:charattribute-stabilityOffset--0.1": "-10% temporal stability offset",
+	"game:charattribute-stabilityOffset-0.4": "+40% temporal stability offset",
+
+	"game:charattribute-stickDropRate-0.2": "+20% stick yield",
+
+	"game:charattribute-stoneDropRate--0.25": "-25% stone yield",
+	"game:charattribute-stoneDropRate-0.25": "+25% stone yield",
+
+	"game:charattribute-stoneMiningSpeedMul--0.2": "-20% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul--0.1": "-10% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul--0.05": "-5% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul-0.2": "+20% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul-1": "+100% stone breaking speed",
+
+	"game:charattribute-swimSpeedMul-1": "+100% swim speed",
+
+	"game:charattribute-temporalGearTLRepairCost--1": "-1 temporal gear cost to repair translocators",
+
+	"game:charattribute-treeSeedDropRate--0.25": "-25% tree seed yield",
+	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",
+	"game:charattribute-treeSeedDropRate-3": "+300% tree seed yield",
+
+	"game:charattribute-vesselContentsDropRate--0.25": "-25% cracked vessel yield",
+	"game:charattribute-vesselContentsDropRate--0.1": "-10% cracked vessel yield",
+	"game:charattribute-vesselContentsDropRate-0.2": "+20% cracked vessel yield",
+	"game:charattribute-vesselContentsDropRate-1": "+100% cracked vessel yield",
+
+	"game:charattribute-walkspeed--0.05": "-5% walk speed",
+	"game:charattribute-walkspeed-0.05": "+5% walk speed",
+	"game:charattribute-walkspeed-0.1": "+10% walk speed",
+	"game:charattribute-walkspeed-0.2": "+20% walk speed",
+	"game:charattribute-walkspeed-0.25": "+25% walk speed",
+
+	"game:charattribute-wholeVesselLootChance-0.2": "+20% chance for cracked vessels to drop whole",
+	"game:charattribute-wholeVesselLootChance-0.75": "+75% chance for cracked vessels to drop whole",
+
+	"game:charattribute-wildCropDropRate--0.5": "-50% wild crop yield",
+	"game:charattribute-wildCropDropRate--0.25": "-25% wild crop yield",
+	"game:charattribute-wildCropDropRate--0.2": "-20% wild crop yield",
+	"game:charattribute-wildCropDropRate--0.1": "-10% wild crop yield",
+	"game:charattribute-wildCropDropRate-0.33": "+33% wild crop yield",
+	"game:charattribute-wildCropDropRate-1": "+100% wild crop yield",
+
+	"game:charattribute-woodMiningSpeedMul--0.25": "-25% wood breaking speed",
+	"game:charattribute-woodMiningSpeedMul--0.2": "-20% wood breaking speed",
+	"game:charattribute-woodMiningSpeedMul--0.1": "-10% wood breaking speed",
+	"game:charattribute-woodMiningSpeedMul--0.05": "-5% wood breaking speed",
+	"game:charattribute-woodMiningSpeedMul-0.2": "+20% wood breaking speed",
+	"game:charattribute-woodMiningSpeedMul-1": "+100% wood breaking speed",
+
+	"game:charattribute-youngCropSeedDropRate--0.25": "-25% young crop seed yield",
+	"game:charattribute-youngCropSeedDropRate-0.4": "+40% young crop seed yield",
+	"game:charattribute-youngseeddropchance-1": "+100% chance for immature crops to drop exactly 1 seed",
+
+
+	// COMPATIBILITY
+	// aculinaryartillery: crafting traits [#99d6ff]
+	"game:trait-butcheraculinaryartillery": "<font color=\"#99d6ff\">• Compat: A Culinary Artillery </font>",
+	"game:traitname-butcheraculinaryartillery": "Compat: A Culinary Artillery",
+	"game:traitdesc-butcheraculinaryartillery": "Recipes for <a href=\"handbooksearch://meat rack\">meat racks</a> are much cheaper",
+
+	"game:trait-vintneraculinaryartillery": "<font color=\"#99d6ff\">• Compat: A Culinary Artillery </font>",
+	"game:traitname-vintneraculinaryartillery": "Compat: A Culinary Artillery",
+	"game:traitdesc-vintneraculinaryartillery": "Recipes for <a href=\"handbooksearch://bottle rack\">bottle racks</a> and <a href=\"handbooksearch://glass bottle\">glass bottles</a> are available earlier in progression, plus <a href=\"handbooksearch://cork\">cork</a> from firewood",
+
+	// alchemy: crafting traits [#99d6ff]
+	"game:trait-floristalchemy": "<font color=\"#99d6ff\">• Compat: Alchemy </font>",
+	"game:traitname-floristalchemy": "Compat: Alchemy",
+	"game:traitdesc-floristalchemy": "Recipes for <a href=\"handbooksearch://potion base\">potion base</a> from horsetail and cattails, plus <a href=\"handbooksearch://edible herbs\">edible herbs</a> at quadruple yield",
+
+	"game:trait-vintneralchemy": "<font color=\"#99d6ff\">• Compat: Alchemy </font>",
+	"game:traitname-vintneralchemy": "Compat: Alchemy",
+	"game:traitdesc-vintneralchemy": "Recipes for <a href=\"handbooksearch://large potion flask or medium potion flask or small potion flask or herb rack\">alchemy tools</a> are more efficient",
+
+
+	// betterruins: crafting traits [#99d6ff]
+	"game:trait-archivistbetterruins": "<font color=\"#99d6ff\">• Compat: Better Ruins </font>",
+	"game:traitname-archivistbetterruins": "Compat: Better Ruins",
+	"game:traitdesc-archivistbetterruins": "Can copy <a href=\"handbooksearch://blueprint\">blueprints</a> using parchment and a sieve",
+
+	// bricklayers: crafting traits [#99d6ff]
+	"game:trait-brickmakerbricklayers": "<font color=\"#99d6ff\">• Compat: Bricklayers </font>",
+	"game:traitname-brickmakerbricklayers": "Compat: Bricklayers",
+	"game:traitdesc-brickmakerbricklayers": "Recipes for <a href=\"handbooksearch://Raw clay tile\">raw clay tiles</a> of all colors use ceramic molds",
+
+
+
+	// combatoverhaul: combat traits [#9966ff]
+	"game:trait-co-berserker": "<font color=\"#9966ff\">• CO: Berserker </font>",
+	"game:traitname-co-berserker": "CO: Berserker",
+
+	"game:trait-co-bruiser": "<font color=\"#9966ff\">• CO: Bruiser </font>",
+	"game:traitname-co-bruiser": "CO: Bruiser",
+
+	"game:trait-co-custodian": "<font color=\"#9966ff\">• CO: Custodian </font>",
+	"game:traitname-co-custodian": "CO: Custodian",
+
+	"game:trait-co-fencer": "<font color=\"#9966ff\">• CO: Fencer </font>",
+	"game:traitname-co-fencer": "CO: Fencer",
+
+	"game:trait-co-harrier": "<font color=\"#9966ff\">• CO: Harrier </font>",
+	"game:traitname-co-harrier": "CO: Harrier",
+
+	"game:trait-co-laborer": "<font color=\"#9966ff\">• CO: Laborer </font>",
+	"game:traitname-co-laborer": "CO: Laborer",
+
+	"game:trait-co-lancer": "<font color=\"#9966ff\">• CO: Lancer </font>",
+	"game:traitname-co-lancer": "CO: Lancer",
+
+	"game:trait-co-militia": "<font color=\"#9966ff\">• CO: Militia </font>",
+	"game:traitname-co-militia": "CO: Militia",
+
+	"game:trait-co-ranger": "<font color=\"#9966ff\">• CO: Ranger </font>",
+	"game:traitname-co-ranger": "CO: Ranger",
+
+	"game:trait-co-reaver": "<font color=\"#9966ff\">• CO: Reaver </font>",
+	"game:traitname-co-reaver": "CO: Reaver",
+
+	"game:trait-co-rogue": "<font color=\"#9966ff\">• CO: Rogue </font>",
+	"game:traitname-co-rogue": "CO: Rogue",
+
+	"game:trait-co-sapper": "<font color=\"#9966ff\">• CO: Sapper </font>",
+	"game:traitname-co-sapper": "CO: Sapper",
+
+	"game:trait-co-wanderer": "<font color=\"#9966ff\">• CO: Wanderer </font>",
+	"game:traitname-co-wanderer": "CO: Wanderer",
+
+	"game:trait-co-warlord": "<font color=\"#9966ff\">• CO: Warlord </font>",
+	"game:traitname-co-warlord": "CO: Warlord",
+
+	"game:trait-co-yeoman": "<font color=\"#9966ff\">• CO: Yeoman </font>",
+	"game:traitname-co-yeoman": "CO: Yeoman",
+
+
+	// combatoverhaul: attributes
+	"game:charattribute-axesProficiency-0.25": "+25% axe attack speed",
+	"game:charattribute-bowsProficiency-0.45": "+45% bow drawing speed",
+	"game:charattribute-clubsProficiency-0.25": "+25% club attack speed",
+	"game:charattribute-crossbowsProficiency-0.45": "+45% crossbow reload speed",
+	"game:charattribute-firearmsProficiency-0.45": "+45% firearm reload speed",
+	"game:charattribute-halberdsProficiency-0.25": "+25% halberd attack speed",
+	"game:charattribute-javelinsProficiency-0.25": "+25% javelin attack speed",
+	"game:charattribute-macesProficiency-0.25": "+25% mace attack speed",
+	"game:charattribute-oneHandedSwordsProficiency-0.25": "+25% one-handed sword attack speed",
+	"game:charattribute-poleaxeProficiency-0.25": "+25% poleaxe attack speed",
+	"game:charattribute-quarterstaffProficiency-0.25": "+25% quarterstaff attack speed",
+	"game:charattribute-slingsProficiency-0.45": "+45% sling reload speed and damage",
+	"game:charattribute-spearsProficiency-0.25": "+25% spear attack speed",
+	"game:charattribute-twoHandedSwordsProficiency-0.25": "+25% two-handed sword attack speed",
+
+	"game:charattribute-armorHungerRateAffectedness--0.75": "-75% armor hunger penalty",
+	"game:charattribute-armorHungerRateAffectedness--0.25": "-25% armor hunger penalty",
+	"game:charattribute-armorHungerRateAffectedness--0.51": "-50% armor hunger penalty", // intentional mismatch: combat overhaul overwrites .50
+	"game:charattribute-armorHungerRateAffectedness-0.2": "+20% armor hunger penalty",
+	"game:charattribute-armorHungerRateAffectedness-0.25": "+25% armor hunger penalty",
+	"game:charattribute-armorManipulationSpeedAffectedness--0.75": "-75% armor manipulation penalty",
+	"game:charattribute-armorManipulationSpeedAffectedness--0.25": "-25% armor manipulation penalty",
+	"game:charattribute-armorManipulationSpeedAffectedness--0.51": "-50% armor manipulation penalty", // intentional mismatch: combat overhaul overwrites .50
+	"game:charattribute-armorManipulationSpeedAffectedness-0.2": "+20% armor manipulation penalty",
+	"game:charattribute-armorManipulationSpeedAffectedness-0.25": "+25% armor manipulation penalty",
+	"game:charattribute-meleeDamageTierBonusPiercingAttack-1": "+1 melee piercing damage tier",
+	"game:charattribute-meleeDamageTierBonusSlashingAttack-1": "+1 melee slashing damage tier",
+	"game:charattribute-rangedDamageTierBonusBluntAttack-1": "+1 ranged blunt damage tier",
+	"game:charattribute-rangedDamageTierBonusPiercingAttack-1": "+1 ranged piercing damage tier",
+	"game:charattribute-rangedDamageTierBonusSlashingAttack-1": "+1 ranged slashing damage tier",
+	"game:charattribute-steadyAim--0.1": "+10% aim drift",
+	"game:charattribute-steadyAim--0.2": "+20% aim drift",
+	"game:charattribute-steadyAim--0.4": "+40% aim drift",
+	"game:charattribute-steadyAim-0.2": "-20% aim drift",
+	"game:charattribute-steadyAim-0.25": "-25% aim drift",
+	"game:charattribute-steadyAim-0.3": "-30% aim drift",
+	"game:charattribute-steadyAim-0.4": "-40% aim drift",
+	"game:charattribute-steadyAim-0.1": "-10% aim drift",
+	"game:charattribute-steadyAim-0.5": "-50% aim drift",
+	"game:charattribute-steadyAim-1": "-100% aim drift",
+
+
+	// butchering: crafting traits [#99d6ff]
+	"game:trait-butcherbutchering": "<font color=\"#99d6ff\">• Compat: Butchering </font>",
+	"game:traitname-butcherbutchering": "Compat: Butchering",
+	"game:traitdesc-butcherbutchering": "Recipes for <a href=\"handbooksearch://butchering table or skinning hook or smoking rack\">butchery workstations</a> are much cheaper",
+
+	"game:trait-hunterbutchering": "<font color=\"#99d6ff\">• Compat: Butchering </font>",
+	"game:traitname-hunterbutchering": "Compat: Butchering",
+	"game:traitdesc-hunterbutchering": "Recipes for <a href=\"handbooksearch://butchering bag\">butchering bags</a> are much cheaper, and <a href=\"handbooksearch://bone arrow\">bone arrows</a> can be fletched with reeds",
+
+	"game:trait-hauler": "<font color=\"#84ff84\">• Compat: Butchering | Hauler </font>",
+	"game:traitname-hauler": "Compat: Butchering | Hauler",
+	"game:traitdesc-hauler": "50% less affected by carcass weight.",
+
+
+	// foodshelves: crafting traits [#99d6ff]
+	"game:trait-butcherfoodshelves": "<font color=\"#99d6ff\">• Compat: Foodshelves </font>",
+	"game:traitname-butcherfoodshelves": "Compat: Foodshelves",
+	"game:traitdesc-butcherfoodshelves": "Recipes for <a href=\"handbooksearch://cooling cabinet or meat freezer or fruit cooler\">cooled storage</a> are available earlier in progression",
+
+	"game:trait-vintnerfoodshelves": "<font color=\"#99d6ff\">• Compat: Foodshelves </font>",
+	"game:traitname-vintnerfoodshelves": "Compat: Foodshelves",
+	"game:traitdesc-vintnerfoodshelves": "Recipes for <a href=\"handbooksearch://tun or barrel rack or tun rack or bucket hook\">liquid storage</a> are available earlier in progression",
+
+
+	// fromgoldencombs: crafting traits [#99d6ff]
+	"game:trait-floristfromgoldencombs": "<font color=\"#99d6ff\">• Compat: From Golden Combs </font>",
+	"game:traitname-floristfromgoldencombs": "Compat: From Golden Combs",
+	"game:traitdesc-floristfromgoldencombs": "Recipes for <a href=\"handbooksearch://aged langstroth hive panel or frame liner or waxed flax twine or empty frame\">apiary components</a> are much cheaper, and aged langstroth hives can be assembled without tools",
+
+	// expandedbeekeeping: crafting traits [#99d6ff]
+	"game:trait-floristexpandedbeekeeping": "<font color=\"#99d6ff\">• Compat: Expanded Beekeeping </font>",
+	"game:traitname-floristexpandedbeekeeping": "Compat: Expanded Beekeeping",
+	"game:traitdesc-floristexpandedbeekeeping": "Recipes for <a href=\"handbooksearch://apiary or brood box or empty hive frame or copper hive smoker\">apiary components</a> are much cheaper",
+
+
+	// millwright: crafting traits [#99d6ff]
+	"game:trait-clockmakermillwright": "<font color=\"#99d6ff\">• Compat: Millwright </font>",
+	"game:traitname-clockmakermillwright": "Compat: Millwright",
+	"game:traitdesc-clockmakermillwright": "Recipes for <a href=\"handbooksearch://windmill rotor (reinforced) or brake (reinforced) or improved wooden axle (passthrough)\">reinforced windmills, brakes, and axles</a> use any metal instead of only iron",
+
+	// morearrows: crafting traits [#99d6ff]
+	"game:trait-huntermorearrows": "<font color=\"#99d6ff\">• Compat: More Arrows </font>",
+	"game:traitname-huntermorearrows": "Compat: More Arrows",
+	"game:traitdesc-huntermorearrows": "Recipes for <a href=\"handbooksearch://barbed arrow or blunt arrow or bodkin arrow\">specialized arrows</a> use reeds instead of feathers",
+
+	// primitivesurvival: crafting traits [#99d6ff]
+	"game:trait-butcherprimitivesurvival": "<font color=\"#99d6ff\">• Compat: Primitive Survival </font>",
+	"game:traitname-butcherprimitivesurvival": "Compat: Primitive Survival",
+	"game:traitdesc-butcherprimitivesurvival": "Recipes for <a href=\"handbooksearch://fish fillet (raw)\">fillet</a> are more efficient with a cleaver, and <a href=\"handbooksearch://cured smoked\">smoked meats</a> can be hand-cured",
+
+	"game:trait-farmhandprimitivesurvival": "<font color=\"#99d6ff\">• Compat: Primitive Survival </font>",
+	"game:traitname-farmhandprimitivesurvival": "Compat: Primitive Survival",
+	"game:traitdesc-farmhandprimitivesurvival": "Recipes for <a href=\"handbooksearch://fish basket\">fish baskets</a> are cheaper, plus <a href=\"handbooksearch://earthworm castings\">earthworm castings</a> from soil and worms",
+
+	"game:trait-hunterprimitivesurvival": "<font color=\"#99d6ff\">• Compat: Primitive Survival </font>",
+	"game:traitname-hunterprimitivesurvival": "Compat: Primitive Survival",
+	"game:traitdesc-hunterprimitivesurvival": "Recipes for <a href=\"handbooksearch://jerky (raw)\">jerky</a> are double yield and do not require salt for fish jerky",
+
+	"game:trait-messengerprimitivesurvival": "<font color=\"#99d6ff\">• Compat: Primitive Survival </font>",
+	"game:traitname-messengerprimitivesurvival": "Compat: Primitive Survival",
+	"game:traitdesc-messengerprimitivesurvival": "Recipes for <a href=\"handbooksearch://floating dock or raft (primitive survival)\">floating docks and rafts</a> are much cheaper",
+
+	// stonequarry: crafting traits [#99d6ff]
+	"game:trait-quarriestonequarry": "<font color=\"#99d6ff\">• Compat: Stone Quarry </font>",
+	"game:traitname-quarriestonequarry": "Compat: Stone Quarry",
+	"game:traitdesc-quarriestonequarry": "Recipes for <a href=\"handbooksearch://splitter plug\">splitter plugs</a> are cheaper",
+
+	"game:trait-quarrierstonequarryplugs": "<font color=\"#99d6ff\">• Compat: Stone Quarry | Thumper </font>",
+	"game:traitname-quarrierstonequarryplugs": "Compat: Stone Quarry | Thumper",
+	"game:traitdesc-quarrierstonequarryplugs": "Hammering any <a href=\"handbooksearch://splitter plug\">splitting plug</a> advances all connected plugs in the network at the same time",
+
+
+	// toolsmith: crafting traits [#99d6ff]
+	"game:trait-forestertoolsmith": "<font color=\"#99d6ff\">• Compat: Toolsmith </font>",
+	"game:traitname-forestertoolsmith": "Compat: Toolsmith",
+	"game:traitdesc-forestertoolsmith": "Recipes for <a href=\"handbooksearch://Professional tool handle or Carved tool handle\">tool handle upgrades</a> are available earlier in progression",
+
+
+	// specializedclasses: items
+	"specializedclasses:item-mortarandpestle": "Mortar and pestle",
+	"specializedclasses:itemdesc-mortarandpestle": "A simple tool used by some specialists to work their trade.",
+	"specializedclasses:item-spindle": "Spindle",
+	"specializedclasses:itemdesc-spindle": "A weighted spinning tool used by the tailor to twist fibers from dry grass.",
+	"specializedclasses:item-insulatedcrate": "Insulated crate",
+	"specializedclasses:itemdesc-insulatedcrate": "A reinforced crate lined to keep supplies buffered from the worst of the weather. (Does not currently reduce spoilage rate.)",
+	"specializedclasses:item-universalherbivorefeed": "Universal herbivore feed",
+	"specializedclasses:itemdesc-universalherbivorefeed": "A cheap, shelf-stable feed blend for herbivores, pressed from fruit and dry fodder. Not fit for people.",
+	"specializedclasses:item-universalcarnivorefeed": "Universal carnivore feed",
+	"specializedclasses:itemdesc-universalcarnivorefeed": "A cheap, shelf-stable feed blend for carnivores, pressed from raw meat and dry fodder. Not fit for people. Not very useful for husbandry, but great at leading predators away from livestock and into traps.",
+	"specializedclasses:item-messengerbag": "Messenger bag",
+	"specializedclasses:itemdesc-messengerbag": "A compact shoulder bag that sits across the side and keeps a few essentials close at hand.",
+	"specializedclasses:item-scrollcase": "Scroll case",
+	"specializedclasses:itemdesc-scrollcase": "A narrow leather case for carrying slim documents and other small supplies.",
+	"specializedclasses:item-soilbag": "Soil bag",
+	"specializedclasses:itemdesc-soilbag": "A heavy sack packed for hauling compost, soil, and other messy field supplies.",
+	// pigments
+	"specializedclasses:item-pigment-black": "Black pigment",
+	"specializedclasses:item-pigment-blue": "Blue pigment",
+	"specializedclasses:item-pigment-brown": "Brown pigment",
+	"specializedclasses:item-pigment-gray": "Gray pigment",
+	"specializedclasses:item-pigment-green": "Green pigment",
+	"specializedclasses:item-pigment-orange": "Orange pigment",
+	"specializedclasses:item-pigment-pink": "Pink pigment",
+	"specializedclasses:item-pigment-purple": "Purple pigment",
+	"specializedclasses:item-pigment-red": "Red pigment",
+	"specializedclasses:item-pigment-white": "White pigment",
+	"specializedclasses:item-pigment-yellow": "Yellow pigment",
+	"specializedclasses:itemdesc-pigment-*": "A strong pigment, expertly extracted and concentrated from organic matter.",
+
+	// workstations
+	"specializedclasses:block-asphaltroad-*": "Asphalt road",
+	"specializedclasses:block-stonecuttingbench-*": "Stonecutting bench",
+    "specializedclasses:blockdesc-stonecuttingbench-*": "A cluttered stoneworker's bench for shaping rough rock into building blocks.",
+    "specializedclasses:block-sproutingtable-*": "Sprouting table",
+    "specializedclasses:blockdesc-sproutingtable-*": "A damp cultivation table for coaxing seeds and cuttings into healthy new growth.",
+    "specializedclasses:block-woodcarvingtable-*": "Woodcarving table",
+    "specializedclasses:blockdesc-woodcarvingtable-*": "A cluttered carpenter's table for shaping building parts and woodwork.",
+    "specializedclasses:block-swageblock-*": "Brass swage block",
+	"specializedclasses:blockdesc-swageblock-*": "A brass smithing station used for batch shaping loose metal bits using compact forming dies.",
+    "specializedclasses:block-leatherworkingstation-*": "Leatherworking station",
+    "specializedclasses:blockdesc-leatherworkingstation-*": "A broad leatherworker's station that combines hide scraping, stretching, and fine leather assembly in one place.",
+    "specializedclasses:block-tinkerersworkstation-*": "Tinkerer's workstation",
+    "specializedclasses:blockdesc-tinkerersworkstation-*": "A cluttered tinkerer's workstation for assembling delicate mechanisms.",
+    "specializedclasses:block-cartographersdesk-*": "Cartographer's desk",
+    "specializedclasses:blockdesc-cartographersdesk-*": "A wide scribe's desk laid out with maps, books, and drafting tools to plan out infrastructure and shape paths.",
+    "specializedclasses:description-leatherworkingstation-backpack": "A way to carry more at once while running errands",
+    "specializedclasses:description-tinkerersworkstation-jonaspart": "A piece of technology far beyond most people's comprehension",
+    "specializedclasses:description-tinkerersworkstation-metalparts": "A collection of machined and soldered metal components",
+    "specializedclasses:recipename-gearbox01": "Consumately crafted gearbox",
+    "specializedclasses:recipename-gearbox02": "Eccentric gearbox",
+    "specializedclasses:recipename-oscillator01": "Finely balanced oscillator",
+    "specializedclasses:recipename-spring01": "Intricately wound spring",
+    "specializedclasses:recipename-joint01": "A complex joint",
+    "specializedclasses:recipename-gears01": "A difference gear assembly",
+    "specializedclasses:recipename-gears02": "An exquisite planetary gear",
+    "specializedclasses:recipename-connector01": "Flux gap connector",
+    "specializedclasses:recipename-cylinder01": "Dual valence emitter",
+    "specializedclasses:recipename-cylinder02": "Temporal alignment node",
+    "specializedclasses:recipename-tank01": "Parallel transfer vessel",
+    "specializedclasses:recipename-tank02": "Inverted refraction cylinder",
+    "specializedclasses:recipename-valve01": "Alternate injection valve",
+    "specializedclasses:description-swageblock-ingot": "A standard metal ingot for smithing and crafting",
+    "specializedclasses:description-swageblock-rod": "A simple metal rod used as a component",
+    "specializedclasses:description-swageblock-nailsandstrips": "A batch of nails and strips used in carpentry",
+    "specializedclasses:description-swageblock-scale": "Stamped metal scales for armor construction",
+    "specializedclasses:description-swageblock-plate": "A flattened plate ready for further shaping or assembly",
+    "specializedclasses:description-swageblock-chain": "Linked chain sections for armor construction",
+    "specializedclasses:description-swageblock-lamellae": "Lamellae segments for armor construction",
+    "specializedclasses:handbooktitle-accepteditems": "Accepted items",
+    "specializedclasses:handbooktitle-soilbag": "Accepted contents",
+    "specializedclasses:handbooktext-soilbag": "Holds soils, sands, gravels, packed and rammed earth, stone paths, clay, peat bricks, saltpeter, rot, compost, coal materials, hoes, and shovels.",
+    "specializedclasses:handbooktitle-scrollcase": "Accepted contents",
+    "specializedclasses:handbooktext-scrollcase": "Holds scrolls, parchment, paper, books, writing tools, pigments, paintings, tapestries, signs, sieves, chisels, clutter, bookshelf clutter, and banners.",
+    "specializedclasses:handbooktitle-messengerbag": "Accepted contents",
+    "specializedclasses:handbooktext-messengerbag": "General-purpose bag with no item restrictions.",
+    "specializedclasses:handbooktitle-insulatedcrate": "Accepted contents",
+    "specializedclasses:handbooktext-insulatedcrate": "Holds salt and most food items.",
+    "specializedclasses:workstation-error-requirestrait": "Requires trait: {0}",
+    "specializedclasses:workstation-error-missing": "Missing {0}",
+    "specializedclasses:workstation-error-norecipesforitem": "No recipes for that input",
+    "specializedclasses:workstation-error-norecipesforitem-swage": "Requires matching metal bits",
+    "specializedclasses:workstation-error-norecipesforitem-stonecuttingbench": "Requires unworked rock",
+    "specializedclasses:workstation-error-norecipesforitem-woodcarvingtable": "Requires unworked logs",
+    "specializedclasses:block-compoundingvat-*": "Compounding vat",
+    "specializedclasses:blockdesc-compoundingvat-*": "A workstation with a quern and a large ceramic vat for grinding materials down and compounding them together."}
+
+
+
+

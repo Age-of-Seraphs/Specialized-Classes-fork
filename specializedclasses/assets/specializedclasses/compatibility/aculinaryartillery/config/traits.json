@@ -1,0 +1,12 @@
+[
+	{
+		"code": "butcheraculinaryartillery",
+		"type": "positive", // recipe
+		"attributes": {}
+	},
+	{
+		"code": "vintneraculinaryartillery",
+		"type": "positive", // recipe
+		"attributes": {}
+	}
+]

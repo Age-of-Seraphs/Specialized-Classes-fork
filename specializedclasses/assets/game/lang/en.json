@@ -1,0 +1,11 @@
+{
+	"game:block-carbonaceouspaydirt": "Carbonaceous paydirt",
+	"game:block-carbonaceouspaydirt-*": "Carbonaceous paydirt",
+	"game:blockdesc-carbonaceouspaydirt": "Dark, carbon-rich paydirt prepared for panning.",
+	"game:block-crystallinepaydirt": "Crystalline paydirt",
+	"game:block-crystallinepaydirt-*": "Crystalline paydirt",
+	"game:blockdesc-crystallinepaydirt": "Sparkling, crystal-rich paydirt prepared for panning.",
+	"game:block-metallicpaydirt": "Metallic paydirt",
+	"game:block-metallicpaydirt-*": "Metallic paydirt",
+	"game:blockdesc-metallicpaydirt": "Heavy, metal-rich paydirt prepared for panning."
+}

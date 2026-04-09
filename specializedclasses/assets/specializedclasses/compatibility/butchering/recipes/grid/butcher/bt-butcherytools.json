@@ -1,0 +1,127 @@
+[
+	{
+		"ingredientPattern": "FFF,LSL",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:flint", "quantity": 1 },
+			"L": { "type": "block", "code": "game:log-*", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stone-{stone}", "quantity": 6 }
+		},
+		"skipVariants": {
+			"stone": ["meteorite"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butchertable-primitive-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_T_,PCP",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"T": { "type": "item", "code": "game:*-{metal}", "allowedVariants": ["knife-generic", "shears", "hammer"] },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 8 },
+			"C": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 }
+		},
+		"allowedVariants": {
+			"metal": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butchertable-simple-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "_T_,PIP",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"T": { "type": "item", "code": "game:*-iron", "allowedVariants": ["knife-generic", "shears", "hammer"] },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 8 },
+			"I": { "type": "item", "code": "game:metalplate-iron", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butchertable-advanced-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "SLS,_H_",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+			"L": { "type": "block", "code": "game:log-*", "quantity": 1 },
+			"H": { "type": "item", "code": "butchering:hook-flint", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butcherhook-flint-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "SLS,_H_",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+			"L": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+			"H": { "type": "item", "code": "butchering:hook-*", "quantity": 2, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"] }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butcherhook-{material}-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "SLS,_H_",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+			"L": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+			"H": { "type": "item", "code": "butchering:hook-iron", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:butcherhook-iron-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "HPH,S_S,HPH",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"H": { "type": "item", "code": "butchering:hook-*", "quantity": 2, "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"] },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:smokingrack-copper-north", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "HPH,S_S,HPH",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"H": { "type": "item", "code": "butchering:hook-*", "quantity": 2, "allowedVariants": ["iron"] },
+			"P": { "type": "item", "code": "game:plank-*", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "butchering:smokingrack-iron-north", "quantity": 1 }
+	}
+]

@@ -1,0 +1,56 @@
+[
+	{
+		"ingredientPattern": "H,S,F",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:arrowhead-{metal}"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:{reeds}tops"
+			}
+		},
+		"allowedVariants": {
+			"metal": ["bismuthbronze", "blackbronze", "copper", "flint", "gold", "iron", "meteoriciron", "obsidian", "silver", "steel", "tinbronze"],
+			"reeds": ["cattail", "papyrus"]
+		},
+		"width": 1,
+		"height": 3,
+		"attributes": { "handbookOverviewGroup": "arrow-metal" },
+		"output": {
+			"type": "item",
+			"code": "game:arrow-{metal}",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BK",
+		"requiresTrait": "hunter",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "game:bone",
+				"quantity": 1
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"output": {
+			"type": "item",
+			"code": "game:arrow-bone",
+			"quantity": 1
+		}
+	}
+]

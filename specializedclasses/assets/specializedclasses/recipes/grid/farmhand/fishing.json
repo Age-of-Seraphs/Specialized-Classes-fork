@@ -1,0 +1,167 @@
+[
+	{
+		"ingredientPattern": "L,D,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:spice-licorice-raw", "quantity": 1 },
+			"D": { "type": "item", "code": "game:dough-{grain}", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"allowedVariants": {
+			"grain": ["amaranth", "cassava", "flax", "rice", "rye", "spelt", "sunflower"]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-dough", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "F,D,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:vegetable-fennel", "quantity": 1 },
+			"D": { "type": "item", "code": "game:dough-{grain}", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"allowedVariants": {
+			"grain": ["amaranth", "cassava", "flax", "rice", "rye", "spelt", "sunflower"]
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-dough", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "L,B,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:spice-licorice-raw", "quantity": 1 },
+			"B": { "type": "item", "code": "game:bushmeat-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-bushmeat", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "F,B,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:vegetable-fennel", "quantity": 1 },
+			"B": { "type": "item", "code": "game:bushmeat-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-bushmeat", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "L,F,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:spice-licorice-raw", "quantity": 1 },
+			"F": { "type": "item", "code": "game:fish-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-fishmeat", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "F,f,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:vegetable-fennel", "quantity": 1 },
+			"f": { "type": "item", "code": "game:fish-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-fishmeat", "quantity": 6 }
+	},
+
+	{
+		"ingredientPattern": "L,P,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:spice-licorice-raw", "quantity": 1 },
+			"P": { "type": "item", "code": "game:poultry-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-poultry", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "F,P,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:vegetable-fennel", "quantity": 1 },
+			"P": { "type": "item", "code": "game:poultry-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-poultry", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "L,R,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:spice-licorice-raw", "quantity": 1 },
+			"R": { "type": "item", "code": "game:redmeat-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-redmeat", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "F,R,M",
+		"requiresTrait": "farmhand",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:vegetable-fennel", "quantity": 1 },
+			"R": { "type": "item", "code": "game:redmeat-raw", "quantity": 1 },
+			"M": { "type": "item", "code": "specializedclasses:mortarandpestle", "isTool": true, "toolDurabilityCost": 0 }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "stinkbait" },
+		"output": { "type": "item", "code": "game:fishingbait-redmeat", "quantity": 8 }
+	}
+]

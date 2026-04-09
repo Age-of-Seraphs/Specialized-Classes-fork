@@ -1,0 +1,76 @@
+{
+	"code": "asphaltroad",
+	"behaviors": [
+		{ "name": "Lockable" }
+	],
+	"behaviorsByType": {
+		"*-snow": [{ "name": "BreakSnowFirst" }]
+	},
+	"variantgroups": [
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"canChisel": true,
+		"reinforcable": true,
+		"mapColorCode": "road",
+		"liquidBarrierOnSides": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+	},
+	"shape": { "base": "game:block/basic/cube" },
+	"textures": {
+		"all": {
+			"base": "specializedclasses:block/stone/path/asphalt1",
+			"alternates": [
+				{ "base": "specializedclasses:block/stone/path/asphalt2" },
+				{ "base": "specializedclasses:block/stone/path/asphalt3" },
+				{ "base": "specializedclasses:block/stone/path/asphalt4" }
+			]
+		}
+	},
+	"resistanceByType": {
+		"*-snow": 0.2,
+		"*-free": 2.4
+	},
+	"walkspeedmultiplier": 1.5,
+	"creativeinventory": {
+		"general": ["*-free"],
+		"decorative": ["*-free"]
+	},
+	"blockmaterial": "Stone",
+	"replaceable": 900,
+	"lightAbsorption": 99,
+	"faceCullMode": "Default",
+	"sideopaque": {
+		"all": true
+	},
+	"sidesolid": {
+		"all": true
+	},
+	"selectionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
+	"collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldRightReadyAnimation": "heldblockready",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	},
+	"drops": [
+		{
+			"type": "block",
+			"code": "specializedclasses:asphaltroad-free"
+		}
+	],
+	"sounds": {
+		"place": "game:sounds/block/gravel",
+		"breakByType": {
+			"*-snow": "game:sounds/block/snow",
+			"*-free": "game:sounds/block/gravel"
+		},
+		"hitByType": {
+			"*-snow": "game:sounds/block/snow",
+			"*-free": "game:sounds/block/gravel"
+		},
+		"walk": "game:sounds/walk/gravel"
+	}
+}

@@ -1,0 +1,132 @@
+[
+	{
+		"ingredientPattern": "_P_,PWP,_P_",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:plank-{wood}", "quantity": 2 },
+			"W": { "type": "item", "code": "game:beeswax" }
+		},
+		"allowedVariants": {
+			"wood": ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "walnut", "ebony", "purpleheart"]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:langstrothside-{wood}", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "_F_,FWF,_F_",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"F": { "type": "item", "code": "game:firewood", "quantity": 2 },
+			"W": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "B,R,S",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": { "type": "item", "code": "fromgoldencombs:langstrothside-aged" },
+			"R": { "type": "item", "code": "game:stick", "quantity": 3 },
+			"S": { "type": "item", "code": "game:rope" }
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:beeframe-aged-empty", "quantity": 2 }
+	},
+
+	{
+		"ingredientPattern": "B,W",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:bandage-clean" },
+			"W": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:frameliner", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "_T_,TWT,_T_",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"T": { "type": "item", "code": "game:flaxtwine" },
+			"W": { "type": "item", "code": "game:beeswax" }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:waxedflaxtwine", "quantity": 8 }
+	},
+
+	{
+		"ingredientPattern": "S_S,PAP",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:stick" },
+			"P": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 1 },
+			"A": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "fromgoldencombs:framerack-aged-aged-east", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "___,PPP,L_L",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 2 },
+			"L": { "type": "block", "code": "game:log-placed-*-ud", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "fromgoldencombs:langstrothbase-aged-aged-east", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "___,PAP",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"P": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 2 },
+			"A": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "block", "code": "fromgoldencombs:langstrothsuper-closed-aged-aged-east", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "___,_A_,PAP",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 2 },
+			"P": { "type": "item", "code": "fromgoldencombs:langstrothside-aged", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": { "type": "item", "code": "fromgoldencombs:langstrothbroodtop-aged-aged", "quantity": 1 }
+	}
+]

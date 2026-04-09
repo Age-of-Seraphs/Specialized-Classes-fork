@@ -1,0 +1,66 @@
+[
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/dropsByType/*-8/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/dropsByType/*-8/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/dropsByType/*-9/0/dropModbyStat",
+		"value": "cropSeedDropRate",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/dropsByType/*-9/1/dropModbyStat",
+		"value": "cropProduceDropRate",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/dropsByType/*/0/dropModbyStat",
+		"value": "youngCropSeedDropRate",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "youngseeddropchance",
+					"excludeBlocks": ["crop-licorice-8", "crop-licorice-9"],
+					"drops": [
+						{ "type": "item", "code": "game:seeds-licorice", "quantity": 1 }
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/plant/crop/licorice.json",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "DropModificationBlockBehavior"
+			}
+		],
+		"side": "server"
+	}
+]
