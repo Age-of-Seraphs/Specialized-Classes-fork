@@ -4,10 +4,12 @@
     "modid": "specializedclasses",
     "name": "Specialized Classes",
     "authors": [
-        "quilladile"
+      "quilladile",
+      "Captanredbeard"
     ],
     "description": "15 new classes that are the best in their fields by a large margin, with major but specific buffs",
-    "version": "2.2.0",
-    "dependencies": {
-    }
+    "version": "2.3.0",
+  "dependencies": {
+    "game": "1.22.0-rc.7"
+  }
 }

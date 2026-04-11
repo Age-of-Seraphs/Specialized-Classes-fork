@@ -30,8 +30,9 @@
 		}
 	},
 	"creativeinventory": {
-		"general": ["*"],
-		"items": ["*"]
+		"specializedclasses": [ "*" ],
+		"general": [ "*" ],
+		"items": [ "*" ]
 	},
 	"shape": {
 		"base": "specializedclasses:shapes/item/scrollcase"

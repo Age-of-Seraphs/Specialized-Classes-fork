@@ -1,6 +1,11 @@
 {
 	"code": "metallicpaydirt",
-	"creativeinventory": { "general": ["*"], "flora": ["*"], "terrain": ["*"] },
+	"creativeinventory": {
+		"specializedclasses": [ "*" ],
+		"general": [ "*" ],
+		"flora": [ "*" ],
+		"terrain": [ "*" ]
+	},
 	"shape": { "base": "block/basic/cube" },
 	"attributes": {
 		"mapColorCode": "land",

@@ -5,9 +5,10 @@
 		"spindle": 500
 	},
 	"creativeinventory": {
-		"general": ["*"],
-		"items": ["*"],
-		"tools": ["*"]
+		"specializedclasses": [ "*" ],
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ]
 	},
 	"shape": {
 		"base": "specializedclasses:shapes/item/spindle"

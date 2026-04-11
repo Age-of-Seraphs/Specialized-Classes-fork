@@ -27,8 +27,9 @@
 		}
 	},
 	"creativeinventory": {
-		"general": ["*"],
-		"items": ["*"]
+		"specializedclasses": [ "*-north" ],
+		"general": [ "*" ],
+		"items": [ "*" ]
 	},
 	"shape": {
 		"base": "specializedclasses:shapes/item/insulatedcrate"

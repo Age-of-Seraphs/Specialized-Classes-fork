@@ -8,8 +8,9 @@
 		{ "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }
 	],
 	"creativeinventory": {
-		"general": ["*-north"],
-		"decorative": ["*-north"]
+		"specializedclasses": [ "*-north" ],
+		"general": [ "*-north" ],
+		"decorative": [ "*-north" ]
 	},
 	"attributes": {
 		"workstationProfile": "swage",

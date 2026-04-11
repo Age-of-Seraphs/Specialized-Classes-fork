@@ -17,8 +17,9 @@
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	"creativeinventory": {
-		"general": ["*-north"],
-		"decorative": ["*-north"]
+		"specializedclasses": [ "*-north" ],
+		"general": [ "*-north" ],
+		"decorative": [ "*-north" ]
 	},
 	"attributes": {
 		"workstationProfile": "compoundingvat",

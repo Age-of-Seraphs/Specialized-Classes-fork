@@ -22,8 +22,9 @@
 		"foodTags": ["fruitmash", "tastyvegetable", "grass", "soybean", "peanut", "cassava", "fruit", "lootableSweet"]
 	},
 	"creativeinventory": {
-		"general": ["*"],
-		"items": ["*"]
+		"specializedclasses": [ "*" ],
+		"general": [ "*" ],
+		"items": [ "*" ]
 	},
 	"shape": {
 		"base": "game:item/resource/crushed/normal"

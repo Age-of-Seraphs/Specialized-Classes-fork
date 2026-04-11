@@ -38,8 +38,10 @@
 		}
 	},
 	"creativeinventory": {
-		"general": ["*"],
-		"items": ["*"]
+
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"specializedclasses": [ "*" ]
 	},
 	"shape": {
 		"base": "specializedclasses:shapes/item/pigment"
