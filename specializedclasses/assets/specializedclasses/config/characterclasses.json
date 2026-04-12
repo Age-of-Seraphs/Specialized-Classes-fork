@@ -240,7 +240,8 @@
 			"ascetic", // positive
 			"stonecutter", // positive
 			"tunneler", // positive
-			"sheltered" // negative
+			"sheltered", // negative
+			"careless" //negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-stained-leather-poncho" }, // Stained leather poncho
@@ -256,12 +257,13 @@
 		"enabled": true,
 		"code": "spelunker",
 		"traits": [
-			"sapper", // combat
+			"skulker", // combat
 			"spelunker", // crafting
-			"panner", // positive
+			"resilient", // positive - replaced panner
 			"prospector", // positive
 			"uncultured", // negative
-			"sheltered" // negative
+			"sheltered", // negative
+			"compulsive" //negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbodyover-forgotten" }, // Forgotten noble robe

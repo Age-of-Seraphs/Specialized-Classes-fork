@@ -47,7 +47,7 @@
 		"code": "laborer", // quarrier
 		"type": "positive", // combat
 		"attributes": {
-			"armorWalkSpeedAffectedness": -0.75,
+			"armorWalkSpeedAffectedness": -0.50,
 			"maxhealthExtraPoints": 5,
 			"walkspeed": -0.05
 		}
@@ -102,6 +102,15 @@
 		"type": "positive", // combat
 		"attributes": {
 			"animalSeekingRange": -0.25,
+			"meleeWeaponsDamage": 0.1
+		}
+	},
+	{
+		"code": "skulker", // spelunker
+		"type": "positive", // combat
+		"attributes": {
+			"animalSeekingRange": -0.25,
+			"maxhealthExtraPoints": 5,
 			"meleeWeaponsDamage": 0.1
 		}
 	},
@@ -225,9 +234,18 @@
 		"code": "ascetic", // quarrier
 		"type": "positive", // positive
 		"attributes": {
+			"stabilityIndoorOffset": 0.2
+		}
+	},
+
+	{
+		"code": "resilient", // quarrier
+		"type": "positive", // positive
+		"attributes": {
 			"stabilityIndoorOffset": 0.3
 		}
 	},
+
 	{
 		"code": "attuned", // clockmaker
 		"type": "positive", // positive
@@ -455,8 +473,9 @@
 		"code": "prospector", // spelunker
 		"type": "positive", // positive
 		"attributes": {
-			"oreDropRate": 1,
-			"oreMiningSpeedMul": 0.5,
+			"oreDropRate": 0.5,
+			"oreMiningSpeedMul": 1,
+			"stoneMiningSpeedMul": 0.5,
 			"durabilitySaveChancePickaxe": 0.5
 		}
 	},
@@ -562,10 +581,10 @@
 		"type": "positive", // positive
 		"attributes": {
 			"stoneMiningSpeedMul": 1,
-			"oreMiningSpeedMul": 1,
-			"durabilitySaveChancePickaxe": 0.75,
-			"durabilitySaveChanceHammer": 0.75,
-			"durabilitySaveChanceChisel": 0.75
+			"oreMiningSpeedMul": 0.5,
+			"durabilitySaveChancePickaxe": 0.50 //,
+			//"durabilitySaveChanceHammer": 0.75,
+			//"durabilitySaveChanceChisel": 0.75
 		}
 	},
 	{
@@ -612,7 +631,8 @@
 		"type": "negative", // negative
 		"attributes": {
 			"oreDropRate": -0.25,
-			"vesselContentsDropRate": -0.25
+			"vesselContentsDropRate": -0.20,
+			"cropProduceDropRate": -0.10
 		}
 	},
 	{
@@ -627,7 +647,8 @@
 		"code": "compulsive", // spelunker
 		"type": "negative", // negative
 		"attributes": {
-			"panningStoneDropRate": -1
+			//"panningStoneDropRate": -1
+			"stoneDropRate": -0.25
 		}
 	},
 	{
@@ -745,5 +766,5 @@
 			"fruitTreeDropRate": -0.25,
 			"treeSeedDropRate": -0.25
 		}
-	},
+	}
 ]

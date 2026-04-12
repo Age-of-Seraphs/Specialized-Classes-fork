@@ -1,0 +1,22 @@
+{
+  "ingredientPattern": "_A_,BBB",
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "game:rope"
+    },
+    "B": {
+      "type": "item",
+      "code": "game:stick"
+    }
+  },
+  "width": 3,
+  "height": 2,
+  "recipeGroup": 2,
+  "requiresTrait": "spelunker",
+  "output": {
+    "type": "block",
+    "code": "game:ladder-rope-north",
+    "quantity": 6
+  }
+}

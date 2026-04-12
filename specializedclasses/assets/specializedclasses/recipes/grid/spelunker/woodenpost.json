@@ -1,0 +1,92 @@
+[
+	{
+		"ingredientPattern":"SK,_L",
+		"ingredients":{
+			"S":{
+				"type":"item",
+				"code":"game:saw-*",
+				"isTool":true
+			},
+			"K":{
+				"type":"item",
+				"code":"game:knife-*",
+				"isTool":true
+			},
+			"L":{
+				"type":"block",
+				"code":"game:log-placed-*-ud",
+				"name":"wood",
+				"skipVariants": ["agedebony", "rottenebony", "veryaged", "veryagedrotten"]
+			}
+		},
+		"width":2,
+		"height":2,
+		"requiresTrait": "spelunker",
+		"recipeGroup":0,
+		"output":{
+			"type":"block",
+			"code":"postsandbeams:woodenpost-{wood}-barked-ew",
+			"quantity":4
+		}
+	},
+	{
+		"ingredientPattern": "SK,_L",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:debarkedlog-*-ud",
+				"name": "wood",
+				"skipVariants": [ "agedebony", "rottenebony", "veryaged", "veryagedrotten" ]
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"requiresTrait": "spelunker",
+		"recipeGroup": 0,
+		"output": {
+			"type": "block",
+			"code": "postsandbeams:woodenpost-{wood}-debarked-ew",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SK,_L",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:saw-*",
+				"isTool": true
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"L": {
+				"type": "block",
+				"code": "game:logsection-placed-*-ne-ud",
+				"name": "wood",
+				"skipVariants": [ "agedebony", "rottenebony", "veryaged", "veryagedrotten" ]
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"requiresTrait": "spelunker",
+		"recipeGroup": 0,
+		"output": {
+			"type": "block",
+			"code": "postsandbeams:woodenpost-{wood}-barked-ew",
+			"quantity": 4
+		}
+	}
+]
