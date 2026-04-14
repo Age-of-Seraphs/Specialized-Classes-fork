@@ -1,11 +1,12 @@
 [
 	{
 		// compatibility-specific traits are added in other traits.json files in their respective compatibility folders
-		"code": "berserker", // forester
+		"code": "berserker", // forester skirmisher
 		"type": "positive", // combat
 		"attributes": {
-			"meleeWeaponsDamage": 0.25,
-			"maxhealthExtraPoints": -5
+			"meleeWeaponsDamage": 0.2,
+			"maxhealthExtraPoints": 3,
+			"animalSeekingRange": 0.5
 		}
 	},
 	{
@@ -298,8 +299,9 @@
 		"code": "collier", // forester
 		"type": "positive", // positive
 		"attributes": {
-			"charcoalPileDropRate": 1,
-			"peatDropRate": 1
+			"charcoalPileDropRate": 0.25,
+			"peatDropRate": 0.25,
+			"soilMiningSpeedMul": 0.10
 		}
 	},
 	{
@@ -415,15 +417,15 @@
 		"code": "lumberjack", // forester
 		"type": "positive", // positive
 		"attributes": {
-			"woodMiningSpeedMul": 1,
-			"leavesMiningSpeedMul": 1,
-			"durabilitySaveChanceAxe": 0.75,
-			"durabilitySaveChanceShears": 0.75,
-			"durabilitySaveChanceSaw": 0.75
+			"woodMiningSpeedMul": 0.2,
+			"leavesMiningSpeedMul": 0.2,
+			"durabilitySaveChanceAxe": 0.5,
+			"treeDropRate": 0.15,
+			"treeSeedDropRate": 1
 		}
 	},
 	{
-		"code": "nurseryworker", // forester
+		"code": "nurseryworker", // forester legacy
 		"type": "positive", // positive
 		"attributes": {
 			"treeSeedDropRate": 3
@@ -719,7 +721,7 @@
 		"code": "outdoorsy", // forester
 		"type": "negative", // negative
 		"attributes": {
-			"stabilityIndoorOffset": -0.3
+			"stabilityIndoorOffset": -0.25
 		}
 	},
 	{

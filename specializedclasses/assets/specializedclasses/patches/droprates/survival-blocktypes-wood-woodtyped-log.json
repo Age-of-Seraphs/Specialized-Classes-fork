@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/drops/0/dropModbyStat",
+    "value": "treeDropRate",
+    "file": "game:blocktypes/wood/woodtyped/log.json",
+    "side": "server"
+  }
+]

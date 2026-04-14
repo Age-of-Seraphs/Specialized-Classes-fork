@@ -151,12 +151,11 @@
 		"enabled": true,
 		"code": "forester",
 		"traits": [
-			"berserker", // combat
+			"berserker", // combat skirmisher
 			"forester", // crafting
-			"collier", // positive
 			"lumberjack", // positive
-			"nurseryworker", // positive
-			"delicate" // negative
+			"collier", // positive
+			"outdoorsy" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" }, // Hunter shirt

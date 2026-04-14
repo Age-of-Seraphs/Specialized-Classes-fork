@@ -129,7 +129,7 @@
 
 	"game:trait-forester": "<font color=\"#99d6ff\">• Forester </font>",
 	"game:traitname-forester": "Forester",
-	"game:traitdesc-forester": "<a href=\"handbook://specializedclasses:class-forester\">Can carve boards early with a knife. Can craft boards and firewood more efficiently, and can carve boards into sticks. Can craft charcoal directly out of firewood. Can create aged wooden building blocks using firewood. Can use the woodcarving table to craft unworked logs into a multitude of wooden objects  and building blocks directly</a>",
+	"game:traitdesc-forester": "<a href=\"handbook://specializedclasses:class-forester\">Can carve boards early with a knife. Can craft boards and firewood more efficiently, and can carve boards into sticks. Can create aged wooden building blocks using firewood. Can use the woodcarving table to craft unworked logs into a multitude of wooden objects and building blocks directly</a>",
 
 	"game:trait-hunter": "<font color=\"#99d6ff\">• Hunter </font>",
 	"game:traitname-hunter": "Hunter",
@@ -390,6 +390,7 @@
 	"game:charattribute-animalSeekingRange-0.5": "+50% creature aggression range",
 	"game:charattribute-animalSeekingRange-1": "+100% creature aggression range",
 
+
 	"game:charattribute-armorDurabilityLoss--0.8": "-80% armor durability loss",
 	"game:charattribute-armorDurabilityLoss--0.5": "-50% armor durability loss",
 
@@ -405,7 +406,7 @@
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.25": "+25% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.5": "50% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.75": "75% chance to save weapon durability",
-	"game:charattribute-durabilitySaveChanceAxe-0.75": "75% chance to save axe durability",
+	"game:charattribute-durabilitySaveChanceAxe-0.5": "50% chance to save axe durability",
 	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHoe-0.75": "75% chance to save hoe durability",
@@ -428,7 +429,7 @@
 
 	"game:charattribute-ceramicMiningSpeedMul-1": "+100% ceramic breaking speed",
 
-	"game:charattribute-charcoalPileDropRate-0.5": "+50% charcoal yield",
+	"game:charattribute-charcoalPileDropRate-0.25": "+25% charcoal yield",
 	"game:charattribute-charcoalPileDropRate-1": "+100% charcoal yield",
 
 	"game:charattribute-clayDropRate--0.25": "-25% clay yield",
@@ -543,9 +544,11 @@
 	"game:charattribute-pathWalkSpeedMul-1": "+100% path block speed bonus",
 
 	"game:charattribute-peatDropRate--0.25": "-25% peat yield",
+	"game:charattribute-peatDropRate-0.25": "25% peat yield",
 	"game:charattribute-peatDropRate-0.2": "+20% peat yield",
 	"game:charattribute-peatDropRate-0.5": "+50% peat yield",
 	"game:charattribute-peatDropRate-1": "+100% peat yield",
+	"game:charattribute-peatDropRate-0.1": "+10% peat yield",
 
 	"game:charattribute-plantMiningSpeedMul--0.25": "-25% plant breaking speed",
 	"game:charattribute-plantMiningSpeedMul--0.2": "-20% plant breaking speed",
@@ -599,6 +602,7 @@
 	"game:charattribute-soilMiningSpeedMul--0.2": "-20% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul--0.1": "-10% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul--0.05": "-5% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul-0.10": "+10% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-0.25": "+25% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-0.5": "+50% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-1": "+100% soil breaking speed",
@@ -608,6 +612,7 @@
 
 	"game:charattribute-stabilityIndoorOffset--0.3": "-30% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset--0.2": "-20% temporal stability offset while underground",
+	"game:charattribute-stabilityIndoorOffset--0.25": "-25% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset-0.2": "+20% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset-0.3": "+30% temporal stability offset while underground",
 
@@ -633,6 +638,8 @@
 	"game:charattribute-swimSpeedMul-1": "+100% swim speed",
 
 	"game:charattribute-temporalGearTLRepairCost--1": "-1 temporal gear cost to repair translocators",
+
+	"game:charattribute-treeDropRate-0.15": "15% log yield from trees",
 
 	"game:charattribute-treeSeedDropRate--0.25": "-25% tree seed yield",
 	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",
