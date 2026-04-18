@@ -3,6 +3,7 @@
 	"menuMode": "browser",
 	"recipes": [
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
 				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },
@@ -13,6 +14,7 @@
 			"requiredTrait": "spelunker"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
 				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },
@@ -23,6 +25,7 @@
 			"requiredTrait": "spelunker"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any gravel" } },
 				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand" } },

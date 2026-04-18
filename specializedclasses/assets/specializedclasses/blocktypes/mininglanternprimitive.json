@@ -1,0 +1,123 @@
+{
+	"code": "primitivemininglantern",
+	"storageFlags": 257,
+	"heldRightTpIdleAnimation": "holdinglanternrighthand",
+	"heldLeftTpIdleAnimation": "holdinglanternlefthand",
+	"creativeinventory": {
+		"general": [
+			"primitivemininglantern-south"
+		],
+		"decorative": [
+			"primitivemininglantern-south"
+		],
+		"specializedclasses": [ "primitivemininglantern-south" ]
+	},
+	"variantgroups": [
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"behaviors": [
+		{
+			"name": "HorizontalOrientable",
+			"properties": {
+				"dropBlockFace": "south"
+			}
+		},
+		{
+			"name": "RightClickPickup"
+		},
+		{
+			"name": "UnstableFalling"
+		}
+	],
+	"shapebytype": {
+		"primitivemininglantern-west": {
+			"base": "block/primitivemininglantern",
+			"rotateY": 270
+		},
+		"primitivemininglantern-east": {
+			"base": "block/primitivemininglantern",
+			"rotateY": 90
+		},
+		"primitivemininglantern-south": {
+			"base": "block/primitivemininglantern",
+			"rotateY": 0
+		},
+		"primitivemininglantern-north": {
+			"base": "block/primitivemininglantern",
+			"rotateY": 180
+		}
+	},
+	"resistance": 1,
+	"materialDensity": 800,
+	"blockmaterial": "Metal",
+	"lightAbsorption": 0,
+	"lightHsv": [
+		4,
+		5,
+		16
+	],
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"selectionBox": {
+		"x1": 0.35,
+		"y1": 0,
+		"z1": 0.35,
+		"x2": 0.725,
+		"y2": 0.625,
+		"z2": 0.7
+	},
+	"collisionbox": {
+		"x1": 0.35,
+		"y1": 0,
+		"z1": 0.35,
+		"x2": 0.725,
+		"y2": 0.625,
+		"z2": 0.7
+	},
+	"guiTransform": {
+		"origin": {
+			"x": 0.5,
+			"y": 0.3,
+			"z": 0.45
+		},
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.48,
+			"y": -0.62,
+			"z": -0.6
+		},
+		"rotation": {
+			"x": 90,
+			"y": -1,
+			"z": -83
+		},
+		"scale": 0.8
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": -45,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 2.5
+	}
+}

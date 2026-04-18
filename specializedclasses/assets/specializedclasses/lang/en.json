@@ -40,7 +40,7 @@
 	"game:characterdesc-quarrier": "<font color=\"#99c9f9\"><i>\"I don't understand what everybody's complaining about. Moving mountains is easy, just do it one part at a time.\"\n</i></font><br><br>Quarriers are laborers and stonemasons. They smash through rock with heavy hands, often splitting it off whole. They don't mind if they shatter ore in the process - stone is most valuable to them, as they can craft a great many building materials from it.",
 
 	"game:characterclass-spelunker": "Spelunker",
-	"game:characterdesc-spelunker": "<font color=\"#99c9f9\"><i>\"Leave no stone unturned? That's what you said. Oh, you didn't mean it literally?\"\n</i></font><br><br>Spelunkers are prospectors and cavern explorers. They're always chasing the glimmer of precious metals and can find them with ease within rock and gravel alike, pickaxe in one hand and a pan in the other.",
+	"game:characterdesc-spelunker": "<font color=\"#99c9f9\"><i>\"Leave no stone unturned? That's what you said. Oh, you didn't mean it literally?\"\n</i></font><br><br>Spelunkers are prospectors and cavern explorers. They're always chasing the glimmer of precious metals and can find them with ease within sedimentary, metamorphic and igneous rocks alike, pickaxe in one hand and a lantern in the other.",
 
 	"game:characterclass-tailor": "Tailor",
 	"game:characterdesc-tailor": "<font color=\"#99c9f9\"><i>\"We're cut from the same cloth? Well, one of us is going to have to change.\"\n</i></font><br><br>Tailors are weavers and clothiers. Given time, they can weave usable fibers from even the crudest grass, and then refine those fibers into a wide variety of clothing both practical and pretty for themselves and others to wear.",
@@ -149,7 +149,7 @@
 
 	"game:trait-spelunker": "<font color=\"#99d6ff\">• Spelunker </font>",
 	"game:traitname-spelunker": "Spelunker",
-	"game:traitdesc-spelunker": "<a href=\"handbook://specializedclasses:class-spelunker\">Can more efficiently process minerals like sulfur, lime, salt, borax, and salt. Can make saltpeter out of compost and lime. Can make bombs with much less linen. Can make exclusive metallic, crystalline or carbonaceous paydirt to aim for certain panning outputs. Can make rope ladders with less rope. Can make wooden posts with less wood.</a>",
+	"game:traitdesc-spelunker": "<a href=\"handbook://specializedclasses:class-spelunker\">Can more efficiently process minerals like sulfur, lime, salt, borax, and salt. Can make saltpeter out of compost and lime. Can make bombs with much less linen. Can make rope ladders with less rope. Can make wooden posts with less wood. Can craft unique lanterns to shine a light on the darkness that festers below.</a>",
 
 	"game:trait-tailor": "<font color=\"#99d6ff\">• Tailor </font>",
 	"game:traitname-tailor": "Tailor",
@@ -330,6 +330,9 @@
 	"game:trait-compulsive": "<font color=\"#ff8484\">• Compulsive </font>",
 	"game:traitname-compulsive": "Compulsive",
 
+	"game:trait-crude": "<font color=\"#ff8484\">• Crude </font>",
+	"game:traitname-crude": "Crude",
+
 	"game:trait-delicate": "<font color=\"#ff8484\">• Delicate </font>",
 	"game:traitname-delicate": "Delicate",
 
@@ -341,6 +344,9 @@
 
 	"game:trait-guilty": "<font color=\"#ff8484\">• Guilty </font>",
 	"game:traitname-guilty": "Guilty",
+
+	"game:trait-aosheavyhanded": "<font color=\"#ff8484\">• Heavy-handed </font>",
+	"game:traitname-aosheavyhanded": "Heavy-handed",
 
 	"game:trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
 	"game:traitname-hungry": "Hungry",
@@ -380,6 +386,7 @@
 	"game:charattribute-animalHarvestingTime-0.5": "-50% creature harvesting speed",
 
 	"game:charattribute-animalLootDropRate--0.25": "-25% creature harvesting yield",
+	"game:charattribute-animalLootDropRate--0.2": "-20% creature harvesting yield",
 	"game:charattribute-animalLootDropRate--0.1": "-10% creature harvesting yield",
 	"game:charattribute-animalLootDropRate-0.25": "+25% increased creature harvesting yield",
 	"game:charattribute-animalLootDropRate-1": "+100% increased creature harvesting yield",
@@ -438,16 +445,20 @@
 	"game:charattribute-clothMiningSpeedMul-0.5": "+50% cloth breaking speed",
 	"game:charattribute-clothMiningSpeedMul-1": "+100% cloth breaking speed",
 
+	"game:charattribute-cropProduceDropRate--0.3": "-30% crop produce yield",
 	"game:charattribute-cropProduceDropRate--0.25": "-25% crop produce yield",
 	"game:charattribute-cropProduceDropRate--0.2": "-20% crop produce yield",
 	"game:charattribute-cropProduceDropRate--0.1": "-10% crop produce yield",
 	"game:charattribute-cropProduceDropRate-0.5": "+50% crop produce yield",
 
+	"game:charattribute-cropSeedDropRate--0.3": "-30% crop seed yield",
 	"game:charattribute-cropSeedDropRate--0.25": "-25% crop seed yield",
 	"game:charattribute-cropSeedDropRate-1": "+100% crop seed yield",
 
 	"game:charattribute-flaxFiberDropRate-1": "+100% crop fiber yield",
+	"game:charattribute-flaxFiberDropRate--0.3": "-30% crop fiber yield",
 	"game:charattribute-flaxFiberDropRate--0.25": "-25% crop fiber yield",
+	"game:charattribute-flaxFiberDropRate--0.1": "-10% crop fiber yield",
 
 	"game:charattribute-forageDropRate--0.25": "-25% foraging yield",
 	"game:charattribute-forageDropRate--0.2": "-20% foraging yield",
@@ -456,6 +467,7 @@
 	"game:charattribute-forageDropRate-1": "+100% foraging yield",
 	"game:charattribute-fertilizerPermanencePercentage-0.25": "25% of fertilizer is also applied to farmland's max fertility",
 
+	"game:charattribute-fruitTreeDropRate--0.3": "-30% fruit tree graft yield",
 	"game:charattribute-fruitTreeDropRate--0.25": "-25% fruit tree graft yield",
 	"game:charattribute-fruitTreeDropRate-1": "+100% fruit tree graft yield",
 
@@ -661,6 +673,7 @@
 	"game:charattribute-wholeVesselLootChance-0.75": "+75% chance for cracked vessels to drop whole",
 
 	"game:charattribute-wildCropDropRate--0.5": "-50% wild crop yield",
+	"game:charattribute-wildCropDropRate--0.3": "-30% wild crop yield",
 	"game:charattribute-wildCropDropRate--0.25": "-25% wild crop yield",
 	"game:charattribute-wildCropDropRate--0.2": "-20% wild crop yield",
 	"game:charattribute-wildCropDropRate--0.1": "-10% wild crop yield",
@@ -675,6 +688,7 @@
 	"game:charattribute-woodMiningSpeedMul-1": "+100% wood breaking speed",
 
 	"game:charattribute-youngCropSeedDropRate--0.25": "-25% young crop seed yield",
+	"game:charattribute-youngCropSeedDropRate--0.30": "-30% young crop seed yield",
 	"game:charattribute-youngCropSeedDropRate-0.4": "+40% young crop seed yield",
 	"game:charattribute-youngseeddropchance-1": "+100% chance for immature crops to drop exactly 1 seed",
 
@@ -899,6 +913,8 @@
 	"specializedclasses:itemdesc-scrollcase": "A narrow leather case for carrying slim documents and other small supplies.",
 	"specializedclasses:item-soilbag": "Soil bag",
 	"specializedclasses:itemdesc-soilbag": "A heavy sack packed for hauling compost, soil, and other messy field supplies.",
+	"block-metalmininglantern-*": "Mining lantern",
+	"block-primitivemininglantern-*": "Simple mining lantern",
 	// pigments
 	"specializedclasses:item-pigment-black": "Black pigment",
 	"specializedclasses:item-pigment-blue": "Blue pigment",
