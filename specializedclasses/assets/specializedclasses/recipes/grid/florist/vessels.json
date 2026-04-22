@@ -172,6 +172,65 @@
 		}
 	},
 	{
+		"ingredientPattern": "AB,_C,_B", //Entrenched
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-entrenched"
+		}
+	},
+	{
+		"ingredientPattern": "AB,_C,_D", //Golden
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"D": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-golden"
+		}
+	},
+
+	{
 		"ingredientPattern": "SW,_W,_G", //Rain
 		"requiresTrait": "florist",
 		"ingredients": {
@@ -797,6 +856,150 @@
 			"type": "block",
 			"code": "game:storagevessel-wintersea",
 			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "AB,_C,_D", //Motheaten
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"D": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-motheaten"
+		}
+	},
+	{
+		"ingredientPattern": "AB,_C,_D", //Patina
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"D": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-patina"
+		}
+	},
+	{
+		"ingredientPattern": "AB,_C,_B", //Pine
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-pine"
+		}
+	},
+	{
+		"ingredientPattern": "AB,_C,_B", //Serpents
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-serpents"
+		}
+	},
+
+	{
+		"ingredientPattern": "AB,_C,_B", //Void
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 2,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-void"
 		}
 	}
 ]
