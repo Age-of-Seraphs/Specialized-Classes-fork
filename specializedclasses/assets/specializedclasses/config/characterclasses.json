@@ -240,8 +240,8 @@
 			"ascetic", // positive
 			"stonecutter", // positive
 			"tunneler", // positive
-			"sheltered", // negative
-			"careless" //negative
+			"careless", //negative
+			"aosheavyhanded" //negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-stained-leather-poncho" }, // Stained leather poncho
@@ -261,8 +261,7 @@
 			"spelunker", // crafting
 			"resilient", // positive - replaced panner
 			"prospector", // positive
-			"uncultured", // negative
-			"sheltered", // negative
+			"crude", // negative
 			"compulsive" //negative
 		],
 		"gear": [

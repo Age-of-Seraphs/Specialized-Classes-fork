@@ -1,0 +1,41 @@
+[
+  {
+    "ingredientPattern": "_B_,WFT,_P_",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:bone",
+        "quantity": 1
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 4
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": 2
+      },
+      "P": {
+        "type": "block",
+        "code": "game:flowerpot-*-fired",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "requiresTrait": "spelunker",
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "primitivemininglantern-south",
+      "quantity": 1
+    }
+  }
+]

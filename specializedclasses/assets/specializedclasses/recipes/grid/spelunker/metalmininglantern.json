@@ -1,0 +1,36 @@
+[
+  {
+    "ingredientPattern": "B_,FT,M_",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:metalplate-brass",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-molybdochalkos",
+        "quantity": 1
+      },
+      "F": {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": 2
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "requiresTrait": "spelunker",
+    "shapeless": false,
+    "output": {
+      "type": "block",
+      "code": "metalmininglantern-south",
+      "quantity": 1
+    }
+  }
+]

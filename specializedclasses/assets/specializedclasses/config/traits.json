@@ -649,7 +649,37 @@
 		"attributes": {
 			"oreDropRate": -0.25,
 			"vesselContentsDropRate": -0.20,
-			"cropProduceDropRate": -0.10
+			"flaxFiberDropRate": -0.10
+		}
+	},
+	{
+		"code": "aosheavyhanded", // quarrier
+		"type": "negative", // negative
+		"attributes": {
+			"cropProduceDropRate": -0.30,
+			"wildCropDropRate": -0.30,
+			"animalLootDropRate": -0.25
+		}
+	},
+	{
+		"code": "compulsive", // spelunker
+		"type": "negative", // negative
+		"attributes": {
+			//"panningStoneDropRate": -1
+			"stoneDropRate": -0.25,
+			"animalLootDropRate": -0.20,
+			"woodMiningSpeedMul": -0.10
+
+		}
+	},
+	{
+		"code": "crude", // spelunker
+		"type": "negative", // negative
+		"attributes": {
+			"cropSeedDropRate": -0.30,
+			"flaxFiberDropRate": -0.30,
+			"cropProduceDropRate": -0.30,
+			"fruitTreeDropRate": -0.30
 		}
 	},
 	{
@@ -658,14 +688,6 @@
 		"attributes": {
 			"oreDropRate": -0.1,
 			"oreMiningSpeedMul": -0.1
-		}
-	},
-	{
-		"code": "compulsive", // spelunker
-		"type": "negative", // negative
-		"attributes": {
-			//"panningStoneDropRate": -1
-			"stoneDropRate": -0.25
 		}
 	},
 	{
