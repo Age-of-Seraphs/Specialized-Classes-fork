@@ -1,6 +1,38 @@
 [
 	{
-		"ingredientPattern": "S,b,g,g",
+		"ingredientPattern": "AB,_C,_D", //Abyss
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"D": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-abyss"
+		}
+	},
+
+	{
+		"ingredientPattern": "Sb,_g,_g", //Ashforest
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -16,8 +48,8 @@
 				"code": "specializedclasses:pigment-gray"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -28,7 +60,35 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,g,N,g",
+		"ingredientPattern": "AB,_C", //Chains
+		"requiresTrait": "florist",
+		"ingredients": {
+			"A": {
+				"type": "block",
+				"code": "game:storagevessel-blue-fired"
+			},
+			"B": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"C": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "fancyvessels" },
+		"output": {
+			"type": "block",
+			"code": "game:storagevessel-chains"
+		}
+	},
+
+	{
+		"ingredientPattern": "Sg,_N,_g", //Cthonic
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -44,8 +104,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -56,7 +116,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,O,O,N",
+		"ingredientPattern": "SO,_O,_N", //Copper
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -72,8 +132,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -84,7 +144,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,N,N,Y",
+		"ingredientPattern": "SN,_N,_Y", //Earthen
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -100,8 +160,8 @@
 				"code": "specializedclasses:pigment-yellow"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -112,7 +172,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,W,G",
+		"ingredientPattern": "SW,_W,_G", //Rain
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -128,8 +188,8 @@
 				"code": "specializedclasses:pigment-green"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -140,7 +200,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,g,N",
+		"ingredientPattern": "SW,_g,_N", //Cowrie
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -160,8 +220,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -172,7 +232,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,g,K",
+		"ingredientPattern": "SW,_g,_K", //Rime
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -192,8 +252,8 @@
 				"code": "specializedclasses:pigment-black"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -204,7 +264,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,R,N,b",
+		"ingredientPattern": "SR,_N,_b", //Oxblood
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -224,8 +284,8 @@
 				"code": "specializedclasses:pigment-blue"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -236,7 +296,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,K,K,N",
+		"ingredientPattern": "SK,_K,_N", //Loam
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -252,8 +312,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -264,7 +324,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,G,Y,N",
+		"ingredientPattern": "SG,_Y,_N", //Undergrowth
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -284,8 +344,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -296,7 +356,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,Y,Y,N",
+		"ingredientPattern": "SY,_Y,_N", //Beehive
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -312,8 +372,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -324,7 +384,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,G,O,N",
+		"ingredientPattern": "SG,_O,_N", //Harvest
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -344,8 +404,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -356,7 +416,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,G,G,Y",
+		"ingredientPattern": "SG,_G,_Y", //Honeydew
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -372,8 +432,8 @@
 				"code": "specializedclasses:pigment-yellow"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -384,7 +444,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,b,b,W",
+		"ingredientPattern": "Sb,_b,_W", //Rutile
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -400,8 +460,8 @@
 				"code": "specializedclasses:pigment-white"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -412,7 +472,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,b,Y,W",
+		"ingredientPattern": "Sb,_Y,_W", //Seasalt
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -432,8 +492,8 @@
 				"code": "specializedclasses:pigment-white"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -444,7 +504,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,P,P,G",
+		"ingredientPattern": "SP,_P,_G", //Springflowers
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -460,8 +520,8 @@
 				"code": "specializedclasses:pigment-green"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -472,7 +532,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,g,g,R",
+		"ingredientPattern": "Sg,_g,_R", //Volcanic
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -488,8 +548,8 @@
 				"code": "specializedclasses:pigment-red"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -500,7 +560,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,Y,Y,O",
+		"ingredientPattern": "SY,_Y,_O", //Cloisonne
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -516,8 +576,8 @@
 				"code": "specializedclasses:pigment-orange"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -528,7 +588,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,b,b,N",
+		"ingredientPattern": "Sb,_b,_N", //Cornflower
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -544,8 +604,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -556,7 +616,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,N,N,W",
+		"ingredientPattern": "SN,_N,_W", //Talik
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -572,8 +632,8 @@
 				"code": "specializedclasses:pigment-white"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -584,7 +644,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,b,W,N",
+		"ingredientPattern": "Sb,_W,_N", //CaveAurora
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -604,8 +664,8 @@
 				"code": "specializedclasses:pigment-brown"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -616,7 +676,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,R,b",
+		"ingredientPattern": "SW,_R,_b", //Collonade
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -636,8 +696,8 @@
 				"code": "specializedclasses:pigment-blue"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -648,7 +708,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,g,b",
+		"ingredientPattern": "SW,_g,_b", //Rattlesnake
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -668,8 +728,8 @@
 				"code": "specializedclasses:pigment-blue"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -680,7 +740,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,O,W,b",
+		"ingredientPattern": "SO,_W,_b", //Waves
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -700,8 +760,8 @@
 				"code": "specializedclasses:pigment-blue"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
@@ -712,7 +772,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "S,W,W,b",
+		"ingredientPattern": "SW,_W,_b", //Wintersea
 		"requiresTrait": "florist",
 		"ingredients": {
 			"S": {
@@ -728,8 +788,8 @@
 				"code": "specializedclasses:pigment-blue"
 			}
 		},
-		"width": 1,
-		"height": 4,
+		"width": 2,
+		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 68,
 		"attributes": { "handbookOverviewGroup": "fancyvessels" },
