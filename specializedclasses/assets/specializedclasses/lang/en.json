@@ -50,8 +50,8 @@
 
 
 	// specializedclasses: combat role traits [#9966ff]
-	"game:trait-berserker": "<font color=\"#9966ff\">• Berserker </font>",
-	"game:traitname-berserker": "Berserker",
+	"game:trait-berserker": "<font color=\"#9966ff\">• Tree Feller </font>",
+	"game:traitname-berserker": "Tree Feller",
 
 	"game:trait-bruiser": "<font color=\"#9966ff\">• Bruiser </font>",
 	"game:traitname-bruiser": "Bruiser",
@@ -102,6 +102,10 @@
 	"game:trait-archivist": "<font color=\"#99d6ff\">• Archivist </font>",
 	"game:traitname-archivist": "Archivist",
 	"game:traitdesc-archivist": "<a href=\"handbook://specializedclasses:class-archivist\">Can recycle clutter into rot, can recycle lore items into parchment, can use rot to make aged wooden and stone building blocks, can make paper lanterns, and can craft the unique scroll case backpack</a>",
+
+	"game:trait-artisan": "<font color=\"#99d6ff\">• Artisan </font>",
+	"game:traitname-artisan": "Artisan",
+	"game:traitdesc-artisan": "Can craft decorated flowerpots and storage vessels",
 
 	"game:trait-blackguard": "<font color=\"#99d6ff\">• Blackguard </font>",
 	"game:traitname-blackguard": "Blackguard",
@@ -216,6 +220,10 @@
 
 	"game:trait-engineer": "<font color=\"#84ff84\">• Engineer </font>",
 	"game:traitname-engineer": "Engineer",
+
+	"game:trait-excavator": "<font color=\"#84ff84\">• Excavator </font>",
+	"game:traitname-excavator": "Excavator",
+
 
 	"game:trait-fertilizer": "<font color=\"#84ff84\">• Fertilizer </font>",
 	"game:traitname-fertilizer": "Fertilizer",
@@ -387,6 +395,7 @@
 	"game:charattribute-animalSeekingRange--0.75": "-75% creature aggression range",
 	"game:charattribute-animalSeekingRange--0.6": "-60% creature aggression range",
 	"game:charattribute-animalSeekingRange--0.25": "-25% creature aggression range",
+	"game:charattribute-animalSeekingRange-0.25": "25% creature aggression range",
 	"game:charattribute-animalSeekingRange-0.5": "+50% creature aggression range",
 	"game:charattribute-animalSeekingRange-1": "+100% creature aggression range",
 
@@ -430,6 +439,7 @@
 	"game:charattribute-ceramicMiningSpeedMul-1": "+100% ceramic breaking speed",
 
 	"game:charattribute-charcoalPileDropRate-0.25": "+25% charcoal yield",
+	"game:charattribute-charcoalPileDropRate-0.5": "+50% charcoal yield",
 	"game:charattribute-charcoalPileDropRate-1": "+100% charcoal yield",
 
 	"game:charattribute-clayDropRate--0.25": "-25% clay yield",
@@ -496,6 +506,7 @@
 	"game:charattribute-maxhealthExtraPoints--5": "-5 max health",
 	"game:charattribute-maxhealthExtraPoints--3": "-3 max health",
 	"game:charattribute-maxhealthExtraPoints--2": "-2 max health",
+	"game:charattribute-maxhealthExtraPoints-2": "2 max health",
 	"game:charattribute-maxhealthExtraPoints-10": "+10 max health",
 	"game:charattribute-maxhealthExtraPoints-15": "+15 max health",
 	"game:charattribute-maxhealthExtraPoints-3": "+3 max health",
@@ -544,7 +555,7 @@
 	"game:charattribute-pathWalkSpeedMul-1": "+100% path block speed bonus",
 
 	"game:charattribute-peatDropRate--0.25": "-25% peat yield",
-	"game:charattribute-peatDropRate-0.25": "25% peat yield",
+	"game:charattribute-peatDropRate-0.25": "+25% peat yield",
 	"game:charattribute-peatDropRate-0.2": "+20% peat yield",
 	"game:charattribute-peatDropRate-0.5": "+50% peat yield",
 	"game:charattribute-peatDropRate-1": "+100% peat yield",
@@ -602,6 +613,7 @@
 	"game:charattribute-soilMiningSpeedMul--0.2": "-20% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul--0.1": "-10% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul--0.05": "-5% soil breaking speed",
+	"game:charattribute-soilMiningSpeedMul-0.05": "+5% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-0.10": "+10% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-0.25": "+25% soil breaking speed",
 	"game:charattribute-soilMiningSpeedMul-0.5": "+50% soil breaking speed",
@@ -644,6 +656,8 @@
 	"game:charattribute-treeSeedDropRate--0.25": "-25% tree seed yield",
 	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",
 	"game:charattribute-treeSeedDropRate-3": "+300% tree seed yield",
+
+	"game:charattribute-variedClayBonus-1": "+2 different colored clay yield",
 
 	"game:charattribute-vesselContentsDropRate--0.25": "-25% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate--0.2": "-20% cracked vessel yield",
@@ -712,8 +726,8 @@
 
 
 	// combatoverhaul: combat traits [#9966ff]
-	"game:trait-co-berserker": "<font color=\"#9966ff\">• CO: Berserker </font>",
-	"game:traitname-co-berserker": "CO: Berserker",
+	"game:trait-co-berserker": "<font color=\"#9966ff\">• CO: Tree Feller </font>",
+	"game:traitname-co-berserker": "CO: Tree Feller",
 
 	"game:trait-co-bruiser": "<font color=\"#9966ff\">• CO: Bruiser </font>",
 	"game:traitname-co-bruiser": "CO: Bruiser",

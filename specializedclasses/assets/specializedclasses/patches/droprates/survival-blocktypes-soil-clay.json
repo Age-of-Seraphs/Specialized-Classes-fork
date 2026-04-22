@@ -5,5 +5,17 @@
 		"value": "clayDropRate",
 		"file": "game:blocktypes/soil/clay.json",
 		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/-",
+		"value": {
+			"type": "item",
+			"code": "stick",
+			"quantity": {
+				"avg": 2,
+				"var": 1
+			}
+		}
 	}
 ]

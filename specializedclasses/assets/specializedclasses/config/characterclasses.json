@@ -49,11 +49,11 @@
 		"traits": [
 			"bruiser", // combat
 			"brickmaker", // crafting
-			"improviser", // vanilla crafting
+			"artisan", //crafting
 			"delver", // positive
-			"ceramist", // positive
-			"kilnhand", // positive
-			"sheltered" // negative
+			"excavator", // positive
+			"sheltered", // negative
+			"uncultured" //negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" }, // Clockmaker pants
@@ -155,7 +155,8 @@
 			"forester", // crafting
 			"lumberjack", // positive
 			"collier", // positive
-			"outdoorsy" // negative
+			"outdoorsy", // negative
+			"delicate" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" }, // Hunter shirt

@@ -4,18 +4,18 @@
 		"code": "berserker", // forester skirmisher
 		"type": "positive", // combat
 		"attributes": {
-			"meleeWeaponsDamage": 0.2,
-			"maxhealthExtraPoints": 3,
-			"animalSeekingRange": 0.5
+			"meleeWeaponsDamage": 0.25,
+			"rangedWeaponsDamage": -0.20,
+			"animalSeekingRange": 1
 		}
 	},
 	{
 		"code": "bruiser", // brickmaker
 		"type": "positive", // combat
 		"attributes": {
-			"maxhealthExtraPoints": 15,
-			"meleeWeaponsDamage": 0.1,
-			"walkspeed": -0.05
+			"maxhealthExtraPoints": 2,
+			"animalSeekingRange": 0.25,
+			"armorWalkSpeedAffectedness": -0.25
 		}
 	},
 	{
@@ -159,6 +159,13 @@
 		"attributes": {}
 	},
 	{
+		"code": "artisan", // brickmaker
+		"type": "positive", // crafting
+		"attributes": {
+			"ceramicMiningSpeedMul": 1
+		}
+	},
+	{
 		"code": "blackguard", // blackguard
 		"type": "positive", // crafting
 		"attributes": {}
@@ -281,7 +288,7 @@
 		}
 	},
 	{
-		"code": "ceramist", // brickmaker
+		"code": "ceramist", // brickmaker unused
 		"type": "positive", // positive
 		"attributes": {
 			"clayDropRate": 0.5,
@@ -299,9 +306,9 @@
 		"code": "collier", // forester
 		"type": "positive", // positive
 		"attributes": {
-			"charcoalPileDropRate": 0.25,
+			"charcoalPileDropRate": 0.5,
 			"peatDropRate": 0.25,
-			"soilMiningSpeedMul": 0.10
+			"soilMiningSpeedMul": 0.05
 		}
 	},
 	{
@@ -325,10 +332,8 @@
 		"code": "delver", // brickmaker
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceShovel": 0.75,
-			"soilMiningSpeedMul": 1,
-			"gravelMiningSpeedMul": 1,
-			"sandMiningSpeedMul": 1
+			"variedClayBonus": 1,
+			"peatDropRate": 0.25
 		}
 	},
 	{
@@ -348,6 +353,16 @@
 		"attributes": {
 			"rustyGearDropRate": 0.5,
 			"temporalGearTLRepairCost": -1
+		}
+	},
+	{
+		"code": "excavator", // brickmaker
+		"type": "positive", // positive
+		"attributes": {
+			"durabilitySaveChanceShovel": 0.5,
+			"soilMiningSpeedMul": 0.5,
+			"gravelMiningSpeedMul": 0.5,
+			"sandMiningSpeedMul": 0.5
 		}
 	},
 	{
