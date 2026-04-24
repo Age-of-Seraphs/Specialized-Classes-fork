@@ -1,0 +1,168 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/traits/0",
+    "value": "frugal",
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/traits",
+    "value": [
+      "ranger",
+      "hunter",
+      "bowyer",
+      "carver",
+      "delicate"
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/traits",
+    "value": [
+      "rogue",
+      "malefactor",
+      "improviser",
+      "smuggler",
+      "sneak",
+      "thief",
+      "restrained",
+      "uncultured"
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3/traits",
+    "value": [
+      "lancer",
+      "clockmaker",
+      "tinkerer",
+      "dismantler",
+      "engineer",
+      "attuned",
+      "crafter",
+      "uncultured"
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/4/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  { 
+    "op": "replace",
+    "path": "/4/traits",
+    "value": [
+      "warlord",
+      "blackguard",
+      "merciless",
+      "blacksmith",
+      "heatproof",
+      "uncultured",
+      "sheltered"
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/5/gear",
+    "value": [
+      {
+        "type": "item",
+        "code": "clothes-upperbody-homespun-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-homespun-pants"
+      }
+    ],
+    "file": "game:config/characterclasses.json"
+  },
+  {
+    "op": "replace",
+    "path": "/5/traits",
+    "value": [
+      "fencer",
+      "tailor",
+      "clothier",
+      "bespoke",
+      "thresher",
+      "weaver",
+      "delicate"
+    ],
+    "file": "game:config/characterclasses.json"
+  }
+]

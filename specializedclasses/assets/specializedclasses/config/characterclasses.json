@@ -22,7 +22,7 @@
 		]
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"code": "blackguard",
 		"traits": [
 			"warlord", // combat
@@ -84,7 +84,7 @@
 		]
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"code": "clockmaker",
 		"traits": [
 			"lancer", // combat
@@ -168,7 +168,7 @@
 		]
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"code": "hunter",
 		"traits": [
 			"ranger", // combat
@@ -188,7 +188,7 @@
 		]
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"code": "malefactor",
 		"traits": [
 			"rogue", // combat
@@ -274,7 +274,7 @@
 		]
 	},
 	{
-		"enabled": true,
+		"enabled": false,
 		"code": "tailor",
 		"traits": [
 			"fencer", // combat

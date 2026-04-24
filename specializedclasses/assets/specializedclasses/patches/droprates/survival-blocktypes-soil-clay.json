@@ -7,8 +7,8 @@
 		"side": "Server"
 	},
 	{
-		"op": "addmerge",
-		"path": "/drops/-",
+		"op": "add",
+		"path": "/drops/2",
 		"value": {
 			"type": "item",
 			"code": "stick",
@@ -16,6 +16,8 @@
 				"avg": 2,
 				"var": 1
 			}
-		}
+		},
+		"file": "game:blocktypes/soil/clay.json",
+		"side": "Server"
 	}
 ]
