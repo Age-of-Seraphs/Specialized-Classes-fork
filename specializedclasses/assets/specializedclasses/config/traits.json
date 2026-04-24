@@ -41,7 +41,7 @@
 		"type": "positive", // combat
 		"attributes": {
 			"animalSeekingRange": 1,
-			"walkspeed": 0.2
+			"walkspeed": 0.25
 		}
 	},
 	{
@@ -93,8 +93,8 @@
 		"type": "positive", // combat
 		"attributes": {
 			"animalSeekingRange": -0.75,
-			"meleeWeaponsDamage": -0.1,
-			"rangedWeaponsDamage": 0.15,
+			"meleeWeaponsDamage": 0.15,
+			"rangedWeaponsDamage": 0.25,
 			"walkspeed": 0.1
 		}
 	},
@@ -104,6 +104,14 @@
 		"attributes": {
 			"animalSeekingRange": -0.25,
 			"meleeWeaponsDamage": 0.1
+		}
+	},
+	{
+		"code": "serf", // commoner
+		"type": "positive", // combat
+		"attributes": {
+			"maxhealthExtraPoints": 1,
+			"walkspeed": 0.05
 		}
 	},
 	{
@@ -272,7 +280,7 @@
 		"code": "blacksmith", // blackguard
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceHammer": 0.75,
+			"durabilitySaveChanceHammer": 0.25,
 			"durabilitySaveChanceAllWeapons": 0.25,
 			"metalMiningSpeedMul": 1,
 			"oreDropRate": 0.1
@@ -284,7 +292,14 @@
 		"attributes": {
 			"animalHarvestingTime": -0.5,
 			"animalLootDropRate": 0.25,
-			"durabilitySaveChanceKnife": 0.75
+			"durabilitySaveChanceKnife": 0.25
+		}
+	},
+	{
+		"code": "rugged", // hunter
+		"type": "positive", // positive
+		"attributes": {
+			"hungerrate": -0.20
 		}
 	},
 	{
@@ -391,7 +406,7 @@
 		"code": "frugal", // commoner (patch)
 		"type": "positive", // positive
 		"attributes": {
-			"hungerrate": -0.75
+			"hungerrate": -0.50
 		}
 	},
 	{
@@ -507,7 +522,7 @@
 		"code": "roadlayer", // messenger
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceShovel": 0.5,
+			"durabilitySaveChanceShovel": 0.25,
 			"gravelMiningSpeedMul": 0.5,
 			"sandMiningSpeedMul": 0.5,
 			"snowMiningSpeedMul": 0.5,
@@ -518,7 +533,7 @@
 		"code": "restrained", // malefactor
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceAllWeapons": 0.75
+			"durabilitySaveChanceAllWeapons": 0.1
 		}
 	},
 	{
@@ -561,8 +576,8 @@
 		"code": "thief", // malefactor
 		"type": "positive", // positive
 		"attributes": {
-			"rustyGearDropRate": 1,
-			"vesselContentsDropRate": 1
+			"rustyGearDropRate": 0.25,
+			"vesselContentsDropRate": 0.75
 		}
 	},
 	{
@@ -628,8 +643,8 @@
 		"code": "calloused", // farmhand
 		"type": "negative", // negative
 		"attributes": {
-			"forageDropRate": -0.2,
-			"woodMiningSpeedMul": -0.1
+			"forageDropRate": -0.3,
+			"woodMiningSpeedMul": -0.2
 		}
 	},
 	{
@@ -712,18 +727,33 @@
 		"code": "fickle", // hunter
 		"type": "negative", // negative
 		"attributes": {
-			"oreMiningSpeedMul": -0.33
+			"oreMiningSpeedMul": -0.30
+		}
+	},
+	{
+		"code": "aosclaustrophobic", // hunter
+		"type": "negative", // negative
+		"attributes": {
+			"stabilityIndoorOffset": -0.40
 		}
 	},
 	{
 		"code": "guilty", // malefactor
 		"type": "negative", // negative
 		"attributes": {
-			"stabilityOffset": -0.1
+			"stabilityOffset": -0.1,
+			"pathWalkSpeedMul": -0.2
 		}
 	},
 	{
-		"code": "hungry", // messenger
+		"code": "feeble", // malefactor
+		"type": "negative", // negative
+		"attributes": {
+			"maxhealthExtraPoints": -5
+		}
+	},
+	{
+		"code": "hungry", // blackguard
 		"type": "negative", // negative
 		"attributes": {
 			"hungerrate": 0.25
@@ -778,6 +808,24 @@
 			"cropSeedDropRate": -0.25,
 			"youngCropSeedDropRate": -0.25,
 			"wildCropDropRate": -0.25
+		}
+	},
+	{
+		"code": "starving", // messenger
+		"type": "negative", // negative
+		"attributes": {
+			"hungerrate": 0.35
+		}
+	},
+	{
+		"code": "impatient", // messenger
+		"type": "negative", // negative
+		"attributes": {
+			"forageDropRate": -0.25,
+			"wildCropDropRate": -0.25,
+			"animalLootDropRate": -0.10,
+			"vesselContentsDropRate": -0.50,
+			"wholeVesselLootChance": -0.75
 		}
 	},
 	{

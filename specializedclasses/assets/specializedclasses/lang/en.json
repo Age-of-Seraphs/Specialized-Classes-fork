@@ -86,6 +86,9 @@
 	"game:trait-sapper": "<font color=\"#9966ff\">• Sapper </font>",
 	"game:traitname-sapper": "Sapper",
 
+	"game:trait-serf": "<font color=\"#9966ff\">• Serf </font>",
+	"game:traitname-serf": "Serf",
+
 	"game:trait-skulker": "<font color=\"#9966ff\">• Skulker </font>",
 	"game:traitname-skulker": "Skulker",
 
@@ -224,7 +227,6 @@
 	"game:trait-excavator": "<font color=\"#84ff84\">• Excavator </font>",
 	"game:traitname-excavator": "Excavator",
 
-
 	"game:trait-fertilizer": "<font color=\"#84ff84\">• Fertilizer </font>",
 	"game:traitname-fertilizer": "Fertilizer",
 
@@ -286,6 +288,9 @@
 	"game:trait-restrained": "<font color=\"#84ff84\">• Restrained </font>",
 	"game:traitname-restrained": "Restrained",
 
+	"game:trait-rugged": "<font color=\"#84ff84\">• Rugged </font>",
+	"game:traitname-rugged": "Rugged",
+
 	"game:trait-smuggler": "<font color=\"#84ff84\">• Smuggler </font>",
 	"game:traitname-smuggler": "Smuggler",
 
@@ -332,6 +337,9 @@
 	"game:trait-careless": "<font color=\"#ff8484\">• Careless </font>",
 	"game:traitname-careless": "Careless",
 
+	"game:trait-aosclaustrophobic": "<font color=\"#ff8484\">• Claustrophobic </font>",
+	"game:traitname-aosclaustrophobic": "Claustrophobic",
+
 	"game:trait-coddled": "<font color=\"#ff8484\">• Coddled </font>",
 	"game:traitname-coddled": "Coddled",
 
@@ -350,6 +358,9 @@
 	"game:trait-fickle": "<font color=\"#ff8484\">• Fickle </font>",
 	"game:traitname-fickle": "Fickle",
 
+	"game:trait-feeble": "<font color=\"#ff8484\">• Feeble </font>",
+	"game:traitname-feeble": "Feeble",
+
 	"game:trait-guilty": "<font color=\"#ff8484\">• Guilty </font>",
 	"game:traitname-guilty": "Guilty",
 
@@ -358,6 +369,9 @@
 
 	"game:trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
 	"game:traitname-hungry": "Hungry",
+
+	"game:trait-impatient": "<font color=\"#ff8484\">• Impatient </font>",
+	"game:traitname-impatient": "Impatient",
 
 	"game:trait-methodical": "<font color=\"#ff8484\">• Methodical </font>",
 	"game:traitname-methodical": "Methodical",
@@ -373,6 +387,9 @@
 
 	"game:trait-sheltered": "<font color=\"#ff8484\">• Sheltered </font>",
 	"game:traitname-sheltered": "Sheltered",
+
+	"game:trait-starving": "<font color=\"#ff8484\">• Starving </font>",
+	"game:traitname-starving": "Starving",
 
 	"game:trait-homebound": "<font color=\"#ff8484\">• Homebound </font>",
 	"game:traitname-homebound": "Homebound",
@@ -419,13 +436,16 @@
 	"game:charattribute-bowDrawingStrength-0.3": "+30% bow drawing strength",
 
 	"game:charattribute-durabilitySaveChanceAllTools-0.5": "50% chance to save tool durability",
+	"game:charattribute-durabilitySaveChanceAllWeapons-0.1": "+10% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.25": "+25% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.5": "50% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.75": "75% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAxe-0.5": "50% chance to save axe durability",
 	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
+	"game:charattribute-durabilitySaveChanceHammer-0.25": "25% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHoe-0.75": "75% chance to save hoe durability",
+	"game:charattribute-durabilitySaveChanceKnife-0.25": "25% chance to save knife durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.5": "50% chance to save knife durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.75": "75% chance to save knife durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.5": "50% chance to save pickaxe durability",
@@ -434,6 +454,7 @@
 	"game:charattribute-durabilitySaveChanceScythe-0.5": "50% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.75": "75% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceShears-0.75": "75% chance to save shears durability",
+	"game:charattribute-durabilitySaveChanceShovel-0.25": "25% chance to save shovel durability",
 	"game:charattribute-durabilitySaveChanceShovel-0.5": "50% chance to save shovel durability",
 	"game:charattribute-durabilitySaveChanceShovel-0.75": "75% chance to save shovel durability",
 
@@ -470,6 +491,7 @@
 	"game:charattribute-flaxFiberDropRate--0.25": "-25% crop fiber yield",
 	"game:charattribute-flaxFiberDropRate--0.1": "-10% crop fiber yield",
 
+	"game:charattribute-forageDropRate--0.3": "-30% foraging yield",
 	"game:charattribute-forageDropRate--0.25": "-25% foraging yield",
 	"game:charattribute-forageDropRate--0.2": "-20% foraging yield",
 	"game:charattribute-forageDropRate--0.1": "-10% foraging yield",
@@ -497,10 +519,13 @@
 	"game:charattribute-horsetailRareDropChance-0.2": "+20% chance to get horsetail when harvesting grass",
 
 	"game:charattribute-hungerrate--0.75": "-75% hunger rate",
+	"game:charattribute-hungerrate--0.5": "-50% hunger rate",
 	"game:charattribute-hungerrate--0.4": "-40% hunger rate",
 	"game:charattribute-hungerrate--0.25": "-25% hunger rate",
+	"game:charattribute-hungerrate--0.2": "-20% hunger rate",
 	"game:charattribute-hungerrate-0.1": "+10% hunger rate",
 	"game:charattribute-hungerrate-0.25": "+25% hunger rate",
+	"game:charattribute-hungerrate-0.35": "+35% hunger rate",
 
 	"game:charattribute-iceMiningSpeedMul-1": "+100% ice breaking speed",
 
@@ -518,6 +543,7 @@
 	"game:charattribute-maxhealthExtraPoints--5": "-5 max health",
 	"game:charattribute-maxhealthExtraPoints--3": "-3 max health",
 	"game:charattribute-maxhealthExtraPoints--2": "-2 max health",
+	"game:charattribute-maxhealthExtraPoints-1": "1 max health",
 	"game:charattribute-maxhealthExtraPoints-2": "2 max health",
 	"game:charattribute-maxhealthExtraPoints-10": "+10 max health",
 	"game:charattribute-maxhealthExtraPoints-15": "+15 max health",
@@ -549,6 +575,7 @@
 	"game:charattribute-oreDropRate-1": "+100% ore yield",
 
 	"game:charattribute-oreMiningSpeedMul--0.33": "-33% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul--0.3": "-30% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.2": "-20% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.1": "-10% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.05": "-5% ore breaking speed",
@@ -563,6 +590,7 @@
 
 	"game:charattribute-panningStoneDropRate--1": "-100% stone yield from panning",
 
+	"game:charattribute-pathWalkSpeedMul--0.2": "-20% path block speed bonus",
 	"game:charattribute-pathWalkSpeedMul-0.5": "+50% path block speed bonus",
 	"game:charattribute-pathWalkSpeedMul-1": "+100% path block speed bonus",
 
@@ -590,6 +618,7 @@
 	"game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.2": "+20% ranged damage",
+	"game:charattribute-rangedWeaponsDamage-0.25": "+25% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.3": "+30% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.4": "+40% ranged damage",
 
@@ -604,6 +633,7 @@
 	"game:charattribute-rustyGearDropRate--0.25": "-25% rusty gear yield",
 	"game:charattribute-rustyGearDropRate--0.5": "-50% rusty gear yield",
 	"game:charattribute-rustyGearDropRate-0.2": "+20% rusty gear yield",
+	"game:charattribute-rustyGearDropRate-0.25": "+25% rusty gear yield",
 	"game:charattribute-rustyGearDropRate-0.5": "+50% rusty gear yield",
 	"game:charattribute-rustyGearDropRate-1": "+100% rusty gear yield",
 
@@ -634,6 +664,7 @@
 	"game:charattribute-stabilityGainMul--0.4": "-40% temporal stability gain speed",
 	"game:charattribute-stabilityGainMul-0.5": "+50% temporal stability gain speed",
 
+	"game:charattribute-stabilityIndoorOffset--0.4": "-40% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset--0.3": "-30% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset--0.2": "-20% temporal stability offset while underground",
 	"game:charattribute-stabilityIndoorOffset--0.25": "-25% temporal stability offset while underground",
@@ -671,10 +702,12 @@
 
 	"game:charattribute-variedClayBonus-1": "+2 different colored clay yield",
 
+	"game:charattribute-vesselContentsDropRate--0.5": "-50% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate--0.25": "-25% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate--0.2": "-20% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate--0.1": "-10% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate-0.2": "+20% cracked vessel yield",
+	"game:charattribute-vesselContentsDropRate-0.75": "+75% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate-1": "+100% cracked vessel yield",
 
 	"game:charattribute-walkspeed--0.05": "-5% walk speed",
@@ -683,6 +716,7 @@
 	"game:charattribute-walkspeed-0.2": "+20% walk speed",
 	"game:charattribute-walkspeed-0.25": "+25% walk speed",
 
+	"game:charattribute-wholeVesselLootChance--0.75": "-75% chance for cracked vessels to drop whole",
 	"game:charattribute-wholeVesselLootChance-0.2": "+20% chance for cracked vessels to drop whole",
 	"game:charattribute-wholeVesselLootChance-0.75": "+75% chance for cracked vessels to drop whole",
 

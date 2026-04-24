@@ -219,7 +219,8 @@
 			"messenger", // crafting
 			"roadlayer", // positive
 			"swift", // positive
-			"sheltered" // negative
+			"starving", // negative
+			"impatient" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-squire-hood" }, // Squire hood

@@ -22,7 +22,7 @@
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
-		"recipeGroup": 67,
+		"recipeGroup": 0,
 		"output": {
 			"type": "block",
 			"code": "game:forge",
@@ -47,13 +47,13 @@
 				"type": "item",
 				"code": "game:hide-pelt-*",
 				"quantity": 1,
-				"tags": ["size-small"]
+				"tags": [ "size-small" ]
 			}
 		},
 		"width": 3,
 		"height": 3,
+		"recipeGroup": 2,
 		"shapeless": false,
-		"recipeGroup": 67,
 		"output": {
 			"type": "block",
 			"code": "game:bellows-crude-north",
@@ -78,13 +78,13 @@
 				"type": "item",
 				"code": "game:hide-pelt-*",
 				"quantity": 1,
-				"tags": ["size-medium"]
+				"tags": [ "size-medium" ]
 			}
 		},
 		"width": 3,
 		"height": 3,
+		"recipeGroup": 2,
 		"shapeless": false,
-		"recipeGroup": 67,
 		"output": {
 			"type": "block",
 			"code": "game:bellows-crude-north",
@@ -138,8 +138,8 @@
 		},
 		"width": 3,
 		"height": 3,
+		"recipeGroup": 2,
 		"shapeless": false,
-		"recipeGroup": 67,
 		"output": {
 			"type": "block",
 			"code": "game:bellows-small-north",
@@ -147,6 +147,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "NNN,LHL,PPP",
 		"requiresTrait": "blackguard",
 		"ingredients": {
@@ -193,8 +194,8 @@
 		},
 		"width": 3,
 		"height": 3,
+		"recipeGroup": 2,
 		"shapeless": false,
-		"recipeGroup": 67,
 		"output": {
 			"type": "block",
 			"code": "game:bellows-large-north",

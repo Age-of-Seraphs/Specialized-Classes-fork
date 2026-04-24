@@ -6,7 +6,7 @@
 			"S": {
 				"type": "block",
 				"code": "game:metal-scraps",
-				"quantity": 2
+				"quantity": 4
 			},
 			"L": {
 				"type": "item",
@@ -31,12 +31,12 @@
 			"S": {
 				"type": "block",
 				"code": "game:metal-scraps",
-				"quantity": 2
+				"quantity": 4
 			},
 			"L": {
 				"type": "item",
 				"code": "game:armor-body-lamellar-wood",
-				"quantity": 1
+				"quantity": 2
 			},
 			"s": {
 				"type": "block",
@@ -61,7 +61,7 @@
 			"S": {
 				"type": "block",
 				"code": "game:metal-scraps",
-				"quantity": 2
+				"quantity": 4
 			},
 			"L": {
 				"type": "item",

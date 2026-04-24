@@ -1,5 +1,6 @@
 [
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,NIN",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -55,6 +56,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,NIN,_i_",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -119,6 +121,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,NIN",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -174,6 +177,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,NIN,_i_",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -238,6 +242,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,_I_",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -287,6 +292,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,_I_,_i_",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -345,6 +351,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,_I_",
 		"requiresTrait": "messenger",
 		"ingredients": {
@@ -394,6 +401,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "QTQ,_I_,_i_",
 		"requiresTrait": "messenger",
 		"ingredients": {
