@@ -1,11 +1,11 @@
 [
 	{
 		"ingredientPattern": "AB,_C,_D", //Abyss
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -33,11 +33,11 @@
 
 	{
 		"ingredientPattern": "Sb,_g,_g", //Ashforest
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -61,11 +61,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C", //Chains
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -89,11 +89,11 @@
 
 	{
 		"ingredientPattern": "Sg,_N,_g", //Cthonic
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"g": {
 				"type": "item",
@@ -117,11 +117,11 @@
 	},
 	{
 		"ingredientPattern": "SO,_O,_N", //Copper
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"O": {
 				"type": "item",
@@ -145,11 +145,11 @@
 	},
 	{
 		"ingredientPattern": "SN,_N,_Y", //Earthen
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -173,11 +173,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_B", //Entrenched
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -200,11 +200,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_D", //Golden
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -232,11 +232,11 @@
 
 	{
 		"ingredientPattern": "SW,_W,_G", //Rain
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -260,11 +260,11 @@
 	},
 	{
 		"ingredientPattern": "SW,_g,_N", //Cowrie
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -292,11 +292,11 @@
 	},
 	{
 		"ingredientPattern": "SW,_g,_K", //Rime
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -324,11 +324,11 @@
 	},
 	{
 		"ingredientPattern": "SR,_N,_b", //Oxblood
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"R": {
 				"type": "item",
@@ -356,11 +356,11 @@
 	},
 	{
 		"ingredientPattern": "SK,_K,_N", //Loam
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"K": {
 				"type": "item",
@@ -384,11 +384,11 @@
 	},
 	{
 		"ingredientPattern": "SG,_Y,_N", //Undergrowth
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"G": {
 				"type": "item",
@@ -416,11 +416,11 @@
 	},
 	{
 		"ingredientPattern": "SY,_Y,_N", //Beehive
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -444,11 +444,11 @@
 	},
 	{
 		"ingredientPattern": "SG,_O,_N", //Harvest
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"G": {
 				"type": "item",
@@ -476,11 +476,11 @@
 	},
 	{
 		"ingredientPattern": "SG,_G,_Y", //Honeydew
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"G": {
 				"type": "item",
@@ -504,11 +504,11 @@
 	},
 	{
 		"ingredientPattern": "Sb,_b,_W", //Rutile
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -532,11 +532,11 @@
 	},
 	{
 		"ingredientPattern": "Sb,_Y,_W", //Seasalt
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -564,11 +564,11 @@
 	},
 	{
 		"ingredientPattern": "SP,_P,_G", //Springflowers
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"P": {
 				"type": "item",
@@ -592,11 +592,11 @@
 	},
 	{
 		"ingredientPattern": "Sg,_g,_R", //Volcanic
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"g": {
 				"type": "item",
@@ -620,11 +620,11 @@
 	},
 	{
 		"ingredientPattern": "SY,_Y,_O", //Cloisonne
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -648,11 +648,11 @@
 	},
 	{
 		"ingredientPattern": "Sb,_b,_N", //Cornflower
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -676,11 +676,11 @@
 	},
 	{
 		"ingredientPattern": "SN,_N,_W", //Talik
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -704,11 +704,11 @@
 	},
 	{
 		"ingredientPattern": "Sb,_W,_N", //CaveAurora
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -736,11 +736,11 @@
 	},
 	{
 		"ingredientPattern": "SW,_R,_b", //Collonade
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -768,11 +768,11 @@
 	},
 	{
 		"ingredientPattern": "SW,_g,_b", //Rattlesnake
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -800,11 +800,11 @@
 	},
 	{
 		"ingredientPattern": "SO,_W,_b", //Waves
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"O": {
 				"type": "item",
@@ -832,11 +832,11 @@
 	},
 	{
 		"ingredientPattern": "SW,_W,_b", //Wintersea
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"S": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -860,11 +860,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_D", //Motheaten
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -891,11 +891,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_D", //Patina
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -922,11 +922,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_B", //Pine
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -949,11 +949,11 @@
 	},
 	{
 		"ingredientPattern": "AB,_C,_B", //Serpents
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",
@@ -977,11 +977,11 @@
 
 	{
 		"ingredientPattern": "AB,_C,_B", //Void
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"A": {
 				"type": "block",
-				"code": "game:storagevessel-blue-fired"
+				"code": "game:storagevessel-*-fired"
 			},
 			"B": {
 				"type": "item",

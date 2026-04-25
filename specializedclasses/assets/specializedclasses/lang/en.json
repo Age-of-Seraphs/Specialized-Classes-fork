@@ -694,7 +694,7 @@
 
 	"game:charattribute-temporalGearTLRepairCost--1": "-1 temporal gear cost to repair translocators",
 
-	"game:charattribute-treeDropRate-0.15": "15% log yield from trees",
+	"game:charattribute-treeDropRate-0.1": "10% log yield from trees",
 
 	"game:charattribute-treeSeedDropRate--0.25": "-25% tree seed yield",
 	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",

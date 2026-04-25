@@ -1,7 +1,7 @@
 [
 	{//FLOWERPOTS
 		"ingredientPattern": "F,Y,O",//Amber
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -29,7 +29,7 @@
 	},
 	{
 		"ingredientPattern": "F,g,G",//BoneAsh
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -57,7 +57,7 @@
 	},
 	{
 		"ingredientPattern": "F,W,g",//Celadon
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -85,7 +85,7 @@
 	},
 	{
 		"ingredientPattern": "F,N,O",//Copper
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -113,7 +113,7 @@
 	},
 	{
 		"ingredientPattern": "F,W,N",//Earthern
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -141,7 +141,7 @@
 	},
 	{
 		"ingredientPattern": "F,P,G",//Moss
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -169,7 +169,7 @@
 	},
 	{
 		"ingredientPattern": "F,Y,N",//Ochre
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -197,7 +197,7 @@
 	},
 	{
 		"ingredientPattern": "F,N,W",//Rutile
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -225,7 +225,7 @@
 	},
 	{
 		"ingredientPattern": "F,b,Y",//Seasalt
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -253,7 +253,7 @@
 	},
 	{
 		"ingredientPattern": "F,U,W",//Tenmoku
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"F": {
 				"type": "block",
@@ -281,7 +281,7 @@
 	},
 	{//PLANTERS
 		"ingredientPattern": "C,Y,O",//Amber
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -309,7 +309,7 @@
 	},
 	{
 		"ingredientPattern": "C,b,g",//Ashforset
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -337,7 +337,7 @@
 	},
 	{
 		"ingredientPattern": "C,O,N",//Copper
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -365,7 +365,7 @@
 	},
 	{
 		"ingredientPattern": "C,R,b",//Cthonic
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -393,7 +393,7 @@
 	},
 	{
 		"ingredientPattern": "C,N,g",//Earthern
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -421,7 +421,7 @@
 	},
 	{
 		"ingredientPattern": "C,N,K",//Loam
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -449,7 +449,7 @@
 	},
 	{
 		"ingredientPattern": "C,Y,O",//Ochre
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -477,7 +477,7 @@
 	},
 	{
 		"ingredientPattern": "C,b,Y",//Rime
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -505,7 +505,7 @@
 	},
 	{
 		"ingredientPattern": "C,W,A",//Seasalt
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -533,7 +533,7 @@
 	},
 	{
 		"ingredientPattern": "C,U,W",//Tenmoku
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
@@ -561,7 +561,7 @@
 	},
 	{
 		"ingredientPattern": "C,G,N",//Undergrowth
-		"requiresTrait": "florist",
+		"requiresTrait": "artisan",
 		"ingredients": {
 			"C": {
 				"type": "block",
