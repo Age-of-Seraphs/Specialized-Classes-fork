@@ -82,7 +82,7 @@
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "item",
+				"type": "block",
 				"code": "game:metal-scraps"
 			},
 			"M": {
