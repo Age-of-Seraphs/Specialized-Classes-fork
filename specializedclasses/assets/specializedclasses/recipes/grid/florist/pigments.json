@@ -5,7 +5,7 @@
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:{blacksource}"
+				"code": "em:powdered-ore-manganesedioxide"
 			},
 			"M": {
 				"type": "item",
@@ -13,12 +13,6 @@
 				"isTool": true,
 				"toolDurabilityCost": 0
 			}
-		},
-		"allowedVariants": {
-			"blacksource": [
-				"charcoal",
-				"fruit-blackberry"
-			]
 		},
 		"width": 1,
 		"height": 2,
@@ -37,7 +31,33 @@
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:rot"
+				"code": "game:charcoal"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-black" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-black",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-metal-rusty"
 			},
 			"M": {
 				"type": "item",
@@ -62,8 +82,8 @@
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
+				"type": "item",
+				"code": "game:metal-scraps"
 			},
 			"M": {
 				"type": "item",
@@ -72,13 +92,57 @@
 				"toolDurabilityCost": 0
 			}
 		},
-		"allowedVariants": {
-			"flowertype": [
-				"edelweiss",
-				"lilyofthevalley",
-				"lupine-white",
-				"wilddaisy"
-			]
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-gray" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-gray",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:gear-rusty"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-gray" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-gray",
+			"quantity": 1
+		}
+	},
+	{ //WHITE PIGMENT
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:powder-borax"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
 		},
 		"width": 1,
 		"height": 2,
@@ -97,7 +161,7 @@
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:fruit-whitecurrant"
+				"code": "em:powdered-ore-zincoxide"
 			},
 			"M": {
 				"type": "item",
@@ -118,6 +182,84 @@
 		}
 	},
 	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-magnesiumoxide"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-white" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-white",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-whitelead"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-white" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-white",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-cassiterite"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-white" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-white",
+			"quantity": 1
+		}
+	},
+	{ //BROWN PIGMENT
 		"ingredientPattern": "I,M",
 		"requiresTrait": "florist",
 		"ingredients": {
@@ -149,13 +291,44 @@
 			"quantity": 1
 		}
 	},
+	{ //PINK PIGMENT
+		"ingredientPattern": "I,J,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"J": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-pink" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-pink",
+			"quantity": 2
+		}
+	},
+
 	{
 		"ingredientPattern": "I,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-heather-free"
+				"type": "item",
+				"code": "em:powdered-ore-rhodochrosite"
 			},
 			"M": {
 				"type": "item",
@@ -175,13 +348,17 @@
 			"quantity": 1
 		}
 	},
-	{
-		"ingredientPattern": "I,M",
+	{ //PURPLE PIGMENT
+		"ingredientPattern": "I,J,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:fruit-{pinksource}"
+				"code": "specializedclasses:pigment-red"
+			},
+			"J": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
 			},
 			"M": {
 				"type": "item",
@@ -190,62 +367,24 @@
 				"toolDurabilityCost": 0
 			}
 		},
-		"allowedVariants": {
-			"pinksource": [
-				"beautyberry",
-				"cranberry"
-			]
-		},
 		"width": 1,
-		"height": 2,
-		"shapeless": true,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "pigment-pink" },
-		"output": {
-			"type": "item",
-			"code": "specializedclasses:pigment-pink",
-			"quantity": 1
-		}
-	},
-	{
-		"ingredientPattern": "I,M",
-		"requiresTrait": "florist",
-		"ingredients": {
-			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
-			},
-			"M": {
-				"type": "item",
-				"code": "specializedclasses:mortarandpestle",
-				"isTool": true,
-				"toolDurabilityCost": 0
-			}
-		},
-		"allowedVariants": {
-			"flowertype": [
-				"catmint",
-				"lupine-purple"
-			]
-		},
-		"width": 1,
-		"height": 2,
+		"height": 3,
 		"shapeless": true,
 		"recipeGroup": 67,
 		"attributes": { "handbookOverviewGroup": "pigment-purple" },
 		"output": {
 			"type": "item",
 			"code": "specializedclasses:pigment-purple",
-			"quantity": 1
+			"quantity": 2
 		}
 	},
-	{
+	{ //BLUE PIGMENT
 		"ingredientPattern": "I,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:fruit-{purplesource}"
+				"code": "em:powdered-metal-nickel"
 			},
 			"M": {
 				"type": "item",
@@ -253,46 +392,6 @@
 				"isTool": true,
 				"toolDurabilityCost": 0
 			}
-		},
-		"allowedVariants": {
-			"purplesource": [
-				"blackcurrant",
-				"blueberry"
-			]
-		},
-		"width": 1,
-		"height": 2,
-		"shapeless": true,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "pigment-purple" },
-		"output": {
-			"type": "item",
-			"code": "specializedclasses:pigment-purple",
-			"quantity": 1
-		}
-	},
-	{
-		"ingredientPattern": "I,M",
-		"requiresTrait": "florist",
-		"ingredients": {
-			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
-			},
-			"M": {
-				"type": "item",
-				"code": "specializedclasses:mortarandpestle",
-				"isTool": true,
-				"toolDurabilityCost": 0
-			}
-		},
-		"allowedVariants": {
-			"flowertype": [
-				"cornflower",
-				"forgetmenot",
-				"lupine-blue",
-				"woad"
-			]
 		},
 		"width": 1,
 		"height": 2,
@@ -302,6 +401,84 @@
 		"output": {
 			"type": "item",
 			"code": "specializedclasses:pigment-blue",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "game:powder-lapislazuli"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-blue" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-blue",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "block",
+				"code": "game:flower-woad-free"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-blue" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-blue",
+			"quantity": 1
+		}
+	},
+	{ //GREEN PIGMENT
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-chromiumoxide"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-green" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-green",
 			"quantity": 1
 		}
 	},
@@ -371,12 +548,16 @@
 		}
 	},
 	{
-		"ingredientPattern": "I,M",
+		"ingredientPattern": "I,J,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"J": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
 			},
 			"M": {
 				"type": "item",
@@ -385,11 +566,31 @@
 				"toolDurabilityCost": 0
 			}
 		},
-		"allowedVariants": {
-			"flowertype": [
-				"lupine-red",
-				"redtopgrass"
-			]
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-green" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-green",
+			"quantity": 2
+		}
+	},
+	{ //RED PIGMENT
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-litharge"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
 		},
 		"width": 1,
 		"height": 2,
@@ -408,7 +609,7 @@
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:fruit-redcurrant"
+				"code": "em:powdered-ore-hematite"
 			},
 			"M": {
 				"type": "item",
@@ -433,41 +634,8 @@
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
-			},
-			"M": {
 				"type": "item",
-				"code": "specializedclasses:mortarandpestle",
-				"isTool": true,
-				"toolDurabilityCost": 0
-			}
-		},
-		"allowedVariants": {
-			"flowertype": [
-				"goldenpoppy",
-				"lupine-orange",
-				"orangemallow"
-			]
-		},
-		"width": 1,
-		"height": 2,
-		"shapeless": true,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "pigment-orange" },
-		"output": {
-			"type": "item",
-			"code": "specializedclasses:pigment-orange",
-			"quantity": 1
-		}
-	},
-	{
-		"ingredientPattern": "I,M",
-		"requiresTrait": "florist",
-		"ingredients": {
-			"I": {
-				"type": "item",
-				"code": "game:fruit-cloudberry"
+				"code": "game:powder-cinnabar"
 			},
 			"M": {
 				"type": "item",
@@ -480,6 +648,32 @@
 		"height": 2,
 		"shapeless": true,
 		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-red" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-red",
+			"quantity": 1
+		}
+	},
+	{ //ORANGE PIGMENT
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-stone-bauxite"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
 		"attributes": { "handbookOverviewGroup": "pigment-orange" },
 		"output": {
 			"type": "item",
@@ -487,13 +681,44 @@
 			"quantity": 1
 		}
 	},
+
 	{
+		"ingredientPattern": "I,J,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"J": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-orange" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-orange",
+			"quantity": 2
+		}
+	},
+	{ //YELLOW PIGMENT
 		"ingredientPattern": "I,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-westerngorse-free"
+				"type": "item",
+				"code": "game:vegetable-onion"
 			},
 			"M": {
 				"type": "item",
@@ -519,7 +744,33 @@
 		"ingredients": {
 			"I": {
 				"type": "item",
-				"code": "game:drygrass"
+				"code": "em:powdered-ore-massicot"
+			},
+			"M": {
+				"type": "item",
+				"code": "specializedclasses:mortarandpestle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "pigment-yellow" },
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:pigment-yellow",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "I,M",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"I": {
+				"type": "item",
+				"code": "em:powdered-ore-limonite"
 			},
 			"M": {
 				"type": "item",
