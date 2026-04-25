@@ -135,7 +135,7 @@
 			"florist", // crafting
 			"herbalist", // positive
 			"plucker", // positive
-			"delicate" // negative
+			"outdoorsy" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-fortune-tellers-scarf" }, // Fortune teller scarf

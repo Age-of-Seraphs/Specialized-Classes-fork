@@ -127,9 +127,8 @@
 		"code": "wanderer", // florist
 		"type": "positive", // combat
 		"attributes": {
-			"meleeWeaponsDamage": -0.1,
-			"rangedWeaponsDamage": -0.1,
-			"walkspeed": 0.2
+			"meleeWeaponsDamage": -0.05,
+			"walkspeed": 0.1
 		}
 	},
 	{
@@ -480,10 +479,7 @@
 		"type": "positive", // positive
 		"attributes": {
 			"plantMiningSpeedMul": 0.5,
-			"soilMiningSpeedMul": 0.5,
-			"otherMiningSpeedMul": 0.5,
-			"durabilitySaveChanceScythe": 0.5,
-			"durabilitySaveChanceKnife": 0.75
+			"durabilitySaveChanceKnife": 0.25
 		}
 	},
 	{
