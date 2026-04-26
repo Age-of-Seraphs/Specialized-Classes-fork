@@ -504,9 +504,9 @@
 		"type": "positive", // positive
 		"attributes": {
 			"oreDropRate": 0.5,
-			"oreMiningSpeedMul": 1,
-			"stoneMiningSpeedMul": 0.5,
-			"durabilitySaveChancePickaxe": 0.5
+			"oreMiningSpeedMul": 0.75,
+			"stoneMiningSpeedMul": 0.25,
+			"durabilitySaveChancePickaxe": 0.25
 		}
 	},
 	{
@@ -610,9 +610,9 @@
 		"code": "tunneler", // quarrier
 		"type": "positive", // positive
 		"attributes": {
-			"stoneMiningSpeedMul": 1,
-			"oreMiningSpeedMul": 0.5,
-			"durabilitySaveChancePickaxe": 0.50 //,
+			"stoneMiningSpeedMul": 0.75,
+			"oreMiningSpeedMul": 0.25,
+			"durabilitySaveChancePickaxe": 0.25 //,
 			//"durabilitySaveChanceHammer": 0.75,
 			//"durabilitySaveChanceChisel": 0.75
 		}

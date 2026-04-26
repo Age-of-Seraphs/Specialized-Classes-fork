@@ -461,6 +461,7 @@
 	"game:charattribute-durabilitySaveChanceKnife-0.25": "25% chance to save knife durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.5": "50% chance to save knife durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.75": "75% chance to save knife durability",
+	"game:charattribute-durabilitySaveChancePickaxe-0.25": "25% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.5": "50% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.75": "75% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChanceSaw-0.75": "75% chance to save saw durability",
@@ -600,7 +601,9 @@
 	"game:charattribute-oreMiningSpeedMul--0.1": "-10% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.05": "-5% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul-0.2": "+20% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul-0.25": "+25% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul-0.5": "+50% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul-0.75": "+75% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul-1": "+100% ore breaking speed",
 
 	"game:charattribute-otherMiningSpeedMul-0.25": "+25% wax breaking speed",
@@ -710,7 +713,9 @@
 	"game:charattribute-stoneMiningSpeedMul--0.1": "-10% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul--0.05": "-5% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul-0.2": "+20% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul-0.25": "+25% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul-0.5": "+50% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul-0.75": "+75% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul-1": "+100% stone breaking speed",
 
 	"game:charattribute-swimSpeedMul-1": "+100% swim speed",
