@@ -146,6 +146,7 @@
 			"requiredTrait": "spelunker"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "codes": ["game:charcoal", "game:fruit-blackberry"], "quantity": 1 }
 			],
@@ -154,6 +155,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "code": "game:rot", "quantity": 1 }
 			],
@@ -162,6 +164,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-edelweiss-free", "game:flower-lilyofthevalley-free", "game:flower-wilddaisy-free", "game:flower-lupine-white-free"], "quantity": 1 }
 			],
@@ -170,6 +173,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "code": "game:fruit-whitecurrant", "quantity": 1 }
 			],
@@ -178,6 +182,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:log-placed-acacia-ud", "game:log-placed-oak-ud"], "quantity": 1 }
 			],
@@ -186,6 +191,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "code": "game:flower-heather-free", "quantity": 1 }
 			],
@@ -194,6 +200,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "codes": ["game:fruit-beautyberry", "game:fruit-cranberry"], "quantity": 1 }
 			],
@@ -202,6 +209,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-catmint-free", "game:flower-lupine-purple-free"], "quantity": 1 }
 			],
@@ -210,6 +218,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "codes": ["game:fruit-blackcurrant", "game:fruit-blueberry"], "quantity": 1 }
 			],
@@ -218,6 +227,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-cornflower-free", "game:flower-forgetmenot-free", "game:flower-lupine-blue-free", "game:flower-woad-free"], "quantity": 1 }
 			],
@@ -226,6 +236,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-cowparsley-free", "game:flower-horsetail-free", "game:fern-cinnamonfern", "game:fern-deerfern", "game:fern-eaglefern"], "quantity": 1 }
 			],
@@ -234,6 +245,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-redtopgrass-free", "game:flower-lupine-red-free"], "quantity": 1 }
 			],
@@ -242,6 +254,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "code": "game:fruit-redcurrant", "quantity": 1 }
 			],
@@ -250,6 +263,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "codes": ["game:flower-goldenpoppy-free", "game:flower-orangemallow-free", "game:flower-lupine-orange-free"], "quantity": 1 }
 			],
@@ -258,6 +272,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "code": "game:fruit-cloudberry", "quantity": 1 }
 			],
@@ -266,6 +281,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "block", "code": "game:flower-westerngorse-free", "quantity": 1 }
 			],
@@ -274,6 +290,7 @@
 			"requiredTrait": "florist"
 		},
 		{
+			"enabled": false,
 			"ingredients": [
 				{ "type": "item", "code": "game:drygrass", "quantity": 1 }
 			],

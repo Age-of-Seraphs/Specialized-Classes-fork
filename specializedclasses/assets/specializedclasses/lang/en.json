@@ -264,8 +264,8 @@
 	"game:trait-panner": "<font color=\"#84ff84\">• Panner </font>",
 	"game:traitname-panner": "Panner",
 
-	"game:trait-picker": "<font color=\"#84ff84\">• Picker </font>",
-	"game:traitname-picker": "Picker",
+	"game:trait-aospicker": "<font color=\"#84ff84\">• Picker </font>",
+	"game:traitname-aospicker": "Picker",
 
 	"game:trait-plucker": "<font color=\"#84ff84\">• Plucker </font>",
 	"game:traitname-plucker": "Plucker",
@@ -378,6 +378,9 @@
 
 	"game:trait-methodical": "<font color=\"#ff8484\">• Methodical </font>",
 	"game:traitname-methodical": "Methodical",
+
+	"game:trait-neglectful": "<font color=\"#ff8484\">• Neglectful </font>",
+	"game:traitname-neglectful": "Neglectful",
 
 	"game:trait-nyctophobic": "<font color=\"#ff8484\">• Nyctophobic </font>",
 	"game:traitname-nyctophobic": "Nyctophobic",

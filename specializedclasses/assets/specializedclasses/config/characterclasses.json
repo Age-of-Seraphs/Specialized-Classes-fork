@@ -76,7 +76,7 @@
 			"preserver", // positive
 			"thorough", // positive
 			"rancher", // positive
-			"heavyhanded" // negative
+			"neglectful" // negative
 		],
 		"gear": [
 			/*{ "type": "item", "code": "game:clothes-upperbody-rawhidemantle" }, // Rawhide mantle
@@ -328,7 +328,7 @@
 		"traits": [
 			"yeoman", // combat
 			"vintner", // crafting
-			"picker", // positive
+			"aospicker", // positive
 			"delicate", // negative
 			"lachanophobia" // negative
 		],

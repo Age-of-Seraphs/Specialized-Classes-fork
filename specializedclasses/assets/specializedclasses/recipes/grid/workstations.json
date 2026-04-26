@@ -1,5 +1,6 @@
 [
 	{
+		"enabled": false,
 		"ingredientPattern": "BG_,PL_,lPl",
 		"ingredients": {
 			"B": {
@@ -55,6 +56,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "BI,TL",
 		"ingredients": {
 			"B": {
@@ -105,6 +107,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "IS,LP,BB",
 		"ingredients": {
 			"I": {
@@ -181,6 +184,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "SI,HN,SL",
 		"ingredients": {
 			"S": {
@@ -250,6 +254,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "SI,HN,SL",
 		"ingredients": {
 			"S": {
@@ -313,6 +318,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "IP,TT",
 		"ingredients": {
 			"I": {
@@ -387,6 +393,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "SF,LT",
 		"ingredients": {
 			"S": {
@@ -437,6 +444,7 @@
 		}
 	},
 	{
+		"enabled": false,
 		"ingredientPattern": "___,IPI,lBl",
 		"ingredients": {
 			"I": {

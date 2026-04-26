@@ -1,5 +1,6 @@
 [
 	{
+		"enabled": false,
 		"ingredientPattern": "S,G,C",
 		"requiresTrait": "messenger",
 		"ingredients": {
