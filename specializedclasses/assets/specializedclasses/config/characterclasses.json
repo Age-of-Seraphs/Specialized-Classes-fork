@@ -52,8 +52,7 @@
 			"artisan", //crafting
 			"delver", // positive
 			"excavator", // positive
-			"sheltered", // negative
-			"uncultured" //negative
+			"squeamish" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" }, // Clockmaker pants
@@ -154,8 +153,7 @@
 			"forester", // crafting
 			"lumberjack", // positive
 			"collier", // positive
-			"outdoorsy", // negative
-			"delicate" // negative
+			"nyctophobic" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" }, // Hunter shirt

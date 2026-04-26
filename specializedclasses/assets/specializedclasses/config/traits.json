@@ -1,11 +1,11 @@
 [
 	{
 		// compatibility-specific traits are added in other traits.json files in their respective compatibility folders
-		"code": "berserker", // forester skirmisher
+		"code": "berserker", // forester 
 		"type": "positive", // combat
 		"attributes": {
 			"meleeWeaponsDamage": 0.25,
-			"rangedWeaponsDamage": -0.20,
+			"rangedWeaponsDamage": -0.25,
 			"animalSeekingRange": 1
 		}
 	},
@@ -367,10 +367,8 @@
 		"code": "excavator", // brickmaker
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceShovel": 0.5,
-			"soilMiningSpeedMul": 0.5,
-			"gravelMiningSpeedMul": 0.5,
-			"sandMiningSpeedMul": 0.5
+			"durabilitySaveChanceShovel": 0.25,
+			"soilMiningSpeedMul": 0.75
 		}
 	},
 	{
@@ -867,6 +865,24 @@
 			"cropSeedDropRate": -0.25,
 			"fruitTreeDropRate": -0.25,
 			"treeSeedDropRate": -0.25
+		}
+	},
+	{
+		"code": "nyctophobic", //Forester Negative
+		"type": "negative",
+		"attributes": {
+			"stabilityIndoorOffset": -0.25,
+			"mechanicalsDamage": -0.25,
+			"oreDropRate": -0.15
+		}
+	},
+	{
+		"code": "squeamish", //Brickmaker negative
+		"type": "negative",
+		"attributes": {
+			"animalHarvestingTime": 1,
+			"animalLootDropRate": -0.5,
+			"meleeWeaponsDamage": -0.05
 		}
 	}
 ]
