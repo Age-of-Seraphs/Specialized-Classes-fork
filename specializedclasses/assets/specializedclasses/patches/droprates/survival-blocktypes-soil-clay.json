@@ -5,5 +5,64 @@
 		"value": "clayDropRate",
 		"file": "game:blocktypes/soil/clay.json",
 		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/clay.json",
+		"path": "/attributes",
+		"value": {
+			"dropModifications": [
+				{
+					"mode": "replace",
+					"stat": "variedClayBonus",
+					"drops": [
+						{
+							"type": "item",
+							"code": "clay-{type}",
+							"quantity": {
+								"avg": 3.5,
+								"var": 1
+							}
+						},
+						{
+							"type": "item",
+							"code": "clay-red",
+							"quantity": {
+								"avg": 1,
+								"var": 0
+							}
+						},
+						{
+							"type": "item",
+							"code": "clay-blue",
+							"quantity": {
+								"avg": 1,
+								"var": 0
+							}
+						},
+						{
+							"type": "item",
+							"code": "clay-fire",
+							"quantity": {
+								"avg": 1,
+								"var": 0
+							}
+						}
+					]
+				}
+			]
+		},
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/soil/clay.json",
+		"path": "/behaviorsByType",
+		"value": {
+			"*": [
+				{ "name": "DropModificationBlockBehavior" }
+			]
+		},
+		"side": "server"
 	}
 ]

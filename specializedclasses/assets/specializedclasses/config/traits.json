@@ -340,8 +340,9 @@
 		"code": "delver", // brickmaker, will change clayDropRate to variedClayDrops
 		"type": "positive", // positive
 		"attributes": {
-			"clayDropRate": 0.5,
-			"peatDropRate": 0.25
+			//"clayDropRate": 0.5,
+			"peatDropRate": 0.25,
+			"variedClayBonus": 1
 		}
 	},
 	{
@@ -368,7 +369,7 @@
 		"type": "positive", // positive
 		"attributes": {
 			"durabilitySaveChanceShovel": 0.25,
-			"soilMiningSpeedMul": 0.75
+			"soilMiningSpeedMul": 0.5
 		}
 	},
 	{

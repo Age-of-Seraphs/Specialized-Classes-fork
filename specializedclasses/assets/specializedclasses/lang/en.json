@@ -700,7 +700,7 @@
 	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",
 	"game:charattribute-treeSeedDropRate-3": "+300% tree seed yield",
 
-	"game:charattribute-variedClayBonus-1": "+2 different colored clay yield",
+	"game:charattribute-variedClayBonus-1": "+2 random colored clay yield",
 
 	"game:charattribute-vesselContentsDropRate--0.5": "-50% cracked vessel yield",
 	"game:charattribute-vesselContentsDropRate--0.25": "-25% cracked vessel yield",
