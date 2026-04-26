@@ -71,8 +71,7 @@
 			"preserver", // positive
 			"thorough", // positive
 			"rancher", // positive
-			"uncultured", // negative
-			"uneducated" // negative
+			"heavyhanded" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-rawhidemantle" }, // Rawhide mantle
@@ -303,10 +302,9 @@
 		"traits": [
 			"yeoman", // combat
 			"vintner", // crafting
-			"gatherer", // positive
-			"grafter", // positive
 			"picker", // positive
-			"delicate" // negative
+			"delicate", // negative
+			"lachanophobia" // negative
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-straw-hat" }, // Straw hat

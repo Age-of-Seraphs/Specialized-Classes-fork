@@ -83,9 +83,9 @@
 		"code": "reaver", // butcher
 		"type": "positive", // combat
 		"attributes": {
-			"maxhealthExtraPoints": 5,
-			"meleeWeaponsDamage": 0.2,
-			"rangedWeaponsDamage": -0.2
+			"maxhealthExtraPoints": 3, // Dropped from 5 (Teara 4/25)
+			"meleeWeaponsDamage": 0.2, 
+			"rangedWeaponsDamage": -0.5 // Increased from .2 (Teara 4/25)
 		}
 	},
 	{
@@ -415,10 +415,10 @@
 		"code": "harvester", // farmhand
 		"type": "positive", // positive
 		"attributes": {
-			"cropProduceDropRate": 0.5,
-			"cropSeedDropRate": 1,
-			"wildCropDropRate": 1,
-			"youngseeddropchance": 1
+			"cropProduceDropRate": 0.5, // dropped from 1.0 (Teara 4/25)
+			"cropSeedDropRate": 0.5, // dropped from 1.0 (Teara 4/25)
+			"wildCropDropRate": .5, // dropped from 1.0 (Teara 4/25)
+			"youngseeddropchance": 0.5 // dropped from 1.0 (Teara 4/25)
 		}
 	},
 	{
@@ -601,10 +601,10 @@
 		"code": "tiller", // farmhand
 		"type": "positive", // positive
 		"attributes": {
-			"soilMiningSpeedMul": 1,
-			"durabilitySaveChanceHoe": 0.75,
+			"soilMiningSpeedMul": .5, // dropped from 1.0 (Teara 4/25)
+			"durabilitySaveChanceHoe": 0.25, // dropped from .75 (Teara 4/25)
 			"plantMiningSpeedMul": 0.25,
-			"durabilitySaveChanceScythe": 0.75
+			"durabilitySaveChanceScythe": 0.25 // dropped from .75 (Teara 4/25)
 		}
 	},
 	{
@@ -715,11 +715,18 @@
 		}
 	},
 	{
-		"code": "ecologist", // vintner
+		"code": "ecologist", // Removed from Vintner
 		"type": "negative", // negative
 		"attributes": {
 			"woodMiningSpeedMul": -0.25,
 			"wildCropDropRate": -0.25
+		}
+	},
+	{
+		"code": "lachanophobia", // Vintner
+		"type": "negative", // negative
+		"attributes": {			
+			"cropProduceDropRate": -0.25
 		}
 	},
 	{
@@ -840,6 +847,15 @@
 		"attributes": {
 			"cropSeedDropRate": -0.25,
 			"flaxFiberDropRate": -0.25,
+			"cropProduceDropRate": -0.25,
+			"fruitTreeDropRate": -0.25 // Appears to be the grafting mod?
+		}
+	},	
+	{
+		"code": "heavyhanded", // shared negative
+		"type": "negative", // negative
+		"attributes": {
+			"cropSeedDropRate": -0.25,
 			"cropProduceDropRate": -0.25,
 			"fruitTreeDropRate": -0.25
 		}
