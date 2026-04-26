@@ -389,6 +389,15 @@
 		}
 	},
 	{
+		"code": "picker", // vintner - renamed from grafter
+		"type": "positive", // positive
+		"attributes": {
+			"fruitTreeDropRate": 0.5, // dropped from 1.0 (Teara 4/25)
+			"treeSeedDropRate": 0.25, // dropped from 1.0 (Teara 4/25)
+			"forageDropRate": 0.5 // added to picker to consolidate and dropped from 1.0 (Teara 4/25)
+		}
+	},
+	{
 		"code": "fertilizer", // farmhand
 		"type": "positive", // positive
 		"attributes": {
@@ -468,9 +477,9 @@
 		"code": "picker", // vintner
 		"type": "positive", // positive
 		"attributes": {
-			"leavesMiningSpeedMul": 1,
+			"leavesMiningSpeedMul": 0.5, // dropped from 1.0
 			"plantMiningSpeedMul": 1,
-			"durabilitySaveChanceShears": 0.75,
+			// "durabilitySaveChanceShears": 0.75, // removed
 			"durabilitySaveChanceKnife": 0.5
 		}
 	},
@@ -486,9 +495,9 @@
 		"code": "preserver", // butcher
 		"type": "positive", // positive
 		"attributes": {
-			"iceMiningSpeedMul": 1,
-			"lakeIceRareDropChance": 1,
-			"saltRareDropChance": 0.1
+			"iceMiningSpeedMul": 0.5, // dropped from 1.0 (Teara 4/25)
+			"lakeIceRareDropChance": 0.5, // dropped from 1.0 (Teara 4/25)
+			"saltRareDropChance": 0.05 // dropped from .1 (Teara 4/25)
 		}
 	},
 	{
@@ -574,8 +583,8 @@
 		"code": "thorough", // butcher
 		"type": "positive", // positive
 		"attributes": {
-			"animalLootDropRate": 1,
-			"durabilitySaveChanceKnife": 0.75
+			"animalLootDropRate": 0.5, // dropped from 1.0 (Teara 4/25)
+			"durabilitySaveChanceKnife": 0.25 // dropped from .75 (Teara 4/25)
 		}
 	},
 	{
