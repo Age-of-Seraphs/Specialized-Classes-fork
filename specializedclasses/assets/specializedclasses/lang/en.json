@@ -373,8 +373,14 @@
 	"game:trait-impatient": "<font color=\"#ff8484\">• Impatient </font>",
 	"game:traitname-impatient": "Impatient",
 
+	"game:trait-lachanophobia": "<font color=\"#ff8484\">• Lachanophobia </font>",
+	"game:traitname-lachanophobia": "Lachanophobia",
+
 	"game:trait-methodical": "<font color=\"#ff8484\">• Methodical </font>",
 	"game:traitname-methodical": "Methodical",
+
+	"game:trait-nyctophobic": "<font color=\"#ff8484\">• Nyctophobic </font>",
+	"game:traitname-nyctophobic": "Nyctophobic",
 
 	"game:trait-outdoorsy": "<font color=\"#ff8484\">• Outdoorsy </font>",
 	"game:traitname-outdoorsy": "Outdoorsy",
@@ -387,6 +393,9 @@
 
 	"game:trait-sheltered": "<font color=\"#ff8484\">• Sheltered </font>",
 	"game:traitname-sheltered": "Sheltered",
+
+	"game:trait-squeamish": "<font color=\"#ff8484\">• Squeamish </font>",
+	"game:traitname-squeamish": "Squeamish",
 
 	"game:trait-starving": "<font color=\"#ff8484\">• Starving </font>",
 	"game:traitname-starving": "Starving",
@@ -409,11 +418,14 @@
 	"game:charattribute-animalHarvestingTime-0.1": "-10% creature harvesting speed",
 	"game:charattribute-animalHarvestingTime-0.05": "-5% creature harvesting speed",
 	"game:charattribute-animalHarvestingTime-0.5": "-50% creature harvesting speed",
+	"game:charattribute-animalHarvestingTime-1": "-100% creature harvesting speed",
 
+	"game:charattribute-animalLootDropRate--0.5": "-50% creature harvesting yield",
 	"game:charattribute-animalLootDropRate--0.25": "-25% creature harvesting yield",
 	"game:charattribute-animalLootDropRate--0.2": "-20% creature harvesting yield",
 	"game:charattribute-animalLootDropRate--0.1": "-10% creature harvesting yield",
 	"game:charattribute-animalLootDropRate-0.25": "+25% increased creature harvesting yield",
+	"game:charattribute-animalLootDropRate-0.5": "+50% increased creature harvesting yield",
 	"game:charattribute-animalLootDropRate-1": "+100% increased creature harvesting yield",
 
 	"game:charattribute-animalSeekingRange--0.75": "-75% creature aggression range",
@@ -444,6 +456,7 @@
 	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.25": "25% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
+	"game:charattribute-durabilitySaveChanceHoe-0.25": "25% chance to save hoe durability",
 	"game:charattribute-durabilitySaveChanceHoe-0.75": "75% chance to save hoe durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.25": "25% chance to save knife durability",
 	"game:charattribute-durabilitySaveChanceKnife-0.5": "50% chance to save knife durability",
@@ -451,6 +464,7 @@
 	"game:charattribute-durabilitySaveChancePickaxe-0.5": "50% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.75": "75% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChanceSaw-0.75": "75% chance to save saw durability",
+	"game:charattribute-durabilitySaveChanceScythe-0.25": "25% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.5": "50% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.75": "75% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceShears-0.75": "75% chance to save shears durability",
@@ -467,6 +481,7 @@
 	"game:charattribute-ceramicMiningSpeedMul-1": "+100% ceramic breaking speed",
 
 	"game:charattribute-charcoalPileDropRate-0.25": "+25% charcoal yield",
+	"game:charattribute-charcoalPileDropRate-0.4": "+40% charcoal yield",
 	"game:charattribute-charcoalPileDropRate-0.5": "+50% charcoal yield",
 	"game:charattribute-charcoalPileDropRate-1": "+100% charcoal yield",
 
@@ -484,6 +499,7 @@
 
 	"game:charattribute-cropSeedDropRate--0.3": "-30% crop seed yield",
 	"game:charattribute-cropSeedDropRate--0.25": "-25% crop seed yield",
+	"game:charattribute-cropSeedDropRate-0.5": "+50% crop seed yield",
 	"game:charattribute-cropSeedDropRate-1": "+100% crop seed yield",
 
 	"game:charattribute-flaxFiberDropRate-1": "+100% crop fiber yield",
@@ -527,14 +543,17 @@
 	"game:charattribute-hungerrate-0.25": "+25% hunger rate",
 	"game:charattribute-hungerrate-0.35": "+35% hunger rate",
 
+	"game:charattribute-iceMiningSpeedMul-0.5": "+50% ice breaking speed",
 	"game:charattribute-iceMiningSpeedMul-1": "+100% ice breaking speed",
 
+	"game:charattribute-lakeIceRareDropChance-0.5": "+50% chance for lake ice to drop whole",
 	"game:charattribute-lakeIceRareDropChance-1": "+100% chance for lake ice to drop whole",
 
 	"game:charattribute-leavesMiningSpeedMul--0.25": "-25% leaves breaking speed",
 	"game:charattribute-leavesMiningSpeedMul--0.2": "-20% leaves breaking speed",
 	"game:charattribute-leavesMiningSpeedMul--0.1": "-10% leaves breaking speed",
 	"game:charattribute-leavesMiningSpeedMul-0.2": "+20% leaves breaking speed",
+	"game:charattribute-leavesMiningSpeedMul-0.5": "+50% leaves breaking speed",
 	"game:charattribute-leavesMiningSpeedMul-1": "+100% leaves breaking speed",
 
 	"game:charattribute-locustNestDropRate--0.5": "-50% yield from locust nests",
@@ -556,6 +575,7 @@
 
 	"game:charattribute-meleeWeaponsDamage--0.2": "-20% melee damage",
 	"game:charattribute-meleeWeaponsDamage--0.1": "-10% melee damage",
+	"game:charattribute-meleeWeaponsDamage--0.05": "-5% melee damage",
 	"game:charattribute-meleeWeaponsDamage-0.1": "+10% melee damage",
 	"game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
 	"game:charattribute-meleeWeaponsDamage-0.2": "+20% melee damage",
@@ -613,8 +633,10 @@
 	"game:charattribute-rangedWeaponsAcc-0.3": "+30% ranged accuracy",
 	"game:charattribute-rangedWeaponsAcc-0.5": "+50% ranged accuracy",
 
-	"game:charattribute-rangedWeaponsDamage--0.1": "-10% ranged damage",
+	"game:charattribute-rangedWeaponsDamage--0.5": "-50% ranged damage",
+	"game:charattribute-rangedWeaponsDamage--0.25": "-25% ranged damage",
 	"game:charattribute-rangedWeaponsDamage--0.2": "-20% ranged damage",
+	"game:charattribute-rangedWeaponsDamage--0.1": "-10% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
 	"game:charattribute-rangedWeaponsDamage-0.2": "+20% ranged damage",
@@ -637,6 +659,7 @@
 	"game:charattribute-rustyGearDropRate-0.5": "+50% rusty gear yield",
 	"game:charattribute-rustyGearDropRate-1": "+100% rusty gear yield",
 
+	"game:charattribute-saltRareDropChance-0.05": "+5% chance to get salt when breaking any rock",
 	"game:charattribute-saltRareDropChance-0.1": "+10% chance to get salt when breaking any rock",
 
 	"game:charattribute-sandMiningSpeedMul--0.2": "-20% sand breaking speed",
@@ -726,6 +749,7 @@
 	"game:charattribute-wildCropDropRate--0.2": "-20% wild crop yield",
 	"game:charattribute-wildCropDropRate--0.1": "-10% wild crop yield",
 	"game:charattribute-wildCropDropRate-0.33": "+33% wild crop yield",
+	"game:charattribute-wildCropDropRate-0.5": "+50% wild crop yield",
 	"game:charattribute-wildCropDropRate-1": "+100% wild crop yield",
 
 	"game:charattribute-woodMiningSpeedMul--0.25": "-25% wood breaking speed",
@@ -738,6 +762,8 @@
 	"game:charattribute-youngCropSeedDropRate--0.25": "-25% young crop seed yield",
 	"game:charattribute-youngCropSeedDropRate--0.30": "-30% young crop seed yield",
 	"game:charattribute-youngCropSeedDropRate-0.4": "+40% young crop seed yield",
+
+	"game:charattribute-youngseeddropchance-0.5": "+50% chance for immature crops to drop exactly 1 seed",
 	"game:charattribute-youngseeddropchance-1": "+100% chance for immature crops to drop exactly 1 seed",
 
 
