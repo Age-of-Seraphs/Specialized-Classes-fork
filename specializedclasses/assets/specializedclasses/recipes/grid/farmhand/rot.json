@@ -105,8 +105,8 @@
 				"quantity": 1
 			},
 			"I": {
-				"type": "item",
-				"code": "game:mushroom-*",
+				"type": "block",
+				"code": "game:mushroom-*-normal",
 				"quantity": 1
 			},
 			"M": {

@@ -21,8 +21,8 @@
 	"game:characterclass-farmhand": "Farmhand",
 	"game:characterdesc-farmhand": "<font color=\"#99c9f9\"><i>\"Yeah, I'd say I'm quite familiar with reaping what I sow. That's… kind of the whole thing I do here. Why do you ask?\"\n</i></font><br><br>Farmhands are cultivators and masters of agriculture. To them, a single patch of wild crop can be the beginning of swathes of grain and vegetables growing from well-fertilized fields, single-handedly providing entire villages with nutrition.",
 
-	"game:characterclass-florist": "Florist",
-	"game:characterdesc-florist": "<font color=\"#99c9f9\"><i>\"Why can't I stop and smell the flowers, too? All my bees are doing it…\"\n</i></font><br><br>Florists are beekeepers and herbalists. Eager to keep their allies in good health, they can gather ingredients for simple cures from grass in a pinch. Given time, they can propagate flowers to keep their bees happy, whose honey is used for quality medicine.",
+	"game:characterclass-florist": "Herbalist",
+	"game:characterdesc-florist": "<font color=\"#99c9f9\"><i>\"Why can't I stop and smell the flowers, too? All my bees are doing it…\"\n</i></font><br><br>Herbalist gather plants and material to craft medicine and paints. Eager to keep their allies in good health, they can gather ingredients for simple cures from grass in a pinch. Given time, they can propagate flowers to keep their bees happy, whose honey is used for quality medicine. Using natural materials, they can make an array of pigments used for decorations of all sorts.",
 
 	"game:characterclass-forester": "Forester",
 	"game:characterdesc-forester": "<font color=\"#99c9f9\"><i>\"I've never done anything but go against the grain. It's worked out great for me, so why should I stop now?\"\n</i></font><br><br>Foresters are woodcutters and carpenters. They can gather lumber sustainably, getting enough saplings to always replace what they cut down. They always have enough fuel to brave the winters, and what they don't use they carve into useful materials.",
@@ -130,9 +130,9 @@
 	"game:traitname-farmhand": "Farmhand",
 	"game:traitdesc-farmhand": "<a href=\"handbook://specializedclasses:class-farmhand\">Can grind up fertilizer components more efficiently, can hoe charcoal, bonemeal and compost through soil to permanently improve its fertility, can make stinkbait more efficiently</a>",
 
-	"game:trait-florist": "<font color=\"#99d6ff\">• Florist </font>",
+	"game:trait-florist": "<font color=\"#99d6ff\">• Herbalist </font>",
 	"game:traitname-florist": "Florist",
-	"game:traitdesc-florist": "<a href=\"handbook://specializedclasses:class-florist\">Can degrade soil fertility to duplicate flowers. Can create color pigments and use them to paint paintings, vessels, flowerpots, planters, and wallpaper. Can make cheaper linen poultices, can make filled beenades. Can use the sprouting table to turn saplings and compost into leaves, and can propagate flowers with compost there as well</a>",
+	"game:traitdesc-florist": "<a href=\"handbook://specializedclasses:class-florist\">Can degrade soil fertility to duplicate flowers. Can create color pigments used to paint paintings, vessels, flowerpots, planters, and wallpaper, or diluted into paint. Can make cheaper linen poultices, can make filled beenades. Can use the sprouting table to turn saplings and compost into leaves, and can propagate flowers with compost there as well</a>",
 
 	"game:trait-forester": "<font color=\"#99d6ff\">• Forester </font>",
 	"game:traitname-forester": "Forester",
