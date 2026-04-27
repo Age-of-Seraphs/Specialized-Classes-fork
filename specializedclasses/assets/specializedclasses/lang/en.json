@@ -513,6 +513,7 @@
 
 	"game:charattribute-forageDropRate--0.3": "-30% foraging yield",
 	"game:charattribute-forageDropRate--0.25": "-25% foraging yield",
+	"game:charattribute-forageDropRate-0.50": "+50% foraging yield",
 	"game:charattribute-forageDropRate--0.2": "-20% foraging yield",
 	"game:charattribute-forageDropRate--0.1": "-10% foraging yield",
 	"game:charattribute-forageDropRate-0.33": "+33% foraging yield",
@@ -521,6 +522,7 @@
 
 	"game:charattribute-fruitTreeDropRate--0.3": "-30% fruit tree graft yield",
 	"game:charattribute-fruitTreeDropRate--0.25": "-25% fruit tree graft yield",
+	"game:charattribute-fruitTreeDropRate-0.5": "+50% fruit tree graft yield",
 	"game:charattribute-fruitTreeDropRate-1": "+100% fruit tree graft yield",
 
 	"game:charattribute-glassMiningSpeedMul-1": "+100% glass breaking speed",
@@ -566,8 +568,8 @@
 	"game:charattribute-maxhealthExtraPoints--5": "-5 max health",
 	"game:charattribute-maxhealthExtraPoints--3": "-3 max health",
 	"game:charattribute-maxhealthExtraPoints--2": "-2 max health",
-	"game:charattribute-maxhealthExtraPoints-1": "1 max health",
-	"game:charattribute-maxhealthExtraPoints-2": "2 max health",
+	"game:charattribute-maxhealthExtraPoints-1": "+1 max health",
+	"game:charattribute-maxhealthExtraPoints-2": "+2 max health",
 	"game:charattribute-maxhealthExtraPoints-10": "+10 max health",
 	"game:charattribute-maxhealthExtraPoints-15": "+15 max health",
 	"game:charattribute-maxhealthExtraPoints-3": "+3 max health",
@@ -725,9 +727,10 @@
 
 	"game:charattribute-temporalGearTLRepairCost--1": "-1 temporal gear cost to repair translocators",
 
-	"game:charattribute-treeDropRate-0.1": "10% log yield from trees",
+	"game:charattribute-treeDropRate-0.1": "+10% log yield from trees",
 
 	"game:charattribute-treeSeedDropRate--0.25": "-25% tree seed yield",
+	"game:charattribute-treeSeedDropRate-0.25": "+25% tree seed yield",
 	"game:charattribute-treeSeedDropRate-1": "+100% tree seed yield",
 	"game:charattribute-treeSeedDropRate-3": "+300% tree seed yield",
 

@@ -369,7 +369,7 @@
 		"type": "positive", // positive
 		"attributes": {
 			"durabilitySaveChanceShovel": 0.25,
-			"soilMiningSpeedMul": 0.5
+			"soilMiningSpeedMul": 0.25
 		}
 	},
 	{
