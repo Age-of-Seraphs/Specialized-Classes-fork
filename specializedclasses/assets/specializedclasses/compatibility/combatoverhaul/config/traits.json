@@ -36,7 +36,7 @@
 		}
 	},
 	{
-		"code": "co-fencer",
+		"code": "co-frail",
 		"type": "positive", // combat
 		"attributes": {
 			"walkspeed": 0.05,

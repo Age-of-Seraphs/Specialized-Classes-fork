@@ -81,7 +81,7 @@
 		"file": "specializedclasses:config/characterclasses.json",
 		"op": "replace",
 		"path": "/13/traits/0",
-		"value": "co-fencer"
+		"value": "co-frail"
 	},
 	{
 		"file": "specializedclasses:config/characterclasses.json",

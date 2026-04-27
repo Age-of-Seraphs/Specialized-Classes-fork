@@ -301,7 +301,7 @@
 		"enabled": false,
 		"code": "tailor",
 		"traits": [
-			"fencer", // combat
+			"frail", // combat
 			"tailor", // crafting
 			"clothier", // vanilla crafting
 			"bespoke", // positive

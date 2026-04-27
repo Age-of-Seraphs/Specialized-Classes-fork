@@ -29,11 +29,12 @@
 		}
 	},
 	{
-		"code": "fencer", // tailor
+		"code": "frail", // tailor
 		"type": "positive", // combat
 		"attributes": {
-			"hungerrate": -0.4,
-			"walkspeed": 0.05
+			"hungerrate": -0.1,
+			"meleeWeaponsDamage": -0.05,
+			"maxHealthExtraPoints": -1
 		}
 	},
 	{
@@ -267,7 +268,7 @@
 		"code": "bespoke", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"armorDurabilityLoss": -0.8
+			"armorDurabilityLoss": -0.3
 		}
 	},
 	{
@@ -590,10 +591,9 @@
 		"code": "thresher", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"plantMiningSpeedMul": 0.5,
+			"plantMiningSpeedMul": 0.25,
 			"clothMiningSpeedMul": 0.5,
-			"durabilitySaveChanceScythe": 0.75,
-			"durabilitySaveChanceKnife": 0.5
+			"durabilitySaveChanceKnife": 0.25
 		}
 	},
 	{
@@ -628,10 +628,7 @@
 		"code": "weaver", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"flaxFiberRareDropChance": 0.1,
-			"reedsRareDropChance": 0.1,
 			"flaxFiberDropRate": 1,
-			"clothMiningSpeedMul": 0.5
 		}
 	},
 

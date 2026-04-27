@@ -164,7 +164,7 @@
     "op": "replace",
     "path": "/5/traits",
     "value": [
-      "fencer",
+      "frail",
       "tailor",
       "clothier",
       "bespoke",

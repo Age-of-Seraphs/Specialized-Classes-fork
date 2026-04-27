@@ -59,8 +59,8 @@
 	"game:trait-custodian": "<font color=\"#9966ff\">• Custodian </font>",
 	"game:traitname-custodian": "Custodian",
 
-	"game:trait-fencer": "<font color=\"#9966ff\">• Fencer </font>",
-	"game:traitname-fencer": "Fencer",
+	"game:trait-frail": "<font color=\"#9966ff\">• frail </font>",
+	"game:traitname-frail": "frail",
 
 	"game:trait-harrier": "<font color=\"#9966ff\">• Harrier </font>",
 	"game:traitname-harrier": "Harrier",
@@ -820,8 +820,8 @@
 	"game:trait-co-custodian": "<font color=\"#9966ff\">• CO: Custodian </font>",
 	"game:traitname-co-custodian": "CO: Custodian",
 
-	"game:trait-co-fencer": "<font color=\"#9966ff\">• CO: Fencer </font>",
-	"game:traitname-co-fencer": "CO: Fencer",
+	"game:trait-co-frail": "<font color=\"#9966ff\">• CO: frail </font>",
+	"game:traitname-co-frail": "CO: frail",
 
 	"game:trait-co-harrier": "<font color=\"#9966ff\">• CO: Harrier </font>",
 	"game:traitname-co-harrier": "CO: Harrier",
