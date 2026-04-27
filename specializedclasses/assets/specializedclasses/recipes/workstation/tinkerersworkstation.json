@@ -1,334 +1,339 @@
-﻿{
-	"workstation": "tinkerersworkstation",
-	"menuMode": "browser",
-	"recipes": [
+﻿[
 	{
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "quantity": 1,
-	        "code": "game:solderbar-tin"
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:metal-parts",
-	      "quantity": 4
-	    },
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-metalparts",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "quantity": 1,
-	        "code": "game:solderbar-silver"
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:metal-parts",
-	      "quantity": 4
-	    },
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-metalparts",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-gearbox01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-gearbox01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-gearbox02",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-gearbox02",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-oscillator01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-oscillator01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-spring01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-spring01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-joint01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-joint01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-gears01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-gears01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasframes-gears02",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-gears02",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-connector01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-connector01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-cylinder01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-cylinder01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-cylinder02",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-cylinder02",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-tank01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-tank01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-tank02",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-tank02",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:ingot-cupronickel",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:metal-parts",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:jonasparts-valve01",
-	      "quantity": 1
-	    },
-	    "recipeName": "specializedclasses:recipename-valve01",
-	    "recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
-	    "requiredTrait": "clockmaker"
-	  }
-	]
-}
+		"enabled": "false"
+	},
+	{
+		"workstation": "tinkerersworkstation",
+		"menuMode": "browser",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"quantity": 1,
+						"code": "game:solderbar-tin"
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:metal-parts",
+					"quantity": 4
+				},
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-metalparts",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"quantity": 1,
+						"code": "game:solderbar-silver"
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:metal-parts",
+					"quantity": 4
+				},
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-metalparts",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-gearbox01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-gearbox01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-gearbox02",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-gearbox02",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-oscillator01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-oscillator01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-spring01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-spring01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-joint01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-joint01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-gears01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-gears01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasframes-gears02",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-gears02",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-connector01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-connector01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-cylinder01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-cylinder01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-cylinder02",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-cylinder02",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-tank01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-tank01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-tank02",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-tank02",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:ingot-cupronickel",
+						"quantity": 1
+					},
+					{
+						"type": "block",
+						"code": "game:metal-parts",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:jonasparts-valve01",
+					"quantity": 1
+				},
+				"recipeName": "specializedclasses:recipename-valve01",
+				"recipeDesc": "specializedclasses:description-tinkerersworkstation-jonaspart",
+				"requiredTrait": "clockmaker"
+			}
+		]
+	}
+]

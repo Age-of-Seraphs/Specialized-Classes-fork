@@ -1,388 +1,393 @@
-{
-	"workstation": "stonecuttingbench",
-	"menuMode": "helditem",
-	"recipes": [
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:stone-{stone}",
-	      "quantity": 4
-	    },
-	    "attributes": { "handbookOverviewGroup": "stone" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:gravel-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "gravel" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:sand-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "sand" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:sandwavy-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "sandwavy" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:cobbleskull-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "cobbleskull" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:cobblestoneslab-{stone}-down-free",
-	      "quantity": 2
-	    },
-	    "attributes": { "handbookOverviewGroup": "cobblestoneslab" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:cobblestone-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "cobblestone" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:cobblestonestairs-{stone}-up-north-free",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "cobblestonestairs" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:rockpolished-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "rockpolished" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:polishedrockslab-{stone}-down-free",
-	      "quantity": 2
-	    },
-	    "attributes": { "handbookOverviewGroup": "polishedrockslab" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-travertine",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:tile-2x2-plain-travertine",
-	      "quantity": 2
-	    },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-travertine",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:tileslab-2x2-plain-travertine-down-free",
-	      "quantity": 4
-	    },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:stonebricks-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "stonebricks" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:stonebrickslab-{stone}-down-free",
-	      "quantity": 2
-	    },
-	    "attributes": { "handbookOverviewGroup": "stonebrickslab" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:stonebrickstairs-{stone}-up-north-free",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "stonebrickstairs" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:drystone-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "drystone" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:drystonefence-{stone}-ew-free",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "drystonefence" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:crackedrock-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "crackedrock" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:cobblestonefan-{stone}-north",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "cobblestonefan" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:polishedrockold-full-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "polishedrockold-full" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:polishedrockold-cobbled-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "polishedrockold-cobbled" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:agedstonebricks-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "agedstonebricks" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:rock-{stone}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:crackedstonebricks-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "crackedstonebricks" },
-	    "requiredTrait": "quarrier"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:stone-{stone}",
-	        "quantity": 8
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:rock-{stone}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "rock" },
-	    "requiredTrait": "quarrier"
-	  }
-	]
-}
+[
+	{
+		"enabled": "false"
+	},
+	{
+		"workstation": "stonecuttingbench",
+		"menuMode": "helditem",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:stone-{stone}",
+					"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "stone" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:gravel-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "gravel" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:sand-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "sand" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:sandwavy-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "sandwavy" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:cobbleskull-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "cobbleskull" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:cobblestoneslab-{stone}-down-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "cobblestoneslab" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:cobblestone-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "cobblestone" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:cobblestonestairs-{stone}-up-north-free",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "cobblestonestairs" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:rockpolished-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "rockpolished" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:polishedrockslab-{stone}-down-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "polishedrockslab" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-travertine",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:tile-2x2-plain-travertine",
+					"quantity": 2
+				},
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-travertine",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:tileslab-2x2-plain-travertine-down-free",
+					"quantity": 4
+				},
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:stonebricks-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "stonebricks" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:stonebrickslab-{stone}-down-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "stonebrickslab" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:stonebrickstairs-{stone}-up-north-free",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "stonebrickstairs" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:drystone-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "drystone" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:drystonefence-{stone}-ew-free",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "drystonefence" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:crackedrock-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "crackedrock" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:cobblestonefan-{stone}-north",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "cobblestonefan" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:polishedrockold-full-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "polishedrockold-full" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:polishedrockold-cobbled-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "polishedrockold-cobbled" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:agedstonebricks-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "agedstonebricks" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rock-{stone}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:crackedstonebricks-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "crackedstonebricks" },
+				"requiredTrait": "quarrier"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"quantity": 8
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:rock-{stone}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "rock" },
+				"requiredTrait": "quarrier"
+			}
+		]
+	}
+]

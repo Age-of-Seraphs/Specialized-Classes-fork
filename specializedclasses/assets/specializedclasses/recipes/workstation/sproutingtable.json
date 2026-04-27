@@ -1,392 +1,397 @@
-{
-	"workstation": "sproutingtable",
-	"menuMode": "browser",
-	"recipes": [
+[
 	{
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "quantity": 1,
-	        "code": "game:log-placed-{wood}-ud"
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:sapling-{wood}-free",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "wood": [
-	        "acacia",
-	        "birch",
-	        "kapok",
-	        "maple",
-	        "oak",
-	        "pine",
-	        "darkpine",
-	        "larch",
-	        "crimsonkingmaple",
-	        "redwood",
-	        "greenspirecypress",
-	        "baldcypress",
-	        "ebony",
-	        "walnut",
-	        "purpleheart"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "sapling" },
-	    "requiredTrait": "forester"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "quantity": 1,
-	        "code": "game:logquad-placed-{wood}-ud"
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:sapling-{wood}-free",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "wood": [
-	        "acacia",
-	        "birch",
-	        "kapok",
-	        "maple",
-	        "oak",
-	        "pine",
-	        "darkpine",
-	        "larch",
-	        "crimsonkingmaple",
-	        "redwood",
-	        "greenspirecypress",
-	        "baldcypress",
-	        "ebony",
-	        "walnut",
-	        "purpleheart"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "sapling" },
-	    "requiredTrait": "forester"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:grain-{grain}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-{grain}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:vegetable-{vegetable}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-{vegetable}",
-	      "quantity": 1
-	    },
-	    "skipVariants": {
-	      "vegetable": [
-	        "cassava"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:rawcassava-raw",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-cassava",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:spice-licorice-raw",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-licorice",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:fruit-{fruit}",
-	        "quantity": 2
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-{fruit}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:legume-{legume}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:seeds-{legume}",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "seeds" },
-	    "requiredTrait": "farmhand"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:flower-{flower}-free",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:flower-{flower}-free",
-	      "quantity": 16
-	    },
-	    "attributes": { "handbookOverviewGroup": "flower" },
-	    "requiredTrait": "florist"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:sapling-{wood}-free",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:leaves-placed-{wood}",
-	      "quantity": 32
-	    },
-	    "allowedVariants": {
-	      "wood": [
-	        "acacia",
-	        "birch",
-	        "kapok",
-	        "maple",
-	        "oak",
-	        "pine",
-	        "darkpine",
-	        "larch",
-	        "crimsonkingmaple",
-	        "redwood",
-	        "greenspirecypress",
-	        "baldcypress",
-	        "ebony",
-	        "walnut",
-	        "purpleheart"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "leaves" },
-	    "requiredTrait": "florist"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:sapling-{wood}-free",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:leavesbranchy-placed-{wood}",
-	      "quantity": 16
-	    },
-	    "allowedVariants": {
-	      "wood": [
-	        "acacia",
-	        "birch",
-	        "kapok",
-	        "maple",
-	        "oak",
-	        "pine",
-	        "darkpine",
-	        "larch",
-	        "crimsonkingmaple",
-	        "redwood",
-	        "greenspirecypress",
-	        "baldcypress",
-	        "ebony",
-	        "walnut",
-	        "purpleheart"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "leaves" },
-	    "requiredTrait": "florist"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:fruit-{fruittype}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:fruittree-cutting",
-	      "attributes": {
-	        "type": "{fruittype}"
-	      },
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "fruittype": [
-	        "pinkapple",
-	        "redapple",
-	        "yellowapple",
-	        "cherry",
-	        "mango",
-	        "olive",
-	        "orange",
-	        "peach",
-	        "pear",
-	        "breadfruit",
-	        "lychee",
-	        "pomegranate"
-	      ]
-	    },
-	    "requiredTrait": "vintner"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:fruit-{berrytype}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:compost",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "block",
-	      "code": "game:fruitingbushcutting-{berrytype}-free",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "berrytype": [
-	        "beautyberry",
-	        "blackberry",
-	        "blackcurrant",
-	        "blueberry",
-	        "cloudberry",
-	        "cranberry",
-	        "raspberry",
-	        "redcurrant",
-	        "strawberry",
-	        "whitecurrant"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "bushcutting" },
-	    "requiredTrait": "vintner"
-	  }
-	]
-}
+		"enabled": "false"
+	},
+	{
+		"workstation": "sproutingtable",
+		"menuMode": "browser",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"quantity": 1,
+						"code": "game:log-placed-{wood}-ud"
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:sapling-{wood}-free",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"wood": [
+						"acacia",
+						"birch",
+						"kapok",
+						"maple",
+						"oak",
+						"pine",
+						"darkpine",
+						"larch",
+						"crimsonkingmaple",
+						"redwood",
+						"greenspirecypress",
+						"baldcypress",
+						"ebony",
+						"walnut",
+						"purpleheart"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "sapling" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"quantity": 1,
+						"code": "game:logquad-placed-{wood}-ud"
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:sapling-{wood}-free",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"wood": [
+						"acacia",
+						"birch",
+						"kapok",
+						"maple",
+						"oak",
+						"pine",
+						"darkpine",
+						"larch",
+						"crimsonkingmaple",
+						"redwood",
+						"greenspirecypress",
+						"baldcypress",
+						"ebony",
+						"walnut",
+						"purpleheart"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "sapling" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:grain-{grain}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-{grain}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:vegetable-{vegetable}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-{vegetable}",
+					"quantity": 1
+				},
+				"skipVariants": {
+					"vegetable": [
+						"cassava"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:rawcassava-raw",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-cassava",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:spice-licorice-raw",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-licorice",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:fruit-{fruit}",
+						"quantity": 2
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-{fruit}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:legume-{legume}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:seeds-{legume}",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "seeds" },
+				"requiredTrait": "farmhand"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:flower-{flower}-free",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:flower-{flower}-free",
+					"quantity": 16
+				},
+				"attributes": { "handbookOverviewGroup": "flower" },
+				"requiredTrait": "florist"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:sapling-{wood}-free",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:leaves-placed-{wood}",
+					"quantity": 32
+				},
+				"allowedVariants": {
+					"wood": [
+						"acacia",
+						"birch",
+						"kapok",
+						"maple",
+						"oak",
+						"pine",
+						"darkpine",
+						"larch",
+						"crimsonkingmaple",
+						"redwood",
+						"greenspirecypress",
+						"baldcypress",
+						"ebony",
+						"walnut",
+						"purpleheart"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "leaves" },
+				"requiredTrait": "florist"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:sapling-{wood}-free",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:leavesbranchy-placed-{wood}",
+					"quantity": 16
+				},
+				"allowedVariants": {
+					"wood": [
+						"acacia",
+						"birch",
+						"kapok",
+						"maple",
+						"oak",
+						"pine",
+						"darkpine",
+						"larch",
+						"crimsonkingmaple",
+						"redwood",
+						"greenspirecypress",
+						"baldcypress",
+						"ebony",
+						"walnut",
+						"purpleheart"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "leaves" },
+				"requiredTrait": "florist"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:fruit-{fruittype}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:fruittree-cutting",
+					"attributes": {
+						"type": "{fruittype}"
+					},
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"fruittype": [
+						"pinkapple",
+						"redapple",
+						"yellowapple",
+						"cherry",
+						"mango",
+						"olive",
+						"orange",
+						"peach",
+						"pear",
+						"breadfruit",
+						"lychee",
+						"pomegranate"
+					]
+				},
+				"requiredTrait": "vintner"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:fruit-{berrytype}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:compost",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:fruitingbushcutting-{berrytype}-free",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"berrytype": [
+						"beautyberry",
+						"blackberry",
+						"blackcurrant",
+						"blueberry",
+						"cloudberry",
+						"cranberry",
+						"raspberry",
+						"redcurrant",
+						"strawberry",
+						"whitecurrant"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "bushcutting" },
+				"requiredTrait": "vintner"
+			}
+		]
+	}
+]

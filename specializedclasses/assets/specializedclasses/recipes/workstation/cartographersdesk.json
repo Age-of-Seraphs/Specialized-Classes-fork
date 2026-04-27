@@ -1,128 +1,302 @@
-{
-	"workstation": "cartographersdesk",
-	"menuMode": "browser",
-	"recipes": [
-		{
-			"ingredients": [
-				{ "type": "block", "code": "game:sand-*", "quantity": 32, "recipeAttributes": { "label": "any sand" } },
-				{ "type": "block", "code": "game:gravel-*", "quantity": 32, "recipeAttributes": { "label": "any gravel" } },
-				{ "type": "item", "code": "game:ore-bituminouscoal", "quantity": 1 }
-			],
-			"output": { "type": "block", "code": "specializedclasses:asphaltroad-free", "quantity": 64 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:firewood", "quantity": 1 }
-			],
-			"output": { "type": "block", "code": "game:woodenpath-aged-ns", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+[
+	{
+		"enabled": "false"
+	},
+	{
+		"workstation": "cartographersdesk",
+		"menuMode": "browser",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:sand-*",
+						"quantity": 32,
+						"recipeAttributes": { "label": "any sand" }
+					},
+					{
+						"type": "block",
+						"code": "game:gravel-*",
+						"quantity": 32,
+						"recipeAttributes": { "label": "any gravel" }
+					},
+					{
+						"type": "item",
+						"code": "game:ore-bituminouscoal",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "specializedclasses:asphaltroad-free",
+					"quantity": 64
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepath-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:firewood",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:woodenpath-aged-ns",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepath-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:sand-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepath-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepath-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 2, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:gravel-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepath-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathstairs-up-north-free", "quantity": 3 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 2, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:soil-*-none",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepath-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathstairs-up-north-free", "quantity": 3 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 2, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 2,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:sand-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathstairs-up-north-free",
+					"quantity": 3
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathstairs-up-north-free", "quantity": 3 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:sand-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 2,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:gravel-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathstairs-up-north-free",
+					"quantity": 3
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:gravel-*", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 2,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:soil-*-none",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathstairs-up-north-free",
+					"quantity": 3
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "item", "code": "game:stone-{stone}", "name": "stone", "quantity": 1, "recipeAttributes": { "label": "any stone" } },
-				{ "type": "block", "code": "game:soil-*-none", "quantity": 1, "recipeAttributes": { "label": "any sand, soil, or gravel" } }
-			],
-			"skipVariants": {
-				"stone": ["meteorite-iron"]
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:sand-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathslab-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
 			},
-			"output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 2 },
-			"requiredTrait": "messenger"
-		},
-		{
-			"ingredients": [
-				{ "type": "block", "code": "game:rammed-*", "quantity": 1 }
-			],
-			"output": { "type": "block", "code": "game:stonepath-free", "quantity": 1 },
-			"requiredTrait": "messenger"
-		}
-	]
-}
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:gravel-*",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathslab-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:stone-{stone}",
+						"name": "stone",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any stone" }
+					},
+					{
+						"type": "block",
+						"code": "game:soil-*-none",
+						"quantity": 1,
+						"recipeAttributes": { "label": "any sand, soil, or gravel" }
+					}
+				],
+				"skipVariants": {
+					"stone": [ "meteorite-iron" ]
+				},
+				"output": {
+					"type": "block",
+					"code": "game:stonepathslab-free",
+					"quantity": 2
+				},
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:rammed-*",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:stonepath-free",
+					"quantity": 1
+				},
+				"requiredTrait": "messenger"
+			}
+		]
+	}
+]

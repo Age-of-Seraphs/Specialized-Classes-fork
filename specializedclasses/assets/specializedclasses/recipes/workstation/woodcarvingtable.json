@@ -1,841 +1,846 @@
-{
-	"workstation": "woodcarvingtable",
-	"menuMode": "helditem",
-	"recipes": [
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:log-placed-aged-ud",
-				"quantity": 1
-			},
-			"skipVariants": {
-				"wood": ["aged"]
-			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "item",
-				"code": "game:firewood",
-				"quantity": 4
-			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "item",
-				"code": "game:agedfirewood",
-				"quantity": 4
-			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "item",
-				"code": "game:stick",
-				"quantity": 12
-			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "item",
-				"code": "game:plank-{wood}",
-				"quantity": 12
-			},
-			"attributes": { "handbookOverviewGroup": "plank" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:logquad-placed-{wood}-ud",
-				"quantity": 1
-			},
-			"attributes": { "handbookOverviewGroup": "logquad" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:logquad-barkedcorner-{wood}-north",
-				"quantity": 1
-			},
-			"attributes": { "handbookOverviewGroup": "logquad" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:logquad-debarked-{wood}-ud",
-				"quantity": 1
-			},
-			"attributes": { "handbookOverviewGroup": "logquad" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:logquad-debarkedcorner-{wood}-north",
-				"quantity": 1
-			},
-			"attributes": { "handbookOverviewGroup": "logquad" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:debarkedlog-{wood}-ud",
-				"quantity": 1
-			},
-			"attributes": { "handbookOverviewGroup": "debarkedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:supportbeam-{wood}",
-				"quantity": 3
-			},
-			"attributes": { "handbookOverviewGroup": "supportbeam" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:planks-{wood}-ud",
-				"quantity": 3
-			},
-			"attributes": { "handbookOverviewGroup": "planks" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:plankslab-{wood}-down-free",
-				"quantity": 6
-			},
-			"attributes": { "handbookOverviewGroup": "plankslab" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:plankstairs-{wood}-up-north-free",
-				"quantity": 4
-			},
-			"attributes": { "handbookOverviewGroup": "plankstairs" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+[
+	{
+		"enabled": "false"
+	},
+	{
+		"workstation": "woodcarvingtable",
+		"menuMode": "helditem",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
 					"code": "game:log-placed-aged-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:debarkedlog-veryaged-ud",
-				"quantity": 1
+				},
+				"skipVariants": {
+					"wood": [ "aged" ]
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:firewood",
+					"quantity": 4
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:agedfirewood",
+					"quantity": 4
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:stick",
+					"quantity": 12
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:plank-{wood}",
+					"quantity": 12
+				},
+				"attributes": { "handbookOverviewGroup": "plank" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-aged-ud",
+					"code": "game:logquad-placed-{wood}-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:supportbeam-veryaged",
-				"quantity": 3
+				},
+				"attributes": { "handbookOverviewGroup": "logquad" },
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-aged-ud",
+					"code": "game:logquad-barkedcorner-{wood}-north",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:debarkedlog-rotten-ud",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "logquad" },
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-aged-ud",
+					"code": "game:logquad-debarked-{wood}-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:supportbeam-rotten",
-				"quantity": 3
+				},
+				"attributes": { "handbookOverviewGroup": "logquad" },
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:logquad-debarkedcorner-{wood}-north",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "logquad" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:debarkedlog-{wood}-ud",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "debarkedlog" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:supportbeam-{wood}",
+					"quantity": 3
+				},
+				"attributes": { "handbookOverviewGroup": "supportbeam" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:planks-{wood}-ud",
+					"quantity": 3
+				},
+				"attributes": { "handbookOverviewGroup": "planks" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:plankslab-{wood}-down-free",
+					"quantity": 6
+				},
+				"attributes": { "handbookOverviewGroup": "plankslab" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:plankstairs-{wood}-up-north-free",
+					"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "plankstairs" },
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-aged-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:debarkedlog-veryaged-ud",
+					"quantity": 1
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-aged-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:supportbeam-veryaged",
+					"quantity": 3
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-aged-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
 					"code": "game:debarkedlog-rotten-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:debarkedlog-veryrotten-ud",
-				"quantity": 1
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-aged-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:debarkedlog-rotten-ud",
+					"code": "game:supportbeam-rotten",
+					"quantity": 3
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:debarkedlog-rotten-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:debarkedlog-veryrotten-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:supportbeam-veryrotten",
-				"quantity": 3
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:debarkedlog-rotten-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:woodenfence-{wood}-ew-free",
-				"quantity": 16
+					"code": "game:supportbeam-veryrotten",
+					"quantity": 3
+				},
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "woodenfence" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:woodenfencegate-{wood}-n-closed-left-free",
-				"quantity": 2
+					"code": "game:woodenfence-{wood}-ew-free",
+					"quantity": 16
+				},
+				"attributes": { "handbookOverviewGroup": "woodenfence" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "woodenfencegate" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:roughhewnfence-{wood}-ew-free",
-				"quantity": 4
-			},
-			"attributes": { "handbookOverviewGroup": "roughhewnfence" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
-					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:woodenfencegate-{wood}-n-closed-left-free",
 					"quantity": 2
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:roughhewnfencegate-{wood}-n-closed-free",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "woodenfencegate" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "roughhewnfencegate" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:woodenpath-{wood}-ns",
-				"quantity": 6
+					"code": "game:roughhewnfence-{wood}-ew-free",
+					"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "roughhewnfence" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "woodenpath" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 2
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:roughhewnfencegate-{wood}-n-closed-free",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:trapdoor-solid-{wood}-1",
-				"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "roughhewnfencegate" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "trapdoor-solid" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:trapdoor-window-{wood}-1",
-				"quantity": 2
+					"code": "game:woodenpath-{wood}-ns",
+					"quantity": 6
+				},
+				"attributes": { "handbookOverviewGroup": "woodenpath" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "trapdoor-window" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:door-solid-{wood}",
-				"quantity": 2
+					"code": "game:trapdoor-solid-{wood}-1",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "trapdoor-solid" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "door-solid" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:door-sleek-windowed-{wood}",
-				"quantity": 1
+					"code": "game:trapdoor-window-{wood}-1",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "trapdoor-window" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "door-sleek-windowed" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofing-{wood}-east-free",
-				"quantity": 2
+					"code": "game:door-solid-{wood}",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "door-solid" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:door-sleek-windowed-{wood}",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingbottom-{wood}-east-free",
-				"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "door-sleek-windowed" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingtop-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofing-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofinghalfleft-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofingbottom-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofinghalfright-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofingtop-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingridge-{wood}-ns-free",
-				"quantity": 2
+					"code": "game:slantedroofinghalfleft-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingridgeend-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofinghalfright-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingridgehalfleft-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofingridge-{wood}-ns-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingridgehalfright-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofingridgeend-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingtip-{wood}-free",
-				"quantity": 1
+					"code": "game:slantedroofingridgehalfleft-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingcornerinner-{wood}-east-free",
-				"quantity": 2
+					"code": "game:slantedroofingridgehalfright-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:slantedroofingtip-{wood}-free",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:slantedroofingcornerouter-{wood}-east-free",
-				"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "slantedroofing" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-bottom-plain-ud",
-				"quantity": 1
+					"code": "game:slantedroofingcornerinner-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-bottom-fancy-ud",
-				"quantity": 1
+					"code": "game:slantedroofingcornerouter-{wood}-east-free",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "slantedroofing" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
+					"code": "game:carvedlog-acacia-aged-bottom-plain-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-middle-plain-ud",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
+					"code": "game:carvedlog-acacia-aged-bottom-fancy-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-middle-fancy-ud",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
+					"code": "game:carvedlog-acacia-aged-middle-plain-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-top-plain-ud",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"code": "game:log-placed-acacia-ud",
+					"code": "game:carvedlog-acacia-aged-middle-fancy-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:carvedlog-acacia-aged-top-fancy-ud",
-				"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"attributes": { "handbookOverviewGroup": "carvedlog" },
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:carvedlog-acacia-aged-top-plain-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:ladder-wood-north",
-				"quantity": 6
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:log-placed-acacia-ud",
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
+					"code": "game:carvedlog-acacia-aged-top-fancy-ud",
 					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:sign-ground-north",
-				"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "carvedlog" },
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:signpost",
-				"quantity": 4
+					"code": "game:ladder-wood-north",
+					"quantity": 6
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:moldrack-normal-east",
-				"quantity": 2
+					"code": "game:sign-ground-north",
+					"quantity": 4
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:shelf-normal-east",
-				"quantity": 3
+					"code": "game:signpost",
+					"quantity": 4
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		},
-		{
-			"ingredients": [
-				{
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
 					"type": "block",
-					"codes": ["game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud"],
-					"quantity": 1
-				}
-			],
-			"output": {
-				"type": "block",
-				"code": "game:table-normal",
-				"quantity": 1
+					"code": "game:moldrack-normal-east",
+					"quantity": 2
+				},
+				"requiredTrait": "forester"
 			},
-			"requiredTrait": "forester"
-		}
-	]
-}
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:shelf-normal-east",
+					"quantity": 3
+				},
+				"requiredTrait": "forester"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"codes": [ "game:log-placed-{wood}-ud", "game:logsection-placed-{wood}-ne-ud" ],
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "block",
+					"code": "game:table-normal",
+					"quantity": 1
+				},
+				"requiredTrait": "forester"
+			}
+		]
+	}
+]

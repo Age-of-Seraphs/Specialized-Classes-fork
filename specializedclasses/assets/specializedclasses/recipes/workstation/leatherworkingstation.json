@@ -1,588 +1,593 @@
-{
-	"workstation": "leatherworkingstation",
-	"menuMode": "browser",
-	"recipes": [
+[
 	{
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 5
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:backpack-normal",
-	      "quantity": 1
-	    },
-	    "recipeDesc": "specializedclasses:description-leatherworkingstation-backpack",
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:leather-sturdy-plain",
-	        "quantity": 5
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:backpack-sturdy",
-	      "quantity": 1
-	    },
-	    "recipeDesc": "specializedclasses:description-leatherworkingstation-backpack",
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:leather-sturdy-plain",
-	        "quantity": 6
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:ingot-brass",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:metalplate-steel",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:messengerbag",
-	      "quantity": 1
-	    },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 4
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:rod-{metal}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:ingot-brass",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:scrollcase",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "metal": [
-	        "bismuthbronze",
-	        "blackbronze",
-	        "copper",
-	        "cupronickel",
-	        "electrum",
-	        "gold",
-	        "iron",
-	        "meteoriciron",
-	        "silver",
-	        "steel",
-	        "tinbronze"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "scrollcase" },
-	    "requiredTrait": "archivist"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 4
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:rod-{metal}",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:ingot-brass",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:scrollcase",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "metal": [
-	        "bismuthbronze",
-	        "blackbronze",
-	        "copper",
-	        "cupronickel",
-	        "electrum",
-	        "gold",
-	        "iron",
-	        "meteoriciron",
-	        "silver",
-	        "steel",
-	        "tinbronze"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "scrollcase" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:resin",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:metalplate-brass",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:fat-rendered",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 3
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:crate",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:insulatedcrate",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "insulatedcrate" },
-	    "requiredTrait": "butcher"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:resin",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:metalplate-brass",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:fat-rendered",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 3
-	      },
-	      {
-	        "type": "block",
-	        "code": "game:crate",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:insulatedcrate",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "insulatedcrate" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:soil-{fertility}-none",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:linensack",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:soilbag",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "fertility": [
-	        "compost",
-	        "high",
-	        "low",
-	        "medium",
-	        "verylow"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "soilbag" },
-	    "requiredTrait": "brickmaker"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "block",
-	        "code": "game:soil-{fertility}-none",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:linensack",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:leather-normal-plain",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "specializedclasses:soilbag",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "fertility": [
-	        "compost",
-	        "high",
-	        "low",
-	        "medium",
-	        "verylow"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "soilbag" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-{size}",
-	        "quantity": 1
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-{size}",
-	      "quantity": 1
-	    },
-	    "allowedVariants": {
-	      "size": [
-	        "small",
-	        "medium",
-	        "large",
-	        "huge"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-bear-{bear}-complete",
-	        "quantity": 1,
-	        "recipeAttributes": { "label": "pelt (brown or polar bear)" }
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-huge",
-	      "quantity": 3
-	    },
-	    "allowedVariants": {
-	      "bear": [
-	        "brown",
-	        "polar"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-bear-{bear}-complete",
-	        "quantity": 1,
-	        "recipeAttributes": { "label": "pelt (sun, panda or black bear)" }
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-huge",
-	      "quantity": 2
-	    },
-	    "allowedVariants": {
-	      "bear": [
-	        "black",
-	        "panda",
-	        "sun"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-soaked-{size}",
-	        "quantity": 1,
-	        "recipeAttributes": { "label": "soaked {size} hide" }
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-{size}",
-	      "quantity": 2
-	    },
-	    "allowedVariants": {
-	      "size": [
-	        "small",
-	        "medium",
-	        "large",
-	        "huge"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-soaked-bear-{bear}-complete",
-	        "quantity": 1,
-	        "recipeAttributes": { "label": "soaked hide (brown or polar bear)" }
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-huge",
-	      "quantity": 6
-	    },
-	    "allowedVariants": {
-	      "bear": [
-	        "brown",
-	        "polar"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-soaked-bear-{bear}-complete",
-	        "quantity": 1,
-	        "recipeAttributes": { "label": "soaked hide (sun, panda or black bear)" }
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hide-scraped-huge",
-	      "quantity": 4
-	    },
-	    "allowedVariants": {
-	      "bear": [
-	        "black",
-	        "panda",
-	        "sun"
-	      ]
-	    },
-	    "attributes": { "handbookOverviewGroup": "hide-scraped" },
-	    "requiredTrait": "hunter"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:cattailtops",
-	        "quantity": 5
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:basket-normal-reed",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "basket" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:papyrustops",
-	        "quantity": 5
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:basket-normal-papyrus",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "basket" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-small",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "codes": ["game:cattailtops", "game:papyrustops"],
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hunterbackpack",
-	      "quantity": 1
-	    },
-	    "attributes": { "handbookOverviewGroup": "hunterbackpack" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-medium",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "codes": ["game:cattailtops", "game:papyrustops"],
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hunterbackpack",
-	      "quantity": 2
-	    },
-	    "attributes": { "handbookOverviewGroup": "hunterbackpack" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-large",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "codes": ["game:cattailtops", "game:papyrustops"],
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hunterbackpack",
-	      "quantity": 3
-	    },
-	    "attributes": { "handbookOverviewGroup": "hunterbackpack" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-huge",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "codes": ["game:cattailtops", "game:papyrustops"],
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hunterbackpack",
-	      "quantity": 4
-	    },
-	    "attributes": { "handbookOverviewGroup": "hunterbackpack" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:hide-pelt-bear-*-complete",
-	        "quantity": 1,
-	        "label": "1x complete bear pelt"
-	      },
-	      {
-	        "type": "item",
-	        "codes": ["game:cattailtops", "game:papyrustops"],
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:hunterbackpack",
-	      "quantity": 4
-	    },
-	    "attributes": { "handbookOverviewGroup": "hunterbackpack" },
-	    "requiredTrait": "messenger"
-	  },
-	  {
-	    "ingredients": [
-	      {
-	        "type": "item",
-	        "code": "game:flaxfibers",
-	        "quantity": 1
-	      },
-	      {
-	        "type": "item",
-	        "code": "game:flaxtwine",
-	        "quantity": 3
-	      }
-	    ],
-	    "output": {
-	      "type": "item",
-	      "code": "game:linensack",
-	      "quantity": 1
-	    },
-	    "requiredTrait": "messenger"
-	  }
-	]
-}
+		"enabled": "false"
+	},
+	{
+		"workstation": "leatherworkingstation",
+		"menuMode": "browser",
+		"recipes": [
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 5
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:backpack-normal",
+					"quantity": 1
+				},
+				"recipeDesc": "specializedclasses:description-leatherworkingstation-backpack",
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:leather-sturdy-plain",
+						"quantity": 5
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:backpack-sturdy",
+					"quantity": 1
+				},
+				"recipeDesc": "specializedclasses:description-leatherworkingstation-backpack",
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:leather-sturdy-plain",
+						"quantity": 6
+					},
+					{
+						"type": "item",
+						"code": "game:ingot-brass",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:metalplate-steel",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:messengerbag",
+					"quantity": 1
+				},
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 4
+					},
+					{
+						"type": "item",
+						"code": "game:rod-{metal}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:ingot-brass",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:scrollcase",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"metal": [
+						"bismuthbronze",
+						"blackbronze",
+						"copper",
+						"cupronickel",
+						"electrum",
+						"gold",
+						"iron",
+						"meteoriciron",
+						"silver",
+						"steel",
+						"tinbronze"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "scrollcase" },
+				"requiredTrait": "archivist"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 4
+					},
+					{
+						"type": "item",
+						"code": "game:rod-{metal}",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:ingot-brass",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:scrollcase",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"metal": [
+						"bismuthbronze",
+						"blackbronze",
+						"copper",
+						"cupronickel",
+						"electrum",
+						"gold",
+						"iron",
+						"meteoriciron",
+						"silver",
+						"steel",
+						"tinbronze"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "scrollcase" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:resin",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:metalplate-brass",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:fat-rendered",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 3
+					},
+					{
+						"type": "block",
+						"code": "game:crate",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:insulatedcrate",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "insulatedcrate" },
+				"requiredTrait": "butcher"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:resin",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:metalplate-brass",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:fat-rendered",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 3
+					},
+					{
+						"type": "block",
+						"code": "game:crate",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:insulatedcrate",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "insulatedcrate" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:soil-{fertility}-none",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:linensack",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:soilbag",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"fertility": [
+						"compost",
+						"high",
+						"low",
+						"medium",
+						"verylow"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "soilbag" },
+				"requiredTrait": "brickmaker"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "block",
+						"code": "game:soil-{fertility}-none",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:linensack",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:leather-normal-plain",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "specializedclasses:soilbag",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"fertility": [
+						"compost",
+						"high",
+						"low",
+						"medium",
+						"verylow"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "soilbag" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-{size}",
+						"quantity": 1
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-{size}",
+					"quantity": 1
+				},
+				"allowedVariants": {
+					"size": [
+						"small",
+						"medium",
+						"large",
+						"huge"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-bear-{bear}-complete",
+						"quantity": 1,
+						"recipeAttributes": { "label": "pelt (brown or polar bear)" }
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-huge",
+					"quantity": 3
+				},
+				"allowedVariants": {
+					"bear": [
+						"brown",
+						"polar"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-bear-{bear}-complete",
+						"quantity": 1,
+						"recipeAttributes": { "label": "pelt (sun, panda or black bear)" }
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-huge",
+					"quantity": 2
+				},
+				"allowedVariants": {
+					"bear": [
+						"black",
+						"panda",
+						"sun"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-soaked-{size}",
+						"quantity": 1,
+						"recipeAttributes": { "label": "soaked {size} hide" }
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-{size}",
+					"quantity": 2
+				},
+				"allowedVariants": {
+					"size": [
+						"small",
+						"medium",
+						"large",
+						"huge"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-soaked-bear-{bear}-complete",
+						"quantity": 1,
+						"recipeAttributes": { "label": "soaked hide (brown or polar bear)" }
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-huge",
+					"quantity": 6
+				},
+				"allowedVariants": {
+					"bear": [
+						"brown",
+						"polar"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-soaked-bear-{bear}-complete",
+						"quantity": 1,
+						"recipeAttributes": { "label": "soaked hide (sun, panda or black bear)" }
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hide-scraped-huge",
+					"quantity": 4
+				},
+				"allowedVariants": {
+					"bear": [
+						"black",
+						"panda",
+						"sun"
+					]
+				},
+				"attributes": { "handbookOverviewGroup": "hide-scraped" },
+				"requiredTrait": "hunter"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:cattailtops",
+						"quantity": 5
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:basket-normal-reed",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "basket" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:papyrustops",
+						"quantity": 5
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:basket-normal-papyrus",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "basket" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-small",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"codes": [ "game:cattailtops", "game:papyrustops" ],
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hunterbackpack",
+					"quantity": 1
+				},
+				"attributes": { "handbookOverviewGroup": "hunterbackpack" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-medium",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"codes": [ "game:cattailtops", "game:papyrustops" ],
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hunterbackpack",
+					"quantity": 2
+				},
+				"attributes": { "handbookOverviewGroup": "hunterbackpack" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-large",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"codes": [ "game:cattailtops", "game:papyrustops" ],
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hunterbackpack",
+					"quantity": 3
+				},
+				"attributes": { "handbookOverviewGroup": "hunterbackpack" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-huge",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"codes": [ "game:cattailtops", "game:papyrustops" ],
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hunterbackpack",
+					"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "hunterbackpack" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:hide-pelt-bear-*-complete",
+						"quantity": 1,
+						"label": "1x complete bear pelt"
+					},
+					{
+						"type": "item",
+						"codes": [ "game:cattailtops", "game:papyrustops" ],
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:hunterbackpack",
+					"quantity": 4
+				},
+				"attributes": { "handbookOverviewGroup": "hunterbackpack" },
+				"requiredTrait": "messenger"
+			},
+			{
+				"ingredients": [
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": 1
+					},
+					{
+						"type": "item",
+						"code": "game:flaxtwine",
+						"quantity": 3
+					}
+				],
+				"output": {
+					"type": "item",
+					"code": "game:linensack",
+					"quantity": 1
+				},
+				"requiredTrait": "messenger"
+			}
+		]
+	}
+]
