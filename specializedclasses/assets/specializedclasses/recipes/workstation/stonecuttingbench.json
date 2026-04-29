@@ -1,8 +1,5 @@
 [
 	{
-		"enabled": "false"
-	},
-	{
 		"workstation": "stonecuttingbench",
 		"menuMode": "helditem",
 		"recipes": [

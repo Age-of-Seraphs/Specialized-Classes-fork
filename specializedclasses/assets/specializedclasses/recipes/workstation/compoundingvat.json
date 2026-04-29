@@ -1,8 +1,5 @@
 [
 	{
-		"enabled": "false"
-	},
-	{
 		"workstation": "compoundingvat",
 		"menuMode": "browser",
 		"recipes": [

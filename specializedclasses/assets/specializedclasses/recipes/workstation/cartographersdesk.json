@@ -1,8 +1,5 @@
 [
 	{
-		"enabled": "false"
-	},
-	{
 		"workstation": "cartographersdesk",
 		"menuMode": "browser",
 		"recipes": [

@@ -23,18 +23,17 @@
 		"type": "positive", // combat
 		"attributes": {
 			"animalSeekingRange": -0.25,
-			"armorDurabilityLoss": -0.5,
-			"durabilitySaveChanceAllWeapons": 0.5,
+			"armorDurabilityLoss": -0.25,
+			"durabilitySaveChanceAllWeapons": 0.1,
 			"hungerrate": -0.25
 		}
 	},
 	{
-		"code": "frail", // tailor
+		"code": "fencer", // tailor
 		"type": "positive", // combat
 		"attributes": {
-			"hungerrate": -0.1,
-			"meleeWeaponsDamage": -0.05,
-			"maxHealthExtraPoints": -1
+			"hungerrate": -0.3,
+			"walkspeed": 0.05
 		}
 	},
 	{
@@ -85,7 +84,7 @@
 		"type": "positive", // combat
 		"attributes": {
 			"maxhealthExtraPoints": 3, // Dropped from 5 (Teara 4/25)
-			"meleeWeaponsDamage": 0.2, 
+			"meleeWeaponsDamage": 0.2,
 			"rangedWeaponsDamage": -0.5 // Increased from .2 (Teara 4/25)
 		}
 	},
@@ -268,7 +267,7 @@
 		"code": "bespoke", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"armorDurabilityLoss": -0.3
+			"armorDurabilityLoss": -0.8
 		}
 	},
 	{
@@ -324,9 +323,9 @@
 		"code": "crafter", // clockmaker
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceChisel": 0.75,
-			"durabilitySaveChanceSaw": 0.75,
-			"durabilitySaveChanceHammer": 0.75
+			"durabilitySaveChanceChisel": 0.15,
+			"durabilitySaveChanceSaw": 0.15,
+			"durabilitySaveChanceHammer": 0.15
 		}
 	},
 	{
@@ -370,7 +369,7 @@
 		"type": "positive", // positive
 		"attributes": {
 			"durabilitySaveChanceShovel": 0.25,
-			"soilMiningSpeedMul": 0.25
+			"soilMiningSpeedMul": 0.5
 		}
 	},
 	{
@@ -561,7 +560,7 @@
 		"code": "steward", // archivist
 		"type": "positive", // positive
 		"attributes": {
-			"durabilitySaveChanceAllTools": 0.5
+			"durabilitySaveChanceAllTools": 0.1
 		}
 	},
 	{
@@ -591,9 +590,10 @@
 		"code": "thresher", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"plantMiningSpeedMul": 0.25,
+			"plantMiningSpeedMul": 0.5,
 			"clothMiningSpeedMul": 0.5,
-			"durabilitySaveChanceKnife": 0.25
+			"durabilitySaveChanceScythe": 0.75,
+			"durabilitySaveChanceKnife": 0.5
 		}
 	},
 	{
@@ -628,12 +628,28 @@
 		"code": "weaver", // tailor
 		"type": "positive", // positive
 		"attributes": {
+			"flaxFiberRareDropChance": 0.1,
+			"reedsRareDropChance": 0.1,
 			"flaxFiberDropRate": 1,
+			"clothMiningSpeedMul": 0.5
 		}
 	},
-
-
-
+	{
+		"code": "arachnophobia", // archivist
+		"type": "negative", // negative
+		"attributes": {
+			"maxhealthExtraPoints": -2,
+			"walkspeed": -0.05
+		}
+	},
+	{
+		"code": "blockheaded", // forester
+		"type": "negative", // negative
+		"attributes": {
+			"stoneMiningSpeedMul": -0.15,
+			"oreMiningSpeedMul": -0.15
+		}
+	},
 	{
 		"code": "calloused", // farmhand
 		"type": "negative", // negative
@@ -660,6 +676,15 @@
 			"oreDropRate": -0.25,
 			"vesselContentsDropRate": -0.20,
 			"flaxFiberDropRate": -0.10
+		}
+	},
+	{
+		"code": "clumsy", // clockmaker
+		"type": "negative", // negative
+		"attributes": {
+			"meleeWeaponsDamage": -0.15,
+			"woodMiningSpeedMul": -0.2,
+			"stoneMiningSpeedMul": -0.2
 		}
 	},
 	{
@@ -711,6 +736,14 @@
 		}
 	},
 	{
+		"code": "hardhanded", // farmhand
+		"type": "negative", // negative
+		"attributes": {
+			"oreDropRate": -0.2,
+			"stoneDropRate": -0.2
+		}
+	},
+	{
 		"code": "ecologist", // Removed from Vintner
 		"type": "negative", // negative
 		"attributes": {
@@ -721,7 +754,7 @@
 	{
 		"code": "lachanophobia", // Vintner
 		"type": "negative", // negative
-		"attributes": {			
+		"attributes": {
 			"cropProduceDropRate": -0.25
 		}
 	},
@@ -748,6 +781,14 @@
 		}
 	},
 	{
+		"code": "aosfrail", // tailor
+		"type": "negative", // negative
+		"attributes": {
+			"maxhealthExtraPoints": -5,
+			"rangedWeaponsAcc": -0.2
+		}
+	},
+	{
 		"code": "feeble", // malefactor
 		"type": "negative", // negative
 		"attributes": {
@@ -765,7 +806,7 @@
 		"code": "methodical", // butcher
 		"type": "negative", // negative
 		"attributes": {
-			"animalHarvestingTime": 0.5,
+			"animalHarvestingTime": 0.25,
 			"rustyGearDropRate": -0.25,
 			"mechanicalsDamage": -0.5
 		}
@@ -846,7 +887,7 @@
 			"cropProduceDropRate": -0.25,
 			"fruitTreeDropRate": -0.25 // Appears to be the grafting mod?
 		}
-	},	
+	},
 	{
 		"code": "neglectful", // shared negative
 		"type": "negative", // negative

@@ -59,8 +59,11 @@
 	"game:trait-custodian": "<font color=\"#9966ff\">• Custodian </font>",
 	"game:traitname-custodian": "Custodian",
 
-	"game:trait-frail": "<font color=\"#9966ff\">• frail </font>",
-	"game:traitname-frail": "frail",
+	//"game:trait-frail": "<font color=\"#9966ff\">• frail </font>",
+	//"game:traitname-frail": "frail",
+
+	"game:trait-fencer": "<font color=\"#9966ff\">• Fencer </font>",
+	"game:traitname-fencer": "Fencer",
 
 	"game:trait-harrier": "<font color=\"#9966ff\">• Harrier </font>",
 	"game:traitname-harrier": "Harrier",
@@ -328,6 +331,12 @@
 	"game:traitname-weaver": "Weaver",
 
 	// specializedclasses: negative traits [#ff8484]
+	"game:trait-arachnophobia": "<font color=\"#ff8484\">• Arachnophobia </font>",
+	"game:traitname-arachnophobia": "Arachnophobia",
+
+	"game:trait-blockheaded": "<font color=\"#ff8484\">• Blockheaded </font>",
+	"game:traitname-blockheaded": "Blockheaded",
+
 	"game:trait-calloused": "<font color=\"#ff8484\">• Calloused </font>",
 	"game:traitname-calloused": "Calloused",
 
@@ -339,6 +348,9 @@
 
 	"game:trait-aosclaustrophobic": "<font color=\"#ff8484\">• Claustrophobic </font>",
 	"game:traitname-aosclaustrophobic": "Claustrophobic",
+
+	"game:trait-clumsy": "<font color=\"#ff8484\">• Clumsy </font>",
+	"game:traitname-clumsy": "Clumsy",
 
 	"game:trait-coddled": "<font color=\"#ff8484\">• Coddled </font>",
 	"game:traitname-coddled": "Coddled",
@@ -361,8 +373,14 @@
 	"game:trait-feeble": "<font color=\"#ff8484\">• Feeble </font>",
 	"game:traitname-feeble": "Feeble",
 
+	"game:trait-aosfrail": "<font color=\"#ff8484\">• Frail </font>",
+	"game:traitname-aosfrail": "Frail",
+
 	"game:trait-guilty": "<font color=\"#ff8484\">• Guilty </font>",
 	"game:traitname-guilty": "Guilty",
+
+	"game:trait-hardhanded": "<font color=\"#ff8484\">• Hard-handed </font>",
+	"game:traitname-hardhanded": "Hard-handed",
 
 	"game:trait-aosheavyhanded": "<font color=\"#ff8484\">• Heavy-handed </font>",
 	"game:traitname-aosheavyhanded": "Heavy-handed",
@@ -450,13 +468,16 @@
 
 	"game:charattribute-bowDrawingStrength-0.3": "+30% bow drawing strength",
 
+	"game:charattribute-durabilitySaveChanceAllTools-0.1": "10% chance to save tool durability",
 	"game:charattribute-durabilitySaveChanceAllTools-0.5": "50% chance to save tool durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.1": "+10% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.25": "+25% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.5": "50% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAllWeapons-0.75": "75% chance to save weapon durability",
 	"game:charattribute-durabilitySaveChanceAxe-0.5": "50% chance to save axe durability",
+	"game:charattribute-durabilitySaveChanceChisel-0.15": "15% chance to save chisel durability",
 	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
+	"game:charattribute-durabilitySaveChanceHammer-0.15": "15% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.25": "25% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHoe-0.25": "25% chance to save hoe durability",
@@ -467,6 +488,7 @@
 	"game:charattribute-durabilitySaveChancePickaxe-0.25": "25% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.5": "50% chance to save pickaxe durability",
 	"game:charattribute-durabilitySaveChancePickaxe-0.75": "75% chance to save pickaxe durability",
+	"game:charattribute-durabilitySaveChanceSaw-0.15": "15% chance to save saw durability",
 	"game:charattribute-durabilitySaveChanceSaw-0.75": "75% chance to save saw durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.25": "25% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.5": "50% chance to save scythe durability",
@@ -593,6 +615,7 @@
 	"game:charattribute-metalSpikesDropRate-1": "+100% yield from metal spikes",
 
 	"game:charattribute-oreDropRate--0.25": "-25% ore yield",
+	"game:charattribute-oreDropRate--0.2": "-20% ore yield",
 	"game:charattribute-oreDropRate--0.1": "-10% ore yield",
 	"game:charattribute-oreDropRate-0.1": "+10% ore yield",
 	"game:charattribute-oreDropRate-0.2": "+20% ore yield",
@@ -603,6 +626,7 @@
 	"game:charattribute-oreMiningSpeedMul--0.33": "-33% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.3": "-30% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.2": "-20% ore breaking speed",
+	"game:charattribute-oreMiningSpeedMul--0.15": "-15% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.1": "-10% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul--0.05": "-5% ore breaking speed",
 	"game:charattribute-oreMiningSpeedMul-0.2": "+20% ore breaking speed",
@@ -637,6 +661,7 @@
 	"game:charattribute-plantMiningSpeedMul-0.5": "+50% plant breaking speed",
 	"game:charattribute-plantMiningSpeedMul-1": "+100% plant breaking speed",
 
+	"game:charattribute-rangedWeaponsAcc--0.2": "-20% ranged accuracy",
 	"game:charattribute-rangedWeaponsAcc-0.2": "+20% ranged accuracy",
 	"game:charattribute-rangedWeaponsAcc-0.3": "+30% ranged accuracy",
 	"game:charattribute-rangedWeaponsAcc-0.5": "+50% ranged accuracy",
@@ -712,9 +737,11 @@
 	"game:charattribute-stickDropRate-0.2": "+20% stick yield",
 
 	"game:charattribute-stoneDropRate--0.25": "-25% stone yield",
+	"game:charattribute-stoneDropRate--0.2": "-20% stone yield",
 	"game:charattribute-stoneDropRate-0.25": "+25% stone yield",
 
 	"game:charattribute-stoneMiningSpeedMul--0.2": "-20% stone breaking speed",
+	"game:charattribute-stoneMiningSpeedMul--0.15": "-15% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul--0.1": "-10% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul--0.05": "-5% stone breaking speed",
 	"game:charattribute-stoneMiningSpeedMul-0.2": "+20% stone breaking speed",

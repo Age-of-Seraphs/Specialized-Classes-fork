@@ -112,7 +112,8 @@
       "engineer",
       "attuned",
       "crafter",
-      "uncultured"
+      "uncultured",
+      "clumsy"
     ],
     "file": "game:config/characterclasses.json"
   },
@@ -164,13 +165,14 @@
     "op": "replace",
     "path": "/5/traits",
     "value": [
-      "frail",
+      "fencer",
       "tailor",
       "clothier",
       "bespoke",
       "thresher",
       "weaver",
-      "delicate"
+      "delicate",
+      "aosfrail"
     ],
     "file": "game:config/characterclasses.json"
   }
