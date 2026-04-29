@@ -459,6 +459,7 @@
 
 	"game:charattribute-armorDurabilityLoss--0.8": "-80% armor durability loss",
 	"game:charattribute-armorDurabilityLoss--0.5": "-50% armor durability loss",
+	"game:charattribute-armorDurabilityLoss--0.3": "-30% armor durability loss",
 
 	"game:charattribute-armorWalkSpeedAffectedness--0.75": "-75% armor speed penalty",
 	"game:charattribute-armorWalkSpeedAffectedness--0.5": "-50% armor speed penalty",

@@ -267,7 +267,7 @@
 		"code": "bespoke", // tailor
 		"type": "positive", // positive
 		"attributes": {
-			"armorDurabilityLoss": -0.8
+			"armorDurabilityLoss": -0.3
 		}
 	},
 	{
@@ -592,8 +592,8 @@
 		"attributes": {
 			"plantMiningSpeedMul": 0.5,
 			"clothMiningSpeedMul": 0.5,
-			"durabilitySaveChanceScythe": 0.75,
-			"durabilitySaveChanceKnife": 0.5
+			"durabilitySaveChanceScythe": 0.25,
+			"durabilitySaveChanceKnife": 0.25
 		}
 	},
 	{
