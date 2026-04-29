@@ -565,6 +565,7 @@
 	"game:charattribute-hungerrate--0.75": "-75% hunger rate",
 	"game:charattribute-hungerrate--0.5": "-50% hunger rate",
 	"game:charattribute-hungerrate--0.4": "-40% hunger rate",
+	"game:charattribute-hungerrate--0.3": "-30% hunger rate",
 	"game:charattribute-hungerrate--0.25": "-25% hunger rate",
 	"game:charattribute-hungerrate--0.2": "-20% hunger rate",
 	"game:charattribute-hungerrate-0.1": "+10% hunger rate",

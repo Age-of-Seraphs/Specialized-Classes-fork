@@ -784,7 +784,7 @@
 		"code": "aosfrail", // tailor
 		"type": "negative", // negative
 		"attributes": {
-			"maxhealthExtraPoints": -5,
+			"maxhealthExtraPoints": -3,
 			"rangedWeaponsAcc": -0.2
 		}
 	},
