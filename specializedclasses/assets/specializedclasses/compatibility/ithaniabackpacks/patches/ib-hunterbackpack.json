@@ -1,0 +1,26 @@
+[
+  { //hunter backpack base
+    "file": "ithaniabackpacks:recipes/grid/hunter-backpack-base.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "ithaniabackpacks:recipes/grid/hunter-backpack-base.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "ithaniabackpacks:recipes/grid/hunter-backpack-base.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "ithaniabackpacks:recipes/grid/hunter-backpack-stickframe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tailor"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "spinningwheel:recipes/grid/hpspinningwheelwheelitem.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpspinningwheelframe.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpspinningwheel.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpmoaitem.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpflyshuttleloomheddle.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpflyshuttleloombeater.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpflyshuttleloomframe.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "spinningwheel:recipes/grid/hpflyshuttleloom.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "tailor"
+  }
+]

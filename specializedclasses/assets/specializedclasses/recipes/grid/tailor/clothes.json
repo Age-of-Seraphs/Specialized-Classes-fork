@@ -1,0 +1,27 @@
+[
+  {
+    "ingredientPattern": "SK,SS,SS",
+    "requiresTrait": "tailor",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:leather-sturdy-plain"
+      },
+      "K": {
+        "type": "item",
+        "code": "specializedclasses:spindle",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "recipeGroup": 67,
+    "output": {
+      "type": "item",
+      "code": "game:backpack-sturdy",
+      "quantity": 1
+    }
+  }
+]

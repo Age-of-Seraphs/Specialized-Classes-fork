@@ -1,0 +1,8 @@
+[
+  {
+    "file": "ithaniabackpacks:recipes/grid/leather-backpack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tailor"
+  }
+]
