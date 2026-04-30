@@ -58,13 +58,48 @@
 		"ingredientPattern": "VVV,_S_",
 		"requiresTrait": "tailor",
 		"ingredients": {
-			"V": { "type": "block", "code": "game:wildvine-*", "quantity": 1 },
-			"S": { "type": "item", "code": "specializedclasses:spindle", "isTool": true, "toolDurabilityCost": 0 }
+			"V": {
+				"type": "block",
+				"code": "game:wildvine-*",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "specializedclasses:spindle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
 		},
 		"width": 3,
 		"height": 2,
 		"shapeless": false,
 		"recipeGroup": 68,
-		"output": { "type": "item", "code": "game:rope", "quantity": 2 }
+		"output": {
+			"type": "item",
+			"code": "game:rope",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "FFF,_S_",
+		"requiresTrait": "tailor",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:flaxtwine"
+			},
+			"S": {
+				"type": "item",
+				"code": "specializedclasses:spindle",
+				"isTool": true,
+				"toolDurabilityCost": 0
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "game:linen-normal-down"
+		}
 	}
 ]

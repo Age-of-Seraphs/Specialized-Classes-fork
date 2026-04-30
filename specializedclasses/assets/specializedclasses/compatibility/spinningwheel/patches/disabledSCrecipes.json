@@ -1,0 +1,7 @@
+[
+  {
+    "file": "specializedclasses:recipes/grid/tailor/fibers.json",
+    "op": "remove",
+    "path": "/2"
+  }
+]
