@@ -1,5 +1,8 @@
 [
   {
+    "enabled": false
+  }
+  {
     "file": "spinningwheel:recipes/grid/hpspinningwheelwheelitem.json",
     "op": "addmerge",
     "path": "/requiresTrait",
