@@ -10,7 +10,7 @@
       "K": {
         "type": "item",
         "code": "specializedclasses:spindle",
-        "isTool": true,
+        "isTool": "true",
         "toolDurabilityCost": 0
       }
     },

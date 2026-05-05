@@ -93,30 +93,27 @@
       "code": "ithaniabackpacks:hunter-backpack"
     }
   },
-  [
-    {//Stick frame
-      "ingredientPattern": "SRS,SSS,SRS",
-      "requiresTrait": "hunter",
-      "ingredients": {
-        "S": {
-          "type": "item",
-          "code": "game:stick",
-          "quantity": 2
-        },
-        "R": {
-          "type": "item",
-          "code": "game:rope",
-          "quantity": 3
-        }
-
-      },
-      "width": 3,
-      "height": 3,
-      "output": {
+  {//Stick frame
+    "ingredientPattern": "SRS,SSS,SRS",
+    "requiresTrait": "hunter",
+    "ingredients": {
+      "S": {
         "type": "item",
-        "code": "ithaniabackpacks:hunter-backpack-stickframe"
+        "code": "game:stick",
+        "quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope",
+        "quantity": 3
       }
-    }
 
-  ]
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "ithaniabackpacks:hunter-backpack-stickframe"
+    }
+  }
 ]
