@@ -20,8 +20,9 @@
 			{ "type": "item", "code": "game:clothes-face-glasses" }, // Plain glasses
 			{ "type": "item", "code": "game:clothes-hand-scribe" }, // Scribe gloves
 			{ "type": "item", "code": "game:clothes-waist-scribe" } // Scribe belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-face-glasses" },
+			{ "type": "item", "code": "game:clothes-upperbody-scribe" },
+			{ "type": "item", "code": "game:clothes-lowerbody-surgeon" }
 		]
 	},
 	{
@@ -65,8 +66,9 @@
 			{ "type": "item", "code": "game:clothes-foot-marketeer" }, // Marketeer shoes
 			{ "type": "item", "code": "game:clothes-hand-survivor" }, // Survivor gloves
 			{ "type": "item", "code": "game:clothes-waist-rottenking" } // Rotten king belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-nadiya-waist-beekeeper" },
+			{ "type": "item", "code": "game:clothes-upperbody-marketeer" },
+			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" }
 		]
 	},
 	{
@@ -88,8 +90,9 @@
 			{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" }, // Blackguard shoes
 			{ "type": "item", "code": "game:clothes-hand-fur-gloves" }, // Fur gloves
 			{ "type": "item", "code": "game:clothes-waist-heavy-tool-belt" } // Heavy tool belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-upperbodyover-surgeon" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-barber" },
+			{ "type": "item", "code": "game:clothes-lowerbody-surgeon" }
 		]
 	},
 	{
@@ -137,8 +140,9 @@
 			{ "type": "item", "code": "game:clothes-foot-high-leather-boots" }, // High leather boots
 			{ "type": "item", "code": "game:clothes-nadiya-face-grain" }, // Piece of straw
 			{ "type": "item", "code": "game:clothes-waist-forlorn-belt" } // Forlorn Hope belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-head-straw-hat" },
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-dirty-linen-trousers" }
 		]
 	},
 	{
@@ -160,8 +164,9 @@
 			{ "type": "item", "code": "game:clothes-nadiya-neck-maple-amulet" }, // Maple amulet
 			{ "type": "item", "code": "game:clothes-hand-noble-riding-gloves" }, // Noble riding gloves
 			{ "type": "item", "code": "game:clothes-waist-fortune-teller-hip-scarf" } // Fortune teller hip scarf*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-head-wreathflower" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-nomad-mantle" },
+			{ "type": "item", "code": "game:clothes-lowerbody-beggar" }
 		]
 	},
 	{
@@ -182,8 +187,9 @@
 			{ "type": "item", "code": "game:clothes-neck-acorn-amulet" }, // Acorn amulet
 			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" }, // Malefactor wrapped gloves
 			{ "type": "item", "code": "game:clothes-waist-noble-sash" } // Noble sash*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-neck-acorn-amulet" },
+			{ "type": "item", "code": "game:clothes-shoulder-forestponcho" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" }
 		]
 	},
 	{
@@ -253,8 +259,9 @@
 			{ "type": "item", "code": "game:clothes-emblem-messenger-pin" }, // Messenger pin
 			{ "type": "item", "code": "game:clothes-hand-minstrel-gloves" }, // Minstrel gloves
 			{ "type": "item", "code": "game:clothes-waist-aristocrat-belt" } // Aristrocrat sash*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-head-squire-hood" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-travelers-earthrobe" },
+			{ "type": "item", "code": "game:clothes-lowerbody-marketeer" }
 		]
 	},
 	{
@@ -277,8 +284,9 @@
 			{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask" }, // Leather reinforced mask
 			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" }, // Heavy leather gloves
 			{ "type": "item", "code": "game:clothes-waist-heavy-belt" } // Heavy belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-upperbodyover-miner" },
+			{ "type": "item", "code": "game:clothes-upperbody-miner" },
+			{ "type": "item", "code": "game:clothes-lowerbody-miner" }
 		]
 	},
 	{
@@ -299,8 +307,9 @@
 			{ "type": "item", "code": "game:clothes-neck-japamala" }, // Japamala
 			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" }, // Heavy leather gloves
 			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" } // Blackguard belt*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-shoulder-miner" },
+			{ "type": "item", "code": "game:clothes-upperbody-miner" },
+			{ "type": "item", "code": "game:clothes-lowerbody-miner" }
 		]
 	},
 	{
@@ -345,8 +354,9 @@
 			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" }, // Commoner trousers
 			{ "type": "item", "code": "game:clothes-foot-great-steppe-boots" }, // Great Steppe boots
 			{ "type": "item", "code": "game:clothes-waist-linen-rope" } // Linen rope*/
-			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
-			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" }
+			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-minstrel-pants" }
 		]
 	}
 ]

@@ -1,15 +1,17 @@
 ﻿{
     "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
     "type": "Code",
-    "modid": "specializedclasses",
-    "name": "Specialized Classes",
+    "modid": "aosspecializedclasses",
+    "name": "Age of Seraphs Specialized Classes",
     "authors": [
       "quilladile",
-      "Captanredbeard"
+      "Captanredbeard",
+      "Owling"
+
     ],
-    "description": "15 new classes that are the best in their fields by a large margin, with major but specific buffs",
+    "description": "Age of Seraphs fork of the Specialized Classes mod",
     "version": "2.3.0",
   "dependencies": {
-    "game": "1.22.0-rc.7"
+    "game": "1.22.2"
   }
 }

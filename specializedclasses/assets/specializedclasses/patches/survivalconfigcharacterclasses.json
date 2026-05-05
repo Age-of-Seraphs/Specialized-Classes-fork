@@ -5,11 +5,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-upperbodyover-commoner-coat"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-upperbody-commoner-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-commoner-trousers"
       }
     ],
     "file": "game:config/characterclasses.json"
@@ -32,11 +36,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-shoulder-survivor"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-upperbody-hunter-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-commoner-trousers"
       }
     ],
     "file": "game:config/characterclasses.json"
@@ -61,11 +69,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-face-malefactor-mask"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-shoulder-malefactor-cloak"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-malefactor-trousers"
       }
     ],
     "file": "game:config/characterclasses.json"
@@ -92,11 +104,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-face-glasses-clockmaker"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-upperbody-clockmaker-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-clockmaker-pants"
       }
     ],
     "file": "game:config/characterclasses.json"
@@ -123,11 +139,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-emblem-blackguard-pin"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-upperbody-commoner-shirt"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-malefactor-trousers"
       }
     ],
     "file": "game:config/characterclasses.json"
@@ -152,11 +172,15 @@
     "value": [
       {
         "type": "item",
-        "code": "clothes-upperbody-homespun-shirt"
+        "code": "clothes-arm-tailor-needlepuff"
       },
       {
         "type": "item",
-        "code": "clothes-lowerbody-homespun-pants"
+        "code": "clothes-upperbody-tailor-blouse"
+      },
+      {
+        "type": "item",
+        "code": "clothes-lowerbody-tailor-trousers"
       }
     ],
     "file": "game:config/characterclasses.json"
