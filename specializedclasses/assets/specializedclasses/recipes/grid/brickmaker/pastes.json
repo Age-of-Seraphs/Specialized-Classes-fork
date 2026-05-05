@@ -33,7 +33,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:lime",
-			"quantity": 2
+			"quantity": 1
 		}
 	},
 	{
@@ -48,7 +48,7 @@
 			"C": {
 				"type": "item",
 				"code": "game:clay-{clay}",
-				"quantity": 8
+				"quantity": 4
 			},
 			"M": {
 				"type": "item",
@@ -71,7 +71,7 @@
 		"output": {
 			"type": "item",
 			"code": "game:mortar",
-			"quantity": 8
+			"quantity": 4
 		}
 	},
 	{
