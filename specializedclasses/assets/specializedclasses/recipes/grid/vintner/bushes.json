@@ -10,7 +10,8 @@
 			},
 			"S": {
 				"type": "block",
-				"code": "game:soil-compost-none"
+				"code": "game:soil-compost-none",
+				"quantity": 1
 			}
 		},
 		"allowedVariants": {

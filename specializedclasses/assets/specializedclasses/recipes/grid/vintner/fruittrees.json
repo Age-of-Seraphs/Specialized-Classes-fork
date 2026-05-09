@@ -1,0 +1,46 @@
+[
+  {
+    "ingredientPattern": "B,S",
+    "requiresTrait": "vintner",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:fruit-{fruittype}",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:soil-compost-none",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "fruittype": [
+        "pinkapple",
+        "redapple",
+        "yellowapple",
+        "cherry",
+        "mango",
+        "olive",
+        "orange",
+        "peach",
+        "pear",
+        "breadfruit",
+        "lychee",
+        "pomegranate"
+      ]
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "output": {
+      "type": "block",
+      "code": "game:fruittree-cutting",
+      "attributes": {
+        "type": "{fruittype}"
+      },
+      "quantity": 1
+    }
+    }
+]

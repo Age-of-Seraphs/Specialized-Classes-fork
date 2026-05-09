@@ -167,7 +167,7 @@
 
 	"game:trait-vintner": "<font color=\"#99d6ff\">• Vintner </font>",
 	"game:traitname-vintner": "Vintner",
-	"game:traitdesc-vintner": "<a href=\"handbook://specializedclasses:class-vintner\">Can craft cheaper and earlier liquid storage and processing, can turn quartz into clear quartz, and can make bush cuttings out of berries and high fertility soil. Can use the sprouting table with compost to turn fruits into bush or tree cuttings</a>",
+	"game:traitdesc-vintner": "<a href=\"handbook://specializedclasses:class-vintner\">Can craft cheaper and earlier liquid storage and processing, can turn quartz into clear quartz, and can make bush and tree cuttings out of high fertility soil and berries or fruit respectively.</a>",
 
 	"game:trait-bowyer": "<font color=\"#99d6ff\">• Bowyer </font>",
 	"game:traitname-bowyer": "Bowyer",
@@ -278,6 +278,9 @@
 
 	"game:trait-prospector": "<font color=\"#84ff84\">• Prospector </font>",
 	"game:traitname-prospector": "Prospector",
+
+	"game:trait-pruner": "<font color=\"#84ff84\">• Pruner </font>",
+	"game:traitname-pruner": "Pruner",
 
 	"game:trait-rancher": "<font color=\"#84ff84\">• Rancher </font>",
 	"game:traitname-rancher": "Rancher",
@@ -494,6 +497,7 @@
 	"game:charattribute-durabilitySaveChanceScythe-0.25": "25% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.5": "50% chance to save scythe durability",
 	"game:charattribute-durabilitySaveChanceScythe-0.75": "75% chance to save scythe durability",
+	"game:charattribute-durabilitySaveChanceShears-0.25": "25% chance to save shears durability",
 	"game:charattribute-durabilitySaveChanceShears-0.75": "75% chance to save shears durability",
 	"game:charattribute-durabilitySaveChanceShovel-0.25": "25% chance to save shovel durability",
 	"game:charattribute-durabilitySaveChanceShovel-0.5": "50% chance to save shovel durability",

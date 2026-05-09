@@ -344,6 +344,8 @@
 			"yeoman", // combat
 			"vintner", // crafting
 			"aospicker", // positive
+			"gatherer", // positive
+			"pruner", // positive
 			"delicate", // negative
 			"lachanophobia" // negative
 		],

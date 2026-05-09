@@ -380,11 +380,13 @@
 		}
 	},
 	{
-		"code": "grafter", // vintner
+		"code": "pruner", // vintner
 		"type": "positive", // positive
 		"attributes": {
-			"fruitTreeDropRate": 1,
-			"treeSeedDropRate": 1
+			"leavesMiningSpeedMul": 0.5,
+			"plantMiningSpeedMul": 1,
+			"durabilitySaveChanceShears": 0.25,
+			"durabilitySaveChanceKnife": 0.25
 		}
 	},
 	{
