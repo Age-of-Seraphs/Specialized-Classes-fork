@@ -555,7 +555,8 @@
 		"type": "positive", // positive
 		"attributes": {
 			"rockRareDropChance": 0.5,
-			"stoneDropRate": 0.25
+			"stoneDropRate": 0.25,
+			"durabilitySaveChanceHammer": 0.1
 		}
 	},
 	{
@@ -614,7 +615,8 @@
 		"attributes": {
 			"stoneMiningSpeedMul": 0.75,
 			"oreMiningSpeedMul": 0.25,
-			"durabilitySaveChancePickaxe": 0.25 //,
+			"durabilitySaveChancePickaxe": 0.25,
+			"oreDropRate": 0.1 //,
 			//"durabilitySaveChanceHammer": 0.75,
 			//"durabilitySaveChanceChisel": 0.75
 		}
@@ -675,7 +677,7 @@
 		"code": "careless", // quarrier
 		"type": "negative", // negative
 		"attributes": {
-			"oreDropRate": -0.25,
+			"oreMiningSpeedMul": -0.15,
 			"vesselContentsDropRate": -0.20,
 			"flaxFiberDropRate": -0.10
 		}
