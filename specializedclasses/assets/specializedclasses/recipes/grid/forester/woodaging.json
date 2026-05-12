@@ -237,30 +237,5 @@
 		"recipeGroup": 67,
 		"attributes": { "handbookOverviewGroup": "debarkedlog-veryrotten" },
 		"output": { "type": "block", "code": "game:debarkedlog-veryrotten-ud", "quantity": 8 }
-	},
-	{
-		"ingredientPattern": "F,f",
-		"requiresTrait": "forester",
-		"ingredients": {
-			"F": {
-				"type": "item",
-				"code": "game:firewood"
-			},
-			"f": {
-				"type": "item",
-				"code": "game:firewood",
-				"quantity": 8
-			}
-		},
-		"width": 1,
-		"height": 2,
-		"shapeless": false,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "agedfirewood" },
-		"output": {
-			"type": "item",
-			"code": "game:agedfirewood",
-			"quantity": 8
-		}
 	}
 ]
