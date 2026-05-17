@@ -1,37 +1,16 @@
 [
-  {
-    "enabled": false,
-    "ingredientPattern": "SKT,LLL",
-    "ingredients": {
-      "S": {
-        "type": "item",
-        "code": "game:clothes-nadiya-waist-miner",
-        "quantity": 1
-      },
-      "K": {
-        "type": "item",
-        "code": "game:sewingkit",
-        "quantity": 1
-      },
-      "T": {
-        "type": "block",
-        "code": "game:lantern-large-up",
-        "quantity": 1
-      },
-      "L": {
-        "type": "item",
-        "code": "game:flaxtwine",
-        "quantity": 1
-      }
-    },
-    "width": 3,
-    "height": 2,
-    "requiresTrait": "spelunker",
-    "recipeGroup": 0,
-    "output": {
-      "type": "item",
-      "code": "game:clothes-nadiya-waist-miner-accessories",
-      "quantity": 1
-    }
-  }
+	{
+	"ingredientPattern": "BSL,TDT",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:clothes-nadiya-waist-miner" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"L": { "type": "block", "code": "game:lantern-small-up", "attributes": { "material": "brass", "lining": "plain", "glass": "quartz" } },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" }
+	},
+		"requiresTrait": "spelunker",
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-miner-accessories" }
+	},
 ]
