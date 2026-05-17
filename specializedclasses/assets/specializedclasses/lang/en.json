@@ -481,6 +481,7 @@
 	"game:charattribute-durabilitySaveChanceAxe-0.5": "50% chance to save axe durability",
 	"game:charattribute-durabilitySaveChanceChisel-0.15": "15% chance to save chisel durability",
 	"game:charattribute-durabilitySaveChanceChisel-0.75": "75% chance to save chisel durability",
+	"game:charattribute-durabilitySaveChanceHammer-0.1": "10% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.15": "15% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.25": "25% chance to save hammer durability",
 	"game:charattribute-durabilitySaveChanceHammer-0.75": "75% chance to save hammer durability",
