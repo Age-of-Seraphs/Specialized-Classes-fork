@@ -1,0 +1,50 @@
+[
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/5/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/6/requiresTrait",
+    "value": "tailor"
+  },
+  {
+    "file": "charlottesclothes:recipes/grid/clothing/coatpuffedsleeves.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "tailor"
+  }
+]
