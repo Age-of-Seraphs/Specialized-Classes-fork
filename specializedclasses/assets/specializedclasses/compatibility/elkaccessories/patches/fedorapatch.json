@@ -1,0 +1,8 @@
+[
+  {
+    "file": "elkaccessories:recipes/grid/fedora.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tailor"
+  }
+]
