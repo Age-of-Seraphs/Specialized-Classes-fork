@@ -1,0 +1,56 @@
+[
+  { //MIDNIGHT PONCHO
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/33/requirestrait",
+    "value": "clothier"
+  },
+  { //FOREST PONCHO
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/34/requirestrait",
+    "value": "clothier"
+  },
+  { //PLAIN APRON
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/13/requirestrait",
+    "value": "clothier"
+  },
+  { //ARTISANS SCARF
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/14/requirestrait",
+    "value": "clothier"
+  },
+  { //JORD ROBE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/17/requirestrait",
+    "value": "clothier"
+  },
+  { //HOODED CAPE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/18/requirestrait",
+    "value": "clothier"
+  },
+  { //BLACKSMITH APRON
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/19/requirestrait",
+    "value": "clothier"
+  },
+  { //STAINED LEATHER PONCHO
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/20/requirestrait",
+    "value": "clothier"
+  },
+  { //PEASAND KAFTAN
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/shoulder.json",
+    "path": "/21/requirestrait",
+    "value": "clothier"
+  }
+]

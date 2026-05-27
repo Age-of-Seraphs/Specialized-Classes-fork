@@ -1,0 +1,8 @@
+[
+  { //LEATHER BRACERS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/arm.json",
+    "path": "/9/requirestrait",
+    "value": "clothier"
+  }
+]

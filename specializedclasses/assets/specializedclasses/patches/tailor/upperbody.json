@@ -1,0 +1,92 @@
+[
+  { //ARCTIC HUNTER
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/0/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/1/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/2/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/3/requirestrait",
+    "value": "clothier"
+  },
+  { //ARCTIF FISHER
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/4/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/7/requirestrait",
+    "value": "clothier"
+  },
+  { //KIRTLE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/12/requirestrait",
+    "value": "clothier"
+  },
+  { //EARTH TONED ROBE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/23/requirestrait",
+    "value": "clothier"
+  },
+  { //HOMESPUN SHIRT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/24/requirestrait",
+    "value": "clothier"
+  },
+  { //PEASANT SHIRT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/25/requirestrait",
+    "value": "clothier"
+  },
+  { //PASTORAL SHIRT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/26/requirestrait",
+    "value": "clothier"
+  },
+  { //CHATEAU BLOUSE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/27/requirestrait",
+    "value": "clothier"
+  },
+  { //SCARLET ORNATE LINEN TUNIC
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbody.json",
+    "path": "/28/requirestrait",
+    "value": "clothier"
+  }
+]

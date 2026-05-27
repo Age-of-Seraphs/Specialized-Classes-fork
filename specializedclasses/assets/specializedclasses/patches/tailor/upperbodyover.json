@@ -1,0 +1,98 @@
+[
+  { //ARCTIC HUNTER
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/0/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/1/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/2/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/3/requirestrait",
+    "value": "clothier"
+  },
+  { //ARCTIC FISHER
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/4/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/7/requirestrait",
+    "value": "clothier"
+  },
+  { //COBALT MANTLE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/12/requirestrait",
+    "value": "clothier"
+  },
+  { //WARM ROBE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/13/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/14/requirestrait",
+    "value": "clothier"
+  },
+  { //TRAVELERS EARTHROBE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/21/requirestrait",
+    "value": "clothier"
+  },
+  { //FUR LINED VEST
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/25/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/26/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/27/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/upperbodyover.json",
+    "path": "/28/requirestrait",
+    "value": "clothier"
+  }
+]

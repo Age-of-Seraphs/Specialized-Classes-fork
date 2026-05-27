@@ -1,0 +1,38 @@
+[
+  { //ARCTIC FACE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/1/requirestrait",
+    "value": "clothier"
+  },
+  { //LEATHER EYEPATCH LEFT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  { //LEATHER EYEPATCH RIGHT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  { //STUDDED EYEPATCH LEFT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/7/requirestrait",
+    "value": "clothier"
+  },
+  { //STUDDED EYEPATCH RIGHT
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/8/requirestrait",
+    "value": "clothier"
+  },
+  { //REINFORCED LEATHER MASK
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/face.json",
+    "path": "/14/requirestrait",
+    "value": "clothier"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  { //WRIMPLE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/head.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  { //PHRYGIAN
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/head.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  { //LIRIPIPE
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/head.json",
+    "path": "/0/requirestrait",
+    "value": "clothier"
+  },
+  { //PEASANT HEAD SCARF
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/head.json",
+    "path": "/8/requirestrait",
+    "value": "clothier"
+  }
+]

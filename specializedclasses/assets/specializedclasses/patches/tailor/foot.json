@@ -1,0 +1,56 @@
+[
+  { //ARCTIC HUNTER BOOTS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/1/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/2/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/3/requirestrait",
+    "value": "clothier"
+  },
+  { //ARCTIC FISHER BOOTS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/4/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  { //MINSTREL BOOTS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/11/requirestrait",
+    "value": "clothier"
+  },
+  { //HIGH LEATHER BOOTS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/18/requirestrait",
+    "value": "clothier"
+  },
+  { //THIGH HIGH BOOTS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/foot.json",
+    "path": "/19/requirestrait",
+    "value": "clothier"
+  }
+]

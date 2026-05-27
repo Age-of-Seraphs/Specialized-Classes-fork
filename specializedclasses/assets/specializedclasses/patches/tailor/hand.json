@@ -1,0 +1,86 @@
+[
+  { //ARCTIC HUNTER GLOVES
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/0/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/1/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/2/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/3/requirestrait",
+    "value": "clothier"
+  },
+  { //ARCTIC FISHER GLOVES
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/4/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/5/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/6/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/7/requirestrait",
+    "value": "clothier"
+  },
+  { //EMBROIDERED FUR GLOVES
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/8/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/9/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/10/requirestrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/11/requirestrait",
+    "value": "clothier"
+  },
+  { //CUFFS
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/12/requirestrait",
+    "value": "clothier"
+  },
+  { //LEATHER GLOVES
+    "op": "addmerge",
+    "file": "game:recipes/grid/clothes/hand.json",
+    "path": "/17/requirestrait",
+    "value": "clothier"
+  }
+]
