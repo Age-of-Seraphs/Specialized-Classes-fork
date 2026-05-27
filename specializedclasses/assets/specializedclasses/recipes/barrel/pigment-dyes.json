@@ -3,99 +3,99 @@
 		"code": "pigmentdye-black",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-black", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-black", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-black", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-blue",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-blue", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-blue", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-blue", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-brown",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-brown", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:strongtanninportion", "litres": 5 }
+		"output": { "type": "item", "code": "game:strongtanninportion", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-gray",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-gray", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-gray", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-gray", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-green",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-green", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-green", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-green", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-orange",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-orange", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-orange", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-orange", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-pink",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-pink", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-pink", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-pink", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-purple",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-purple", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-purple", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-red",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-red", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-red", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-red", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-white",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-white", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-white", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-white", "litres": 10 }
 	},
 	{
 		"code": "pigmentdye-yellow",
 		"sealHours": 0,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 5 },
+			{ "type": "item", "code": "game:waterportion", "litres": 10 },
 			{ "type": "item", "code": "specializedclasses:pigment-yellow", "quantity": 1 }
 		],
-		"output": { "type": "item", "code": "game:dye-yellow", "litres": 5 }
+		"output": { "type": "item", "code": "game:dye-yellow", "litres": 10 }
 	}
 ]
