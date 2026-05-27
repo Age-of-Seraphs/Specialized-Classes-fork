@@ -2,13 +2,13 @@
   { //MIDNIGHT PONCHO
     "op": "addmerge",
     "file": "game:recipes/grid/clothes/shoulder.json",
-    "path": "/33/requirestrait",
+    "path": "/8/requirestrait",
     "value": "clothier"
   },
   { //FOREST PONCHO
     "op": "addmerge",
     "file": "game:recipes/grid/clothes/shoulder.json",
-    "path": "/34/requirestrait",
+    "path": "/9/requirestrait",
     "value": "clothier"
   },
   { //PLAIN APRON
