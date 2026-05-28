@@ -18,6 +18,7 @@
 		"value": 524289
 	},
 	{
+		"enabled": false,
 		"op": "addmerge",
 		"file": "game:itemtypes/tool/inkandquill.json",
 		"path": "/storageFlags",
