@@ -360,6 +360,14 @@
 			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
 			{ "type": "item", "code": "game:clothes-lowerbody-minstrel-pants" }
 		]
+	},
+	{
+		"enabled": false,
+		"code": "minter",
+		"traits": [
+			"minter" //special
+		],
+		"gear": []
 	}
 ]
 

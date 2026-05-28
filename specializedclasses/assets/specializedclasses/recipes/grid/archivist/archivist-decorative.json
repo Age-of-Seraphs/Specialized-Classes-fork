@@ -1,0 +1,404 @@
+[
+  {
+    "ingredientPattern": "BBB",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Item",
+        "code": "game:book-normal-*",
+        "quantity": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow1" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow1" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow2" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow2" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow3" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow3" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow4" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow4" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow5" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow5" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow6" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow6" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow7" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow7" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow8" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow8" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow9" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow9" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow10" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow10" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow11" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow11" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow12" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow12" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow13" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow13" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow14" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow14" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow15" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "B",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "B": {
+        "type": "Block",
+        "code": "game:clutter",
+        "attributes": { "type": "bookrow/bookrow15" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "Block",
+      "code": "game:clutter",
+      "attributes": { "type": "bookrow/bookrow1" }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "PI,K_",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "P": {
+        "type": "Item",
+        "code": "game:paper-parchment"
+      },
+      "I": {
+        "type": "Item",
+        "code": "game:inkandquill",
+        "isTool": true
+      },
+      "K": {
+        "type": "Item",
+        "code": "game:knife*",
+        "isTool": true,
+        "toolDurabilityCost": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "Block",
+      "code": "game:paper-flat-ragged"
+    }
+  },
+
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "P": {
+        "type": "Block",
+        "code": "game:paper-flat-ragged"
+      },
+      "width": 1,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:paper-lifted-ragged"
+      }
+    }
+  },
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "P": {
+        "type": "Block",
+        "code": "game:paper-lifted-ragged"
+      },
+      "width": 1,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:paper-roll-ragged"
+      }
+    }
+  },
+
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "P": {
+        "type": "Block",
+        "code": "game:paper-roll-ragged"
+      },
+      "width": 1,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:paper-tear-ragged"
+      }
+    }
+  },
+
+  {
+    "enabled": false,
+    "ingredientPattern": "P",
+    "requiresTrait": "archivist",
+    "ingredients": {
+      "P": {
+        "type": "Block",
+        "code": "game:paper-tear-ragged"
+      },
+      "width": 1,
+      "height": 1,
+      "output": {
+        "type": "Block",
+        "code": "game:paper-flat-ragged"
+      }
+    }
+  }
+]

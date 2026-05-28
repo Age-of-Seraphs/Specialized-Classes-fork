@@ -105,6 +105,11 @@
 	"game:traitname-yeoman": "Yeoman",
 
 	// specializedclasses: crafting traits [#99d6ff]
+	"game:trait-minter": "<font color=\"#ffd700\">• Minter </font>",
+	"game:traitname-minter": "Minter",
+	//"game:traitdesc-minter": "<a href=\"handbook://specializedclasses:class-archivist\">Can recycle clutter into rot, can recycle lore items into parchment, can use rot to make aged wooden and stone building blocks, can make paper lanterns, and can craft the unique scroll case backpack</a>",
+
+
 	"game:trait-archivist": "<font color=\"#99d6ff\">• Archivist </font>",
 	"game:traitname-archivist": "Archivist",
 	"game:traitdesc-archivist": "<a href=\"handbook://specializedclasses:class-archivist\">Can recycle clutter into rot, can recycle lore items into parchment, can use rot to make aged wooden and stone building blocks, can make paper lanterns, and can craft the unique scroll case backpack</a>",

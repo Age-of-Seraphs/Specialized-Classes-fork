@@ -1,0 +1,66 @@
+[
+	{
+	  "ingredientPattern": "P_,PB,S_",
+	  "requiresTrait": "archivist",
+	  "ingredients": {
+	    "P": {
+	      "type": "Item",
+	      "code": "game:papyrustops"
+	    },
+	    "B": {
+	      "type": "Block",
+	      "code": "game:woodbucket",
+	      "recipeAttributes": {
+	  		"requiresContent": {
+	  			"type": "item",
+	  			"code": "game:waterportion"
+	  		},
+	  		"requiresLitres": 1
+	  	}
+	    },
+	    "S": {
+	      "type": "Block",
+	      "code": "game:sieve*"
+	    }
+	  },
+	  "width": 2,
+	  "height": 3,
+	    "output": {
+	    "type": "Item",
+	    "code": "game:paper-parchment",
+	    "quantity": "6"
+	  }
+	},
+	{
+	  "ingredientPattern": "P_,PB,S_",
+	  "requiresTrait": "archivist",
+	  "ingredients": {
+	    "P": {
+	      "type": "Item",
+	      "code": "game:cattailtops"
+	    },
+	    "B": {
+	      "type": "Block",
+	      "code": "game:woodbucket",
+	      "recipeAttributes": {
+	  		"requiresContent": {
+	  			"type": "item",
+	  			"code": "game:waterportion"
+	  		},
+	  		"requiresLitres": 1
+	  	}	      
+	    },
+	    "S": {
+	      "type": "Block",
+	      "code": "game:sieve*"
+	    }
+	  },
+	  "width": 2,
+	  "height": 3,
+	  "output": {
+	    "type": "Item",
+	    "code": "game:paper-parchment",
+	    "quantity": "4"
+	  }
+	}
+]
