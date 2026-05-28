@@ -10,7 +10,7 @@
 
     ],
     "description": "Age of Seraphs fork of the Specialized Classes mod",
-    "version": "2.3.3",
+    "version": "2.3.5",
   "dependencies": {
     "game": "1.22.2"
   }
