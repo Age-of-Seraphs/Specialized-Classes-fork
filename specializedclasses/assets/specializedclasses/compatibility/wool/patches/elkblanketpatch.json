@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addmerge",
+    "file": "wool:recipes/grid/cloth/saddle_blankets.json",
+    "path": "/0/requiresTrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "wool:recipes/grid/cloth/saddle_blankets.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "wool:recipes/grid/cloth/saddle_blankets.json",
+    "path": "/6/requiresTrait",
+    "value": "clothier"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "enabled": false
+  },
+  { //Shepherds Cowl
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/head.json",
+    "path": "/0/requiresTrait",
+    "value": "clothier"
+  },
+  { //Peasant headscarf
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/head.json",
+    "path": "/1/requiresTrait",
+    "value": "clothier"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "enabled": false
+  },
+  { //Reindeer herder fur coat
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "path": "/0/requiresTrait",
+    "value": "clothier"
+  },
+  { //Cerise embroidered reindeer herder coat
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "path": "/1/requiresTrait",
+    "value": "clothier"
+  },
+  { //Warm robe
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "path": "/2/requiresTrait",
+    "value": "clothier"
+  },
+  { //Commoner coat
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "path": "/7/requiresTrait",
+    "value": "clothier"
+  }
+]

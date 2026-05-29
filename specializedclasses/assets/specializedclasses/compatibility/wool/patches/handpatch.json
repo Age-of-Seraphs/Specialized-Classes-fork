@@ -1,0 +1,11 @@
+[
+  {
+    "enabled": false
+  },
+  { //Commoner gloves
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/hand.json",
+    "path": "/0/requiresTrait",
+    "value": "clothier"
+  }
+]

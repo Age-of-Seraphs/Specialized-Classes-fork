@@ -1,0 +1,17 @@
+[
+	{
+		"enabled": false
+	},
+	{ //Plain Grey Sweater
+		"op": "addmerge",
+		"file": "wool:recipes/grid/clothing/wool/sweaters.json",
+		"path": "/1/requiresTrait",
+		"value": "clothier"
+	},
+	{ //Plain White Sweater
+		"op": "addmerge",
+		"file": "wool:recipes/grid/clothing/wool/sweaters.json",
+		"path": "/2/requiresTrait",
+		"value": "clothier"
+	}
+]

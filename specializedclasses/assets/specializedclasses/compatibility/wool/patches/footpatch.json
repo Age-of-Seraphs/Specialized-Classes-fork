@@ -1,0 +1,30 @@
+[
+  {
+    "enabled": false
+  },
+  { // Shepherd Sandals
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/foot.json",
+    "path": "/3/requiresTrait",
+    "value": "clothier"
+  },
+  { //Commoner boots
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/foot.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  },
+  { //Fur Lined Reindeer Herder shoes
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/foot.json",
+    "path": "/5/requiresTrait",
+    "value": "clothier"
+  },
+  { //Survivor Boots
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/foot.json",
+    "path": "/6/requiresTrait",
+    "value": "clothier"
+  }
+
+]
