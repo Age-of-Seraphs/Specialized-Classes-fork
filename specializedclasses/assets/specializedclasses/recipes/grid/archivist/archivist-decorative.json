@@ -18,7 +18,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -37,7 +36,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -56,7 +54,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -75,7 +72,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -94,7 +90,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -113,7 +108,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -132,7 +126,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -151,7 +144,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -170,7 +162,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -189,7 +180,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -208,7 +198,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -227,7 +216,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -246,7 +234,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -265,7 +252,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -284,7 +270,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "B",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -303,7 +288,6 @@
     }
   },
   {
-    "enabled": false,
     "ingredientPattern": "PI,K_",
     "requiresTrait": "archivist",
     "ingredients": {
@@ -332,13 +316,13 @@
   },
 
   {
-    "enabled": false,
     "ingredientPattern": "P",
     "requiresTrait": "archivist",
     "ingredients": {
       "P": {
         "type": "Block",
         "code": "game:paper-flat-ragged"
+        }
       },
       "width": 1,
       "height": 1,
@@ -346,16 +330,15 @@
         "type": "Block",
         "code": "game:paper-lifted-ragged"
       }
-    }
-  },
+    },
   {
-    "enabled": false,
     "ingredientPattern": "P",
     "requiresTrait": "archivist",
     "ingredients": {
       "P": {
         "type": "Block",
         "code": "game:paper-lifted-ragged"
+          }
       },
       "width": 1,
       "height": 1,
@@ -363,17 +346,16 @@
         "type": "Block",
         "code": "game:paper-roll-ragged"
       }
-    }
   },
 
   {
-    "enabled": false,
     "ingredientPattern": "P",
     "requiresTrait": "archivist",
     "ingredients": {
       "P": {
         "type": "Block",
         "code": "game:paper-roll-ragged"
+          }
       },
       "width": 1,
       "height": 1,
@@ -381,24 +363,23 @@
         "type": "Block",
         "code": "game:paper-tear-ragged"
       }
-    }
   },
 
   {
-    "enabled": false,
     "ingredientPattern": "P",
     "requiresTrait": "archivist",
     "ingredients": {
       "P": {
         "type": "Block",
         "code": "game:paper-tear-ragged"
+          }
       },
       "width": 1,
       "height": 1,
       "output": {
         "type": "Block",
         "code": "game:paper-flat-ragged"
+
       }
-    }
   }
 ]
