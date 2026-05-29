@@ -1,7 +1,6 @@
 [
   {
     "ingredientPattern": "F,W",
-    "requiresTrait": "forester",
     "ingredients": {
       "F": {
         "type": "item",
@@ -23,7 +22,6 @@
   },
   {
     "ingredientPattern": "F,W",
-    "requiresTrait": "forester",
     "ingredients": {
       "F": {
         "type": "item",

@@ -173,6 +173,7 @@
   }, //FORESTER
   {
     "ingredientPattern": "FWW",
+    "requiredTrait": "forester",
     "ingredients": {
       "F": {
         "type": "block",
@@ -195,6 +196,7 @@
   },
   {
     "ingredientPattern": "OWW",
+    "requiredTrait": "forester",
     "recipeGroup": 1,
     "ingredients": {
       "O": {
@@ -227,6 +229,7 @@
   },
   {
     "ingredientPattern": "OWW",
+    "requiredTrait": "forester",
     "recipeGroup": 1,
     "ingredients": {
       "O": {
