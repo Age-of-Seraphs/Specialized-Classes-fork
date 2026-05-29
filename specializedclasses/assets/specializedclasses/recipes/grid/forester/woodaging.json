@@ -228,14 +228,69 @@
 		"ingredientPattern": "F,P",
 		"requiresTrait": "forester",
 		"ingredients": {
-			"F": { "type": "item", "code": "game:firewood" },
-			"P": { "type": "block", "code": "game:debarkedlog-rotten-ud", "quantity": 8 }
+			"F": {
+				"type": "item",
+				"code": "game:firewood"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:debarkedlog-rotten-ud",
+				"quantity": 8
+			}
 		},
 		"width": 1,
 		"height": 2,
 		"shapeless": false,
 		"recipeGroup": 67,
 		"attributes": { "handbookOverviewGroup": "debarkedlog-veryrotten" },
-		"output": { "type": "block", "code": "game:debarkedlog-veryrotten-ud", "quantity": 8 }
+		"output": {
+			"type": "block",
+			"code": "game:debarkedlog-veryrotten-ud",
+			"quantity": 8
+		}
+	},
+	{
+		"ingredientPattern": "FWW",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:fat"
+			},
+			"W": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"output": {
+			"type": "item",
+			"code": "game:agedfirewood",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "FWW",
+		"requiresTrait": "forester",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:resin"
+			},
+			"W": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"output": {
+			"type": "item",
+			"code": "game:agedfirewood",
+			"quantity": 3
+		}
 	}
 ]

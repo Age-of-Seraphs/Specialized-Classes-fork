@@ -1,0 +1,47 @@
+[
+  {
+    "enabled": false
+  },
+  { //Shepherd Tunic
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/0/requiresTrait",
+    "value": "clothier"
+  },
+  { //Peasent shirt
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/2/requiresTrait",
+    "value": "clothier"
+  },
+  { //Survivor Shirt
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/3/requiresTrait",
+    "value": "clothier"
+  },
+  { //Commoner shirt
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/5/requiresTrait",
+    "value": "clothier"
+  },
+  { //Homespun shirt
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/7/requiresTrait",
+    "value": "clothier"
+  },
+  { //Reindeir herder collared shirt
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/upperbody.json",
+    "path": "/11/requiresTrait",
+    "value": "clothier"
+  }
+]

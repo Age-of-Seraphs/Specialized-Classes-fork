@@ -1,0 +1,23 @@
+[
+  {
+    "enabled": false
+  },
+  { //Survivor shoulder
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/shoulder.json",
+    "path": "/2/requiresTrait",
+    "value": "clothier"
+  },
+  { //Peasant Kaftan
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/shoulder.json",
+    "path": "/3/requiresTrait",
+    "value": "clothier"
+  },
+  { //Artisnas Scarf
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/shoulder.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  }
+]

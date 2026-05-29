@@ -1,0 +1,264 @@
+[
+  {
+    "ingredientPattern": "F,W",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "expandedfoods:hardlard"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 4
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 2
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "O,W",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "aculinaryartillery:bottle-*-fired"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "O,W",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "F,W",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "expandedfoods:hardlard"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "O,W",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "aculinaryartillery:bottle-*-fired"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "O,W",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }, //FORESTER
+  {
+    "ingredientPattern": "FWW",
+    "requiredTrait": "forester",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "expandedfoods:hardlard"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 3
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "OWW",
+    "requiredTrait": "forester",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "aculinaryartillery:bottle-*-fired"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 3
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "ingredientPattern": "OWW",
+    "requiredTrait": "forester",
+    "recipeGroup": 1,
+    "ingredients": {
+      "O": {
+        "type": "block",
+        "code": "game:woodbucket"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*"
+        },
+        "requiresLitres": 0.2
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 3
+    },
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+
+]

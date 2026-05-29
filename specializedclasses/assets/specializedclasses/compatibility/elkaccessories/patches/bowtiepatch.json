@@ -4,11 +4,5 @@
     "op": "addmerge",
     "path": "/0/requiresTrait",
     "value": "tailor"
-  },
-  {
-    "file": "elkaccessories:recipes/grid/bowtie.json",
-    "op": "addmerge",
-    "path": "/1/requiresTrait",
-    "value": "tailor"
   }
 ]

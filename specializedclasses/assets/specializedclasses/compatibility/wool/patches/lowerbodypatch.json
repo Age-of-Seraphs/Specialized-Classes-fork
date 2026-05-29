@@ -1,0 +1,65 @@
+[
+  {
+    "enabled": false
+  },
+  { //Shepherds pants
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/1/requiresTrait",
+    "value": "clothier"
+  },
+  { //Commoner Trousers
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  },
+  {
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/5/requiresTrait",
+    "value": "clothier"
+  },
+  { //Surivor pants
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/6/requiresTrait",
+    "value": "clothier"
+  },
+  { //Homespun pants
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/7/requiresTrait",
+    "value": "clothier"
+  },
+  { //Reindeer herder trousers
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/10/requiresTrait",
+    "value": "clothier"
+  },
+  { //Qivuit Leggings
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/12/requiresTrait",
+    "value": "clothier"
+  },
+  { //Mohair Leggings
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/14/requiresTrait",
+    "value": "clothier"
+  },
+  { //Game Leggings (?)
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/16/requiresTrait",
+    "value": "clothier"
+  },
+  { //Noble Leggings
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "path": "/18/requiresTrait",
+    "value": "clothier"
+  }
+]

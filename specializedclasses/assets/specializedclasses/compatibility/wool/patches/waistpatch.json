@@ -1,0 +1,17 @@
+[
+  {
+    "enabled": false
+  },
+  { //Reindeer herder waistband
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/waist.json",
+    "path": "/3/requiresTrait",
+    "value": "clothier"
+  },
+  { //Cerise embroidered reindeer herder waistband
+    "op": "addmerge",
+    "file": "wool:recipes/grid/clothing/wool/waist.json",
+    "path": "/4/requiresTrait",
+    "value": "clothier"
+  }
+]

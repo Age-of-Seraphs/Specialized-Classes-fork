@@ -1,0 +1,44 @@
+[
+  {
+    "ingredientPattern": "F,W",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:fat"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "F,W",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:resin"
+      },
+      "W": {
+        "type": "item",
+        "code": "game:firewood",
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:agedfirewood",
+      "quantity": 1
+    }
+  }
+]

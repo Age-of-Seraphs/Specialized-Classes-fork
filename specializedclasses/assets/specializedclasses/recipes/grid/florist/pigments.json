@@ -482,13 +482,13 @@
 			"quantity": 1
 		}
 	},
-	{
+	{ 
 		"ingredientPattern": "I,M",
 		"requiresTrait": "florist",
 		"ingredients": {
 			"I": {
-				"type": "block",
-				"code": "game:flower-{flowertype}-free"
+				"type": "item",
+				"code": "em:powdered-ore-manganeseoxide"
 			},
 			"M": {
 				"type": "item",
@@ -496,45 +496,6 @@
 				"isTool": true,
 				"toolDurabilityCost": 0
 			}
-		},
-		"allowedVariants": {
-			"flowertype": [
-				"cowparsley",
-				"horsetail"
-			]
-		},
-		"width": 1,
-		"height": 2,
-		"shapeless": true,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "pigment-green" },
-		"output": {
-			"type": "item",
-			"code": "specializedclasses:pigment-green",
-			"quantity": 1
-		}
-	},
-	{
-		"ingredientPattern": "I,M",
-		"requiresTrait": "florist",
-		"ingredients": {
-			"I": {
-				"type": "block",
-				"code": "game:fern-{ferntype}"
-			},
-			"M": {
-				"type": "item",
-				"code": "specializedclasses:mortarandpestle",
-				"isTool": true,
-				"toolDurabilityCost": 0
-			}
-		},
-		"allowedVariants": {
-			"ferntype": [
-				"cinnamonfern",
-				"deerfern",
-				"eaglefern"
-			]
 		},
 		"width": 1,
 		"height": 2,
