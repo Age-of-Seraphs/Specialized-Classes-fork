@@ -159,31 +159,6 @@
 			},
 			"P": {
 				"type": "block",
-				"code": "game:log-placed-oak-ud",
-				"quantity": 8
-			}
-		},
-		"width": 1,
-		"height": 2,
-		"shapeless": false,
-		"recipeGroup": 67,
-		"attributes": { "handbookOverviewGroup": "log-aged" },
-		"output": {
-			"type": "block",
-			"code": "game:log-placed-aged-ud",
-			"quantity": 8
-		}
-	},
-	{
-		"ingredientPattern": "F,P",
-		"requiresTrait": "forester",
-		"ingredients": {
-			"F": {
-				"type": "item",
-				"code": "game:firewood"
-			},
-			"P": {
-				"type": "block",
 				"code": "game:debarkedlog-aged-ud",
 				"quantity": 8
 			}
