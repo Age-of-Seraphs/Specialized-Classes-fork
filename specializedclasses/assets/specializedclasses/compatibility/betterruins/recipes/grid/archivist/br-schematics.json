@@ -5,7 +5,7 @@
 		"ingredients": {
 			"P": { "type": "item", "code": "game:paper-parchment", "quantity": 4 },
 			"S": { "type": "block", "code": "game:sieve-*", "isTool": true, "toolDurabilityCost": 0 },
-			"B": { "type": "item", "code": "betterruins:br-schematic-{type}" }
+			"B": { "type": "item", "code": "betterruins:br-schematic-{type}", "returnedStack": {"type": "item", "code": "betterruins:br-schematic-{type}"} }
 		},
 		"width": 1,
 		"height": 3,

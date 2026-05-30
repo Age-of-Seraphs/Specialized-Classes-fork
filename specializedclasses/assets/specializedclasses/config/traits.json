@@ -399,7 +399,7 @@
 		"type": "positive", // positive
 		"attributes": {
 			"fruitTreeDropRate": 0.5, // dropped from 1.0 (Teara 4/25)
-			"treeSeedDropRate": 0.25, // dropped from 1.0 (Teara 4/25)
+			"treeSeedDropRate": 0.25 // dropped from 1.0 (Teara 4/25)
 		}
 	},
 	{

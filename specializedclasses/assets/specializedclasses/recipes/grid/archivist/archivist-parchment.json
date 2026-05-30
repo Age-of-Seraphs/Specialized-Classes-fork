@@ -20,7 +20,8 @@
 	    },
 	    "S": {
 	      "type": "Block",
-	      "code": "game:sieve*"
+	      "code": "game:sieve*",
+	      "isTool" : true
 	    }
 	  },
 	  "width": 2,
@@ -52,7 +53,8 @@
 	    },
 	    "S": {
 	      "type": "Block",
-	      "code": "game:sieve*"
+	      "code": "game:sieve*",
+	      "isTool" : true
 	    }
 	  },
 	  "width": 2,
