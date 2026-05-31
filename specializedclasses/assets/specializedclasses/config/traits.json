@@ -365,8 +365,7 @@
 		"code": "engineer", // clockmaker
 		"type": "positive", // positive
 		"attributes": {
-			"rustyGearDropRate": 0.5,
-			"temporalGearTLRepairCost": -1
+			"rustyGearDropRate": 0.5
 		}
 	},
 	{
