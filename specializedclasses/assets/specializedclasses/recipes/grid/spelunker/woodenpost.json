@@ -30,7 +30,6 @@
 		}
 	},
 	{
-		"enabled": false,
 		"ingredientPattern": "SK,_L",
 		"ingredients": {
 			"S": {
