@@ -11,10 +11,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:ingotmold-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:ingotmold-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"allowedVariants": {
@@ -55,10 +53,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:ingotmold-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:ingotmold-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"width": 3,
@@ -96,10 +92,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:ingotmold-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:ingotmold-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"width": 3,
@@ -137,10 +131,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:ingotmold-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:ingotmold-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			},
 			"I": {
 				"type": "item",
@@ -169,10 +161,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:ingotmold-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:ingotmold-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			},
 			"c": { "type": "item", "code": "game:crushed-chromite" }
 		},
@@ -199,10 +189,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:toolmold-{ceramic}-fired-lamellae",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:toolmold-{ceramic}-fired-lamellae"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"allowedVariants": {
@@ -235,10 +223,8 @@
 			"M": {
 				"type": "block",
 				"code": "game:toolmold-{ceramic}-fired-hammer",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:toolmold-{ceramic}-fired-hammer"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"allowedVariants": {
@@ -271,10 +257,8 @@
 			"B": {
 				"type": "block",
 				"code": "game:bowl-{ceramic}-fired",
-				"returnedStack": {
-					"type": "block",
-					"code": "game:bowl-{ceramic}-fired"
-				}
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"allowedVariants": {

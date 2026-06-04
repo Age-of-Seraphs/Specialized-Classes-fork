@@ -437,7 +437,8 @@
 		"type": "positive", // positive
 		"attributes": {
 			"horsetailRareDropChance": 0.2,
-			"cattailRareDropChance": 0.2
+			"cattailRareDropChance": 0.2,
+			"forageDropRate":  0.2
 		}
 	},
 	{

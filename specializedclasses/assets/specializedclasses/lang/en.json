@@ -548,6 +548,7 @@
 	"game:charattribute-forageDropRate--0.25": "-25% foraging yield",
 	"game:charattribute-forageDropRate-0.5": "+50% foraging yield",
 	"game:charattribute-forageDropRate--0.2": "-20% foraging yield",
+	"game:charattribute-forageDropRate-0.2": "20% foraging yield",
 	"game:charattribute-forageDropRate--0.1": "-10% foraging yield",
 	"game:charattribute-forageDropRate-0.33": "+33% foraging yield",
 	"game:charattribute-forageDropRate-1": "+100% foraging yield",
