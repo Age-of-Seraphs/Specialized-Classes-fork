@@ -1,0 +1,12 @@
+[
+  {
+    "file": "specializedclasses:recipes/barrel/pigment-dyes.json",
+    "op": "replace",
+    "path": "/2/output",
+    "value": {
+      "type": "item",
+      "code": "game:dye-brown",
+      "litres": 10
+    }
+  }
+]

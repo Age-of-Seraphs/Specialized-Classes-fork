@@ -1,0 +1,338 @@
+[
+  { //AMBER DYE
+    "code": "pigmentdye-amber",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-yellow",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-orange",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-amber",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-amber",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-orange",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-yellow",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-amber",
+      "litres": 10
+    }
+  },
+  { //DARK BROWN DYE
+    "code": "pigmentdye-browndark",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-black",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-brown",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-browndark",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-browndark",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-brown",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-black",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-browndark",
+      "litres": 10
+    }
+  },
+  { //LIGHT BROWN DYE
+    "code": "pigmentdye-brownlight",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-white",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-brown",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-brownlight",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-brownlight",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-brown",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-white",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-brownlight",
+      "litres": 10
+    }
+  },
+  { //CHARTREUSE DYE
+    "code": "pigmentdye-chartreuse",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-yellow",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-green",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-chartreuse",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-chartreuse",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-green",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-yellow",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-chartreuse",
+      "litres": 10
+    }
+  },
+  { //CYAN DYE
+    "code": "pigmentdye-cyan",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-blue",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-green",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-cyan",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-cyan",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-green",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-blue",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-cyan",
+      "litres": 10
+    }
+  },
+  { //INDIGO DYE
+    "code": "pigmentdye-indigo",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-blue",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-purple",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-indigo",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-indigo",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-purple",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-blue",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-indigo",
+      "litres": 10
+    }
+  },
+  { //MAGENTA DYE
+    "code": "pigmentdye-magenta",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-red",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-purple",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-magenta",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-magenta",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-purple",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-red",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-magenta",
+      "litres": 10
+    }
+  },
+  { //VERMILLION DYE
+    "code": "pigmentdye-vermilion",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-red",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-orange",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-vermilion",
+      "litres": 10
+    }
+  },
+  {
+    "code": "pigmentdye-vermilion",
+    "sealHours": 0,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-orange",
+        "litres": 10
+      },
+      {
+        "type": "item",
+        "code": "specializedclasses:pigment-red",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:dye-vermilion",
+      "litres": 10
+    }
+  }
+]
