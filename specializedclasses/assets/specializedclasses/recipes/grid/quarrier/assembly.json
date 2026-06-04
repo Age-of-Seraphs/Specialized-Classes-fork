@@ -55,6 +55,7 @@
 				"suevite",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -124,6 +125,7 @@
 				"suevite",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -193,6 +195,7 @@
 				"suevite",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -287,6 +290,7 @@
 				"suevite",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -381,6 +385,7 @@
 				"suevite",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -392,7 +397,523 @@
 		"output": {
 			"type": "block",
 			"code": "game:stonebrickstairs-{stonetype}-up-north-free",
-			"quantity": 1
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "AAB,AA_",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-{rocktype}",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:clay-*"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestone-{rocktype}",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "AAB,AA_",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-{rocktype}",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stonebrick-{rocktype}"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:drystone-{rocktype}",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "AAB,AA_",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stonebrick-{rocktype}",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:mortar"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"travertine",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:stonebricks-{rocktype}",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "AAB,AAC",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-{rocktype}",
+				"quantity": 2
+			},
+			"B": {
+				"type": "block",
+				"code": "game:gravel-*"
+			},
+			"C": {
+				"type": "block",
+				"code": "game:sand-*"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonefan-{rocktype}-north",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "__A,BAA,AAA",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stone-{rocktype}"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:clay-*"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestonestairs-{rocktype}-up-north-free",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "_A,BB",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:clay-*"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stone-{rocktype}",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:cobblestoneslab-{rocktype}-down-free",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "_A,BB",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:mortar"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:stonebrick-{rocktype}",
+				"quantity": 2
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"travertine",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 2,
+		"height": 2,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:stonebrickslab-{rocktype}-down-free",
+			"quantity": 3
+		}
+	},
+	{
+		"ingredientPattern": "__A,BAA,AAA",
+		"requiresTrait": "quarrier",
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:stonebrick-{rocktype}"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:mortar"
+			}
+		},
+		"allowedVariants": {
+			"rocktype": [
+				"amphibolite",
+				"andesite",
+				"arenite",
+				"arkose",
+				"basalt",
+				"bauxite",
+				"chalk",
+				"chert",
+				"claystone",
+				"conglomerate",
+				"diorite",
+				"dolostone",
+				"gabbro",
+				"gneiss",
+				"granite",
+				"jade",
+				"jasper",
+				"komatiite",
+				"limestone",
+				"marl",
+				"migmatite",
+				"monzonite",
+				"mudstone",
+				"peridotite",
+				"phyllite",
+				"pumice",
+				"pyroxenite",
+				"quartzite",
+				"rhyolite",
+				"sandstone",
+				"schist",
+				"serpentinite",
+				"shale",
+				"siltstone",
+				"syenite",
+				"travertine",
+				"tufa",
+				"wacke"
+			]
+		},
+		"width": 3,
+		"height": 3,
+		"recipeGroup": 68,
+		"output": {
+			"type": "block",
+			"code": "game:stonebrickstairs-{rocktype}-up-north-free",
+			"quantity": 3
 		}
 	}
+
 ]
