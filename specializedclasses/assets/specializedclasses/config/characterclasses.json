@@ -151,10 +151,11 @@
 		"traits": [
 			"wanderer", // combat
 			"florist", // crafting
+			"artisan", // crafting
 			"herbalist", // positive
 			"plucker", // positive
 			"outdoorsy", // negative
-			"ecologist"	// negative
+			"ecologist" // negative
 		],
 		"gear": [
 			/*{ "type": "item", "code": "game:clothes-head-fortune-tellers-scarf" }, // Fortune teller scarf
