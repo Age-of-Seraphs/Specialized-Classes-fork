@@ -156,7 +156,7 @@
 
 	"game:trait-messenger": "<font color=\"#99d6ff\">• Messenger </font>",
 	"game:traitname-messenger": "Messenger",
-	"game:traitdesc-messenger": "<a href=\"handbook://specializedclasses:class-messenger\">Can create specialist bags, has cheaper recipes for normal bags, and exclusive access to the 10-slot messenger bag. Has cheaper recipes for lanterns, paths, and roads. Has exclusive access to the 1.5x asphalt road</a>",
+	"game:traitdesc-messenger": "<a href=\"handbook://specializedclasses:class-messenger\">Can create specialist bags, has cheaper recipes for normal bags, and exclusive access to the 10-slot messenger bag. Has cheaper recipes for paths and roads.</a>",
 
 	"game:trait-quarrier": "<font color=\"#99d6ff\">• Quarrier </font>",
 	"game:traitname-quarrier": "Quarrier",
@@ -695,7 +695,8 @@
 
 	"game:charattribute-reedsRareDropChance-0.1": "+10% chance to get papyrus instead when harvesting grass",
 
-	"game:charattribute-rockRareDropChance-0.5": "+50% chance for rock to drop whole",
+	"game:charattribute-rockRareDropChance-0.5": "+50% chance for rock to drop whole in addition to stones",
+	"game:charattribute-rockRareDropChance-0.2": "+20% chance for rock to drop whole in addition to stones",
 
 	"game:charattribute-rustyGearDropRate--0.25": "-25% rusty gear yield",
 	"game:charattribute-rustyGearDropRate--0.5": "-50% rusty gear yield",

@@ -557,7 +557,7 @@
 		"code": "stonecutter", // quarrier
 		"type": "positive", // positive
 		"attributes": {
-			"rockRareDropChance": 0.5,
+			"rockRareDropChance": 0.2,
 			"stoneDropRate": 0.25,
 			"durabilitySaveChanceHammer": 0.1
 		}

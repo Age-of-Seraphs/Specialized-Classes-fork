@@ -20,8 +20,11 @@
 		"value": {
 			"dropModifications": [
 				{
-					"mode": "self",
-					"stat": "rockRareDropChance"
+					"mode": "add",
+					"stat": "rockRareDropChance",
+					"drops": [
+						{ "type": "block", "code": "game:rock-{rock}", "quantity": 1}
+					]
 				},
 				{
 					"mode": "add",
