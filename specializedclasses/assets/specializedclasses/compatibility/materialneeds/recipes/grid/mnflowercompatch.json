@@ -1,0 +1,266 @@
+[
+  {
+    "ingredientPattern": "F,S",
+    "requiresTrait": "florist",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flower-{flowertype}-free"
+      },
+      "S": {
+        "type": "block",
+        "code": "game:soil-low-none",
+        "quantity": 16,
+        "returnedStack": {
+          "type": "block",
+          "code": "game:soil-verylow-none",
+          "quantity": 16
+        }
+      }
+    },
+    "allowedVariants": {
+      "flowertype": [
+        "pinkcatmint",
+        "bluecatmint",
+        "whitecatmint",
+        "persianbluecatmint",
+        "redcornflower",
+        "whitecornflower",
+        "pinkcornflower",
+        "burgundycornflower",
+        "yellowheather",
+        "orangeheather",
+        "blueheather",
+        "scarletheather",
+        "yellowmallow",
+        "redmallow",
+        "pinkmallow",
+        "bluemallow",
+        "yellowpoppy",
+        "pinkpoppy",
+        "bluepoppy",
+        "redbroom",
+        "orangebroom",
+        "pinkbroom",
+        "burgundybroom",
+        "yellowdaisy",
+        "orangedaisy",
+        "bluedaisy",
+        "pinkdaisy",
+        "lilyofthevalley",
+        "pinklilyofthevalley",
+        "purplelilyofthevalley",
+        "forgetmenot",
+        "pinkforgetmenot",
+        "blueforgetmenot"
+      ]
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 68,
+    "attributes": { "handbookOverviewGroup": "flower" },
+    "output": {
+      "type": "block",
+      "code": "game:flower-{flowertype}-free",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "F,S",
+    "requiresTrait": "florist",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flower-{flowertype}-free"
+      },
+      "S": {
+        "type": "block",
+        "code": "game:soil-medium-none",
+        "quantity": 4,
+        "returnedStack": {
+          "type": "block",
+          "code": "game:soil-low-none",
+          "quantity": 4
+        }
+      }
+    },
+    "allowedVariants": {
+      "flowertype": [
+        "pinkcatmint",
+        "bluecatmint",
+        "whitecatmint",
+        "persianbluecatmint",
+        "redcornflower",
+        "whitecornflower",
+        "pinkcornflower",
+        "burgundycornflower",
+        "yellowheather",
+        "orangeheather",
+        "blueheather",
+        "scarletheather",
+        "yellowmallow",
+        "redmallow",
+        "pinkmallow",
+        "bluemallow",
+        "yellowpoppy",
+        "pinkpoppy",
+        "bluepoppy",
+        "redbroom",
+        "orangebroom",
+        "pinkbroom",
+        "burgundybroom",
+        "yellowdaisy",
+        "orangedaisy",
+        "bluedaisy",
+        "pinkdaisy",
+        "lilyofthevalley",
+        "pinklilyofthevalley",
+        "purplelilyofthevalley",
+        "forgetmenot",
+        "pinkforgetmenot",
+        "blueforgetmenot"
+      ]
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 68,
+    "attributes": { "handbookOverviewGroup": "flower" },
+    "output": {
+      "type": "block",
+      "code": "game:flower-{flowertype}-free",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "F,S",
+    "requiresTrait": "florist",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flower-{flowertype}-free"
+      },
+      "S": {
+        "type": "block",
+        "code": "game:soil-compost-none",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:soil-medium-none"
+        }
+      }
+    },
+    "allowedVariants": {
+      "flowertype": [
+        "pinkcatmint",
+        "bluecatmint",
+        "whitecatmint",
+        "persianbluecatmint",
+        "redcornflower",
+        "whitecornflower",
+        "pinkcornflower",
+        "burgundycornflower",
+        "yellowheather",
+        "orangeheather",
+        "blueheather",
+        "scarletheather",
+        "yellowmallow",
+        "redmallow",
+        "pinkmallow",
+        "bluemallow",
+        "yellowpoppy",
+        "pinkpoppy",
+        "bluepoppy",
+        "redbroom",
+        "orangebroom",
+        "pinkbroom",
+        "burgundybroom",
+        "yellowdaisy",
+        "orangedaisy",
+        "bluedaisy",
+        "pinkdaisy",
+        "lilyofthevalley",
+        "pinklilyofthevalley",
+        "purplelilyofthevalley",
+        "forgetmenot",
+        "pinkforgetmenot",
+        "blueforgetmenot"
+      ]
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 68,
+    "attributes": { "handbookOverviewGroup": "flower" },
+    "output": {
+      "type": "block",
+      "code": "game:flower-{flowertype}-free",
+      "quantity": 5
+    }
+  },
+  {
+    "ingredientPattern": "F,S",
+    "requiresTrait": "florist",
+    "ingredients": {
+      "F": {
+        "type": "block",
+        "code": "game:flower-{flowertype}-free"
+      },
+      "S": {
+        "type": "block",
+        "code": "game:soil-high-none",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:soil-compost-none"
+        }
+      }
+    },
+    "allowedVariants": {
+      "flowertype": [
+        "pinkcatmint",
+        "bluecatmint",
+        "whitecatmint",
+        "persianbluecatmint",
+        "redcornflower",
+        "whitecornflower",
+        "pinkcornflower",
+        "burgundycornflower",
+        "yellowheather",
+        "orangeheather",
+        "blueheather",
+        "scarletheather",
+        "yellowmallow",
+        "redmallow",
+        "pinkmallow",
+        "bluemallow",
+        "yellowpoppy",
+        "pinkpoppy",
+        "bluepoppy",
+        "redbroom",
+        "orangebroom",
+        "pinkbroom",
+        "burgundybroom",
+        "yellowdaisy",
+        "orangedaisy",
+        "bluedaisy",
+        "pinkdaisy",
+        "lilyofthevalley",
+        "pinklilyofthevalley",
+        "purplelilyofthevalley",
+        "forgetmenot",
+        "pinkforgetmenot",
+        "blueforgetmenot"
+      ]
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 68,
+    "attributes": { "handbookOverviewGroup": "flower" },
+    "output": {
+      "type": "block",
+      "code": "game:flower-{flowertype}-free",
+      "quantity": 17
+    }
+  }
+]
