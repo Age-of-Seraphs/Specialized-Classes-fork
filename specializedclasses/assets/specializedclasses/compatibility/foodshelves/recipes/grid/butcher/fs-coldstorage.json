@@ -3,61 +3,275 @@
 		"ingredientPattern": "FQF,FSF,KCN",
 		"requiresTrait": "butcher",
 		"ingredients": {
-			"F": { "type": "item", "code": "game:firewood", "quantity": 5 },
-			"Q": { "type": "item", "code": "game:ore-quartz", "quantity": 2 },
-			"S": { "type": "item", "code": "game:stone-{stone}", "quantity": 16 },
-			"K": { "type": "item", "code": "game:drygrass", "quantity": 8 },
-			"C": { "type": "item", "code": "game:clay-*", "quantity": 8 },
-			"N": { "type": "item", "code": "game:resin", "quantity": 8 }
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 5
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			},
+			"K": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 8
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 8
+			},
+			"N": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 8
+			}
 		},
 		"skipVariants": {
-			"stone": ["meteorite"]
+			"stone": [ "meteorite" ]
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 67,
-		"output": { "type": "block", "code": "foodshelves:meatfreezer-normal-east" }
+		"output": {
+			"type": "block",
+			"code": "foodshelves:meatfreezer-normal-east"
+		}
+	},
+	{
+		"ingredientPattern": "FQF,FSF,KCN",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 5
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			},
+			"K": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 8
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 8
+			},
+			"N": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 8
+			}
+		},
+		"skipVariants": {
+			"stone": [ "meteorite" ]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "foodshelves:meatfreezer-normal-east"
+		}
 	},
 
 	{
 		"ingredientPattern": "QFK,RSR,FCF",
 		"requiresTrait": "butcher",
 		"ingredients": {
-			"Q": { "type": "item", "code": "game:ore-quartz", "quantity": 4 },
-			"F": { "type": "item", "code": "game:firewood", "quantity": 4 },
-			"K": { "type": "item", "code": "game:drygrass", "quantity": 8 },
-			"R": { "type": "item", "code": "game:resin", "quantity": 2 },
-			"S": { "type": "item", "code": "game:stone-{stone}", "quantity": 16 },
-			"C": { "type": "item", "code": "game:clay-*", "quantity": 8 }
+			"Q": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 4
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 4
+			},
+			"K": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 8
+			}
 		},
 		"skipVariants": {
-			"stone": ["meteorite"]
+			"stone": [ "meteorite" ]
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 67,
-		"output": { "type": "block", "code": "foodshelves:fruitcooler-normal-east" }
+		"output": {
+			"type": "block",
+			"code": "foodshelves:fruitcooler-normal-east"
+		}
+	},
+
+	{
+		"ingredientPattern": "QFK,RSR,FCF",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 4
+			},
+			"F": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 4
+			},
+			"K": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			},
+			"C": {
+				"type": "item",
+				"code": "game:clay-*",
+				"quantity": 8
+			}
+		},
+		"skipVariants": {
+			"stone": [ "meteorite" ]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "foodshelves:fruitcooler-normal-east"
+		}
 	},
 
 	{
 		"ingredientPattern": "PNP,QSQ,PTP",
 		"requiresTrait": "butcher",
 		"ingredients": {
-			"P": { "type": "item", "code": "game:firewood", "quantity": 3 },
-			"N": { "type": "item", "code": "game:rope", "quantity": 1 },
-			"Q": { "type": "item", "code": "game:ore-quartz", "quantity": 4 },
-			"S": { "type": "block", "code": "game:shelf-*", "quantity": 3 },
-			"T": { "type": "item", "code": "game:stone-{stone}", "quantity": 16 }
+			"P": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 3
+			},
+			"N": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 1
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:ore-quartz",
+				"quantity": 4
+			},
+			"S": {
+				"type": "block",
+				"code": "game:shelf-*",
+				"quantity": 3
+			},
+			"T": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			}
 		},
 		"skipVariants": {
-			"stone": ["meteorite"]
+			"stone": [ "meteorite" ]
 		},
 		"width": 3,
 		"height": 3,
 		"shapeless": false,
 		"recipeGroup": 67,
-		"output": { "type": "block", "code": "foodshelves:coolingcabinet-normal-east" }
+		"output": {
+			"type": "block",
+			"code": "foodshelves:coolingcabinet-normal-east"
+		}
+	},
+	{
+		"ingredientPattern": "PNP,QSQ,PTP",
+		"requiresTrait": "butcher",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:firewood",
+				"quantity": 3
+			},
+			"N": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 1
+			},
+			"Q": {
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 4
+			},
+			"S": {
+				"type": "block",
+				"code": "game:shelf-*",
+				"quantity": 3
+			},
+			"T": {
+				"type": "item",
+				"code": "game:stone-{stone}",
+				"quantity": 16
+			}
+		},
+		"skipVariants": {
+			"stone": [ "meteorite" ]
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "block",
+			"code": "foodshelves:coolingcabinet-normal-east"
+		}
 	}
 ]
