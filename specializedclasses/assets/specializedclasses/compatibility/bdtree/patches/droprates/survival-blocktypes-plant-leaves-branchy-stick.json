@@ -1,0 +1,17 @@
+﻿[
+	{
+		"op": "addmerge",
+		"path": "/drops/0/dropModbyStat",
+		"value": "treeSeedDropRate",
+		"file": "bdtree:blocktypes/plant/leaves/branchy.json",
+		"side": "server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/drops/1/dropModbyStat",
+		"value": "stickDropRate",
+		"file": "bdtree:blocktypes/plant/leaves/branchy.json",
+		"side": "server"
+	}
+]
+
