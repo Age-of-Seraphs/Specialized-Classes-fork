@@ -48,7 +48,7 @@
 		"code": "laborer", // quarrier
 		"type": "positive", // combat
 		"attributes": {
-			"armorWalkSpeedAffectedness": -0.50,
+			"armorWalkSpeedAffectedness": -0.25,
 			"maxhealthExtraPoints": 5,
 			"walkspeed": -0.05
 		}
@@ -135,11 +135,10 @@
 		"code": "warlord", // blackguard
 		"type": "positive", // combat
 		"attributes": {
-			"armorWalkSpeedAffectedness": -0.25,
-			"maxhealthExtraPoints": 5,
-			"meleeWeaponsDamage": 0.2,
-			"rangedWeaponsDamage": 0.2,
-			"walkspeed": -0.05
+			"armorWalkSpeedAffectedness": -0.5,
+			"maxhealthExtraPoints": 7.5,
+			"meleeWeaponsDamage": 0.25,
+			"rangedWeaponsDamage": 0.25
 		}
 	},
 	{
@@ -438,7 +437,6 @@
 		"attributes": {
 			"horsetailRareDropChance": 0.2,
 			"cattailRareDropChance": 0.2,
-			"forageDropRate":  0.2
 		}
 	},
 	{
@@ -459,6 +457,13 @@
 			"durabilitySaveChanceAxe": 0.5,
 			"treeDropRate": 0.1,
 			"treeSeedDropRate": 1
+		}
+	},
+	{
+		"code": "mycologist", // florist
+		"type": "positive",
+		"attributes": {
+			"mushroomForagingDropRate": 0.5
 		}
 	},
 	{

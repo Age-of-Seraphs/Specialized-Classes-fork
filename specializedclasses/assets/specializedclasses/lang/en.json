@@ -120,7 +120,7 @@
 
 	"game:trait-blackguard": "<font color=\"#99d6ff\">• Blackguard </font>",
 	"game:traitname-blackguard": "Blackguard",
-	"game:traitdesc-blackguard": "<a href=\"handbook://specializedclasses:class-blackguard\">Can forge broken blackguard armor from scrap and can make cheaper forges and bellows</a>",//, and has access to the brass swage block, to craft metal bits into metal crafting components in bulk
+	"game:traitdesc-blackguard": "<a href=\"handbook://specializedclasses:class-blackguard\">Can forge broken blackguard armor from scrap and can make cheaper forges and bellows</a>", //, and has access to the brass swage block, to craft metal bits into metal crafting components in bulk
 
 	"game:trait-brickmaker": "<font color=\"#99d6ff\">• Brickmaker </font>",
 	"game:traitname-brickmaker": "Brickmaker",
@@ -132,7 +132,7 @@
 
 	"game:trait-clockmaker": "<font color=\"#99d6ff\">• Clockmaker </font>",
 	"game:traitname-clockmaker": "Clockmaker",
-	"game:traitdesc-clockmaker": "<a href=\"handbook://specializedclasses:class-clockmaker\">Can carve mechanical power components at double yield, can fry a base return teleporter to turn a rusty gear into a temporal gear, and can repair fried base return teleporters with any jonas part.</a>",// Can use the tinkerer&apos;s workstation to make metal parts and jonas parts out of cupronickel
+	"game:traitdesc-clockmaker": "<a href=\"handbook://specializedclasses:class-clockmaker\">Can carve mechanical power components at double yield, can fry a base return teleporter to turn a rusty gear into a temporal gear, and can repair fried base return teleporters with any jonas part.</a>", // Can use the tinkerer&apos;s workstation to make metal parts and jonas parts out of cupronickel
 
 	"game:trait-farmhand": "<font color=\"#99d6ff\">• Farmhand </font>",
 	"game:traitname-farmhand": "Farmhand",
@@ -140,11 +140,11 @@
 
 	"game:trait-florist": "<font color=\"#99d6ff\">• Herbalist </font>",
 	"game:traitname-florist": "Herbalist",
-	"game:traitdesc-florist": "<a href=\"handbook://specializedclasses:class-florist\">Can degrade soil fertility to duplicate flowers. Can create color pigments used to paint paintings, vessels, flowerpots, planters, and wallpaper, or diluted into paint. Can make cheaper linen poultices, can make filled beenades. </a>",//Can use the sprouting table to turn saplings and compost into leaves, and can propagate flowers with compost there as well
+	"game:traitdesc-florist": "<a href=\"handbook://specializedclasses:class-florist\">Can degrade soil fertility to duplicate flowers. Can create color pigments used to paint paintings, vessels, flowerpots, planters, and wallpaper, or diluted into paint. Can make cheaper linen poultices, can make filled beenades. </a>", //Can use the sprouting table to turn saplings and compost into leaves, and can propagate flowers with compost there as well
 
 	"game:trait-forester": "<font color=\"#99d6ff\">• Forester </font>",
 	"game:traitname-forester": "Forester",
-	"game:traitdesc-forester": "<a href=\"handbook://specializedclasses:class-forester\">Can carve boards early with a knife. Can craft boards and firewood more efficiently, and can carve boards into sticks. Can create aged wooden building blocks using firewood. </a>",//Can use the woodcarving table to craft unworked logs into a multitude of wooden objects and building blocks directly
+	"game:traitdesc-forester": "<a href=\"handbook://specializedclasses:class-forester\">Can carve boards early with a knife. Can craft boards and firewood more efficiently, and can carve boards into sticks. Can create aged wooden building blocks using firewood. </a>", //Can use the woodcarving table to craft unworked logs into a multitude of wooden objects and building blocks directly
 
 	"game:trait-hunter": "<font color=\"#99d6ff\">• Hunter </font>",
 	"game:traitname-hunter": "Hunter",
@@ -160,7 +160,7 @@
 
 	"game:trait-quarrier": "<font color=\"#99d6ff\">• Quarrier </font>",
 	"game:traitname-quarrier": "Quarrier",
-	"game:traitdesc-quarrier": "<a href=\"handbook://specializedclasses:class-quarrier\">Can create a variety of aged and otherwise rare stone building blocks. Can use clay instead of mortar to assemble stone bricks. Can break rock into stones, gravel, and sand, and can assemble 8 stones back into solid rock. </a>",//Can use the stonecutting bench to make a multitude of stone building blocks directly
+	"game:traitdesc-quarrier": "<a href=\"handbook://specializedclasses:class-quarrier\">Can create a variety of aged and otherwise rare stone building blocks. Can use clay instead of mortar to assemble stone bricks. Can break rock into stones, gravel, and sand, and can assemble 8 stones back into solid rock. </a>", //Can use the stonecutting bench to make a multitude of stone building blocks directly
 
 	"game:trait-spelunker": "<font color=\"#99d6ff\">• Spelunker </font>",
 	"game:traitname-spelunker": "Spelunker",
@@ -265,6 +265,9 @@
 
 	"game:trait-lumberjack": "<font color=\"#84ff84\">• Lumberjack </font>",
 	"game:traitname-lumberjack": "Lumberjack",
+
+	"game:trait-mycologist": "<font color=\"#84ff84\">• Mycologist </font>",
+	"game:traitname-mycologist": "Mycologist",
 
 	"game:trait-nurseryworker": "<font color=\"#84ff84\">• Nurseryworker </font>",
 	"game:traitname-nurseryworker": "Nurseryworker",
@@ -606,6 +609,7 @@
 	"game:charattribute-maxhealthExtraPoints-1": "+1 max health",
 	"game:charattribute-maxhealthExtraPoints-2": "+2 max health",
 	"game:charattribute-maxhealthExtraPoints-10": "+10 max health",
+	"game:charattribute-maxhealthExtraPoints-7.5": "+7.5 max health",
 	"game:charattribute-maxhealthExtraPoints-15": "+15 max health",
 	"game:charattribute-maxhealthExtraPoints-3": "+3 max health",
 	"game:charattribute-maxhealthExtraPoints-5": "+5 max health",
@@ -626,6 +630,8 @@
 
 	"game:charattribute-metalSpikesDropRate--0.5": "-50% yield from metal spikes",
 	"game:charattribute-metalSpikesDropRate-1": "+100% yield from metal spikes",
+
+	"game:charattribute-mushroomForagingDropRate-0.5": "+50% yield from mushrooms",
 
 	"game:charattribute-oreDropRate--0.25": "-25% ore yield",
 	"game:charattribute-oreDropRate--0.2": "-20% ore yield",

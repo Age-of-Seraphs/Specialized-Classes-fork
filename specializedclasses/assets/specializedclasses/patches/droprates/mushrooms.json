@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/drops/0/dropModbyStat",
+    "value": "mushroomForagingDropRate",
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/drops/0/dropModbyStat",
+    "value": "mushroomForagingDropRate",
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "server"
+  }
+]

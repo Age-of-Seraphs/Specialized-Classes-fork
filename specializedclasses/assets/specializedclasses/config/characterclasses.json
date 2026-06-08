@@ -152,6 +152,7 @@
 			"wanderer", // combat
 			"florist", // crafting
 			"artisan", // crafting
+			"mycologist", // positive
 			"herbalist", // positive
 			"plucker", // positive
 			"outdoorsy", // negative
