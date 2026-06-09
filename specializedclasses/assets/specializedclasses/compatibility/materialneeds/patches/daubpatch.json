@@ -1,0 +1,1194 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "basalt"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-black",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "shale"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-charcoal",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "granite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-graphite",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "shale"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-pewter",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "peridotite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "daubraw-viridian",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "peridotite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-moss",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "limestone"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-chartreuse",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "sandstone"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-lime",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "limestone"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-sage",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-turquoise",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "blue"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-azure",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "chalk"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-rouge",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "chalk"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-salmon",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "sandstone"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire",
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-amber",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "limestone"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-taupe",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "claystone",
+            "granite",
+            "andesite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-russet",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "peridotite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-russet",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "claystone",
+            "granite",
+            "shale"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-chestnut",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "bauxite"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red",
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-coral",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "chert"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "fire"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-cinnabar",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "chert"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-red",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "DGM,WC_",
+      "ingredients": {
+        "G": {
+          "type": "item",
+          "code": "drygrass",
+          "quantity": 2
+        },
+        "M": {
+          "type": "item",
+          "code": "specializedclasses:mortarandpestle",
+          "isTool": true,
+          "toolDurabilityCost": 0
+        },
+        "D": {
+          "type": "block",
+          "code": "soil-*",
+          "quantity": 1
+        },
+        "W": {
+          "type": "block",
+          "code": "gravel-*",
+          "name": "rock",
+          "allowedVariants": [
+            "slate",
+            "basalt"
+          ],
+          "quantity": 1
+        },
+        "C": {
+          "type": "item",
+          "code": "clay-*",
+          "name": "clay",
+          "allowedVariants": [
+            "red"
+          ],
+          "quantity": 1
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "recipeGroup": 67,
+      "attributes": { "handbookOverviewGroup": "rawdaub" },
+      "output": {
+        "type": "item",
+        "code": "daubraw-oxblood",
+        "quantity": 16
+      }
+    },
+    "file": "game:recipes/grid/daub-raw.json",
+    "side": "Server"
+  }
+]
