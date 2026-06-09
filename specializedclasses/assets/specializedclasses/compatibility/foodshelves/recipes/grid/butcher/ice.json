@@ -8,7 +8,7 @@
       },
       "B": {
         "type": "item",
-        "code": "game:saw-copper",
+        "code": "game:saw-*",
         "isTool": true,
         "toolDurabilityCost": 1
       }
