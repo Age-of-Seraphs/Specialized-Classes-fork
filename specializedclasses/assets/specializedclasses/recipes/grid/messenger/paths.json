@@ -1,32 +1,33 @@
 [
 	{
-		"enabled": false,
-		"ingredientPattern": "S,G,C",
+		"enabled": true,
+		"ingredientPattern": "SSS,GGG,CCC",
 		"requiresTrait": "messenger",
 		"ingredients": {
 			"S": {
 				"type": "block",
 				"code": "game:sand-*",
-				"quantity": 16
+				"quantity": 3
 			},
 			"G": {
 				"type": "block",
-				"code": "game:gravel-*",
-				"quantity": 16
+				"code": "game:stone-*",
+				"quantity": 5
 			},
 			"C": {
 				"type": "item",
-				"code": "game:ore-bituminouscoal"
+				"code": "game:mortar",
+				"quantity": 3
 			}
 		},
-		"width": 1,
+		"width": 3,
 		"height": 3,
 		"shapeless": true,
 		"recipeGroup": 67,
 		"output": {
 			"type": "block",
-			"code": "specializedclasses:asphaltroad-free",
-			"quantity": 32
+			"code": "specializedclasses:cobbleroad-free",
+			"quantity": 16
 		}
 	},
 	{
@@ -55,7 +56,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "L,S,H",
+		"ingredientPattern": "LS,S,H",
 		"requiresTrait": "messenger",
 		"ingredients": {
 			"L": {
