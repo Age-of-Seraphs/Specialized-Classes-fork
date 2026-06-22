@@ -546,7 +546,7 @@
 		}
 	},
 	{
-		"ingredientPattern": "W_,X_,C_",
+		"ingredientPattern": "W_,X_,CS",
 		"requiresTrait": "clockmaker",
 		"ingredients": {
 			"W": {
@@ -562,6 +562,12 @@
 			"C": {
 				"type": "item",
 				"code": "game:chutesection-*"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:shears-*",
+				"isTool": true,
+				"toolDurabilityCost": 0
 			}
 		},
 		"allowedVariants": {
