@@ -1,0 +1,242 @@
+[
+  {
+    "ingredientPattern": "BCQ,_M_",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "em:crushed-ore-corundum"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier1",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BCQ,OM_",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "em:crushed-ore-corundum"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "O": {
+        "type": "item",
+        "code": "game:crushed-olivine"
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier2",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BCQ,OM_",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "em:crushed-ore-corundum"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "O": {
+        "type": "item",
+        "code": "em:powdered-ore-magnesiumoxide",
+        "quantity": 4
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier2",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BCQ,OM_",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:crushed-bauxite"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "O": {
+        "type": "item",
+        "code": "em:powdered-ore-magnesiumoxide",
+        "quantity": 4
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier2",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BCQ,OMI",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "em:crushed-ore-corundum"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "O": {
+        "type": "item",
+        "code": "game:crushed-olivine"
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      },
+      "I": {
+        "type": "item",
+        "code": "game:crushed-ilmenite"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier3",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BCQ,OMc",
+    "requiresTrait": "brickmaker",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "em:crushed-ore-corundum"
+      },
+      "C": {
+        "type": "item",
+        "code": "game:clay-fire",
+        "quantity": 2
+      },
+      "Q": {
+        "type": "item",
+        "code": "game:crushed-quartz"
+      },
+      "O": {
+        "type": "item",
+        "code": "game:crushed-olivine"
+      },
+      "M": {
+        "type": "block",
+        "code": "game:ingotmold-{ceramic}-fired",
+        "isTool": true,
+        "toolDurabilityCost": 0
+      },
+      "c": {
+        "type": "item",
+        "code": "game:crushed-chromite"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "shapeless": true,
+    "recipeGroup": 67,
+    "attributes": { "handbookOverviewGroup": "rawbrick-refractory" },
+    "output": {
+      "type": "item",
+      "code": "game:refractorybrick-raw-tier3",
+      "quantity": 2
+    }
+  }
+]
