@@ -1,0 +1,974 @@
+[
+	{
+		"ingredientPattern": "BbG,PYW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-bogfort-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BbN,PGg",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-castleruin-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BbG,POW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-cow-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BNG,PgW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-hunterintheforest-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BUK,PbW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-seraph-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BYb,PgG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-sunkenruin-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "Bbb,PGK",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-traveler-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BKg,PGG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-howl-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BNG,PYW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-elk-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BbG,PYN",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-underwater-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BGg,POW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-prey-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BKb,PGY",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-forestdawn-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BWW,PbG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-fishandtherain-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BpW,PYb",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"p": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-family1-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BUO,PGb",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-butterfly-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "Bbp,PUN",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"p": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-glam-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BpN,PGg",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"p": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-hunter-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BUb,PpG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"p": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-iris-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BGK,PKg",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-sleepingwolf-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BGG,PNg",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-sodhouse-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BUb,PKg",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"K": {
+				"type": "item",
+				"code": "specializedclasses:pigment-black"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-thunderlord-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "Bpb,PRW",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"p": {
+				"type": "item",
+				"code": "specializedclasses:pigment-pink"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"R": {
+				"type": "item",
+				"code": "specializedclasses:pigment-red"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-trout-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BWW,PgG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"W": {
+				"type": "item",
+				"code": "specializedclasses:pigment-white"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"g": {
+				"type": "item",
+				"code": "specializedclasses:pigment-gray"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-oldvillage-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BUO,PbN",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"U": {
+				"type": "item",
+				"code": "specializedclasses:pigment-purple"
+			},
+			"O": {
+				"type": "item",
+				"code": "specializedclasses:pigment-orange"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"N": {
+				"type": "item",
+				"code": "specializedclasses:pigment-brown"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-lastday-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "Bbb,PYG",
+		"requiresTrait": "florist",
+		"ingredients": {
+			"B": {
+				"type": "item",
+				"code": "bdtree:plank-*"
+			},
+			"b": {
+				"type": "item",
+				"code": "specializedclasses:pigment-blue"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:paper-parchment"
+			},
+			"Y": {
+				"type": "item",
+				"code": "specializedclasses:pigment-yellow"
+			},
+			"G": {
+				"type": "item",
+				"code": "specializedclasses:pigment-green"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": false,
+		"recipeGroup": 68,
+		"attributes": { "handbookOverviewGroup": "paintings" },
+		"output": {
+			"type": "block",
+			"code": "game:painting-uncle1-north",
+			"quantity": 1
+		}
+	}
+]
