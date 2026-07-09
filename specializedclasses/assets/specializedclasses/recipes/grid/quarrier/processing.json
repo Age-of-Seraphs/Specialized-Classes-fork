@@ -51,6 +51,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"wacke"
@@ -119,6 +121,7 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
 				"syenite",
 				"wacke"
 			]
@@ -186,6 +189,7 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
 				"syenite",
 				"travertine",
 				"wacke"

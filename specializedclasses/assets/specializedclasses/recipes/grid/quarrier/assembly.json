@@ -383,6 +383,7 @@
 				"siltstone",
 				"slate",
 				"suevite",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -450,6 +451,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -457,6 +460,8 @@
 		},
 		"width": 3,
 		"height": 2,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rock" },
 		"output": {
 			"type": "block",
 			"code": "game:cobblestone-{rocktype}",
@@ -513,6 +518,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -577,6 +584,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -646,6 +655,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -709,6 +720,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"wacke"
 			]
@@ -772,6 +785,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -836,6 +851,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -900,6 +917,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
