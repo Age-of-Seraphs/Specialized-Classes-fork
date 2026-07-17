@@ -1,0 +1,12 @@
+{
+  "code": "moss",
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+  "texture": {
+    "base": "item/moss"
+  },
+  "shape": {
+    "base": "item/moss"
+  }
+}
