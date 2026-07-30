@@ -1,0 +1,23 @@
+{
+    "ingredientPattern": "FSF,SSS,FSF",
+    "requirestrait": "herbalist",
+    "ingredients": {
+        "S": {
+            "type": "item",
+            "code": "game:stick"
+        },
+        "F": {
+            "type": "item",
+            "code": "game:flaxfibers"
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "expandedbeekeeping:hiveframe-empty",
+        "quantity": 2
+    },
+    "showInCreatedBy": true
+
+}
