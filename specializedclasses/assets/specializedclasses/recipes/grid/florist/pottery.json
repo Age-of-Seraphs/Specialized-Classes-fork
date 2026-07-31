@@ -5,7 +5,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -33,7 +33,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"g": {
 				"type": "item",
@@ -61,7 +61,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -89,7 +89,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -117,7 +117,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -145,7 +145,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"P": {
 				"type": "item",
@@ -173,7 +173,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -201,7 +201,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -229,7 +229,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -257,7 +257,7 @@
 		"ingredients": {
 			"F": {
 				"type": "block",
-				"code": "game:flowerpot-blue-fired"
+				"code": "game:flowerpot-*-fired"
 			},
 			"U": {
 				"type": "item",
@@ -285,7 +285,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -313,7 +313,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -341,7 +341,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"O": {
 				"type": "item",
@@ -369,7 +369,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"R": {
 				"type": "item",
@@ -397,7 +397,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -425,7 +425,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"N": {
 				"type": "item",
@@ -453,7 +453,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"Y": {
 				"type": "item",
@@ -481,7 +481,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"b": {
 				"type": "item",
@@ -509,7 +509,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"W": {
 				"type": "item",
@@ -537,7 +537,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"U": {
 				"type": "item",
@@ -565,7 +565,7 @@
 		"ingredients": {
 			"C": {
 				"type": "block",
-				"code": "game:clayplanter-blue-fired"
+				"code": "game:clayplanter-*-fired"
 			},
 			"G": {
 				"type": "item",

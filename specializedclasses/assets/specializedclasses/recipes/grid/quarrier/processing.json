@@ -1,5 +1,5 @@
 [
-	{
+	{ //ROCK TO STONES
 		"ingredientPattern": "P,R",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -32,14 +32,17 @@
 				"gabbro",
 				"gneiss",
 				"granite",
+				"halite",
 				"jade",
 				"jasper",
+				"kimberlite",
 				"komatiite",
 				"limestone",
 				"marl",
 				"migmatite",
 				"monzonite",
 				"mudstone",
+				"obsidian",
 				"peridotite",
 				"phyllite",
 				"pumice",
@@ -48,12 +51,20 @@
 				"rhyolite",
 				"sandstone",
 				"schist",
+				"scoria",
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
-				"wacke"
+				"tufa",
+				"tuff",
+				"wacke",
+				"whitemarble",
+				"redmarble",
+				"greenmarble"
 			]
 		},
 		"width": 1,
@@ -67,7 +78,7 @@
 			"quantity": 4
 		}
 	},
-	{
+	{ //STONES TO GRAVEL
 		"ingredientPattern": "P,S",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -119,7 +130,9 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
 				"syenite",
+				"tufa",
 				"wacke"
 			]
 		},
@@ -134,7 +147,7 @@
 			"quantity": 1
 		}
 	},
-	{
+	{ //GRAVEL TO SAND
 		"ingredientPattern": "P,G",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -186,8 +199,10 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
 				"syenite",
 				"travertine",
+				"tufa",
 				"wacke"
 			]
 		},

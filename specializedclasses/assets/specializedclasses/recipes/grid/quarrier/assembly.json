@@ -1,5 +1,5 @@
 [
-	{
+	{// ROCK TO STONE
 		"ingredientPattern": "SSS,SHS,SSS",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -32,14 +32,17 @@
 				"gabbro",
 				"gneiss",
 				"granite",
+				"halite",
 				"jade",
 				"jasper",
+				"kimberlite",
 				"komatiite",
 				"limestone",
 				"marl",
 				"migmatite",
 				"monzonite",
 				"mudstone",
+				"obsidian",
 				"peridotite",
 				"phyllite",
 				"pumice",
@@ -48,6 +51,7 @@
 				"rhyolite",
 				"sandstone",
 				"schist",
+				"scoria",
 				"serpentinite",
 				"shale",
 				"siltstone",
@@ -56,7 +60,11 @@
 				"syenite",
 				"travertine",
 				"tufa",
-				"wacke"
+				"tuff",
+				"wacke",
+				"whitemarble",
+				"redmarble",
+				"greenmarble"
 			]
 		},
 		"width": 3,
@@ -70,7 +78,7 @@
 			"quantity": 1
 		}
 	},
-	{
+	{ //STONE TO ASHLAR BRICK
 		"ingredientPattern": "C,S",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -140,7 +148,7 @@
 			"quantity": 1
 		}
 	},
-	{
+	{ //ASHLAR BLOCK CLAY RECIPE
 		"ingredientPattern": "SSS,SCS,SSS",
 		"requiresTrait": "quarrier",
 		"ingredients": {
@@ -383,6 +391,7 @@
 				"siltstone",
 				"slate",
 				"suevite",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -450,6 +459,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -457,6 +468,8 @@
 		},
 		"width": 3,
 		"height": 2,
+		"recipeGroup": 67,
+		"attributes": { "handbookOverviewGroup": "rock" },
 		"output": {
 			"type": "block",
 			"code": "game:cobblestone-{rocktype}",
@@ -513,6 +526,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -577,6 +592,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -646,6 +663,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -709,6 +728,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"wacke"
 			]
@@ -772,6 +793,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"tufa",
 				"wacke"
@@ -836,6 +859,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
@@ -900,6 +925,8 @@
 				"serpentinite",
 				"shale",
 				"siltstone",
+				"slate",
+				"suevite",
 				"syenite",
 				"travertine",
 				"tufa",
