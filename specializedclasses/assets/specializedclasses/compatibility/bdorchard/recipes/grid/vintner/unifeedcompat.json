@@ -1,0 +1,52 @@
+[
+	{
+		"ingredientPattern": "FD",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "bdorchard:pressedmash-*",
+				"quantity": 1
+			},
+			"D": {
+				"type": "item",
+				"code": "game:drygrass",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalherbivorefeed",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "FG",
+		"requiresTrait": "vintner",
+		"ingredients": {
+			"F": {
+				"type": "item",
+				"code": "bdorchard:pressedmash-*",
+				"quantity": 1
+			},
+			"G": {
+				"type": "item",
+				"code": "game:grain-*",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": false,
+		"recipeGroup": 67,
+		"output": {
+			"type": "item",
+			"code": "specializedclasses:universalherbivorefeed",
+			"quantity": 4
+		}
+	}
+]

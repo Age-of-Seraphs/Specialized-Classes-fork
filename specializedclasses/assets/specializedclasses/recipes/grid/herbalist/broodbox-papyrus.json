@@ -1,0 +1,29 @@
+{
+    "ingredientPattern": "PPP,PRP,S_S",
+    "requirestrait": "herbalist",
+    "ingredients": {
+        "P": {
+            "type": "item",
+            "code": "game:firewood"
+        },
+        "R": {
+            "type": "item",
+            "code": "game:papyrustops",
+            "quantity": 2
+        },
+        "S": {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": 2
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "expandedbeekeeping:broodbox",
+        "quantity": 1
+    },
+    "showInCreatedBy": true
+
+}

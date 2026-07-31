@@ -1,0 +1,14 @@
+{
+    "ingredientPattern": "PNP,P_P,SSS",
+	"requirestrait": "herbalist",
+  "ingredients": {
+    "P": {"type": "item", "code": "game:firewood"},
+    "N": { "type": "item", "code": "game:metalnailsandstrips-*" },
+    "S": { "type": "item", "code": "game:stick", "quantity": 2 }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "expandedbeekeeping:apiary", "quantity": 1 },
+
+  "showInCreatedBy": true
+}
