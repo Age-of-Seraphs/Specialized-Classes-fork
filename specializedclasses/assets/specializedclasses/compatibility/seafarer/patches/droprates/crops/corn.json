@@ -1,0 +1,71 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-11/0/dropModbyStat",
+    "value": "cropSeedDropRate",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-11/1/dropModbyStat",
+    "value": "cropProduceDropRate",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/0/dropModbyStat",
+    "value": "cropSeedDropRate",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-12/1/dropModbyStat",
+    "value": "cropProduceDropRate",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*/0/dropModbyStat",
+    "value": "youngCropSeedDropRate",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "path": "/attributes",
+    "value": {
+      "dropModifications": [
+        {
+          "mode": "replace",
+          "stat": "youngseeddropchance",
+          "excludeBlocks": [ "crop-corn-12", "crop-corn-11" ],
+          "drops": [
+            {
+              "type": "item",
+              "code": "seafarer:seeds-corn",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "file": "seafarer:blocktypes/plant/crop/corn.json",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "DropModificationBlockBehavior"
+      }
+    ],
+    "side": "server"
+  }
+]
+
