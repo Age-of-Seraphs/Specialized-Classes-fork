@@ -1,4 +1,5 @@
 {
+	"enabled": false,
 	"code": "cobbleroad",
 	"behaviors": [
 		{ "name": "Lockable" }
