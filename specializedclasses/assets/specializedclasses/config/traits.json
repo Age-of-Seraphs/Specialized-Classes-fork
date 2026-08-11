@@ -128,7 +128,7 @@
 		"type": "positive", // combat
 		"attributes": {
 			"meleeWeaponsDamage": -0.05,
-			"walkspeed": 0.1
+			"walkspeed": 0.12
 		}
 	},
 	{
@@ -757,11 +757,10 @@
 		}
 	},
 	{
-		"code": "ecologist", // Removed from Vintner
+		"code": "ecologist", // Removed wild crop drop decrease
 		"type": "negative", // negative
 		"attributes": {
-			"woodMiningSpeedMul": -0.25,
-			"wildCropDropRate": -0.25
+			"woodMiningSpeedMul": -0.10
 		}
 	},
 	{
