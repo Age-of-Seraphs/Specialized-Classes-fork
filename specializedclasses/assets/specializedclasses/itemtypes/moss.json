@@ -1,12 +1,66 @@
 {
   "code": "moss",
+  "shape": { "base": "specializedclasses:item/resource/moss" },
+  "texture": { "base": "item/resource/beeswax" },
   "creativeinventory": {
-    "general": [ "*" ]
+    "general": [ "*" ],
+    "items": [ "*" ]
   },
-  "texture": {
-    "base": "item/moss"
+  "maxstacksize": 128,
+  "behaviors": [
+  ],
+  "attributes": {
+    "displaycaseable": false,
+    "displayInsideCrate": false,
+    "inContainerTexture": { "base": "item/resource/beeswaxcrate" },
+    "shelvable": false
   },
-  "shape": {
-    "base": "item/moss"
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 142,
+      "y": 9,
+      "z": 1
+    },
+    "origin": {
+      "x": 0.45,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "scale": 3.36
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1.6,
+      "z": -1.85
+    },
+    "rotation": {
+      "x": 3,
+      "y": -81,
+      "z": -92
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.17,
+      "z": 0
+    },
+    "rotation": {
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.2,
+      "z": 0.5299
+    },
+    "scale": 4
   }
 }

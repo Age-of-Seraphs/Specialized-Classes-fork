@@ -1,0 +1,36 @@
+[
+  {
+    "ingredientPattern": "MM,MM",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-moss",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "_M,M_",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-spottymoss",
+      "quantity": 1
+    }
+  }
+]

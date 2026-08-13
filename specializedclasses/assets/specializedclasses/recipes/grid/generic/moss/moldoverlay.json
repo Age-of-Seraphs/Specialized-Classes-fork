@@ -1,0 +1,61 @@
+[
+  {
+    "ingredientPattern": "MM,RR",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rot"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-mold"
+    }
+  },
+  {
+    "ingredientPattern": "MM,_R",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rot"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-spottymold",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "M_,_R",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rot"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-sparsemold",
+      "quantity": 2
+    }
+  }
+]

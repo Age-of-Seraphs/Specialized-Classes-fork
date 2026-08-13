@@ -1044,6 +1044,8 @@
 	"specializedclasses:item-scrollcase": "Scroll case",
 	"specializedclasses:itemdesc-scrollcase": "A narrow leather case for carrying slim documents and other small supplies.",
 	"specializedclasses:item-soilbag": "Soil bag",
+	"specializedclasses:item-moss": "Moss",
+	"specializedclasses:itemdesc-moss": "A patch of moss used for decoration.",
 	"specializedclasses:itemdesc-soilbag": "A heavy sack packed for hauling compost, soil, and other messy field supplies.",
 	"block-metalmininglantern-*": "Mining lantern",
 	"block-primitivemininglantern-*": "Simple mining lantern",

@@ -1,0 +1,40 @@
+[
+  {
+    "ingredientPattern": "MM,L_",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:hanginglichen-*"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-lichen"
+    }
+  },
+  {
+    "ingredientPattern": "MM,F_",
+    "ingredients": {
+      "M": {
+        "type": "item",
+        "code": "specializedclasses:moss"
+      },
+      "F": {
+        "type": "block",
+        "code": "game:mushroom-*-normal"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "block",
+      "code": "game:attachingplant-deadfungi"
+    }
+  }
+]
